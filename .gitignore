@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+dataset/.cache/
+model/
+bin/
+lib/
+lib64/
+.lock
+pyvenv.cfg
