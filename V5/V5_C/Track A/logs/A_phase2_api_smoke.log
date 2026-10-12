@@ -1,0 +1,8 @@
+2026-05-15 21:18:40,579 - root - INFO - Loaded 1 Phase 2 scenarios from /home/huangxiaolin/AITO/V5/Track A/data/Phase_2/test.json
+2026-05-15 21:18:40,579 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+2026-05-15 21:18:50,554 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-15 21:18:50,554 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] done in 10.0s — answer: 'C7'
+2026-05-15 21:18:50,555 - root - INFO - Saved 1 rows → reports/A_phase2_api_smoke_result.csv
+2026-05-15 21:18:50,555 - root - INFO - Saved 1 rows → reports/A_phase2_api_smoke_result.csv
+2026-05-15 21:18:50,555 - root - INFO - 
+Done. 1/1 answered in 10s (avg 10.0s/scenario)

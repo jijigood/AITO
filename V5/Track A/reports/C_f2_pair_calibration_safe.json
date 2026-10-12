@@ -1,0 +1,166 @@
+{
+  "params": {
+    "train_json": "/home/huangxiaolin/AITO/V5/Track A/data/Phase_1/train.json",
+    "test_json": "/home/huangxiaolin/AITO/V5/Track A/data/Phase_2/test.json",
+    "diagnostics_jsonl": "/home/huangxiaolin/AITO/V5/Track A/results/phase2/sub2_lora_boundary/result_diag_lora_boundary_only.diagnostics.jsonl",
+    "base_csv": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_v5_10_adj_only_plus_f2_pair_fix.csv",
+    "out_csv": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_C_f2_calibrated_safe.csv",
+    "min_bucket_size": 20,
+    "min_majority_rate": 0.7,
+    "min_top_score": 0.5,
+    "max_score_drop": 0.08,
+    "max_flips": 25
+  },
+  "phase1_distribution": {
+    "overshoot_overlap": {
+      "count": 178,
+      "azimuth": 142,
+      "tilt": 36,
+      "majority": "azimuth",
+      "majority_rate": 0.797753,
+      "azimuth_pct": 0.797753,
+      "tilt_pct": 0.202247
+    },
+    "uncertain": {
+      "count": 25,
+      "azimuth": 0,
+      "tilt": 25,
+      "majority": "tilt",
+      "majority_rate": 1.0,
+      "azimuth_pct": 0.0,
+      "tilt_pct": 1.0
+    },
+    "late_handover": {
+      "count": 25,
+      "azimuth": 0,
+      "tilt": 25,
+      "majority": "tilt",
+      "majority_rate": 1.0,
+      "azimuth_pct": 0.0,
+      "tilt_pct": 1.0
+    }
+  },
+  "phase1_crossval_smoke": {
+    "fold_mod": 5,
+    "rows": 228,
+    "old_accuracy": 0.842105,
+    "candidate_flips": 0,
+    "flip_new_precision": 0.0,
+    "flip_improves": 0,
+    "flip_hurts": 0,
+    "net_gain_rows": 0,
+    "by_transition": {}
+  },
+  "phase2": {
+    "diagnostic_f2_rows": 145,
+    "candidates": [
+      {
+        "scenario_id": "a4176c2c-458b-4c9c-b89b-c0c873747d0b",
+        "top_issue": "late_handover",
+        "top_score": 0.7452,
+        "current_answer": "C2|C10",
+        "current_pair": "azimuth",
+        "current_score": 0.6855840000000001,
+        "target_answer": "C14|C15",
+        "target_pair": "tilt",
+        "target_score": 0.611064,
+        "target_reason": "F2 role fallback: decrease_power/secondary + press_down_tilt/secondary",
+        "bucket_count": 25,
+        "bucket_majority_rate": 1.0,
+        "priority": 0.455365
+      },
+      {
+        "scenario_id": "f02d340d-18c0-43c9-ae9c-c6132c5fe719",
+        "top_issue": "late_handover",
+        "top_score": 0.7196,
+        "current_answer": "C7|C9",
+        "current_pair": "azimuth",
+        "current_score": 0.6620320000000001,
+        "target_answer": "C17|C23",
+        "target_pair": "tilt",
+        "target_score": 0.590072,
+        "target_reason": "F2 role fallback: decrease_power/secondary + press_down_tilt/secondary",
+        "bucket_count": 25,
+        "bucket_majority_rate": 1.0,
+        "priority": 0.424616
+      },
+      {
+        "scenario_id": "32ad6a89-3f8c-4e03-9936-5d1be80459b4",
+        "top_issue": "overshoot_overlap",
+        "top_score": 0.55,
+        "current_answer": "C14|C23",
+        "current_pair": "tilt",
+        "current_score": 0.451,
+        "target_answer": "C7|C12",
+        "target_pair": "azimuth",
+        "target_score": 0.451,
+        "target_reason": "F2 role fallback: adjust_azimuth/secondary + increase_power/secondary",
+        "bucket_count": 178,
+        "bucket_majority_rate": 0.797753,
+        "priority": 0.197883
+      }
+    ],
+    "applied": [
+      {
+        "scenario_id": "a4176c2c-458b-4c9c-b89b-c0c873747d0b",
+        "top_issue": "late_handover",
+        "top_score": 0.7452,
+        "current_answer": "C2|C10",
+        "current_pair": "azimuth",
+        "current_score": 0.6855840000000001,
+        "target_answer": "C14|C15",
+        "target_pair": "tilt",
+        "target_score": 0.611064,
+        "target_reason": "F2 role fallback: decrease_power/secondary + press_down_tilt/secondary",
+        "bucket_count": 25,
+        "bucket_majority_rate": 1.0,
+        "priority": 0.455365
+      },
+      {
+        "scenario_id": "f02d340d-18c0-43c9-ae9c-c6132c5fe719",
+        "top_issue": "late_handover",
+        "top_score": 0.7196,
+        "current_answer": "C7|C9",
+        "current_pair": "azimuth",
+        "current_score": 0.6620320000000001,
+        "target_answer": "C17|C23",
+        "target_pair": "tilt",
+        "target_score": 0.590072,
+        "target_reason": "F2 role fallback: decrease_power/secondary + press_down_tilt/secondary",
+        "bucket_count": 25,
+        "bucket_majority_rate": 1.0,
+        "priority": 0.424616
+      },
+      {
+        "scenario_id": "32ad6a89-3f8c-4e03-9936-5d1be80459b4",
+        "top_issue": "overshoot_overlap",
+        "top_score": 0.55,
+        "current_answer": "C14|C23",
+        "current_pair": "tilt",
+        "current_score": 0.451,
+        "target_answer": "C7|C12",
+        "target_pair": "azimuth",
+        "target_score": 0.451,
+        "target_reason": "F2 role fallback: adjust_azimuth/secondary + increase_power/secondary",
+        "bucket_count": 178,
+        "bucket_majority_rate": 0.797753,
+        "priority": 0.197883
+      }
+    ],
+    "skipped": {
+      "target_score_drop_too_large": 54,
+      "already_majority_pair": 68,
+      "no_phase1_bucket": 13,
+      "top_score_too_low": 7
+    }
+  },
+  "audit": {
+    "f2_rows": 145,
+    "bad_rows": [],
+    "bad_count": 0,
+    "pair_counts": {
+      "tilt": 70,
+      "azimuth": 75
+    }
+  }
+}

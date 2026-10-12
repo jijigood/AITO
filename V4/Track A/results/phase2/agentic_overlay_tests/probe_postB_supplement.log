@@ -1,0 +1,19 @@
+2026-05-12 19:51:06,323 - root - INFO - Scenario ID filter: 2/500 selected
+2026-05-12 19:51:06,324 - root - INFO - Loaded 2 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-12 19:51:06,345 - root - INFO - [LLM] Enabled model=qwen policy=off url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-12 19:51:06,467 - root - INFO - [RAG] Index ready: data/Phase_1/train.json
+2026-05-12 19:51:06,467 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+2026-05-12 19:51:07,526 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:51:07,527 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] done in 1.1s — answer: 'C7'
+2026-05-12 19:51:07,528 - root - INFO - Saved 1 rows → results/phase2/agentic_overlay_tests/probe_postB_supplement.csv
+2026-05-12 19:51:07,528 - root - INFO - [4285e888-22c3-4caa-a245-81d76d891757] tag=single-answer, bs=4, family=F1
+2026-05-12 19:51:14,301 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:51:26,819 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:51:26,821 - root - INFO - [agentic] mapped diagnosis → C1  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:51:26,821 - root - INFO - [agentic] suppressed override det=C22 agentic=C1 confidence=medium
+2026-05-12 19:51:26,821 - root - INFO - [4285e888-22c3-4caa-a245-81d76d891757] answer='C22' top_candidate={'answer': 'C22', 'score': 0.6997200000000001, 'action_type': 'decrease_a3', 'target_cell': '3260814_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:51:26,822 - root - INFO - [4285e888-22c3-4caa-a245-81d76d891757] done in 19.3s — answer: 'C22'
+2026-05-12 19:51:26,824 - root - INFO - Saved 2 rows → results/phase2/agentic_overlay_tests/probe_postB_supplement.csv
+2026-05-12 19:51:26,824 - root - INFO - Saved 2 rows → results/phase2/agentic_overlay_tests/probe_postB_supplement.csv
+2026-05-12 19:51:26,825 - root - INFO - 
+Done. 2/2 answered in 20s (avg 10.2s/scenario)

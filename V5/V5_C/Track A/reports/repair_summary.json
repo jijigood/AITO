@@ -1,0 +1,378 @@
+{
+  "base_csv": "submission_600_diag_lora_boundary_resubmit.csv",
+  "diagnostics_jsonl": "results/phase2/sub2_lora_boundary/result_diag_lora_boundary_only.diagnostics.jsonl",
+  "votes_csv": "results/phase2/knn_patch/knn_f1_votes.csv",
+  "base_f1_distribution": {
+    "decrease_a3": 54,
+    "insufficient_data": 45,
+    "adjust_azimuth": 60,
+    "lift_tilt": 71,
+    "pdcch_2sym": 26,
+    "add_neighbor": 13
+  },
+  "phase1_scaled_targets": {
+    "check_server": 44.15590659340659,
+    "decrease_a3": 42.67788461538461,
+    "lift_tilt": 46.9271978021978,
+    "insufficient_data": 46.55769230769231,
+    "pdcch_2sym": 44.34065934065934,
+    "add_neighbor": 44.34065934065934
+  },
+  "check_server_probe": {
+    "check_server_candidate_present": 146,
+    "phase1_like_high_conf_check_server": 0,
+    "candidate_by_current_action": {
+      "insufficient_data": 45,
+      "pdcch_2sym": 26,
+      "lift_tilt": 57,
+      "adjust_azimuth": 6,
+      "add_neighbor": 5,
+      "decrease_a3": 7
+    }
+  },
+  "variants": [
+    {
+      "name": "knn_all",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_knn_all.csv",
+      "changed_rows": 101,
+      "f1_distribution": {
+        "decrease_a3": 61,
+        "insufficient_data": 64,
+        "add_neighbor": 57,
+        "pdcch_2sym": 30,
+        "lift_tilt": 47,
+        "adjust_azimuth": 6,
+        "check_server": 4
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 61,
+        "F1_like:insufficient_data": 64,
+        "F1_like:add_neighbor": 57,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:pdcch_2sym": 30,
+        "F1_like:lift_tilt": 47,
+        "F1_like:adjust_azimuth": 6,
+        "F1_like:check_server": 4,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:39",
+        "lift_tilt->insufficient_data:28",
+        "adjust_azimuth->decrease_a3:15",
+        "insufficient_data->lift_tilt:6",
+        "decrease_a3->add_neighbor:4",
+        "decrease_a3->pdcch_2sym:3",
+        "insufficient_data->check_server:2",
+        "lift_tilt->check_server:1",
+        "lift_tilt->add_neighbor:1",
+        "decrease_a3->check_server:1",
+        "insufficient_data->pdcch_2sym:1"
+      ],
+      "rules_applied": 101
+    },
+    {
+      "name": "knn_conf40",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_knn_conf40.csv",
+      "changed_rows": 91,
+      "f1_distribution": {
+        "decrease_a3": 62,
+        "insufficient_data": 58,
+        "add_neighbor": 55,
+        "pdcch_2sym": 30,
+        "lift_tilt": 55,
+        "adjust_azimuth": 7,
+        "check_server": 2
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 62,
+        "F1_like:insufficient_data": 58,
+        "F1_like:add_neighbor": 55,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:pdcch_2sym": 30,
+        "F1_like:lift_tilt": 55,
+        "F1_like:adjust_azimuth": 7,
+        "F1_like:check_server": 2,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:38",
+        "lift_tilt->insufficient_data:22",
+        "adjust_azimuth->decrease_a3:15",
+        "insufficient_data->lift_tilt:6",
+        "decrease_a3->add_neighbor:4",
+        "decrease_a3->pdcch_2sym:3",
+        "insufficient_data->check_server:2",
+        "insufficient_data->pdcch_2sym:1"
+      ],
+      "rules_applied": 91
+    },
+    {
+      "name": "knn_conf50",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_knn_conf50.csv",
+      "changed_rows": 84,
+      "f1_distribution": {
+        "decrease_a3": 61,
+        "insufficient_data": 54,
+        "add_neighbor": 53,
+        "lift_tilt": 59,
+        "pdcch_2sym": 30,
+        "adjust_azimuth": 10,
+        "check_server": 2
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 61,
+        "F1_like:insufficient_data": 54,
+        "F1_like:add_neighbor": 53,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 59,
+        "F1_like:pdcch_2sym": 30,
+        "F1_like:adjust_azimuth": 10,
+        "F1_like:check_server": 2,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:36",
+        "lift_tilt->insufficient_data:18",
+        "adjust_azimuth->decrease_a3:14",
+        "insufficient_data->lift_tilt:6",
+        "decrease_a3->add_neighbor:4",
+        "decrease_a3->pdcch_2sym:3",
+        "insufficient_data->check_server:2",
+        "insufficient_data->pdcch_2sym:1"
+      ],
+      "rules_applied": 84
+    },
+    {
+      "name": "knn_conf60",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_knn_conf60.csv",
+      "changed_rows": 60,
+      "f1_distribution": {
+        "decrease_a3": 61,
+        "insufficient_data": 45,
+        "add_neighbor": 48,
+        "lift_tilt": 69,
+        "pdcch_2sym": 30,
+        "adjust_azimuth": 15,
+        "check_server": 1
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 61,
+        "F1_like:insufficient_data": 45,
+        "F1_like:add_neighbor": 48,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 69,
+        "F1_like:pdcch_2sym": 30,
+        "F1_like:adjust_azimuth": 15,
+        "F1_like:check_server": 1,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:31",
+        "adjust_azimuth->decrease_a3:14",
+        "decrease_a3->add_neighbor:4",
+        "lift_tilt->insufficient_data:4",
+        "decrease_a3->pdcch_2sym:3",
+        "insufficient_data->lift_tilt:2",
+        "insufficient_data->check_server:1",
+        "insufficient_data->pdcch_2sym:1"
+      ],
+      "rules_applied": 60
+    },
+    {
+      "name": "knn_conf70",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_knn_conf70.csv",
+      "changed_rows": 22,
+      "f1_distribution": {
+        "decrease_a3": 58,
+        "insufficient_data": 45,
+        "adjust_azimuth": 43,
+        "lift_tilt": 71,
+        "add_neighbor": 25,
+        "pdcch_2sym": 27
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 58,
+        "F1_like:insufficient_data": 45,
+        "F1_like:adjust_azimuth": 43,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 71,
+        "F1_like:add_neighbor": 25,
+        "F1_like:pdcch_2sym": 27,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->decrease_a3:9",
+        "adjust_azimuth->add_neighbor:8",
+        "decrease_a3->add_neighbor:4",
+        "decrease_a3->pdcch_2sym:1"
+      ],
+      "rules_applied": 22
+    },
+    {
+      "name": "adj_only_knn50_else_candidate",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_adj_only_knn50_else_candidate.csv",
+      "changed_rows": 60,
+      "f1_distribution": {
+        "decrease_a3": 78,
+        "insufficient_data": 45,
+        "add_neighbor": 49,
+        "lift_tilt": 71,
+        "pdcch_2sym": 26
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 78,
+        "F1_like:insufficient_data": 45,
+        "F1_like:add_neighbor": 49,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 71,
+        "F1_like:pdcch_2sym": 26,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:36",
+        "adjust_azimuth->decrease_a3:24"
+      ],
+      "rules_applied": 60
+    },
+    {
+      "name": "adj_only_candidate_tau70",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_adj_only_candidate_tau70.csv",
+      "changed_rows": 6,
+      "f1_distribution": {
+        "decrease_a3": 60,
+        "insufficient_data": 45,
+        "adjust_azimuth": 54,
+        "lift_tilt": 71,
+        "pdcch_2sym": 26,
+        "add_neighbor": 13
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 60,
+        "F1_like:insufficient_data": 45,
+        "F1_like:adjust_azimuth": 54,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 71,
+        "F1_like:pdcch_2sym": 26,
+        "F1_like:add_neighbor": 13,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->decrease_a3:6"
+      ],
+      "rules_applied": 6
+    },
+    {
+      "name": "adj_only_plus_calibrated_knn60",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_adj_only_plus_calibrated_knn60.csv",
+      "changed_rows": 68,
+      "f1_distribution": {
+        "decrease_a3": 74,
+        "insufficient_data": 49,
+        "add_neighbor": 53,
+        "lift_tilt": 67,
+        "pdcch_2sym": 26
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 74,
+        "F1_like:insufficient_data": 49,
+        "F1_like:add_neighbor": 53,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 67,
+        "F1_like:pdcch_2sym": 26,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:36",
+        "adjust_azimuth->decrease_a3:24",
+        "decrease_a3->add_neighbor:4",
+        "lift_tilt->insufficient_data:4"
+      ],
+      "rules_applied": 68
+    },
+    {
+      "name": "hardblock_adjust_knn50_else_candidate",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_hardblock_adjust_knn50_else_candidate.csv",
+      "changed_rows": 107,
+      "f1_distribution": {
+        "decrease_a3": 67,
+        "insufficient_data": 64,
+        "add_neighbor": 57,
+        "pdcch_2sym": 30,
+        "lift_tilt": 47,
+        "check_server": 4
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 67,
+        "F1_like:insufficient_data": 64,
+        "F1_like:add_neighbor": 57,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:pdcch_2sym": 30,
+        "F1_like:lift_tilt": 47,
+        "F1_like:check_server": 4,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:39",
+        "lift_tilt->insufficient_data:28",
+        "adjust_azimuth->decrease_a3:21",
+        "insufficient_data->lift_tilt:6",
+        "decrease_a3->add_neighbor:4",
+        "decrease_a3->pdcch_2sym:3",
+        "insufficient_data->check_server:2",
+        "lift_tilt->check_server:1",
+        "lift_tilt->add_neighbor:1",
+        "decrease_a3->check_server:1",
+        "insufficient_data->pdcch_2sym:1"
+      ],
+      "rules_applied": 107
+    },
+    {
+      "name": "knn_conf50_plus_all_check_votes",
+      "path": "results/phase2/f1_distribution_repair/submission_600_f1repair_knn_conf50_plus_all_check_votes.csv",
+      "changed_rows": 86,
+      "f1_distribution": {
+        "decrease_a3": 60,
+        "insufficient_data": 54,
+        "add_neighbor": 53,
+        "lift_tilt": 58,
+        "pdcch_2sym": 30,
+        "adjust_azimuth": 10,
+        "check_server": 4
+      },
+      "full_distribution": {
+        "F1_like:decrease_a3": 60,
+        "F1_like:insufficient_data": 54,
+        "F1_like:add_neighbor": 53,
+        "decrease_interfreq": 29,
+        "multi": 202,
+        "F1_like:lift_tilt": 58,
+        "F1_like:pdcch_2sym": 30,
+        "F1_like:adjust_azimuth": 10,
+        "F1_like:check_server": 4,
+        "blank": 100
+      },
+      "top_transitions": [
+        "adjust_azimuth->add_neighbor:36",
+        "lift_tilt->insufficient_data:18",
+        "adjust_azimuth->decrease_a3:14",
+        "insufficient_data->lift_tilt:6",
+        "decrease_a3->add_neighbor:4",
+        "decrease_a3->pdcch_2sym:3",
+        "insufficient_data->check_server:2",
+        "lift_tilt->check_server:1",
+        "decrease_a3->check_server:1",
+        "insufficient_data->pdcch_2sym:1"
+      ],
+      "rules_applied": 86
+    }
+  ]
+}

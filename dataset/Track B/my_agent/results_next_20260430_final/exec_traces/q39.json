@@ -1,0 +1,25 @@
+{
+  "id": 39,
+  "family": "fault",
+  "answer": "Janus-Prime-01;GE1/0/0;shutdown\nJanus-Prime-01;GE1/0/1;shutdown",
+  "answer_valid": true,
+  "validation_reasons": [],
+  "call_count": 1,
+  "rewrite_count": 0,
+  "duration_s": 0.0,
+  "tool_trace": [
+    {
+      "question_number": 39,
+      "started_at": 1777557876.473,
+      "elapsed_ms": 4.0,
+      "device": "Janus-Prime-01",
+      "requested_command": "display ip interface brief",
+      "executed_command": "display ip interface brief",
+      "rewritten": false,
+      "status_code": 200,
+      "vendor": "huawei",
+      "result_preview": "<Janus-Prime-01> display ip interface brief\ndisplay ip interface brief\n\n*down: administratively down\n\n!down: FIB overload down\n\n^down: standby\n\n(l): loopback\n\n(s): spoofing\n\n(d): Dampening Suppressed\n\n(ed): error down\n\nThe number of interface that is UP in Physical is 12\n\nThe number of interface that is DOWN in Physical is 4\n\nThe number of interface that is UP in Protocol is 11\n\nThe number of interface that is DOWN in Protocol is 5\n\nInterface                   IP Address/Mask    Physical Protocol VPN           \n\nGE1/0/0                     192.168.1.2/30     *down    down     --            \n\nGE1/0/1                     192.168.1.10/30    *down    down     --            \n\nGE1/0/2                     10.101.1.1/24      up       up       --            \n\nGE1/1/1                     unassigned         down     down     --            \n\nLoopBack0                   1.1.5.1/32         up       up(s)    --            \n\nMEth0/0/0                   unassigned         up       down     --            \n\nNULL0                       unassigned         up       up(s)    --            \n\nVbdif5000                   10.100.1.1/24      up       up       lb-vpn        \n\nVbdif8010                   10.1.6.3/28        up       up       vpn1          \n\nVbdif8020                   10.1.6.21/28       up       up       vpn2          \n\nVbdif8030                   10.1.6.38/28       up       up       vpn3          \n\nVbdif8040                   10.1.6.53/28       up       up       vpn4          \n\nVbdif8050                   10.60.1.1/24       up       up       vpn5          \n\nVbdif8060                   10.70.1.1/24       up       up       vpn6          \n\nVlanif1001                  10.3.1.21/24       up       up       --            \n\nVlanif1101                  10.4.1.20/24       down     down     --"
+    }
+  ],
+  "llm_trace": []
+}

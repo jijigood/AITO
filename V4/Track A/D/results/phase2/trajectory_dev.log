@@ -1,0 +1,56 @@
+2026-05-10 owner_d task01
+- Read docs/PHASE2_TEAM_DIVISION.md, docs/PHASE2_AI_TASK_GUIDE.md, docs/owner_d/README.md, docs/owner_d/OWNER_D_SKILL.md, docs/owner_d/TASK_01_TRAJECTORY_SCHEMA.md, rag_retriever_v2.py, skills/scenario_parser.py.
+- Added docs/owner_d/trajectory_schema.md and docs/owner_d/trajectory_schema.json.
+- Defined core trajectory field semantics, nullability rules, prompt-safe boundary, and compatibility mapping with existing RAG outputs.
+- Validation: parsed trajectory_schema.json successfully in conda env tele.
+
+2026-05-10 owner_d task02
+- Reused parse_scenario() and run_all_skills() as the canonical feature path instead of building a parallel extractor.
+- Added build_trajectory_examples.py and trajectory builders in rag_retriever_v2.py.
+- Generated trajectory_examples.jsonl from data/Phase_1/train.json.
+- Validation in tele: smoke build (--limit 5), full build (2000 records), JSONL parse pass, leakage scan for answer/answer_labels/gt_c_code/C1-C22 returned zero matches.
+
+2026-05-10 owner_d task03
+- Reworked StructuredCaseRAG to index trajectory-safe records while preserving rag.retrieve(...) compatibility.
+- Added branch_indices/root_cause_indices, deterministic tie-break, branch-aware filtering, and retrieve_trajectory_context().
+- Updated phase2_run.py and main_v3.py prompt formatting to stop exposing training answers in prompt text.
+- Validation in tele: repeated retrieval returned identical scenario_id sequences, fallback path with _FAISS_AVAILABLE=False remained deterministic, branch-aware spot checks passed for F1/F4 branches.
+
+2026-05-10 owner_d followup
+- Added docs/owner_d/trajectory_prompt_snippets.md to satisfy skill deliverables for prompt-safe snippets grouped by branch.
+- Backfilled this trajectory_dev.log to record prior task execution and validation artifacts.
+
+2026-05-10 owner_d task04
+- Formalized retrieve_trajectory_context() as a prompt-safe context block grouped by case rank, branch, root_cause, action, target_role, confidence, key_evidence, and tool_sequence.
+- Kept internal debug identifiers available for diagnostics only; prompt-safe context no longer exposes gt_c_code, answer_labels, Correct answer, or C1-C22 training answer IDs.
+- Validation in tele: rebuilt index, rendered retrieve_trajectory_context() for an F1 high-risk branch, and confirmed leakage checks for gt_c_code/answer_labels/Correct answer/C1-C22 all returned false on the generated context text.
+
+2026-05-11 owner_d task05
+- Inspected workspace for real Phase 2 probe diagnostics and confirmed that no probe .diagnostics.jsonl artifacts are currently checked into the repo.
+- Added build_probe_trajectory_memory.py plus probe record extraction helpers in rag_retriever_v2.py so Phase 2 diagnostics JSONL files can be converted into prompt-safe trajectory memory once they exist locally.
+- Added build_combined_trajectory_memory.py and build_trajectory_coverage_report.py to merge train/probe memory and report high-risk branch coverage.
+- Refreshed docs/owner_d/trajectory_prompt_snippets.md with source policy, branch coverage status, and explicit probe placeholders instead of fabricated probe-derived snippets.
+- Validation in tele: build_probe_trajectory_memory.py produced 0 probe records (expected with no diagnostics files), combined memory remained 2000 phase1_train records, coverage report generated successfully, and leakage scans over probe/combined memory plus snippet/report files returned zero matches for answer/answer_labels/gt_c_code/C1-C22.
+
+2026-05-11 owner_d task06
+- Validated A/C integration against phase2_run.py, main_v3.py, build_sft_v3.py, and eval_ckpt.py using the existing StructuredCaseRAG constructor/build_index/retrieve flow.
+- Added docs/owner_d/task06_integration_validation.md with direct integration notes, minimal validation outcomes, residual risks, and next-use guidance for Owners A and C.
+- Validation in tele: retrieve_trajectory_context() rendered prompt-safe context for an F1 high-risk branch; main_v3._build_f1_prompt() and phase2_run._format_rag_hits_for_prompt() both consumed current RAG hits successfully; prompt scan returned zero matches for Correct answer/answer_labels/gt_c_code/train_answer=/retrieved C1-C22 patterns.
+
+2026-05-11 owner_d summary
+- Task 01 established the stable trajectory schema and prompt-safe field boundary.
+- Task 02 generated the first trajectory_examples.jsonl from Phase 1 training data using the shared parsing and feature pipeline.
+- Task 03 made retrieval deterministic, branch-aware, and compatible with the existing A-side call chain.
+- Task 04 formalized prompt-safe trajectory context for C consumption.
+- Task 05 added probe-memory ingestion hooks, memory merge tooling, and branch coverage reporting while explicitly marking the current repo as probe-data-limited.
+- Task 06 verified that A/C can consume the current D deliverables with minimal friction and documented the remaining limits and risks.
+
+2026-05-12 owner_d task03_followup
+- Added a stable FAISS export path at trajectory_index.faiss in rag_retriever_v2.py so Task 03 now has a concrete retrieval index artifact in addition to the existing .rag_cache_v2 cache.
+- Installed faiss-cpu in the tele environment and rebuilt the structured index with the absolute tele interpreter to avoid shell-path ambiguity.
+- Validation: trajectory_index.faiss was written successfully, FAISS read_index() loaded it back with 2000 vectors and 16 dimensions, and the existing cache file .rag_cache_v2/rag_v2_faiss.index was also regenerated.
+
+2026-05-12 owner_d path_organization
+- Moved all Owner D deliverables into artifacts/owner_d/{data,index,docs} so task docs and produced artifacts no longer share the same directory.
+- Updated build scripts, RAG path resolution, and team docs to point at the new artifact layout while keeping legacy root-path reads for compatibility.
+- Validation: rebuilt trajectory_examples.jsonl, trajectory_probe_memory.jsonl, trajectory_memory_combined.jsonl, trajectory_index.faiss, and trajectory_coverage_report.md under artifacts/owner_d; FAISS read_index() still loads the exported index.

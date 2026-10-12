@@ -3,3 +3,8 @@ openai
 pydantic
 pandas
 datasets
+numpy
+httpx
+requests
+sentence-transformers
+faiss-cpu

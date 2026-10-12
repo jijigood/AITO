@@ -1,0 +1,83 @@
+2026-05-05 16:26:17,426 - root - INFO - Scenario ID filter: 18/500 selected
+2026-05-05 16:26:17,427 - root - INFO - Loaded 18 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-05 16:26:17,427 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-05 16:26:17,427 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-05 16:26:30,588 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C13' top_candidate={'answer': 'C13', 'score': 0.6, 'action_type': 'press_down_tilt', 'target_cell': '3256908_4', 'reason': 'overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-05 16:26:30,589 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 13.2s — answer: 'C13'
+2026-05-05 16:26:30,590 - root - INFO - Saved 1 rows → results/phase2/preflight.csv
+2026-05-05 16:26:30,590 - root - INFO - [de896155-b409-4446-8679-e1bb486e4882] tag=multiple-answer, bs=4, family=F2
+2026-05-05 16:26:46,932 - root - INFO - [de896155-b409-4446-8679-e1bb486e4882] answer='C13|C24' top_candidate={'answer': 'C13|C24', 'score': 0.3, 'reason': 'decrease_power/primary + press_down_tilt/primary'}
+2026-05-05 16:26:46,933 - root - INFO - [de896155-b409-4446-8679-e1bb486e4882] done in 16.3s — answer: 'C13|C24'
+2026-05-05 16:26:46,934 - root - INFO - Saved 2 rows → results/phase2/preflight.csv
+2026-05-05 16:26:46,934 - root - INFO - [830f10bd-b05c-47df-824b-8c72e99e372e] tag=single-answer, bs=13, family=F4
+2026-05-05 16:26:59,286 - root - INFO - [830f10bd-b05c-47df-824b-8c72e99e372e] answer='C9' top_candidate={'answer': 'C9', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3276807_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-05 16:26:59,287 - root - INFO - [830f10bd-b05c-47df-824b-8c72e99e372e] done in 12.4s — answer: 'C9'
+2026-05-05 16:26:59,288 - root - INFO - Saved 3 rows → results/phase2/preflight.csv
+2026-05-05 16:26:59,288 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-05 16:26:59,288 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] tag=single-answer, bs=5, family=F1_5BS
+2026-05-05 16:27:11,565 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] answer='C22' top_candidate={'answer': 'C22', 'score': 0.6, 'action_type': 'press_down_tilt', 'target_cell': '3249568_3', 'reason': 'overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-05 16:27:11,565 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] done in 12.3s — answer: 'C22'
+2026-05-05 16:27:11,566 - root - INFO - Saved 4 rows → results/phase2/preflight.csv
+2026-05-05 16:27:11,566 - root - INFO - [422843a3-02b2-43d6-b681-cdaad918f4ff] tag=multiple-answer, bs=4, family=F2
+2026-05-05 16:27:28,142 - root - INFO - [422843a3-02b2-43d6-b681-cdaad918f4ff] answer='C4|C19' top_candidate={'answer': 'C4|C19', 'score': 0.74, 'reason': 'decrease_power/primary + press_down_tilt/primary'}
+2026-05-05 16:27:28,142 - root - INFO - [422843a3-02b2-43d6-b681-cdaad918f4ff] done in 16.6s — answer: 'C4|C19'
+2026-05-05 16:27:28,144 - root - INFO - Saved 5 rows → results/phase2/preflight.csv
+2026-05-05 16:27:28,144 - root - INFO - [effdd6ec-7918-4f5e-bb01-390ae8060302] tag=single-answer, bs=13, family=F4
+2026-05-05 16:27:40,291 - root - INFO - [effdd6ec-7918-4f5e-bb01-390ae8060302] answer='C12' top_candidate={'answer': 'C12', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3248872_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-05 16:27:40,291 - root - INFO - [effdd6ec-7918-4f5e-bb01-390ae8060302] done in 12.1s — answer: 'C12'
+2026-05-05 16:27:40,291 - root - INFO - Saved 6 rows → results/phase2/preflight.csv
+2026-05-05 16:27:40,291 - root - INFO - [f4de78d3-5e53-43b8-ba53-00eb0302b3b0] tag=multiple-answer, bs=5, family=F3
+2026-05-05 16:27:55,744 - root - INFO - [f4de78d3-5e53-43b8-ba53-00eb0302b3b0] answer='C10|C18|C20|C24' top_candidate={'answer': 'C10|C18|C20|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-05 16:27:55,744 - root - INFO - [f4de78d3-5e53-43b8-ba53-00eb0302b3b0] done in 15.5s — answer: 'C10|C18|C20|C24'
+2026-05-05 16:27:55,745 - root - INFO - Saved 7 rows → results/phase2/preflight.csv
+2026-05-05 16:27:55,746 - root - INFO - [137f3a5b-9dbb-45e0-aa9b-5de9d0829df2] tag=single-answer, bs=4, family=F1
+2026-05-05 16:28:17,070 - root - INFO - [137f3a5b-9dbb-45e0-aa9b-5de9d0829df2] answer='C19' top_candidate={'answer': 'C19', 'score': 0.851, 'action_type': 'lift_tilt', 'target_cell': '3242445_4', 'reason': 'tool evidence → lift_tilt/tertiary'}
+2026-05-05 16:28:17,071 - root - INFO - [137f3a5b-9dbb-45e0-aa9b-5de9d0829df2] done in 21.3s — answer: 'C19'
+2026-05-05 16:28:17,073 - root - INFO - Saved 8 rows → results/phase2/preflight.csv
+2026-05-05 16:28:17,074 - root - INFO - [9b648fab-9609-49bc-bd5b-acf3e1cb9950] tag=multiple-answer, bs=5, family=F3
+2026-05-05 16:28:33,267 - root - INFO - [9b648fab-9609-49bc-bd5b-acf3e1cb9950] answer='C15|C16|C19|C22' top_candidate={'answer': 'C15|C16|C19|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-05 16:28:33,267 - root - INFO - [9b648fab-9609-49bc-bd5b-acf3e1cb9950] done in 16.2s — answer: 'C15|C16|C19|C22'
+2026-05-05 16:28:33,268 - root - INFO - Saved 9 rows → results/phase2/preflight.csv
+2026-05-05 16:28:33,268 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-05 16:28:33,269 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] tag=single-answer, bs=5, family=F1_5BS
+2026-05-05 16:28:48,463 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] answer='C3' top_candidate={'answer': 'C3', 'score': 0.6, 'action_type': 'press_down_tilt', 'target_cell': '3252431_1', 'reason': 'overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-05 16:28:48,464 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] done in 15.2s — answer: 'C3'
+2026-05-05 16:28:48,465 - root - INFO - Saved 10 rows → results/phase2/preflight.csv
+2026-05-05 16:28:48,465 - root - INFO - [e6508c0b-072d-40b3-8ccb-9be4395728f1] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-05 16:28:48,465 - root - INFO - [e6508c0b-072d-40b3-8ccb-9be4395728f1] tag=multiple-answer, bs=13, family=F4M
+2026-05-05 16:29:06,978 - root - INFO - [e6508c0b-072d-40b3-8ccb-9be4395728f1] answer='C2|C22' top_candidate={'answer': 'C2|C22', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-05 16:29:06,978 - root - INFO - [e6508c0b-072d-40b3-8ccb-9be4395728f1] done in 18.5s — answer: 'C2|C22'
+2026-05-05 16:29:06,980 - root - INFO - Saved 11 rows → results/phase2/preflight.csv
+2026-05-05 16:29:06,980 - root - INFO - [f709842e-41ee-4bdc-b472-392cc93a7b99] tag=single-answer, bs=13, family=F4
+2026-05-05 16:29:22,338 - root - INFO - [f709842e-41ee-4bdc-b472-392cc93a7b99] answer='C6' top_candidate={'answer': 'C6', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3229295_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-05 16:29:22,339 - root - INFO - [f709842e-41ee-4bdc-b472-392cc93a7b99] done in 15.4s — answer: 'C6'
+2026-05-05 16:29:22,340 - root - INFO - Saved 12 rows → results/phase2/preflight.csv
+2026-05-05 16:29:22,340 - root - INFO - [21eff364-b638-4b05-af3f-f1f8d60f11af] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-05 16:29:22,340 - root - INFO - [21eff364-b638-4b05-af3f-f1f8d60f11af] tag=multiple-answer, bs=13, family=F4M
+2026-05-05 16:29:38,835 - root - INFO - [21eff364-b638-4b05-af3f-f1f8d60f11af] answer='C11|C15' top_candidate={'answer': 'C11|C15', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-05 16:29:38,836 - root - INFO - [21eff364-b638-4b05-af3f-f1f8d60f11af] done in 16.5s — answer: 'C11|C15'
+2026-05-05 16:29:38,837 - root - INFO - Saved 13 rows → results/phase2/preflight.csv
+2026-05-05 16:29:38,837 - root - INFO - [16e2e629-c315-424a-837c-375eab4be2ad] tag=multiple-answer, bs=4, family=F2
+2026-05-05 16:29:55,191 - root - INFO - [16e2e629-c315-424a-837c-375eab4be2ad] answer='C5|C12' top_candidate={'answer': 'C5|C12', 'score': 0.61, 'reason': 'decrease_power/primary + press_down_tilt/primary'}
+2026-05-05 16:29:55,191 - root - INFO - [16e2e629-c315-424a-837c-375eab4be2ad] done in 16.4s — answer: 'C5|C12'
+2026-05-05 16:29:55,192 - root - INFO - Saved 14 rows → results/phase2/preflight.csv
+2026-05-05 16:29:55,192 - root - INFO - [49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-05 16:29:55,192 - root - INFO - [49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] tag=multiple-answer, bs=13, family=F4M
+2026-05-05 16:30:08,966 - root - INFO - [49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] answer='C11|C15' top_candidate={'answer': 'C11|C15', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-05 16:30:08,967 - root - INFO - [49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] done in 13.8s — answer: 'C11|C15'
+2026-05-05 16:30:08,968 - root - INFO - Saved 15 rows → results/phase2/preflight.csv
+2026-05-05 16:30:08,968 - root - INFO - [8a98c175-ce8a-4fdd-81ad-ccb7e9f25828] tag=single-answer, bs=4, family=F1
+2026-05-05 16:30:21,788 - root - INFO - [8a98c175-ce8a-4fdd-81ad-ccb7e9f25828] answer='C6' top_candidate={'answer': 'C6', 'score': 0.6, 'action_type': 'press_down_tilt', 'target_cell': '3252095_1', 'reason': 'overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-05 16:30:21,788 - root - INFO - [8a98c175-ce8a-4fdd-81ad-ccb7e9f25828] done in 12.8s — answer: 'C6'
+2026-05-05 16:30:21,790 - root - INFO - Saved 16 rows → results/phase2/preflight.csv
+2026-05-05 16:30:21,790 - root - INFO - [880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] tag=single-answer, bs=4, family=F1
+2026-05-05 16:30:34,070 - root - INFO - [880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] answer='C13' top_candidate={'answer': 'C13', 'score': 0.55, 'action_type': 'press_down_tilt', 'target_cell': '3238954_1', 'reason': 'overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+2026-05-05 16:30:34,070 - root - INFO - [880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] done in 12.3s — answer: 'C13'
+2026-05-05 16:30:34,072 - root - INFO - Saved 17 rows → results/phase2/preflight.csv
+2026-05-05 16:30:34,072 - root - INFO - [f53a1781-d243-47a2-b287-e92b77a0f6a3] tag=multiple-answer, bs=5, family=F3
+2026-05-05 16:30:47,631 - root - INFO - [f53a1781-d243-47a2-b287-e92b77a0f6a3] answer='C3|C7|C10|C23' top_candidate={'answer': 'C3|C7|C10|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-05 16:30:47,631 - root - INFO - [f53a1781-d243-47a2-b287-e92b77a0f6a3] done in 13.6s — answer: 'C3|C7|C10|C23'
+2026-05-05 16:30:47,632 - root - INFO - Saved 18 rows → results/phase2/preflight.csv
+2026-05-05 16:30:47,633 - root - INFO - Saved 18 rows → results/phase2/preflight.csv
+2026-05-05 16:30:47,633 - root - INFO - 
+Done. 18/18 answered in 270s (avg 15.0s/scenario)

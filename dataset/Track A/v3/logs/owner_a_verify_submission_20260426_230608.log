@@ -1,0 +1,3 @@
++ /home/huangxiaolin/AITO/bin/python submit.py --server_url http://127.0.0.1:7860 --model_url http://127.0.0.1:8001/v1 --lora checkpoints/v3_zero3/checkpoint-477 --output_dir submissions/owner_a_verify_20260426_230608 --dry-run --use-tools --deterministic --no-rag --max-tokens 768
+Dry-run passed: 500 rows validated.
+Wrote submissions/owner_a_verify_20260426_230608/result_final.csv

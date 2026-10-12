@@ -1,0 +1,113 @@
+{
+  "submit_ready": true,
+  "hard_errors": [],
+  "warnings": [],
+  "paths": {
+    "test_json": "data/Phase_2/test.json",
+    "result_csv": "results/phase2/current_submission/result_full_postB_supplement_agentic_highrisk.csv",
+    "diagnostics_jsonl": "results/phase2/current_submission/result_full_postB_supplement_agentic_highrisk.diagnostics.jsonl"
+  },
+  "rows": {
+    "expected": 500,
+    "result": 500,
+    "answered": 500,
+    "answer_rate": 1.0,
+    "coverage_rate": 1.0,
+    "missing_ids": 0,
+    "extra_ids": 0,
+    "duplicate_ids": 0
+  },
+  "answer_distribution": {
+    "by_code": {
+      "C1": 48,
+      "C2": 42,
+      "C3": 39,
+      "C4": 27,
+      "C5": 29,
+      "C6": 37,
+      "C7": 34,
+      "C8": 24,
+      "C9": 35,
+      "C10": 40,
+      "C11": 37,
+      "C12": 38,
+      "C13": 29,
+      "C14": 23,
+      "C15": 31,
+      "C16": 36,
+      "C17": 24,
+      "C18": 27,
+      "C19": 31,
+      "C20": 29,
+      "C21": 21,
+      "C22": 29,
+      "C23": 36,
+      "C24": 26
+    },
+    "by_answer_len": {
+      "1": 298,
+      "2": 167,
+      "4": 35
+    },
+    "by_tag": {
+      "single-answer": 298,
+      "multiple-answer": 202
+    },
+    "by_tag_and_answer_len": {
+      "multiple-answer:2": 167,
+      "multiple-answer:4": 35,
+      "single-answer:1": 298
+    }
+  },
+  "diagnostics": {
+    "rows": 508,
+    "family_counts": {
+      "F1": 247,
+      "F1_5BS": 28,
+      "F4": 29,
+      "F3": 29,
+      "F2": 147,
+      "F4M": 28
+    },
+    "family_override_counts": {
+      "F1_5BS": 28,
+      "F4M": 28
+    },
+    "scenario_errors": {},
+    "candidate_empty": 0,
+    "low_confidence_top_candidates": 0,
+    "low_confidence_rate": 0.0,
+    "top_candidate_score": {
+      "mean": 0.634365157480315,
+      "p50": 0.6719999999999999,
+      "p95": 0.82,
+      "min": 0.12,
+      "max": 0.8925
+    },
+    "missing_data_by_source": {
+      "signaling": 508
+    },
+    "missing_critical_data": 0,
+    "missing_critical_data_rate": 0.0,
+    "api_calls_total": 2609,
+    "api_errors_total": 0,
+    "api_error_rate": 0.0,
+    "api_calls_by_tool": {
+      "get_user_plane_data": 508,
+      "get_config_data": 508,
+      "get_kpi_data": 508,
+      "get_mr_data": 508,
+      "calculate_overlap_ratio": 332,
+      "judge_mainlobe_or_not": 186,
+      "calculate_tilt_angle": 13,
+      "get_user_location": 46
+    },
+    "api_errors_by_tool": {},
+    "elapsed_seconds": {
+      "mean": 4.537460043205051,
+      "p50": 1.0745577812194824,
+      "p95": 20.042234897613525,
+      "max": 30.302780389785767
+    }
+  }
+}

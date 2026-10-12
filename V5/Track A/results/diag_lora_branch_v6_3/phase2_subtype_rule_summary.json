@@ -1,0 +1,310 @@
+{
+  "audit": {
+    "action_counts": {
+      "add_neighbor": 20,
+      "adjust_azimuth|increase_power": 54,
+      "check_server": 6,
+      "decrease_a3": 98,
+      "decrease_interfreq": 29,
+      "decrease_interfreq|decrease_interfreq": 28,
+      "decrease_power|increase_a3|increase_a3|press_down_tilt": 1,
+      "decrease_power|increase_a3|press_down_tilt|increase_a3": 2,
+      "decrease_power|press_down_tilt": 29,
+      "increase_a3|decrease_power|increase_a3|press_down_tilt": 5,
+      "increase_a3|decrease_power|press_down_tilt|increase_a3": 4,
+      "increase_a3|press_down_tilt|decrease_power|increase_a3": 3,
+      "increase_a3|press_down_tilt|increase_a3|decrease_power": 5,
+      "increase_power|adjust_azimuth": 22,
+      "insufficient_data": 73,
+      "lift_tilt": 44,
+      "pdcch_2sym": 28,
+      "press_down_tilt|decrease_power": 40,
+      "press_down_tilt|decrease_power|increase_a3|increase_a3": 2,
+      "press_down_tilt|increase_a3|decrease_power|increase_a3": 4,
+      "press_down_tilt|increase_a3|increase_a3|decrease_power": 3
+    },
+    "f1_illegal": 0,
+    "f1_illegal_examples": [],
+    "f2_bad": 0,
+    "f2_bad_examples": [],
+    "lora_overrides": {
+      "1784b64c": "OK",
+      "6060dca7": "OK"
+    },
+    "rows": 600,
+    "track_a_rows": 500,
+    "track_b_nonblank": 0
+  },
+  "base": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_v6_2_addneighbor_gate.csv",
+  "changed": 28,
+  "changed_rows": [
+    {
+      "family": "F1",
+      "id": "95cda870-3964-4e6b-b661-46ff57c94aba",
+      "new": "C2",
+      "old": "C10",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "0025e3f1-6a6a-4146-8fce-c0cf97816995",
+      "new": "C13",
+      "old": "C14",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "da968423-724d-4d1d-a4b7-17541f21d116",
+      "new": "C15",
+      "old": "C8",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "4ff7e5c7-e7cf-406f-ad73-a1e3438caccb",
+      "new": "C3",
+      "old": "C11",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "eb91eb27-7ab5-4f60-bb38-7d71c58e02a8",
+      "new": "C12",
+      "old": "C1",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "f3a881f3-2a7c-4065-85b6-fc210962372f",
+      "new": "C24",
+      "old": "C16",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "10f63584-28ba-4a37-b5ad-084c2418800c",
+      "new": "C6",
+      "old": "C5",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "4977d843-18af-47e7-87dd-f3a99ad8306c",
+      "new": "C13",
+      "old": "C7",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "fcff6672-f6eb-46d4-83e9-5c6d86e4d90d",
+      "new": "C22",
+      "old": "C16",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "b63bb459-a261-4901-98a7-945f320dae84",
+      "new": "C4",
+      "old": "C16",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "f43ee4bb-ca0a-4771-b20e-cd36cd093281",
+      "new": "C2",
+      "old": "C17",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "72d41141-5395-417b-ae27-744051a16651",
+      "new": "C21",
+      "old": "C12",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "3de3a430-2e56-4ebf-a849-674ecae67d4b",
+      "new": "C18",
+      "old": "C16",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "689ff6bc-b877-47c5-92c0-f66e168a9129",
+      "new": "C23",
+      "old": "C11",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "0b5ba024-af2f-4d50-9c87-83803cd4c61d",
+      "new": "C1",
+      "old": "C11",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "3eccaf22-9c49-4e87-8ac7-19bb514b1b04",
+      "new": "C12",
+      "old": "C2",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "44f266a0-8295-4d30-9854-ba1cc449901d",
+      "new": "C24",
+      "old": "C13",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "5622037e-9be6-4408-958b-6ac8d158af1b",
+      "new": "C7",
+      "old": "C19",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "f2cb0cff-fafa-494e-9d5e-364a685b742a",
+      "new": "C4",
+      "old": "C20",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "4285e888-22c3-4caa-a245-81d76d891757",
+      "new": "C1",
+      "old": "C24",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "999685d2-dd51-4856-8dd7-e15fdf02513f",
+      "new": "C20",
+      "old": "C4",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "37020348-6b81-4098-9e53-8ece23158960",
+      "new": "C18",
+      "old": "C8",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "35463299-505f-4fd8-b0f1-d6f8aee6aa53",
+      "new": "C15",
+      "old": "C1",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "0e4eb0cd-19c2-4f4d-b045-7e25a7a4ba12",
+      "new": "C4",
+      "old": "C16",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "ed2c5525-94c7-4e25-bcd8-d447fd77358d",
+      "new": "C6",
+      "old": "C8",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "ec7a63d4-a986-4436-af45-2ae8f799cedf",
+      "new": "C21",
+      "old": "C1",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "b0719a09-7ef9-427a-b23a-8336baa61d37",
+      "new": "C11",
+      "old": "C18",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    },
+    {
+      "family": "F1",
+      "id": "f37d0166-c908-4e30-a5ad-288188c44a9d",
+      "new": "C16",
+      "old": "C12",
+      "reason": "F1 high-PRB healthy-radio → lift_tilt/primary hypothesis",
+      "subtype": "generic_high_prb_primary_fallback"
+    }
+  ],
+  "out": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_v6_3_subtype_lift_insuff_gate.csv",
+  "phase1_subtype_rule": {
+    "accuracy": {
+      "dev": {
+        "accuracy": 1.0,
+        "gt_counts": {
+          "insufficient_data": 151,
+          "lift_tilt": 152
+        },
+        "hits": 303,
+        "n": 303
+      },
+      "test": {
+        "accuracy": 1.0,
+        "gt_counts": {
+          "insufficient_data": 101,
+          "lift_tilt": 102
+        },
+        "hits": 203,
+        "n": 203
+      }
+    },
+    "by_subtype": {
+      "dev:coverage_hypothesis_tertiary": {
+        "lift_tilt": 152
+      },
+      "dev:generic_high_prb_primary_fallback": {
+        "insufficient_data": 151
+      },
+      "test:coverage_hypothesis_tertiary": {
+        "lift_tilt": 102
+      },
+      "test:generic_high_prb_primary_fallback": {
+        "insufficient_data": 101
+      }
+    }
+  },
+  "phase2_lift_subtypes": {
+    "coverage_hypothesis_tertiary": 29,
+    "generic_high_prb_primary_fallback": 28,
+    "other:primary:geometry recommendation": 14,
+    "unknown": 1
+  },
+  "protected_raw54_intersection": []
+}

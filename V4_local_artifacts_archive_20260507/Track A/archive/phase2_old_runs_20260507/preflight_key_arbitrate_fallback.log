@@ -1,0 +1,42 @@
+2026-05-06 12:19:38,409 - root - INFO - Group sample filter: selected 6 scenarios from 6 groups
+2026-05-06 12:19:38,409 - root - INFO - Loaded 6 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 12:19:38,432 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1
+2026-05-06 12:19:38,489 - root - INFO - [RAG] Index ready: data/Phase_1/train.json
+2026-05-06 12:19:38,489 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+2026-05-06 12:19:51,574 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-06 12:19:51,575 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] done in 13.1s — answer: 'C7'
+2026-05-06 12:19:51,576 - root - INFO - Saved 1 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:19:51,576 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 12:19:51,577 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 12:20:01,282 - openai._base_client - INFO - Retrying request to /chat/completions in 0.400361 seconds
+2026-05-06 12:20:01,684 - openai._base_client - INFO - Retrying request to /chat/completions in 0.977865 seconds
+2026-05-06 12:20:02,665 - root - WARNING - [FineTuneVerifier] call failed: Connection error.
+2026-05-06 12:20:02,666 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C13' top_candidate={'answer': 'C13', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3256908_4', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-06 12:20:02,666 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 11.1s — answer: 'C13'
+2026-05-06 12:20:02,667 - root - INFO - Saved 2 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:20:02,667 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] tag=single-answer, bs=13, family=F4
+2026-05-06 12:20:10,714 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] answer='C23' top_candidate={'answer': 'C23', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3214602_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-06 12:20:10,714 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] done in 8.0s — answer: 'C23'
+2026-05-06 12:20:10,715 - root - INFO - Saved 3 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:20:10,716 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] tag=multiple-answer, bs=5, family=F3
+2026-05-06 12:20:19,561 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] answer='C3|C4|C7|C24' top_candidate={'answer': 'C3|C4|C7|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-06 12:20:19,561 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] done in 8.8s — answer: 'C3|C4|C7|C24'
+2026-05-06 12:20:19,562 - root - INFO - Saved 4 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:20:19,562 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] tag=multiple-answer, bs=4, family=F2
+2026-05-06 12:20:30,643 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438034 seconds
+2026-05-06 12:20:31,084 - openai._base_client - INFO - Retrying request to /chat/completions in 0.849140 seconds
+2026-05-06 12:20:31,937 - root - WARNING - [FineTuneVerifier] call failed: Connection error.
+2026-05-06 12:20:31,937 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] answer='C3|C17' top_candidate={'answer': 'C3|C17', 'score': 0.55, 'reason': 'adjust_azimuth/secondary + increase_power/secondary'}
+2026-05-06 12:20:31,938 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] done in 12.4s — answer: 'C3|C17'
+2026-05-06 12:20:31,939 - root - INFO - Saved 5 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:20:31,940 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-06 12:20:31,940 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] tag=multiple-answer, bs=13, family=F4M
+2026-05-06 12:20:41,871 - openai._base_client - INFO - Retrying request to /chat/completions in 0.459681 seconds
+2026-05-06 12:20:42,333 - openai._base_client - INFO - Retrying request to /chat/completions in 0.865638 seconds
+2026-05-06 12:20:43,203 - root - WARNING - [FineTuneVerifier] call failed: Connection error.
+2026-05-06 12:20:43,204 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-06 12:20:43,204 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] done in 11.3s — answer: 'C1|C2'
+2026-05-06 12:20:43,205 - root - INFO - Saved 6 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:20:43,206 - root - INFO - Saved 6 rows → results/phase2/preflight_key_arbitrate_fallback.csv
+2026-05-06 12:20:43,206 - root - INFO - 
+Done. 6/6 answered in 65s (avg 10.8s/scenario)

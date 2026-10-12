@@ -1,0 +1,109 @@
+2026-05-06 12:52:42,154 - root - INFO - Group sample filter: selected 18 scenarios from 6 groups
+2026-05-06 12:52:42,154 - root - INFO - Loaded 18 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 12:52:42,175 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-06 12:52:42,232 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V4/Track A/data/Phase_1/train.json
+2026-05-06 12:52:42,233 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+2026-05-06 12:52:54,473 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:52:54,492 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] LLM arbitration accepted answer='C7' deterministic='C7' reasons=forced_by_cli
+2026-05-06 12:52:54,492 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-06 12:52:54,493 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] done in 12.3s — answer: 'C7'
+2026-05-06 12:52:54,493 - root - INFO - Saved 1 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:52:54,493 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 12:52:54,493 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 12:53:05,408 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:53:05,410 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] LLM arbitration accepted answer='C13' deterministic='C13' reasons=forced_by_cli
+2026-05-06 12:53:05,410 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C13' top_candidate={'answer': 'C13', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3256908_4', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-06 12:53:05,411 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 10.9s — answer: 'C13'
+2026-05-06 12:53:05,412 - root - INFO - Saved 2 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:53:05,412 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] tag=single-answer, bs=4, family=F1
+2026-05-06 12:53:16,587 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:53:16,590 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] LLM arbitration accepted answer='C21' deterministic='C21' reasons=forced_by_cli
+2026-05-06 12:53:16,590 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] answer='C21' top_candidate={'answer': 'C21', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3242615_3', 'reason': 'geometry recommendation'}
+2026-05-06 12:53:16,590 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] done in 11.2s — answer: 'C21'
+2026-05-06 12:53:16,592 - root - INFO - Saved 3 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:53:16,592 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] tag=single-answer, bs=13, family=F4
+2026-05-06 12:53:26,213 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] answer='C23' top_candidate={'answer': 'C23', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3214602_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-06 12:53:26,214 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] done in 9.6s — answer: 'C23'
+2026-05-06 12:53:26,215 - root - INFO - Saved 4 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:53:26,215 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] tag=multiple-answer, bs=5, family=F3
+2026-05-06 12:53:33,394 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] answer='C3|C4|C7|C24' top_candidate={'answer': 'C3|C4|C7|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-06 12:53:33,394 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] done in 7.2s — answer: 'C3|C4|C7|C24'
+2026-05-06 12:53:33,395 - root - INFO - Saved 5 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:53:33,395 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] tag=single-answer, bs=4, family=F1
+2026-05-06 12:53:47,502 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:53:47,505 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] LLM arbitration accepted answer='C1' deterministic='C1' reasons=forced_by_cli
+2026-05-06 12:53:47,506 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] answer='C1' top_candidate={'answer': 'C1', 'score': 0.777, 'action_type': 'lift_tilt', 'target_cell': '3252488_1', 'reason': 'coverage_hole → lift_tilt/primary (serving cell)'}
+2026-05-06 12:53:47,506 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] done in 14.1s — answer: 'C1'
+2026-05-06 12:53:47,509 - root - INFO - Saved 6 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:53:47,509 - root - INFO - [c93d2fa8-52b3-4623-aab9-d5fada486543] tag=multiple-answer, bs=5, family=F3
+2026-05-06 12:53:54,529 - root - INFO - [c93d2fa8-52b3-4623-aab9-d5fada486543] answer='C5|C6|C7|C11' top_candidate={'answer': 'C5|C6|C7|C11', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-06 12:53:54,529 - root - INFO - [c93d2fa8-52b3-4623-aab9-d5fada486543] done in 7.0s — answer: 'C5|C6|C7|C11'
+2026-05-06 12:53:54,530 - root - INFO - Saved 7 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:53:54,530 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] tag=multiple-answer, bs=4, family=F2
+2026-05-06 12:54:07,624 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:54:07,625 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] LLM arbitration accepted answer='C3|C17' deterministic='C3|C17' reasons=forced_by_cli
+2026-05-06 12:54:07,625 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] answer='C3|C17' top_candidate={'answer': 'C3|C17', 'score': 0.55, 'reason': 'adjust_azimuth/secondary + increase_power/secondary'}
+2026-05-06 12:54:07,625 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] done in 13.1s — answer: 'C3|C17'
+2026-05-06 12:54:07,626 - root - INFO - Saved 8 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:54:07,626 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] tag=multiple-answer, bs=4, family=F2
+2026-05-06 12:54:19,946 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:54:19,948 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] LLM arbitration accepted answer='C7|C9' deterministic='C7|C9' reasons=forced_by_cli
+2026-05-06 12:54:19,948 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] answer='C7|C9' top_candidate={'answer': 'C7|C9', 'score': 0.5, 'reason': 'adjust_azimuth/secondary + increase_power/secondary'}
+2026-05-06 12:54:19,948 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] done in 12.3s — answer: 'C7|C9'
+2026-05-06 12:54:19,949 - root - INFO - Saved 9 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:54:19,949 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 12:54:19,950 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 12:54:31,609 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:54:31,611 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] LLM arbitration accepted answer='C18' deterministic='C18' reasons=forced_by_cli
+2026-05-06 12:54:31,612 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] answer='C18' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3249948_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-06 12:54:31,612 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] done in 11.7s — answer: 'C18'
+2026-05-06 12:54:31,614 - root - INFO - Saved 10 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:54:31,614 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] tag=multiple-answer, bs=4, family=F2
+2026-05-06 12:54:46,113 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:54:46,115 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] LLM arbitration accepted answer='C6|C15' deterministic='C6|C15' reasons=forced_by_cli
+2026-05-06 12:54:46,115 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.6, 'reason': 'adjust_azimuth/secondary + increase_power/secondary'}
+2026-05-06 12:54:46,115 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] done in 14.5s — answer: 'C6|C15'
+2026-05-06 12:54:46,117 - root - INFO - Saved 11 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:54:46,117 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 12:54:46,117 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 12:54:55,888 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:54:55,890 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] LLM arbitration accepted answer='C19' deterministic='C19' reasons=forced_by_cli
+2026-05-06 12:54:55,891 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] answer='C19' top_candidate={'answer': 'C19', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3235116_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-06 12:54:55,891 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] done in 9.8s — answer: 'C19'
+2026-05-06 12:54:55,893 - root - INFO - Saved 12 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:54:55,893 - root - INFO - [77930e8b-e435-4e40-b633-cb7731e4a03b] tag=multiple-answer, bs=5, family=F3
+2026-05-06 12:55:02,837 - root - INFO - [77930e8b-e435-4e40-b633-cb7731e4a03b] answer='C3|C9|C13|C22' top_candidate={'answer': 'C3|C9|C13|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-06 12:55:02,838 - root - INFO - [77930e8b-e435-4e40-b633-cb7731e4a03b] done in 6.9s — answer: 'C3|C9|C13|C22'
+2026-05-06 12:55:02,839 - root - INFO - Saved 13 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:02,839 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-06 12:55:02,840 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] tag=multiple-answer, bs=13, family=F4M
+2026-05-06 12:55:16,258 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:55:16,259 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] LLM arbitration accepted answer='C1|C2' deterministic='C1|C2' reasons=forced_by_cli
+2026-05-06 12:55:16,259 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-06 12:55:16,259 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] done in 13.4s — answer: 'C1|C2'
+2026-05-06 12:55:16,260 - root - INFO - Saved 14 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:16,260 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-06 12:55:16,260 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] tag=multiple-answer, bs=13, family=F4M
+2026-05-06 12:55:24,754 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:55:24,756 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] LLM arbitration accepted answer='C6|C7' deterministic='C6|C7' reasons=forced_by_cli
+2026-05-06 12:55:24,756 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-06 12:55:24,757 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] done in 8.5s — answer: 'C6|C7'
+2026-05-06 12:55:24,758 - root - INFO - Saved 15 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:24,758 - root - INFO - [039f867d-64a3-4d8b-9f59-9a69bc15f259] tag=single-answer, bs=13, family=F4
+2026-05-06 12:55:31,919 - root - INFO - [039f867d-64a3-4d8b-9f59-9a69bc15f259] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3256153_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-06 12:55:31,920 - root - INFO - [039f867d-64a3-4d8b-9f59-9a69bc15f259] done in 7.2s — answer: 'C17'
+2026-05-06 12:55:31,921 - root - INFO - Saved 16 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:31,922 - root - INFO - [5f3bbe40-689f-413e-b50a-c4f43ab27899] tag=single-answer, bs=13, family=F4
+2026-05-06 12:55:40,173 - root - INFO - [5f3bbe40-689f-413e-b50a-c4f43ab27899] answer='C19' top_candidate={'answer': 'C19', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3264577_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-06 12:55:40,173 - root - INFO - [5f3bbe40-689f-413e-b50a-c4f43ab27899] done in 8.3s — answer: 'C19'
+2026-05-06 12:55:40,174 - root - INFO - Saved 17 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:40,174 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-06 12:55:40,174 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] tag=multiple-answer, bs=13, family=F4M
+2026-05-06 12:55:50,638 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:55:50,640 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] LLM arbitration accepted answer='C2|C13' deterministic='C2|C13' reasons=forced_by_cli
+2026-05-06 12:55:50,640 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] answer='C2|C13' top_candidate={'answer': 'C2|C13', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-06 12:55:50,640 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] done in 10.5s — answer: 'C2|C13'
+2026-05-06 12:55:50,641 - root - INFO - Saved 18 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:50,642 - root - INFO - Saved 18 rows → results/phase2/probe3_all_arbitrate_qwen35.csv
+2026-05-06 12:55:50,642 - root - INFO - 
+Done. 18/18 answered in 188s (avg 10.5s/scenario)

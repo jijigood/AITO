@@ -1,0 +1,11 @@
+## 任务完成情况
+### 已创建/更新的文件
+1. scripts/C_f2_pair_calibration.py - F2配对校准脚本
+   
+   - 在Phase 1 F2训练数据上运行feature pipeline
+   - 统计 top_issue -> legal pair 条件分布
+   - 对Phase 2 card-2 F2行计算pair confidence
+   - 找出高置信度flip候选并生成patch CSV
+2. reports/C_f2_pair_calibration.md - 校准报告
+3. reports/C_f2_pair_calibration.json - 详细JSON报告
+4. submissions/submission_600_C_f2_calibrated.csv - 校准后的提交文件

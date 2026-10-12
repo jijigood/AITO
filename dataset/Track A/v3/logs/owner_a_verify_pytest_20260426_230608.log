@@ -1,0 +1,21 @@
++ /home/huangxiaolin/AITO/bin/python -m pytest tests/test_tools_regression.py tests/test_pipeline_integration.py -v
+============================= test session starts ==============================
+platform linux -- Python 3.10.6, pytest-9.0.3, pluggy-1.6.0 -- /home/huangxiaolin/AITO/bin/python
+cachedir: .pytest_cache
+rootdir: /home/huangxiaolin/AITO/dataset/Track A/v3
+plugins: anyio-4.13.0
+collecting ... collected 11 items
+
+tests/test_tools_regression.py::test_tools_promote_insufficient_data_from_sparse_mr PASSED [  9%]
+tests/test_tools_regression.py::test_tools_promote_tertiary_lift_tilt_from_mainlobe_signal PASSED [ 18%]
+tests/test_tools_regression.py::test_sparse_mr_does_not_override_check_server PASSED [ 27%]
+tests/test_pipeline_integration.py::test_scenario_parser_stable SKIPPED  [ 36%]
+tests/test_pipeline_integration.py::test_feature_engine_contract SKIPPED [ 45%]
+tests/test_pipeline_integration.py::test_candidate_generator_nonempty SKIPPED [ 54%]
+tests/test_pipeline_integration.py::test_tool_caller_nullable SKIPPED    [ 63%]
+tests/test_pipeline_integration.py::test_rag_retrieve_signature SKIPPED  [ 72%]
+tests/test_pipeline_integration.py::test_build_f1_prompt_nullable_inputs SKIPPED [ 81%]
+tests/test_pipeline_integration.py::test_train_inference_prompt_parity PASSED [ 90%]
+tests/test_pipeline_integration.py::test_wall_time_budget_envelope SKIPPED [100%]
+
+========================= 4 passed, 7 skipped in 1.82s =========================

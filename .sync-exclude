@@ -1,0 +1,27 @@
+# 需要排除的大模型目录，避免把 10G+ 权重推到 GitHub
+model/
+
+# Hugging Face 下载缓存，不属于项目源码或提交物
+dataset/.cache/
+
+# 虚拟环境可执行文件与脚本
+bin/
+
+# 虚拟环境依赖目录
+lib/
+lib64/
+
+# 虚拟环境配置文件
+pyvenv.cfg
+.lock
+CACHEDIR.TAG
+
+# 如果当前目录未来被初始化成 Git 仓库，不同步它自己的 .git
+.git/
+
+# 当前目录下的这个忽略文件不推送到远端仓库
+.gitignore
+
+# Python 运行缓存
+__pycache__/
+*.pyc

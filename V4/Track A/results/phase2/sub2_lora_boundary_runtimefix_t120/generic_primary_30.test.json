@@ -1,0 +1,3902 @@
+[
+  {
+    "scenario_id": "95cda870-3964-4e6b-b661-46ff57c94aba",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Decrease A3 Offset threshold for 3277400_4 by 6 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C3",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3277400_4"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3217171_2 by 7 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3217171_2"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3217171_2 by 5 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Increase transmission power for 3277400_4 by 5 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Adjust the azimuth of 3217171_2 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease A3 Offset threshold for 3217171_2 by 6 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Lift the tilt angle of 3217171_2 by 6 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Increase A3 Offset threshold for 3277400_4 by 6 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Increase transmission power for 3217171_2 by 5 dBm"
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3277400_4 by 23 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease transmission power for 3217171_2 by 6 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Lift the tilt angle of 3277400_4 by 9 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Increase A3 Offset threshold for 3217171_2 by 5 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Adjust the azimuth of 3217171_2 by 21 degrees towards the UE"
+        },
+        {
+          "id": "C19",
+          "label": "Press down the tilt angle of 3277400_4 by 9 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Adjust the azimuth of 3277400_4 by 38 degrees towards the UE"
+        },
+        {
+          "id": "C21",
+          "label": "Add neighbor relationship between 3234436_3 and 3277400_4"
+        },
+        {
+          "id": "C22",
+          "label": "Press down the tilt angle of 3217171_2 by 6 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Add neighbor relationship between 3217171_2 and 3277400_4"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease transmission power for 3277400_4 by 6 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "0025e3f1-6a6a-4146-8fce-c0cf97816995",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3244234_3 by 7 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Add neighbor relationship between 3249347_4 and 3211157_1"
+        },
+        {
+          "id": "C3",
+          "label": "Adjust the azimuth of 3244234_3 by 47 degrees towards the UE"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease transmission power for 3211157_1 by 6 dBm"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease A3 Offset threshold for 3211157_1 by 3 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3244234_3"
+        },
+        {
+          "id": "C7",
+          "label": "Increase transmission power for 3211157_1 by 6 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Press down the tilt angle of 3244234_3 by 6 degrees"
+        },
+        {
+          "id": "C9",
+          "label": "Adjust the azimuth of 3211157_1 by 36 degrees towards the UE"
+        },
+        {
+          "id": "C10",
+          "label": "Lift the tilt angle of 3211157_1 by 10 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Increase A3 Offset threshold for 3244234_3 by 6 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3244234_3 by 32 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C14",
+          "label": "Lift the tilt angle of 3244234_3 by 6 degrees"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease transmission power for 3244234_3 by 6 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Increase transmission power for 3244234_3 by 6 dBm"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease A3 Offset threshold for 3244234_3 by 6 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Increase A3 Offset threshold for 3211157_1 by 2 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3244234_3 by 5 dB"
+        },
+        {
+          "id": "C20",
+          "label": "Press down the tilt angle of 3211157_1 by 10 degrees"
+        },
+        {
+          "id": "C21",
+          "label": "Add neighbor relationship between 3244234_3 and 3211157_1"
+        },
+        {
+          "id": "C22",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3211157_1"
+        },
+        {
+          "id": "C23",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C24",
+          "label": "Adjust the azimuth of 3211157_1 by 50 degrees towards the UE"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "da968423-724d-4d1d-a4b7-17541f21d116",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Decrease A3 Offset threshold for 3254456_4 by 1 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3254456_4 by 10 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3254456_4 by 5 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Increase transmission power for 3254456_4 by 4 dBm"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease A3 Offset threshold for 3266767_3 by 1 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Adjust the azimuth of 3254456_4 by 19 degrees towards the UE"
+        },
+        {
+          "id": "C7",
+          "label": "Increase A3 Offset threshold for 3266767_3 by 4 dB"
+        },
+        {
+          "id": "C8",
+          "label": "Lift the tilt angle of 3254456_4 by 3 degrees"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease transmission power for 3266767_3 by 7 dBm"
+        },
+        {
+          "id": "C10",
+          "label": "Increase A3 Offset threshold for 3254456_4 by 2 dB"
+        },
+        {
+          "id": "C11",
+          "label": "Press down the tilt angle of 3266767_3 by 5 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3266767_3"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease transmission power for 3254456_4 by 7 dBm"
+        },
+        {
+          "id": "C14",
+          "label": "Add neighbor relationship between 3254456_4 and 3266767_3"
+        },
+        {
+          "id": "C15",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C16",
+          "label": "Adjust the azimuth of 3266767_3 by 41 degrees towards the UE"
+        },
+        {
+          "id": "C17",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3254456_4"
+        },
+        {
+          "id": "C18",
+          "label": "Adjust the azimuth of 3266767_3 by 21 degrees towards the UE"
+        },
+        {
+          "id": "C19",
+          "label": "Lift the tilt angle of 3266767_3 by 5 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Increase transmission power for 3266767_3 by 4 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Press down the tilt angle of 3254456_4 by 3 degrees"
+        },
+        {
+          "id": "C22",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3254456_4 by 31 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Add neighbor relationship between 3256500_1 and 3266767_3"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "4ff7e5c7-e7cf-406f-ad73-a1e3438caccb",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Press down the tilt angle of 3234070_4 by 10 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease transmission power for 3241580_2 by 4 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C4",
+          "label": "Add neighbor relationship between 3241371_1 and 3234070_4"
+        },
+        {
+          "id": "C5",
+          "label": "Adjust the azimuth of 3234070_4 by 24 degrees towards the UE"
+        },
+        {
+          "id": "C6",
+          "label": "Adjust the azimuth of 3241580_2 by 48 degrees towards the UE"
+        },
+        {
+          "id": "C7",
+          "label": "Add neighbor relationship between 3241580_2 and 3234070_4"
+        },
+        {
+          "id": "C8",
+          "label": "Increase A3 Offset threshold for 3241580_2 by 3 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C10",
+          "label": "Press down the tilt angle of 3241580_2 by 4 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Lift the tilt angle of 3241580_2 by 4 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Increase A3 Offset threshold for 3234070_4 by 5 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3234070_4"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3241580_2 by 10 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Adjust the azimuth of 3234070_4 by 41 degrees towards the UE"
+        },
+        {
+          "id": "C16",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3241580_2 by 5 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Increase transmission power for 3241580_2 by 3 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease A3 Offset threshold for 3241580_2 by 4 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Lift the tilt angle of 3234070_4 by 10 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease A3 Offset threshold for 3234070_4 by 2 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Adjust the azimuth of 3241580_2 by 31 degrees towards the UE"
+        },
+        {
+          "id": "C22",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3241580_2"
+        },
+        {
+          "id": "C23",
+          "label": "Increase transmission power for 3234070_4 by 3 dBm"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease transmission power for 3234070_4 by 4 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "eb91eb27-7ab5-4f60-bb38-7d71c58e02a8",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Lift the tilt angle of 3264914_1 by 5 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Adjust the azimuth of 3264914_1 by 15 degrees towards the UE"
+        },
+        {
+          "id": "C3",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3264914_1"
+        },
+        {
+          "id": "C4",
+          "label": "Press down the tilt angle of 3264914_1 by 5 degrees"
+        },
+        {
+          "id": "C5",
+          "label": "Increase transmission power for 3264914_1 by 5 dBm"
+        },
+        {
+          "id": "C6",
+          "label": "Adjust the azimuth of 3238323_2 by 40 degrees towards the UE"
+        },
+        {
+          "id": "C7",
+          "label": "Add neighbor relationship between 3264914_1 and 3238323_2"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3264914_1 by 10 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Increase transmission power for 3238323_2 by 5 dBm"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease transmission power for 3238323_2 by 4 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Adjust the azimuth of 3264914_1 by 25 degrees towards the UE"
+        },
+        {
+          "id": "C12",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C13",
+          "label": "Increase A3 Offset threshold for 3238323_2 by 3 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3264914_1 by 8 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3238323_2"
+        },
+        {
+          "id": "C16",
+          "label": "Increase A3 Offset threshold for 3264914_1 by 4 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease A3 Offset threshold for 3264914_1 by 4 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Adjust the azimuth of 3238323_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C19",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C20",
+          "label": "Press down the tilt angle of 3238323_2 by 10 degrees"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease A3 Offset threshold for 3238323_2 by 2 dB"
+        },
+        {
+          "id": "C22",
+          "label": "Add neighbor relationship between 3226902_3 and 3238323_2"
+        },
+        {
+          "id": "C23",
+          "label": "Decrease transmission power for 3264914_1 by 4 dBm"
+        },
+        {
+          "id": "C24",
+          "label": "Lift the tilt angle of 3238323_2 by 10 degrees"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "6060dca7-32c8-4cd8-adef-425aa1aec774",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Press down the tilt angle of 3258232_1 by 6 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Increase transmission power for 3214389_4 by 4 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Press down the tilt angle of 3214389_4 by 10 degrees"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3258232_1 by 7 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease A3 Offset threshold for 3258232_1 by 2 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3258232_1 by 6 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Adjust the azimuth of 3258232_1 by 36 degrees towards the UE"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease A3 Offset threshold for 3214389_4 by 4 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease transmission power for 3258232_1 by 4 dBm"
+        },
+        {
+          "id": "C10",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3214389_4"
+        },
+        {
+          "id": "C11",
+          "label": "Adjust the azimuth of 3214389_4 by 30 degrees towards the UE"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3258232_1 by 19 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Add neighbor relationship between 3258232_1 and 3214389_4"
+        },
+        {
+          "id": "C14",
+          "label": "Lift the tilt angle of 3214389_4 by 10 degrees"
+        },
+        {
+          "id": "C15",
+          "label": "Increase A3 Offset threshold for 3258232_1 by 3 dB"
+        },
+        {
+          "id": "C16",
+          "label": "Increase transmission power for 3258232_1 by 4 dBm"
+        },
+        {
+          "id": "C17",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3258232_1"
+        },
+        {
+          "id": "C18",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C19",
+          "label": "Add neighbor relationship between 3277710_3 and 3214389_4"
+        },
+        {
+          "id": "C20",
+          "label": "Increase A3 Offset threshold for 3214389_4 by 6 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease transmission power for 3214389_4 by 4 dBm"
+        },
+        {
+          "id": "C22",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C23",
+          "label": "Lift the tilt angle of 3258232_1 by 6 degrees"
+        },
+        {
+          "id": "C24",
+          "label": "Adjust the azimuth of 3214389_4 by 50 degrees towards the UE"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "f3a881f3-2a7c-4065-85b6-fc210962372f",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3266188_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Adjust the azimuth of 3253222_4 by 35 degrees towards the UE"
+        },
+        {
+          "id": "C3",
+          "label": "Adjust the azimuth of 3253222_4 by 16 degrees towards the UE"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3253222_4 by 6 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Lift the tilt angle of 3266188_2 by 10 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Increase transmission power for 3266188_2 by 4 dBm"
+        },
+        {
+          "id": "C7",
+          "label": "Press down the tilt angle of 3266188_2 by 10 degrees"
+        },
+        {
+          "id": "C8",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease transmission power for 3253222_4 by 6 dBm"
+        },
+        {
+          "id": "C10",
+          "label": "Increase transmission power for 3253222_4 by 4 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Increase A3 Offset threshold for 3266188_2 by 1 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Press down the tilt angle of 3253222_4 by 5 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3253222_4 by 7 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3253222_4"
+        },
+        {
+          "id": "C15",
+          "label": "Add neighbor relationship between 3253222_4 and 3266188_2"
+        },
+        {
+          "id": "C16",
+          "label": "Lift the tilt angle of 3253222_4 by 5 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Add neighbor relationship between 3244721_3 and 3266188_2"
+        },
+        {
+          "id": "C18",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3266188_2"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease A3 Offset threshold for 3266188_2 by 3 dB"
+        },
+        {
+          "id": "C20",
+          "label": "Adjust the azimuth of 3266188_2 by 31 degrees towards the UE"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease A3 Offset threshold for 3253222_4 by 2 dB"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease transmission power for 3266188_2 by 6 dBm"
+        },
+        {
+          "id": "C23",
+          "label": "Increase A3 Offset threshold for 3253222_4 by 5 dB"
+        },
+        {
+          "id": "C24",
+          "label": "Insufficient data; more data is needed for judgment."
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "10f63584-28ba-4a37-b5ad-084c2418800c",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase A3 Offset threshold for 3216019_4 by 4 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease transmission power for 3216019_4 by 4 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3228003_3 by 11 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Increase transmission power for 3228003_3 by 5 dBm"
+        },
+        {
+          "id": "C5",
+          "label": "Lift the tilt angle of 3228003_3 by 5 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C7",
+          "label": "Press down the tilt angle of 3216019_4 by 10 degrees"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease A3 Offset threshold for 3228003_3 by 3 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Add neighbor relationship between 3228003_3 and 3216019_4"
+        },
+        {
+          "id": "C10",
+          "label": "Lift the tilt angle of 3216019_4 by 10 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Add neighbor relationship between 3250099_2 and 3216019_4"
+        },
+        {
+          "id": "C12",
+          "label": "Press down the tilt angle of 3228003_3 by 5 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease transmission power for 3228003_3 by 4 dBm"
+        },
+        {
+          "id": "C14",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3216019_4"
+        },
+        {
+          "id": "C15",
+          "label": "Adjust the azimuth of 3228003_3 by 22 degrees towards the UE"
+        },
+        {
+          "id": "C16",
+          "label": "Increase A3 Offset threshold for 3228003_3 by 4 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Adjust the azimuth of 3216019_4 by 20 degrees towards the UE"
+        },
+        {
+          "id": "C18",
+          "label": "Increase transmission power for 3216019_4 by 5 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3228003_3"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease A3 Offset threshold for 3216019_4 by 1 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Adjust the azimuth of 3228003_3 by 7 degrees towards the UE"
+        },
+        {
+          "id": "C22",
+          "label": "Adjust the azimuth of 3216019_4 by 32 degrees towards the UE"
+        },
+        {
+          "id": "C23",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3228003_3 by 8 dB"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "4977d843-18af-47e7-87dd-f3a99ad8306c",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3221389_1 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3255086_2 by 7 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Press down the tilt angle of 3221389_1 by 10 degrees"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease transmission power for 3255086_2 by 2 dBm"
+        },
+        {
+          "id": "C5",
+          "label": "Increase A3 Offset threshold for 3255086_2 by 6 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Increase A3 Offset threshold for 3221389_1 by 3 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Lift the tilt angle of 3255086_2 by 3 degrees"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease A3 Offset threshold for 3221389_1 by 3 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Increase transmission power for 3221389_1 by 2 dBm"
+        },
+        {
+          "id": "C10",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3255086_2"
+        },
+        {
+          "id": "C11",
+          "label": "Press down the tilt angle of 3255086_2 by 3 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Lift the tilt angle of 3221389_1 by 10 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C14",
+          "label": "Adjust the azimuth of 3255086_2 by 44 degrees towards the UE"
+        },
+        {
+          "id": "C15",
+          "label": "Adjust the azimuth of 3221389_1 by 31 degrees towards the UE"
+        },
+        {
+          "id": "C16",
+          "label": "Adjust the azimuth of 3255086_2 by 34 degrees towards the UE"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3255086_2 by 5 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease A3 Offset threshold for 3255086_2 by 6 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3221389_1"
+        },
+        {
+          "id": "C20",
+          "label": "Increase transmission power for 3255086_2 by 2 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Add neighbor relationship between 3255086_2 and 3221389_1"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease transmission power for 3221389_1 by 2 dBm"
+        },
+        {
+          "id": "C23",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C24",
+          "label": "Add neighbor relationship between 3228842_3 and 3221389_1"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "fcff6672-f6eb-46d4-83e9-5c6d86e4d90d",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3240087_3 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Add neighbor relationship between 3264967_2 and 3216630_4"
+        },
+        {
+          "id": "C3",
+          "label": "Add neighbor relationship between 3240087_3 and 3216630_4"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease A3 Offset threshold for 3216630_4 by 4 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Press down the tilt angle of 3216630_4 by 10 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3240087_3"
+        },
+        {
+          "id": "C7",
+          "label": "Decrease transmission power for 3240087_3 by 7 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3240087_3 by 5 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Increase A3 Offset threshold for 3240087_3 by 5 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Lift the tilt angle of 3216630_4 by 10 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Increase transmission power for 3216630_4 by 3 dBm"
+        },
+        {
+          "id": "C12",
+          "label": "Increase A3 Offset threshold for 3216630_4 by 2 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3240087_3 by 10 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease A3 Offset threshold for 3240087_3 by 3 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Adjust the azimuth of 3216630_4 by 39 degrees towards the UE"
+        },
+        {
+          "id": "C16",
+          "label": "Lift the tilt angle of 3240087_3 by 5 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Adjust the azimuth of 3240087_3 by 15 degrees towards the UE"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease transmission power for 3216630_4 by 7 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3216630_4"
+        },
+        {
+          "id": "C20",
+          "label": "Press down the tilt angle of 3240087_3 by 5 degrees"
+        },
+        {
+          "id": "C21",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C22",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3216630_4 by 27 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Increase transmission power for 3240087_3 by 3 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "b63bb459-a261-4901-98a7-945f320dae84",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase A3 Offset threshold for 3237658_3 by 4 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Adjust the azimuth of 3237658_3 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C3",
+          "label": "Adjust the azimuth of 3226671_4 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C4",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C5",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3226671_4"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3226671_4 by 11 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Increase transmission power for 3237658_3 by 4 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C9",
+          "label": "Adjust the azimuth of 3226671_4 by 22 degrees towards the UE"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease transmission power for 3226671_4 by 1 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Decrease A3 Offset threshold for 3237658_3 by 1 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Lift the tilt angle of 3237658_3 by 10 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease A3 Offset threshold for 3226671_4 by 1 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Add neighbor relationship between 3226671_4 and 3237658_3"
+        },
+        {
+          "id": "C15",
+          "label": "Increase A3 Offset threshold for 3226671_4 by 1 dB"
+        },
+        {
+          "id": "C16",
+          "label": "Lift the tilt angle of 3226671_4 by 3 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Increase transmission power for 3226671_4 by 4 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Add neighbor relationship between 3214163_2 and 3237658_3"
+        },
+        {
+          "id": "C19",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3237658_3"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease transmission power for 3237658_3 by 1 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Adjust the azimuth of 3237658_3 by 36 degrees towards the UE"
+        },
+        {
+          "id": "C22",
+          "label": "Press down the tilt angle of 3226671_4 by 3 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Press down the tilt angle of 3237658_3 by 10 degrees"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3226671_4 by 7 dB"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "f43ee4bb-ca0a-4771-b20e-cd36cd093281",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C2",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C3",
+          "label": "Increase A3 Offset threshold for 3243975_2 by 1 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3243975_2 by 5 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3243975_2"
+        },
+        {
+          "id": "C6",
+          "label": "Add neighbor relationship between 3243975_2 and 3252913_1"
+        },
+        {
+          "id": "C7",
+          "label": "Increase A3 Offset threshold for 3252913_1 by 5 dB"
+        },
+        {
+          "id": "C8",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3252913_1"
+        },
+        {
+          "id": "C9",
+          "label": "Press down the tilt angle of 3252913_1 by 10 degrees"
+        },
+        {
+          "id": "C10",
+          "label": "Lift the tilt angle of 3252913_1 by 10 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Press down the tilt angle of 3243975_2 by 4 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3243975_2 by 6 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease A3 Offset threshold for 3252913_1 by 3 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease transmission power for 3243975_2 by 7 dBm"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease transmission power for 3252913_1 by 7 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Increase transmission power for 3243975_2 by 3 dBm"
+        },
+        {
+          "id": "C17",
+          "label": "Lift the tilt angle of 3243975_2 by 4 degrees"
+        },
+        {
+          "id": "C18",
+          "label": "Adjust the azimuth of 3252913_1 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3243975_2 by 10 dB"
+        },
+        {
+          "id": "C20",
+          "label": "Increase transmission power for 3252913_1 by 3 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease A3 Offset threshold for 3243975_2 by 5 dB"
+        },
+        {
+          "id": "C22",
+          "label": "Adjust the azimuth of 3243975_2 by 26 degrees towards the UE"
+        },
+        {
+          "id": "C23",
+          "label": "Add neighbor relationship between 3210271_3 and 3252913_1"
+        },
+        {
+          "id": "C24",
+          "label": "Adjust the azimuth of 3252913_1 by 30 degrees towards the UE"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "72d41141-5395-417b-ae27-744051a16651",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Lift the tilt angle of 3248780_2 by 10 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease A3 Offset threshold for 3248780_2 by 4 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Add neighbor relationship between 3212548_1 and 3248780_2"
+        },
+        {
+          "id": "C4",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3212548_1"
+        },
+        {
+          "id": "C5",
+          "label": "Press down the tilt angle of 3212548_1 by 2 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease transmission power for 3212548_1 by 6 dBm"
+        },
+        {
+          "id": "C7",
+          "label": "Decrease transmission power for 3248780_2 by 6 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Adjust the azimuth of 3248780_2 by 32 degrees towards the UE"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease A3 Offset threshold for 3212548_1 by 3 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Add neighbor relationship between 3265286_4 and 3248780_2"
+        },
+        {
+          "id": "C11",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3248780_2"
+        },
+        {
+          "id": "C12",
+          "label": "Lift the tilt angle of 3212548_1 by 2 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3212548_1 by 6 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Adjust the azimuth of 3212548_1 by 30 degrees towards the UE"
+        },
+        {
+          "id": "C15",
+          "label": "Press down the tilt angle of 3248780_2 by 10 degrees"
+        },
+        {
+          "id": "C16",
+          "label": "Increase A3 Offset threshold for 3248780_2 by 1 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Adjust the azimuth of 3212548_1 by 41 degrees towards the UE"
+        },
+        {
+          "id": "C18",
+          "label": "Increase A3 Offset threshold for 3212548_1 by 4 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Increase transmission power for 3248780_2 by 3 dBm"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3212548_1 by 8 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C22",
+          "label": "Increase transmission power for 3212548_1 by 3 dBm"
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3248780_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Check test server and transmission issues"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "3de3a430-2e56-4ebf-a849-674ecae67d4b",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3234030_4 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Increase A3 Offset threshold for 3234030_4 by 5 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3279732_1"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease A3 Offset threshold for 3279732_1 by 5 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Add neighbor relationship between 3235119_2 and 3234030_4"
+        },
+        {
+          "id": "C6",
+          "label": "Lift the tilt angle of 3234030_4 by 5 degrees"
+        },
+        {
+          "id": "C7",
+          "label": "Increase transmission power for 3234030_4 by 4 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Add neighbor relationship between 3279732_1 and 3234030_4"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease A3 Offset threshold for 3234030_4 by 3 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Increase transmission power for 3279732_1 by 4 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Adjust the azimuth of 3279732_1 by 20 degrees towards the UE"
+        },
+        {
+          "id": "C12",
+          "label": "Increase A3 Offset threshold for 3279732_1 by 4 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3234030_4 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Press down the tilt angle of 3279732_1 by 6 degrees"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease transmission power for 3234030_4 by 6 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Lift the tilt angle of 3279732_1 by 6 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3279732_1 by 5 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C19",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3279732_1 by 10 dB"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease transmission power for 3279732_1 by 6 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3234030_4"
+        },
+        {
+          "id": "C22",
+          "label": "Press down the tilt angle of 3234030_4 by 5 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3279732_1 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Check test server and transmission issues"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "689ff6bc-b877-47c5-92c0-f66e168a9129",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3221096_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Adjust the azimuth of 3221096_2 by 30 degrees towards the UE"
+        },
+        {
+          "id": "C3",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3214577_3"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease transmission power for 3221096_2 by 3 dBm"
+        },
+        {
+          "id": "C5",
+          "label": "Press down the tilt angle of 3221096_2 by 10 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Press down the tilt angle of 3214577_3 by 6 degrees"
+        },
+        {
+          "id": "C7",
+          "label": "Decrease transmission power for 3214577_3 by 3 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3214577_3 by 10 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Lift the tilt angle of 3221096_2 by 10 degrees"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3214577_3 by 6 dB"
+        },
+        {
+          "id": "C11",
+          "label": "Lift the tilt angle of 3214577_3 by 6 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C13",
+          "label": "Add neighbor relationship between 3239641_1 and 3221096_2"
+        },
+        {
+          "id": "C14",
+          "label": "Increase transmission power for 3221096_2 by 2 dBm"
+        },
+        {
+          "id": "C15",
+          "label": "Increase transmission power for 3214577_3 by 2 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Adjust the azimuth of 3214577_3 by 32 degrees towards the UE"
+        },
+        {
+          "id": "C17",
+          "label": "Increase A3 Offset threshold for 3214577_3 by 6 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Increase A3 Offset threshold for 3221096_2 by 2 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Add neighbor relationship between 3214577_3 and 3221096_2"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease A3 Offset threshold for 3221096_2 by 5 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3221096_2"
+        },
+        {
+          "id": "C22",
+          "label": "Adjust the azimuth of 3214577_3 by 18 degrees towards the UE"
+        },
+        {
+          "id": "C23",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C24",
+          "label": "Decrease A3 Offset threshold for 3214577_3 by 5 dB"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "0b5ba024-af2f-4d50-9c87-83803cd4c61d",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C2",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3261962_3"
+        },
+        {
+          "id": "C3",
+          "label": "Press down the tilt angle of 3250534_2 by 3 degrees"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3250534_2 by 20 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Increase transmission power for 3261962_3 by 4 dBm"
+        },
+        {
+          "id": "C6",
+          "label": "Adjust the azimuth of 3261962_3 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C7",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C8",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3250534_2"
+        },
+        {
+          "id": "C9",
+          "label": "Press down the tilt angle of 3261962_3 by 10 degrees"
+        },
+        {
+          "id": "C10",
+          "label": "Lift the tilt angle of 3261962_3 by 10 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Lift the tilt angle of 3250534_2 by 3 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Increase A3 Offset threshold for 3261962_3 by 6 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3250534_2 by 38 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease A3 Offset threshold for 3250534_2 by 1 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3250534_2 by 11 dB"
+        },
+        {
+          "id": "C16",
+          "label": "Increase A3 Offset threshold for 3250534_2 by 4 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Adjust the azimuth of 3261962_3 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C18",
+          "label": "Add neighbor relationship between 3240993_1 and 3261962_3"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease transmission power for 3250534_2 by 8 dBm"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease transmission power for 3261962_3 by 8 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Add neighbor relationship between 3250534_2 and 3261962_3"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3250534_2 by 9 dB"
+        },
+        {
+          "id": "C23",
+          "label": "Decrease A3 Offset threshold for 3261962_3 by 6 dB"
+        },
+        {
+          "id": "C24",
+          "label": "Increase transmission power for 3250534_2 by 4 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "3eccaf22-9c49-4e87-8ac7-19bb514b1b04",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C2",
+          "label": "Lift the tilt angle of 3223996_4 by 2 degrees"
+        },
+        {
+          "id": "C3",
+          "label": "Lift the tilt angle of 3260554_1 by 7 degrees"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3260554_1 by 36 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3223996_4 by 6 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease A3 Offset threshold for 3223996_4 by 2 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Increase transmission power for 3223996_4 by 4 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease A3 Offset threshold for 3260554_1 by 4 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3223996_4 by 8 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Increase transmission power for 3260554_1 by 4 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Press down the tilt angle of 3260554_1 by 7 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3260554_1 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease transmission power for 3223996_4 by 4 dBm"
+        },
+        {
+          "id": "C15",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3223996_4"
+        },
+        {
+          "id": "C16",
+          "label": "Increase A3 Offset threshold for 3223996_4 by 6 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Add neighbor relationship between 3223996_4 and 3260554_1"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease transmission power for 3260554_1 by 4 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Press down the tilt angle of 3223996_4 by 2 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Adjust the azimuth of 3223996_4 by 10 degrees towards the UE"
+        },
+        {
+          "id": "C21",
+          "label": "Increase A3 Offset threshold for 3260554_1 by 5 dB"
+        },
+        {
+          "id": "C22",
+          "label": "Add neighbor relationship between 3242209_2 and 3260554_1"
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3223996_4 by 20 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3260554_1"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "44f266a0-8295-4d30-9854-ba1cc449901d",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase transmission power for 3217745_3 by 4 dBm"
+        },
+        {
+          "id": "C2",
+          "label": "Adjust the azimuth of 3217745_3 by 38 degrees towards the UE"
+        },
+        {
+          "id": "C3",
+          "label": "Decrease A3 Offset threshold for 3217745_3 by 3 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3275879_2 by 10 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Adjust the azimuth of 3275879_2 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3275879_2 by 11 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Add neighbor relationship between 3239395_1 and 3217745_3"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease A3 Offset threshold for 3275879_2 by 2 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3217745_3"
+        },
+        {
+          "id": "C10",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3275879_2"
+        },
+        {
+          "id": "C11",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C12",
+          "label": "Lift the tilt angle of 3217745_3 by 10 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Lift the tilt angle of 3275879_2 by 2 degrees"
+        },
+        {
+          "id": "C14",
+          "label": "Press down the tilt angle of 3275879_2 by 2 degrees"
+        },
+        {
+          "id": "C15",
+          "label": "Add neighbor relationship between 3275879_2 and 3217745_3"
+        },
+        {
+          "id": "C16",
+          "label": "Decrease transmission power for 3275879_2 by 7 dBm"
+        },
+        {
+          "id": "C17",
+          "label": "Increase transmission power for 3275879_2 by 4 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease transmission power for 3217745_3 by 7 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Adjust the azimuth of 3217745_3 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C20",
+          "label": "Increase A3 Offset threshold for 3275879_2 by 3 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Adjust the azimuth of 3275879_2 by 14 degrees towards the UE"
+        },
+        {
+          "id": "C22",
+          "label": "Press down the tilt angle of 3217745_3 by 10 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Increase A3 Offset threshold for 3217745_3 by 5 dB"
+        },
+        {
+          "id": "C24",
+          "label": "Insufficient data; more data is needed for judgment."
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "5622037e-9be6-4408-958b-6ac8d158af1b",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase transmission power for 3216148_2 by 3 dBm"
+        },
+        {
+          "id": "C2",
+          "label": "Press down the tilt angle of 3212136_3 by 10 degrees"
+        },
+        {
+          "id": "C3",
+          "label": "Increase transmission power for 3212136_3 by 3 dBm"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3216148_2 by 16 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3216148_2 by 7 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3216148_2"
+        },
+        {
+          "id": "C7",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C8",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3212136_3"
+        },
+        {
+          "id": "C9",
+          "label": "Increase A3 Offset threshold for 3216148_2 by 6 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Increase A3 Offset threshold for 3212136_3 by 3 dB"
+        },
+        {
+          "id": "C11",
+          "label": "Add neighbor relationship between 3236214_1 and 3212136_3"
+        },
+        {
+          "id": "C12",
+          "label": "Decrease A3 Offset threshold for 3212136_3 by 2 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Add neighbor relationship between 3216148_2 and 3212136_3"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease A3 Offset threshold for 3216148_2 by 2 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C16",
+          "label": "Adjust the azimuth of 3216148_2 by 26 degrees towards the UE"
+        },
+        {
+          "id": "C17",
+          "label": "Press down the tilt angle of 3216148_2 by 4 degrees"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease transmission power for 3212136_3 by 4 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Lift the tilt angle of 3216148_2 by 4 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Adjust the azimuth of 3212136_3 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease transmission power for 3216148_2 by 4 dBm"
+        },
+        {
+          "id": "C22",
+          "label": "Lift the tilt angle of 3212136_3 by 10 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3212136_3 by 35 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3216148_2 by 7 dB"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "f2cb0cff-fafa-494e-9d5e-364a685b742a",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Press down the tilt angle of 3257915_4 by 8 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Increase A3 Offset threshold for 3257915_4 by 1 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Adjust the azimuth of 3235570_2 by 44 degrees towards the UE"
+        },
+        {
+          "id": "C4",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C5",
+          "label": "Decrease transmission power for 3257915_4 by 1 dBm"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3235570_2 by 11 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Increase A3 Offset threshold for 3235570_2 by 4 dB"
+        },
+        {
+          "id": "C8",
+          "label": "Lift the tilt angle of 3257915_4 by 8 degrees"
+        },
+        {
+          "id": "C9",
+          "label": "Add neighbor relationship between 3210605_1 and 3257915_4"
+        },
+        {
+          "id": "C10",
+          "label": "Add neighbor relationship between 3235570_2 and 3257915_4"
+        },
+        {
+          "id": "C11",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C12",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3235570_2 by 11 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease A3 Offset threshold for 3257915_4 by 1 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease transmission power for 3235570_2 by 1 dBm"
+        },
+        {
+          "id": "C15",
+          "label": "Adjust the azimuth of 3257915_4 by 38 degrees towards the UE"
+        },
+        {
+          "id": "C16",
+          "label": "Adjust the azimuth of 3235570_2 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C17",
+          "label": "Adjust the azimuth of 3257915_4 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C18",
+          "label": "Increase transmission power for 3235570_2 by 3 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Press down the tilt angle of 3235570_2 by 2 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Lift the tilt angle of 3235570_2 by 2 degrees"
+        },
+        {
+          "id": "C21",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3257915_4"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease A3 Offset threshold for 3235570_2 by 6 dB"
+        },
+        {
+          "id": "C23",
+          "label": "Increase transmission power for 3257915_4 by 3 dBm"
+        },
+        {
+          "id": "C24",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3235570_2"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "4285e888-22c3-4caa-a245-81d76d891757",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C2",
+          "label": "Adjust the azimuth of 3260814_4 by 24 degrees towards the UE"
+        },
+        {
+          "id": "C3",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3260814_4"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3260814_4 by 41 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Increase A3 Offset threshold for 3260814_4 by 5 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Increase transmission power for 3259230_1 by 3 dBm"
+        },
+        {
+          "id": "C7",
+          "label": "Adjust the azimuth of 3259230_1 by 34 degrees towards the UE"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease A3 Offset threshold for 3259230_1 by 4 dB"
+        },
+        {
+          "id": "C9",
+          "label": "Increase transmission power for 3260814_4 by 3 dBm"
+        },
+        {
+          "id": "C10",
+          "label": "Add neighbor relationship between 3266451_2 and 3259230_1"
+        },
+        {
+          "id": "C11",
+          "label": "Adjust the azimuth of 3259230_1 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C12",
+          "label": "Decrease transmission power for 3260814_4 by 6 dBm"
+        },
+        {
+          "id": "C13",
+          "label": "Add neighbor relationship between 3260814_4 and 3259230_1"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease transmission power for 3259230_1 by 6 dBm"
+        },
+        {
+          "id": "C15",
+          "label": "Lift the tilt angle of 3259230_1 by 10 degrees"
+        },
+        {
+          "id": "C16",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3259230_1"
+        },
+        {
+          "id": "C17",
+          "label": "Press down the tilt angle of 3260814_4 by 4 degrees"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3260814_4 by 7 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C20",
+          "label": "Increase A3 Offset threshold for 3259230_1 by 5 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3260814_4 by 9 dB"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease A3 Offset threshold for 3260814_4 by 6 dB"
+        },
+        {
+          "id": "C23",
+          "label": "Press down the tilt angle of 3259230_1 by 10 degrees"
+        },
+        {
+          "id": "C24",
+          "label": "Lift the tilt angle of 3260814_4 by 4 degrees"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "999685d2-dd51-4856-8dd7-e15fdf02513f",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Decrease A3 Offset threshold for 3276932_4 by 1 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Increase A3 Offset threshold for 3276932_4 by 3 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Adjust the azimuth of 3276932_4 by 36 degrees towards the UE"
+        },
+        {
+          "id": "C4",
+          "label": "Lift the tilt angle of 3228573_3 by 3 degrees"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease transmission power for 3276932_4 by 5 dBm"
+        },
+        {
+          "id": "C6",
+          "label": "Decrease A3 Offset threshold for 3228573_3 by 5 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3228573_3 by 5 dB"
+        },
+        {
+          "id": "C8",
+          "label": "Add neighbor relationship between 3228573_3 and 3276932_4"
+        },
+        {
+          "id": "C9",
+          "label": "Adjust the azimuth of 3276932_4 by 17 degrees towards the UE"
+        },
+        {
+          "id": "C10",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C11",
+          "label": "Increase transmission power for 3228573_3 by 2 dBm"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3228573_3 by 28 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Press down the tilt angle of 3228573_3 by 3 degrees"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3228573_3 by 8 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Increase transmission power for 3276932_4 by 2 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3276932_4"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease transmission power for 3228573_3 by 5 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Adjust the azimuth of 3228573_3 by 42 degrees towards the UE"
+        },
+        {
+          "id": "C19",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3228573_3"
+        },
+        {
+          "id": "C20",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C21",
+          "label": "Lift the tilt angle of 3276932_4 by 10 degrees"
+        },
+        {
+          "id": "C22",
+          "label": "Press down the tilt angle of 3276932_4 by 10 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Add neighbor relationship between 3241858_2 and 3276932_4"
+        },
+        {
+          "id": "C24",
+          "label": "Increase A3 Offset threshold for 3228573_3 by 3 dB"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "37020348-6b81-4098-9e53-8ece23158960",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase transmission power for 3236929_4 by 4 dBm"
+        },
+        {
+          "id": "C2",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3241150_1"
+        },
+        {
+          "id": "C3",
+          "label": "Add neighbor relationship between 3236929_4 and 3241150_1"
+        },
+        {
+          "id": "C4",
+          "label": "Modify PdcchOccupiedSymbolNum to 2SYM for 3236929_4"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3236929_4 by 10 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Adjust the azimuth of 3236929_4 by 47 degrees towards the UE"
+        },
+        {
+          "id": "C7",
+          "label": "Lift the tilt angle of 3241150_1 by 6 degrees"
+        },
+        {
+          "id": "C8",
+          "label": "Lift the tilt angle of 3236929_4 by 4 degrees"
+        },
+        {
+          "id": "C9",
+          "label": "Increase A3 Offset threshold for 3241150_1 by 6 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Increase transmission power for 3241150_1 by 4 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Increase A3 Offset threshold for 3236929_4 by 1 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3241150_1 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3241150_1 by 32 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3236929_4 by 5 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Press down the tilt angle of 3241150_1 by 6 degrees"
+        },
+        {
+          "id": "C16",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease transmission power for 3236929_4 by 4 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C19",
+          "label": "Press down the tilt angle of 3236929_4 by 4 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease A3 Offset threshold for 3236929_4 by 1 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Adjust the azimuth of 3236929_4 by 28 degrees towards the UE"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease A3 Offset threshold for 3241150_1 by 4 dB"
+        },
+        {
+          "id": "C23",
+          "label": "Decrease transmission power for 3241150_1 by 4 dBm"
+        },
+        {
+          "id": "C24",
+          "label": "Add neighbor relationship between 3237744_2 and 3241150_1"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "1784b64c-3a27-4056-9aec-aaac8cdd284e",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3225579_3 by 33 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease transmission power for 3225579_3 by 4 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Decrease A3 Offset threshold for 3225579_3 by 3 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Decrease A3 Offset threshold for 3230583_2 by 6 dB"
+        },
+        {
+          "id": "C5",
+          "label": "Increase A3 Offset threshold for 3230583_2 by 4 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C7",
+          "label": "Increase A3 Offset threshold for 3225579_3 by 4 dB"
+        },
+        {
+          "id": "C8",
+          "label": "Increase transmission power for 3230583_2 by 2 dBm"
+        },
+        {
+          "id": "C9",
+          "label": "Press down the tilt angle of 3225579_3 by 5 degrees"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3225579_3 by 9 dB"
+        },
+        {
+          "id": "C11",
+          "label": "Adjust the azimuth of 3230583_2 by 31 degrees towards the UE"
+        },
+        {
+          "id": "C12",
+          "label": "Add neighbor relationship between 3225579_3 and 3230583_2"
+        },
+        {
+          "id": "C13",
+          "label": "Decrease transmission power for 3230583_2 by 4 dBm"
+        },
+        {
+          "id": "C14",
+          "label": "Adjust the azimuth of 3230583_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C15",
+          "label": "Add neighbor relationship between 3253074_1 and 3230583_2"
+        },
+        {
+          "id": "C16",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3225579_3 by 11 dB"
+        },
+        {
+          "id": "C17",
+          "label": "Increase transmission power for 3225579_3 by 2 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Lift the tilt angle of 3230583_2 by 10 degrees"
+        },
+        {
+          "id": "C19",
+          "label": "Press down the tilt angle of 3230583_2 by 10 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C21",
+          "label": "Lift the tilt angle of 3225579_3 by 5 degrees"
+        },
+        {
+          "id": "C22",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3225579_3"
+        },
+        {
+          "id": "C23",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3230583_2"
+        },
+        {
+          "id": "C24",
+          "label": "Adjust the azimuth of 3225579_3 by 23 degrees towards the UE"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "35463299-505f-4fd8-b0f1-d6f8aee6aa53",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Lift the tilt angle of 3239448_1 by 3 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Increase A3 Offset threshold for 3211036_3 by 6 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Decrease transmission power for 3211036_3 by 6 dBm"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3211036_3 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3211036_3"
+        },
+        {
+          "id": "C6",
+          "label": "Press down the tilt angle of 3239448_1 by 3 degrees"
+        },
+        {
+          "id": "C7",
+          "label": "Lift the tilt angle of 3211036_3 by 6 degrees"
+        },
+        {
+          "id": "C8",
+          "label": "Increase transmission power for 3239448_1 by 4 dBm"
+        },
+        {
+          "id": "C9",
+          "label": "Add neighbor relationship between 3221999_4 and 3211036_3"
+        },
+        {
+          "id": "C10",
+          "label": "Press down the tilt angle of 3211036_3 by 6 degrees"
+        },
+        {
+          "id": "C11",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3239448_1 by 11 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Increase A3 Offset threshold for 3239448_1 by 2 dB"
+        },
+        {
+          "id": "C14",
+          "label": "Adjust the azimuth of 3211036_3 by 39 degrees towards the UE"
+        },
+        {
+          "id": "C15",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C16",
+          "label": "Adjust the azimuth of 3239448_1 by 29 degrees towards the UE"
+        },
+        {
+          "id": "C17",
+          "label": "Add neighbor relationship between 3239448_1 and 3211036_3"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease A3 Offset threshold for 3211036_3 by 5 dB"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3239448_1 by 11 dB"
+        },
+        {
+          "id": "C20",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3239448_1"
+        },
+        {
+          "id": "C21",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3239448_1 by 5 dB"
+        },
+        {
+          "id": "C22",
+          "label": "Increase transmission power for 3211036_3 by 4 dBm"
+        },
+        {
+          "id": "C23",
+          "label": "Decrease A3 Offset threshold for 3239448_1 by 3 dB"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease transmission power for 3239448_1 by 6 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "0e4eb0cd-19c2-4f4d-b045-7e25a7a4ba12",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3252493_4 by 11 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease A3 Offset threshold for 3263639_2 by 4 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3263639_2"
+        },
+        {
+          "id": "C4",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C5",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3252493_4"
+        },
+        {
+          "id": "C6",
+          "label": "Increase transmission power for 3252493_4 by 5 dBm"
+        },
+        {
+          "id": "C7",
+          "label": "Increase A3 Offset threshold for 3263639_2 by 2 dB"
+        },
+        {
+          "id": "C8",
+          "label": "Lift the tilt angle of 3263639_2 by 10 degrees"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3252493_4 by 6 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease transmission power for 3252493_4 by 9 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Adjust the azimuth of 3252493_4 by 24 degrees towards the UE"
+        },
+        {
+          "id": "C12",
+          "label": "Decrease A3 Offset threshold for 3252493_4 by 3 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3263639_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Adjust the azimuth of 3263639_2 by 39 degrees towards the UE"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease transmission power for 3263639_2 by 9 dBm"
+        },
+        {
+          "id": "C16",
+          "label": "Lift the tilt angle of 3252493_4 by 4 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Press down the tilt angle of 3263639_2 by 10 degrees"
+        },
+        {
+          "id": "C18",
+          "label": "Add neighbor relationship between 3225535_3 and 3263639_2"
+        },
+        {
+          "id": "C19",
+          "label": "Press down the tilt angle of 3252493_4 by 4 degrees"
+        },
+        {
+          "id": "C20",
+          "label": "Increase transmission power for 3263639_2 by 5 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C22",
+          "label": "Increase A3 Offset threshold for 3252493_4 by 5 dB"
+        },
+        {
+          "id": "C23",
+          "label": "Add neighbor relationship between 3252493_4 and 3263639_2"
+        },
+        {
+          "id": "C24",
+          "label": "Adjust the azimuth of 3252493_4 by 12 degrees towards the UE"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "ed2c5525-94c7-4e25-bcd8-d447fd77358d",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Adjust the azimuth of 3252196_4 by 48 degrees towards the UE"
+        },
+        {
+          "id": "C2",
+          "label": "Increase transmission power for 3252196_4 by 2 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3252196_4 by 11 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3252196_4 by 36 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Adjust the azimuth of 3264518_3 by 40 degrees towards the UE"
+        },
+        {
+          "id": "C6",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C7",
+          "label": "Increase transmission power for 3264518_3 by 2 dBm"
+        },
+        {
+          "id": "C8",
+          "label": "Lift the tilt angle of 3252196_4 by 3 degrees"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease A3 Offset threshold for 3264518_3 by 6 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease transmission power for 3252196_4 by 3 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Increase A3 Offset threshold for 3252196_4 by 2 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Decrease A3 Offset threshold for 3252196_4 by 1 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Press down the tilt angle of 3264518_3 by 10 degrees"
+        },
+        {
+          "id": "C14",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C15",
+          "label": "Add neighbor relationship between 3278913_1 and 3264518_3"
+        },
+        {
+          "id": "C16",
+          "label": "Press down the tilt angle of 3252196_4 by 3 degrees"
+        },
+        {
+          "id": "C17",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3252196_4"
+        },
+        {
+          "id": "C18",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3264518_3"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease transmission power for 3264518_3 by 3 dBm"
+        },
+        {
+          "id": "C20",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3252196_4 by 10 dB"
+        },
+        {
+          "id": "C21",
+          "label": "Add neighbor relationship between 3252196_4 and 3264518_3"
+        },
+        {
+          "id": "C22",
+          "label": "Lift the tilt angle of 3264518_3 by 10 degrees"
+        },
+        {
+          "id": "C23",
+          "label": "Increase A3 Offset threshold for 3264518_3 by 6 dB"
+        },
+        {
+          "id": "C24",
+          "label": "Adjust the azimuth of 3264518_3 by 50 degrees towards the UE"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "ec7a63d4-a986-4436-af45-2ae8f799cedf",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Lift the tilt angle of 3226273_1 by 5 degrees"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease transmission power for 3226273_1 by 5 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Increase A3 Offset threshold for 3226273_1 by 3 dB"
+        },
+        {
+          "id": "C4",
+          "label": "Press down the tilt angle of 3226273_1 by 5 degrees"
+        },
+        {
+          "id": "C5",
+          "label": "Lift the tilt angle of 3271719_2 by 10 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Increase A3 Offset threshold for 3271719_2 by 5 dB"
+        },
+        {
+          "id": "C7",
+          "label": "Adjust the azimuth of 3226273_1 by 25 degrees towards the UE"
+        },
+        {
+          "id": "C8",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3226273_1"
+        },
+        {
+          "id": "C9",
+          "label": "Decrease A3 Offset threshold for 3271719_2 by 2 dB"
+        },
+        {
+          "id": "C10",
+          "label": "Increase transmission power for 3226273_1 by 3 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Press down the tilt angle of 3271719_2 by 10 degrees"
+        },
+        {
+          "id": "C12",
+          "label": "Adjust the azimuth of 3226273_1 by 44 degrees towards the UE"
+        },
+        {
+          "id": "C13",
+          "label": "Add neighbor relationship between 3226273_1 and 3271719_2"
+        },
+        {
+          "id": "C14",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3226273_1 by 10 dB"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3226273_1 by 10 dB"
+        },
+        {
+          "id": "C16",
+          "label": "Add neighbor relationship between 3267374_4 and 3271719_2"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease A3 Offset threshold for 3226273_1 by 1 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Adjust the azimuth of 3271719_2 by 30 degrees towards the UE"
+        },
+        {
+          "id": "C19",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C20",
+          "label": "Increase transmission power for 3271719_2 by 3 dBm"
+        },
+        {
+          "id": "C21",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C22",
+          "label": "Adjust the azimuth of 3271719_2 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C23",
+          "label": "Modify PdcchOccupiedSymbolNum to 1SYM for 3271719_2"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease transmission power for 3271719_2 by 5 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "b0719a09-7ef9-427a-b23a-8336baa61d37",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase A3 Offset threshold for 3269424_1 by 5 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Increase transmission power for 3222896_3 by 6 dBm"
+        },
+        {
+          "id": "C3",
+          "label": "Press down the tilt angle of 3269424_1 by 4 degrees"
+        },
+        {
+          "id": "C4",
+          "label": "Adjust the azimuth of 3269424_1 by 42 degrees towards the UE"
+        },
+        {
+          "id": "C5",
+          "label": "Lift the tilt angle of 3222896_3 by 10 degrees"
+        },
+        {
+          "id": "C6",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C7",
+          "label": "Adjust the azimuth of 3269424_1 by 29 degrees towards the UE"
+        },
+        {
+          "id": "C8",
+          "label": "Decrease transmission power for 3269424_1 by 5 dBm"
+        },
+        {
+          "id": "C9",
+          "label": "Press down the tilt angle of 3222896_3 by 10 degrees"
+        },
+        {
+          "id": "C10",
+          "label": "Decrease A3 Offset threshold for 3222896_3 by 4 dB"
+        },
+        {
+          "id": "C11",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C12",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3269424_1 by 6 dB"
+        },
+        {
+          "id": "C13",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3222896_3"
+        },
+        {
+          "id": "C14",
+          "label": "Adjust the azimuth of 3222896_3 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C15",
+          "label": "Increase A3 Offset threshold for 3222896_3 by 1 dB"
+        },
+        {
+          "id": "C16",
+          "label": "Modify PdcchOccupiedSymbolNum to 4SYM for 3269424_1"
+        },
+        {
+          "id": "C17",
+          "label": "Decrease transmission power for 3222896_3 by 5 dBm"
+        },
+        {
+          "id": "C18",
+          "label": "Lift the tilt angle of 3269424_1 by 4 degrees"
+        },
+        {
+          "id": "C19",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3269424_1 by 7 dB"
+        },
+        {
+          "id": "C20",
+          "label": "Adjust the azimuth of 3222896_3 by 32 degrees towards the UE"
+        },
+        {
+          "id": "C21",
+          "label": "Add neighbor relationship between 3232038_2 and 3222896_3"
+        },
+        {
+          "id": "C22",
+          "label": "Decrease A3 Offset threshold for 3269424_1 by 2 dB"
+        },
+        {
+          "id": "C23",
+          "label": "Increase transmission power for 3269424_1 by 6 dBm"
+        },
+        {
+          "id": "C24",
+          "label": "Add neighbor relationship between 3269424_1 and 3222896_3"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  },
+  {
+    "scenario_id": "f37d0166-c908-4e30-a5ad-288188c44a9d",
+    "tag": "single-answer",
+    "task": {
+      "description": "Analyze 5G network drive test data.\nIdentify actionable steps to mitigate or resolve performance issues arising from a significant degradation in user throughput observed during drive testing. Select the most appropriate optimization solution and enclose its number in \\boxed{{}} in the final answer, e.g., \\boxed{{C5}} or \\boxed{{C7}}.",
+      "options": [
+        {
+          "id": "C1",
+          "label": "Increase A3 Offset threshold for 3236313_2 by 6 dB"
+        },
+        {
+          "id": "C2",
+          "label": "Decrease CovInterFreqA2RsrpThld thresholds for 3236313_2 by 11 dB"
+        },
+        {
+          "id": "C3",
+          "label": "Add neighbor relationship between 3233065_1 and 3214749_4"
+        },
+        {
+          "id": "C4",
+          "label": "Lift the tilt angle of 3214749_4 by 4 degrees"
+        },
+        {
+          "id": "C5",
+          "label": "Decrease A3 Offset threshold for 3214749_4 by 6 dB"
+        },
+        {
+          "id": "C6",
+          "label": "Press down the tilt angle of 3214749_4 by 4 degrees"
+        },
+        {
+          "id": "C7",
+          "label": "Check test server and transmission issues"
+        },
+        {
+          "id": "C8",
+          "label": "Adjust the azimuth of 3236313_2 by 14 degrees towards the UE"
+        },
+        {
+          "id": "C9",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3236313_2"
+        },
+        {
+          "id": "C10",
+          "label": "Increase transmission power for 3236313_2 by 2 dBm"
+        },
+        {
+          "id": "C11",
+          "label": "Decrease CovInterFreqA5RsrpThld1 thresholds for 3236313_2 by 8 dB"
+        },
+        {
+          "id": "C12",
+          "label": "Lift the tilt angle of 3236313_2 by 5 degrees"
+        },
+        {
+          "id": "C13",
+          "label": "Adjust the azimuth of 3214749_4 by 50 degrees towards the UE"
+        },
+        {
+          "id": "C14",
+          "label": "Press down the tilt angle of 3236313_2 by 5 degrees"
+        },
+        {
+          "id": "C15",
+          "label": "Decrease A3 Offset threshold for 3236313_2 by 2 dB"
+        },
+        {
+          "id": "C16",
+          "label": "Insufficient data; more data is needed for judgment."
+        },
+        {
+          "id": "C17",
+          "label": "Increase A3 Offset threshold for 3214749_4 by 4 dB"
+        },
+        {
+          "id": "C18",
+          "label": "Decrease transmission power for 3214749_4 by 3 dBm"
+        },
+        {
+          "id": "C19",
+          "label": "Increase transmission power for 3214749_4 by 2 dBm"
+        },
+        {
+          "id": "C20",
+          "label": "Add neighbor relationship between 3236313_2 and 3214749_4"
+        },
+        {
+          "id": "C21",
+          "label": "Modify PdcchOccupiedSymbolNum to 3SYM for 3214749_4"
+        },
+        {
+          "id": "C22",
+          "label": "Adjust the azimuth of 3214749_4 by 39 degrees towards the UE"
+        },
+        {
+          "id": "C23",
+          "label": "Adjust the azimuth of 3236313_2 by 24 degrees towards the UE"
+        },
+        {
+          "id": "C24",
+          "label": "Decrease transmission power for 3236313_2 by 3 dBm"
+        }
+      ],
+      "allowed_tools": "all"
+    },
+    "answer": "To be determined",
+    "context": {
+      "description": "A network engineer conducted drive testing with a user equipment (UE) mounted on a moving vehicle across a region covered by 4 base stations (BSs), simulating a realistic 5G wireless network.",
+      "wireless_network_information": {
+        "network_type": "5G",
+        "num_base_stations": "4",
+        "mobility_scenario": "vehicle-based drive test"
+      }
+    },
+    "data": {
+      "user_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "network_configuration_data": "Please use the API to access the cloud server to retrieve data",
+      "signaling_plane_data": "Please use the API to access the cloud server to retrieve data",
+      "traffic_data": "Please use the API to access the cloud server to retrieve data",
+      "mr_data": "Please use the API to access the cloud server to retrieve data",
+      "notes": "",
+      "collection_method": "Drive testing performed by an engineer"
+    },
+    "tools": {
+      "description": "Analytical tools are provided to retrieve the collected data.",
+      "capabilities": [
+        "data retrieval"
+      ]
+    }
+  }
+]

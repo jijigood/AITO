@@ -1,0 +1,78 @@
+{
+  "csv_rows": 500,
+  "diagnostics_rows": 500,
+  "blank_answers": 0,
+  "bad_answer_format": 0,
+  "track_b_nonblank": 0,
+  "duplicate_ids": 0,
+  "scenario_errors": 0,
+  "api_errors": 0,
+  "api_calls_total": 2562,
+  "api_calls_by_tool": {
+    "get_user_plane_data": 500,
+    "get_config_data": 500,
+    "get_kpi_data": 500,
+    "get_mr_data": 500,
+    "calculate_overlap_ratio": 325,
+    "judge_mainlobe_or_not": 180,
+    "calculate_tilt_angle": 9,
+    "get_user_location": 48
+  },
+  "family_counts": {
+    "F1": 241,
+    "F1_5BS": 28,
+    "F4": 29,
+    "F3": 29,
+    "F2": 145,
+    "F4M": 28
+  },
+  "is_multiple_counts": {
+    "False": 298,
+    "True": 202
+  },
+  "agentic_overlay_allowed": {
+    "True": 269,
+    "False": 231
+  },
+  "agentic_skip_reasons": {
+    "not_single_answer_f1": 231
+  },
+  "agentic_path": {
+    "skipped": 171,
+    "completed": 98
+  },
+  "agentic_branch": {
+    "lift_tilt_vs_insufficient_data": 90,
+    "add_neighbor_vs_decrease_a3": 8
+  },
+  "agentic_confidence": {
+    "high": 61,
+    "low": 17,
+    "medium": 20
+  },
+  "agentic_action": {
+    "insufficient_data": 90,
+    "decrease_a3": 6,
+    "add_neighbor": 2
+  },
+  "agentic_overrides": 1,
+  "multi_answer_agentic_diagnosis": 0,
+  "agentic_errors": 0,
+  "overrides_detail": [
+    {
+      "id": "4285e888-22c3-4caa-a245-81d76d891757",
+      "family": "F1",
+      "branch": "lift_tilt_vs_insufficient_data",
+      "det": "C22",
+      "agentic": "C1",
+      "final": "C1",
+      "confidence": "medium",
+      "root": "insufficient_data",
+      "action": "insufficient_data",
+      "top_reason": "late_handover → decrease_a3/primary (serving cell)"
+    }
+  ],
+  "scenario_error_detail": [],
+  "api_error_detail": [],
+  "agentic_error_detail": []
+}

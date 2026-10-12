@@ -1,0 +1,12 @@
+Local artifacts moved out of /home/huangxiaolin/AITO/V4/Track A on 2026-05-07.
+
+Moved because they are not needed for B/C/D source-code handoff:
+- checkpoints/: LoRA checkpoints and optimizer/model states
+- .rag_cache_v2/: rebuildable local RAG cache
+- logs/: local training logs
+- results/: Phase 2 run outputs, diagnostics, audits, probes, submission candidates
+- archive/: old experiments and legacy docs
+- sft_*.jsonl, heldout_f1_val_ids.txt, curated_train_ids.txt, curation_weights.json, dataset_info.json: A-owned SFT/training artifacts
+- experimental_runners/phase2_agent_v2.py: old standalone Phase 2 experiment runner
+
+The active shared project remains in /home/huangxiaolin/AITO/V4/Track A.

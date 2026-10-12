@@ -1,0 +1,14 @@
+2026-05-06 12:51:56,617 - root - INFO - Scenario ID filter: 1/500 selected
+2026-05-06 12:51:56,617 - root - INFO - Loaded 1 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 12:51:56,638 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-06 12:51:56,698 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V4/Track A/data/Phase_1/train.json
+2026-05-06 12:51:56,698 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 12:51:56,698 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 12:52:11,463 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 12:52:11,483 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] LLM arbitration accepted answer='C13' deterministic='C13' reasons=new_phase2_family:F1_5BS,close_candidate_gap:0.000,non_f1_primary_top_action:press_down_tilt
+2026-05-06 12:52:11,483 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C13' top_candidate={'answer': 'C13', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3256908_4', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-06 12:52:11,483 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 14.8s — answer: 'C13'
+2026-05-06 12:52:11,484 - root - INFO - Saved 1 rows → results/phase2/preflight_proxyfix_qwen35.csv
+2026-05-06 12:52:11,484 - root - INFO - Saved 1 rows → results/phase2/preflight_proxyfix_qwen35.csv
+2026-05-06 12:52:11,484 - root - INFO - 
+Done. 1/1 answered in 15s (avg 14.8s/scenario)

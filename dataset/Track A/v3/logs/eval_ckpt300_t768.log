@@ -1,0 +1,448 @@
+Heldout val scenarios: 200
+[RAG V2] Loading cached structured index...
+[RAG V2] Loaded 2000 cases.
+RAG index built.
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e3e0a301-7a05-4b56-884c-4853b56c3c51] F1 → C7  (73.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e15982ba-fbb6-45bc-8524-4b8b0ae5e34c] F1 → C18  (60.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e39f26f7-37ca-4ddf-8d2b-1bc453479f07] F1 → C2  (62.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fa23ce05-0f52-4e50-ab14-e96da45ed675] F1 → C15  (68.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e66afb91-c051-4871-86bb-7cca3a9e72b5] F1 → C15  (51.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f54b2b10-54b4-46f9-8988-44bb73789b99] F1 → C8  (60.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ebfe7bd4-5adf-4820-9eb1-bd1af89961eb] F1 → C15  (63.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e54d2633-e5c1-4fc6-813b-0a5a40e75349] F1 → C2  (50.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f2f956b8-5c30-4522-825d-f8b93ab7a1c2] Fallback → C20
+[f2f956b8-5c30-4522-825d-f8b93ab7a1c2] F1 → C20  (79.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fc8bedbb-ed2d-44b9-97ea-5eb39fc97907] Fallback → C15
+[fc8bedbb-ed2d-44b9-97ea-5eb39fc97907] F1 → C15  (78.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fbcc235a-e243-4061-a28d-f9066aa45b67] Fallback → C2
+[fbcc235a-e243-4061-a28d-f9066aa45b67] F1 → C2  (78.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dfa8e9f8-6fa8-437b-bad3-d193e2a24ffe] Fallback → C5
+[dfa8e9f8-6fa8-437b-bad3-d193e2a24ffe] F1 → C5  (77.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e1f64207-558d-45ec-ada7-e492d63fbb01] F1 → C22  (62.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f116a3d9-3d58-4fa0-994a-4b089b17a627] F1 → C4  (61.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e6811e56-33dc-48a9-ae09-9fb3bce2293d] F1 → C15  (53.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e4f02195-e1df-4013-8ebf-74c6ef0ac897] F1 → C22  (53.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f10ee3ee-dfc9-4ddb-8b8a-a6d68363eeaf] F1 → C3  (51.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f417c963-6aa8-4f06-b690-3e335fbb202d] F1 → C10  (58.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fd0c48ee-f62a-4be3-b781-b638e49d88cb] F1 → C9  (51.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e2965b1b-c9d9-4e54-abf3-9b23ea906870] F1 → C20  (47.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fc40e74f-b072-4f35-ba2a-a50b397bd263] Fallback → C20
+[fc40e74f-b072-4f35-ba2a-a50b397bd263] F1 → C20  (79.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e66dbb45-38e7-440a-b173-124319e05954] F1 → C12  (68.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fabb6c1d-4ed4-4e30-bacd-d9b3f367388d] F1 → C12  (62.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ea295e35-374b-480f-a247-6677d8d95a4c] F1 → C10  (55.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dfe73feb-0dba-4866-9693-925400baf492] Fallback → C4
+[dfe73feb-0dba-4866-9693-925400baf492] F1 → C4  (77.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f690b619-9a44-4780-b79c-402e1b9c57e8] Fallback → C2
+[f690b619-9a44-4780-b79c-402e1b9c57e8] F1 → C2  (76.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ef9fcc75-377f-471c-abcc-341969a9afec] F1 → C7  (58.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9bab469-977f-49a3-81c5-e043daf4ee99] F1 → C21  (63.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f3790a15-4721-4614-95ea-ecead1f616c1] F1 → C9  (66.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ef6eef32-4873-46ab-ad5a-15f604a0931f] F1 → C21  (59.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dda39d18-c159-4940-b81e-0bf801e1ed6c] F1 → C22  (2.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fe7293d5-c0fd-46c6-99a4-97ee0308f394] F1 → C10  (60.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[df66899a-c289-4df4-9405-f494290b0c48] F1 → C3  (68.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e9583506-e164-41ee-b32e-9f21a02564d5] F1 → C10  (63.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f0121c5b-4fd0-4e2f-adb7-3d7ac5eb94b2] Fallback → C20
+[f0121c5b-4fd0-4e2f-adb7-3d7ac5eb94b2] F1 → C20  (78.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e5015853-a252-4dd0-885b-c4dd1d0ae5e8] F1 → C12  (67.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e3ef95a5-690e-468e-9c42-e57328c6f1c1] F1 → C18  (55.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e1f93ad4-2791-4512-8f53-304883dce499] F1 → C2  (57.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e856e40e-0477-48f1-bee3-d0bcf288d1d4] F1 → C5  (60.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fa40100c-c186-40c9-81b3-d84d5d81ef2d] F1 → C10  (73.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e7370bdc-c917-472b-a4fc-c7b6a9dfe24f] F1 → C16  (2.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[efe35e97-9806-4aa4-8708-508816e22973] F1 → C11  (61.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e32e080a-d3dc-4176-ade8-ef0f5364516c] F1 → C19  (73.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ee1a96e3-30c7-4a3b-b2af-e33e6cda5f24] F1 → C6  (60.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ed6e1a8b-0268-498b-84dd-32b74cab8af2] F1 → C1  (59.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e2719360-d7f6-4df9-8c89-71fadc46bb9d] F1 → C5  (79.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ed67871b-7904-4663-bdf6-ce7fd0a17eb8] F1 → C17  (75.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eccdc0a1-06c7-4bae-a283-8fe5803643aa] F1 → C22  (74.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f1a0d49b-d471-4db8-baaf-ec0c33fb6baf] F1 → C1  (63.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e548909f-fd94-45aa-908f-72a2d0b4d941] F1 → C18  (72.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[df83aee4-52cb-482c-bd3d-ea06ab3b5648] F1 → C7  (53.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[efb96657-c8a8-4cd1-a92b-0a1468ef73e6] F1 → C7  (55.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f53ae612-73f6-4db8-9aae-ee01b2004afe] F1 → C14  (36.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f1faae2a-ca5f-400a-a438-59826bf80886] F1 → C20  (63.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[df7b2bff-ce20-400a-b4b4-98edbf62c535] F1 → C9  (64.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f7c7c4ec-32e2-4add-863e-6bd10f9cd8e9] F1 → C14  (53.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f4b53cc8-d138-4e0e-8520-ab155a3cb3c3] F1 → C21  (73.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[de9ee636-e3a4-42c7-b3cc-37eae2b6d447] F1 → C6  (44.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fd0e1902-5d5c-457b-82f3-968b1acf4178] F1 → C8  (72.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e4ab116d-ce47-42e2-8acb-7fd1f6351c49] F1 → C20  (65.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fc0412cf-fca4-4a35-888f-004038710b54] F1 → C8  (60.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eb72d93a-77ee-4145-8f99-9bff3f13b1d0] F1 → C3  (61.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ea864a2a-e00b-4a4d-9f5b-69ed993e94ea] Fallback → C2
+[ea864a2a-e00b-4a4d-9f5b-69ed993e94ea] F1 → C2  (78.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e1b838c8-0ed6-460e-9874-1fbfb75ba2a8] F1 → C19  (52.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f28c1f2f-5e4d-4c35-b9ed-3735e09e8747] F1 → C1  (57.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eb290709-b158-46e2-8495-2755ee44398f] F1 → C5  (55.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eee1493f-f1e6-4227-aa98-a21224d5a2ee] F1 → C14  (50.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9fd5881-8114-4d8a-ae46-1d2f9353c1df] F1 → C6  (2.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ea4c0706-cad5-41a8-9bb2-3a4889768318] F1 → C17  (65.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fd8868b0-8954-4dca-a846-de48171140ad] Fallback → C7
+[fd8868b0-8954-4dca-a846-de48171140ad] F1 → C7  (78.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ff8ebed6-d2be-4f43-8d4a-b5407f548b25] F1 → C1  (71.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fdc69ca8-1623-4005-afdf-061734ce465c] F1 → C15  (57.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f4dfd2ef-f5e8-4149-8f6b-ae5c22783cae] F1 → C19  (64.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f32f391f-3583-40fc-84b6-9a8411a8e7e1] F1 → C6  (61.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e3a255cd-7b58-4eec-a3fa-2cdebe47690e] Fallback → C6
+[e3a255cd-7b58-4eec-a3fa-2cdebe47690e] F1 → C6  (77.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dd081817-aa0a-4cd1-b193-1c6f40b36c69] F1 → C5  (64.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e5604caf-9cf2-4a01-a4eb-b4218d978b99] F1 → C15  (40.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e59447d0-140b-4851-a81e-085ebc511a99] F1 → C3  (52.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f1776955-d3ba-4374-8d5d-ad7c1f44d5a0] F1 → C22  (2.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ff55e947-d77a-4f58-9ef1-ccbba886dc80] Fallback → C21
+[ff55e947-d77a-4f58-9ef1-ccbba886dc80] F1 → C21  (77.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f698b104-1a9a-4609-9c19-ebbaf01da9ff] Fallback → C18
+[f698b104-1a9a-4609-9c19-ebbaf01da9ff] F1 → C18  (79.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e9852b17-f8f8-44d8-ba85-f5485afc2fc7] F1 → C22  (61.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fb3d4cf2-5708-4fb7-9fc1-87d915b6604d] Fallback → C2
+[fb3d4cf2-5708-4fb7-9fc1-87d915b6604d] F1 → C2  (78.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e7234bdb-3039-4723-84b0-ab9e7d83403d] F1 → C12  (71.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ec1ba133-380e-419f-92be-c08564ab0db1] F1 → C14  (64.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9181293-0f01-42f1-afa8-b5789b308d00] F1 → C22  (57.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ed06a391-d3cf-4987-9d3b-c672aa65129c] F1 → C10  (54.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fa53284c-f4e1-4ec6-81b8-0c787fcef5a1] F1 → C16  (64.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fa14fb54-cc12-4446-99a1-539acc946cd3] F1 → C8  (62.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fb815bd5-1ed0-4fe9-bec9-16d43acfaa62] F1 → C1  (65.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e5d002bb-ef91-4456-bc2f-c2999e94ddb2] F1 → C14  (53.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ec469e7d-399b-4ebf-a4f8-a387cb57ee47] F1 → C1  (55.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f2162684-9464-49c4-a191-44ec6d0bc8ab] F1 → C14  (2.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ef9a77e0-69f7-459b-ad98-cd61bae498fd] F1 → C2  (50.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ff16b76c-ca80-473c-83f2-7110718a433e] F1 → C19  (73.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e066ed55-f4cc-4898-b7f8-913f5ce75c5f] F1 → C5  (64.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dd536777-43b7-453c-b6b2-cb20ef72c7a3] F1 → C8  (62.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e29f8915-1439-44c8-9f3e-443bf12a99cc] F1 → C8  (71.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f29e7638-7444-4b85-8af3-8d90c9e7098d] F1 → C3  (62.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dd5f2bfd-8a2e-4192-a491-1cea3f025e8d] F1 → C14  (2.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9c240bc-b095-450a-b6ac-ba8540b47a97] F1 → C12  (36.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e9bc0950-eb6a-4812-9fdb-297cc80abd50] F1 → C12  (60.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9b63445-b762-4ebf-ad29-024a7c1f0d51] F1 → C14  (2.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f0dd52b1-eb8e-4197-ba39-fa4ca1725414] F1 → C4  (67.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e2e52ba0-11be-4101-a98e-ae6ea23e7a41] F1 → C7  (59.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f7182e0d-ce79-4228-b9ea-15b197d57c1a] F1 → C12  (54.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fd1b81c0-0ab5-40a6-b36e-452fa83b88a2] F1 → C6  (48.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ffb19e40-9a2d-4d92-97eb-f65dfdf72f01] F1 → C6  (36.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dd6abc67-cad6-498b-985a-a202f73de763] F1 → C7  (1.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f6c7ac90-a0e5-4d36-b176-4a903b2fdcea] F1 → C9  (61.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e3f2b933-1175-49b0-983d-3cf38aa46f6d] F1 → C19  (49.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[edeb769a-280b-4c69-b92e-ec220d6bc197] F1 → C6  (71.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e015a67c-204f-411e-98f5-e7641d0fadf8] F1 → C7  (2.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[df185f76-8e6e-47b9-9496-b8358256f09d] Fallback → C17
+[df185f76-8e6e-47b9-9496-b8358256f09d] F1 → C17  (76.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e919cd95-d25d-437b-b226-192590c87a33] F1 → C8  (57.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e18f5c91-f971-480f-b0ee-234d62d1946b] F1 → C1  (49.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f8070f83-41a5-4c95-985b-f805f18c0029] F1 → C19  (2.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[de991641-3d5d-4166-aa1a-00cdf0ef9ba4] F1 → C6  (62.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fcddc2fe-8669-4eea-9c89-e32a70c628e3] Fallback → C6
+[fcddc2fe-8669-4eea-9c89-e32a70c628e3] F1 → C6  (78.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f8fadb36-af9e-43cd-81b4-d9f95a7bc645] Fallback → C19
+[f8fadb36-af9e-43cd-81b4-d9f95a7bc645] F1 → C19  (76.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f6296c25-c556-45c1-8393-e4b0035c004f] F1 → C18  (42.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e578de97-7ff1-4348-8736-07d88419ebd0] Fallback → C3
+[e578de97-7ff1-4348-8736-07d88419ebd0] F1 → C3  (76.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e4caacef-6afc-462b-841b-211408b13b98] F1 → C16  (69.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e252d1f2-641d-44b5-bef9-4a0ef4373299] F1 → C14  (52.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e547cbd6-73ab-4014-bdcd-0f4ff58a93c4] F1 → C9  (70.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fe57cb75-6e86-4f9f-bdc2-3855218a20f5] F1 → C22  (48.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f700f740-8158-4522-a385-64e8a8f19b91] Fallback → C18
+[f700f740-8158-4522-a385-64e8a8f19b91] F1 → C18  (77.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[de4e627d-c0bf-4dfb-a942-779b20542da0] F1 → C2  (72.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e18d9d0d-0037-4be5-9c38-a6aeccb8d677] F1 → C12  (49.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ef5c0f48-6d3d-484e-9a8e-f4bfc32806d9] Fallback → C18
+[ef5c0f48-6d3d-484e-9a8e-f4bfc32806d9] F1 → C18  (77.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f5cf52b1-61b4-4492-bae5-714eca8032c5] Fallback → C1
+[f5cf52b1-61b4-4492-bae5-714eca8032c5] F1 → C1  (76.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ef56aaad-7b65-496a-ad04-fb1af650fc04] F1 → C17  (42.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[df8d3f01-fd45-4d8b-b5fa-fdebddbbc9f7] F1 → C4  (63.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e7d8bb45-c4cf-433e-9317-595fd487aea2] F1 → C19  (67.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e210dde1-6494-45c5-a90d-2762b54830c4] F1 → C2  (57.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f82e1c6f-7700-4c49-a051-3b4a59465413] F1 → C22  (1.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ed7c8519-baa1-4fde-96a3-e2abebac2716] Fallback → C15
+[ed7c8519-baa1-4fde-96a3-e2abebac2716] F1 → C15  (76.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e72857c2-04b2-47c2-a191-261d7582fdbd] F1 → C1  (2.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fda970d9-1c86-4ab8-8aa4-a6b038ac42e3] F1 → C6  (71.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e879367f-ffda-4d5f-9ab4-5ce7ddeb5560] F1 → C2  (36.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e7505cce-4804-431f-aa68-0c787a0bfec9] F1 → C9  (61.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ef1e3a6d-edb5-4089-a48a-60bc09b3e780] F1 → C12  (1.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dd518240-2daa-4746-a038-7a1d4919ada1] F1 → C8  (69.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f21e8dc6-a0c0-4452-b3dd-3347a629493f] F1 → C7  (58.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ff185a7f-ea33-41be-8143-a3bb1aa3e4ea] F1 → C3  (60.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f547fc96-33d9-4015-9c05-84e3102176f6] F1 → C7  (54.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[efee3314-6375-42d3-b958-a19daf5d618f] F1 → C5  (52.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ea9a5cbe-b24a-4be4-a8da-3dc2abaa51f1] Fallback → C3
+[ea9a5cbe-b24a-4be4-a8da-3dc2abaa51f1] F1 → C3  (80.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e7bbe20d-aa75-48fa-baf1-8d9e160d6fd9] F1 → C13  (60.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eb0c5c4f-b0a0-41e0-b7e2-c7b14b69843f] F1 → C15  (61.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f2d473a1-0103-4937-9596-8113c26f4029] F1 → C20  (56.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dfdaa760-77cf-4a52-849b-0bff1c66e688] F1 → C14  (69.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9c9cfef-0110-442b-b5d7-1f9d5651f700] F1 → C5  (68.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f5c3fd9d-1454-447c-bd93-78e9de84db94] F1 → C3  (63.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e52b9561-bef0-4108-a324-e897ca128683] F1 → C19  (57.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ebee55da-b6cd-44be-b852-a350be51f3c6] F1 → C13  (61.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e0bc9573-b99f-423a-b515-94d49c31281b] F1 → C16  (68.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eb4dafac-40f7-4ce3-9b52-c0026315571c] F1 → C7  (57.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9272266-bc66-4490-9f26-12f1dee2a540] F1 → C3  (56.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ec4053bc-19d0-455a-8c50-8704a48b2140] F1 → C18  (68.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f86de2b9-9abb-4a0b-8c75-f3f54947a708] F1 → C2  (53.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e4b87b03-d77f-45e7-bc88-e51addd2b6f4] F1 → C8  (62.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e853d2c9-b164-42fd-8b94-49e9402781d5] F1 → C22  (61.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fabbe292-29e1-4d3e-a248-4fd74b5f4de6] F1 → C3  (33.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fcf7ac22-5ab1-4d74-a231-52cb4c743384] F1 → C2  (1.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e5d86b15-2d59-4ada-a281-d839057fd0b4] F1 → C4  (65.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fb9a5eb7-4a52-4606-84b2-c6c0e3704f37] F1 → C20  (73.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f379ef2d-98b9-4ed4-88cc-b7c2ea8fafc8] Fallback → C13
+[f379ef2d-98b9-4ed4-88cc-b7c2ea8fafc8] F1 → C13  (78.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f2301a64-2e2e-422e-b163-c89059a68ea2] Fallback → C8
+[f2301a64-2e2e-422e-b163-c89059a68ea2] F1 → C8  (79.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ee99a715-8216-4590-bc60-4d7747dda7d8] F1 → C12  (66.3s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[edb1e9c0-36a4-469e-86f4-6311f6bfa665] F1 → C12  (2.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f30c823c-883d-4395-9ccb-fd55d88e41b2] F1 → C16  (56.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ff359d84-8e43-4a38-848f-d394053b111a] F1 → C14  (53.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e61558a0-8a98-444d-bc82-6afed2cdefe2] F1 → C8  (63.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eb8d2d92-1c52-4c53-820c-75dba2777d5f] F1 → C16  (64.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e7083cd5-528a-4cb8-a194-67b4ec836b90] F1 → C15  (64.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f0044604-9135-4bde-9f9d-8f1f148f1b4b] F1 → C10  (43.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e724a5a3-61da-4269-b4ea-f75ac458a8eb] F1 → C13  (52.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e0713f7f-4a66-4ccc-94e5-e39c28c8c4c2] F1 → C11  (55.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fb927094-bdc3-415c-8a43-590e75356e0e] F1 → C19  (62.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e0d36f61-eb6b-4ef3-83ea-8469794dae9d] F1 → C17  (60.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f9a5318c-31a3-4cfa-8245-b6d9937253fa] Fallback → C9
+[f9a5318c-31a3-4cfa-8245-b6d9937253fa] F1 → C9  (77.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e0a394de-2dd7-4e93-b5f4-dbd42c0d6fd9] Fallback → C7
+[e0a394de-2dd7-4e93-b5f4-dbd42c0d6fd9] F1 → C7  (77.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fb36c798-e72d-4b94-be23-f9175e2b6cb7] F1 → C15  (64.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e593f712-465f-4ae7-82e9-05ee537ec039] F1 → C4  (68.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fa529e46-85fc-488f-afa1-e47186e20b35] F1 → C10  (66.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dd2b43b8-a601-4f19-a8ef-b3f329a8d790] F1 → C4  (2.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[eb1bfdff-9683-4c8a-9b90-6dbaaf78f641] F1 → C11  (69.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f532624d-245a-4f27-ba59-63f84ee77748] F1 → C15  (1.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f7edba81-030c-4fe8-9ba4-d7927e46962f] F1 → C13  (37.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e651c677-03f6-4dc8-969a-b56e7f9df68c] Fallback → C12
+[e651c677-03f6-4dc8-969a-b56e7f9df68c] F1 → C12  (76.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e94e5196-eb73-4ddf-b719-6bf6c1bb9f22] F1 → C13  (69.0s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ecdb2c7e-d695-4c6e-ba60-eded63cc27c1] F1 → C20  (35.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f98a5115-26a2-4800-a9bd-f70d7a090424] F1 → C13  (46.2s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f4fe3e8e-77aa-4caf-a30c-21ab9003aa5d] F1 → C6  (74.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fb1cc9b5-ac13-4043-9e9f-9765342babf9] F1 → C3  (62.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e4335f91-f202-41b3-bfd8-17c20ca5b4c1] F1 → C5  (45.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dda52d39-4963-4e1e-929a-583077ab940e] F1 → C8  (62.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fcbba56b-a468-4c4c-9760-7cb349b5702c] F1 → C18  (59.7s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e9680d05-9c5b-4081-9209-46f8fd0bfbb1] F1 → C8  (64.9s)
+
+==============================================================
+  Overall F1 IOU : 0.5900  (gate ≥0.75  ✗ FAIL)
+  Avg latency    : 57.4s  (gate ≤90s  ✓ PASS)
+  Evaluated      : 200  (skipped: 0)
+
+  Per-action IOU:
+    add_neighbor            n= 38  iou=0.4211  gate ≥0.65  ✗ FAIL
+    check_server            n= 38  iou=1.0000
+    decrease_a3             n= 35  iou=0.9429
+    insufficient_data       n= 32  iou=0.0000  gate ≥0.6  ✗ FAIL
+    lift_tilt               n= 26  iou=0.0000  gate ≥0.6  ✗ FAIL
+    pdcch_2sym              n= 31  iou=1.0000
+==============================================================
+
+4 PROMOTION GATE(S) FAILED — review per-action breakdown above

@@ -1,0 +1,14 @@
+﻿id,prediction
+30,"Atlas-Prime-01(GE1/0/0)->Janus-Prime-01(GE1/0/0)
+Atlas-Prime-01(GE1/0/1)->Janus-Prime-02(GE1/0/0)
+Atlas-Prime-01(GE1/0/2)->Demeter-Prime-01(GE1/0/0)
+Atlas-Prime-01(GE1/0/3)->Demeter-Prime-02(GE1/0/0)"
+31,"Janus-Prime-01(GE1/0/0)->Atlas-Prime-01(GE1/0/0)
+Janus-Prime-01(GE1/0/1)->Atlas-Prime-02(GE1/0/0)
+Janus-Prime-01(GE1/0/4)->Janus-Prime-02(GE1/0/4)
+Janus-Prime-01(GE1/0/2)->PX1(GE1/0/0)"
+32,"Aegis-Prime-01(GE1/0/2)->Janus-Prime-01(GE1/0/5)
+Aegis-Prime-01(GE1/0/0)->Janus-Prime-02(GE1/0/5)
+Aegis-Prime-01(GE1/0/3)->Eon-Node-01(GE1/0/1)"
+33,"Janus-Node-02(GE1/0/2)->Atlas-Node-01(GE1/0/2)
+Janus-Node-02(GE1/0/3)->Atlas-Node-02(GE1/0/2)"

@@ -1,0 +1,79 @@
+﻿id,prediction
+1,"Gamma-Aegis-01(GE1/0/0)->Gamma-Portal-01(GE1/0/4)
+Gamma-Aegis-01(GE1/0/1)->Gamma-Portal-02(GE1/0/4)
+Gamma-Aegis-01(GE1/0/2)->Gamma-Aegis-02(GE1/0/2)"
+2,"Gamma-Axis-02(GE1/0/1)->Gamma-Node-01(GE1/0/2)
+Gamma-Axis-02(GE1/0/2)->Gamma-Node-02(GE1/0/2)
+Gamma-Axis-02(GE1/0/3)->Gamma-Node-03(GE1/0/2)
+Gamma-Axis-02(GE1/0/4)->Gamma-Node-04(GE1/0/2)
+Gamma-Axis-02(GE1/0/5)->Gamma-Portal-01(GE1/0/2)
+Gamma-Axis-02(GE1/0/6)->Gamma-Portal-02(GE1/0/2)"
+3,"Beta-Aegis-02(GE1/0/0)->Beta-Portal-01(GE1/0/5)
+Beta-Aegis-02(GE1/0/1)->Beta-Portal-02(GE1/0/5)
+Beta-Aegis-02(GE1/0/2)->Beta-Aegis-01(GE1/0/2)"
+4,"Beta-Portal-02(GE1/0/1)->Beta-Axis-01(GE1/0/1)
+Beta-Portal-02(GE1/0/2)->Beta-Axis-02(GE1/0/1)
+Beta-Portal-02(GE1/0/3)->Beta-Portal-01(GE1/0/3)
+Beta-Portal-02(GE1/0/4)->Beta-Aegis-01(GE0/0/1)
+Beta-Portal-02(GE1/0/5)->Beta-Aegis-02(GE0/0/1)
+Beta-Portal-02(GE1/0/6)->Alpha-Center-01(GE1/0/2)
+Beta-Portal-02(GE1/0/7)->Alpha-Center-02(GE1/0/2)"
+5,"Delta-Node-01(GE1/0/1)->Delta-Axis-01(GE1/0/1)
+Delta-Node-01(GE1/0/2)->Delta-Axis-02(GE1/0/1)
+Delta-Node-01(GE1/0/3)->Delta-Node-02(GE1/0/3)"
+6,"Delta-Axis-01(GE1/0/1)->Delta-Node-01(GE1/0/1)
+Delta-Axis-01(GE1/0/2)->Delta-Node-02(GE1/0/1)
+Delta-Axis-01(GE1/0/3)->Delta-Node-03(GE1/0/1)
+Delta-Axis-01(GE1/0/4)->Delta-Node-04(GE1/0/1)
+Delta-Axis-01(GE1/0/5)->Delta-Portal-01(GE1/0/1)
+Delta-Axis-01(GE1/0/6)->Delta-Portal-02(GE1/0/1)"
+7,Beta-Node-01->Beta-Axis-02->Beta-Portal-02->Alpha-Center-02->Gamma-Portal-02->Gamma-Axis-02->Gamma-Node-01
+8,Gamma-Node-01->Gamma-Axis-02->Gamma-Portal-02->Alpha-Center-02->Delta-Portal-02->Delta-Axis-02->Delta-Node-01
+9,Beta-Node-03->Beta-Axis-02->Beta-Portal-02->Alpha-Center-02->Delta-Portal-02->Delta-Axis-02->Delta-Node-03
+10,Gamma-Node-01->Gamma-Axis-02->Gamma-Portal-02->Alpha-Center-02->Beta-Portal-02->Beta-Axis-02->Beta-Node-04
+11,
+12,
+13,Gamma-Node-02->Gamma-Axis-02->Gamma-Portal-02->Alpha-Center-02->Beta-Portal-02->Beta-Axis-02->Beta-Node-04
+14,Delta-Node-02->Delta-Axis-02->Delta-Portal-02->Alpha-Center-02->Gamma-Portal-02->Gamma-Axis-02->Gamma-Node-02
+15,
+16,Beta-Aegis-02->Beta-Portal-02->Alpha-Center-02->Delta-Portal-02->Delta-Axis-02->Delta-Node-04
+17,Alpha-Center-02;192.168.70.22;missing static route
+18,Gamma-Portal-02;192.168.70.22;missing static route
+19,Beta-Portal-02;192.168.70.22;missing static route
+20,Alpha-Center-02;GE1/0/2;shutdown
+21,Alpha-Center-02;192.168.70.22;missing static route
+22,Gamma-Portal-02;192.168.70.22;missing static route
+23,Delta-Axis-02;192.168.74.61;missing static route
+24,Delta-Portal-02;192.168.72.78;missing static route
+25,Delta-Portal-01;192.168.70.70;routing loop
+26,Gamma-Axis-02;192.168.74.45;static route error
+27,Gamma-Portal-02;192.168.70.22;missing static route
+28,Gamma-Axis-02;192.168.70.93;routing loop
+29,"Demeter-Prime-01(GE1/0/0)->Spine2(GE1/0/2)
+Demeter-Prime-01(GE1/0/1)->Spine1(GE1/0/2)
+Demeter-Prime-01(GE1/0/5)->PC1(GE1/0/4)"
+30,
+31,
+32,
+33,
+34,Hermes-Prime-01->Demeter-Prime-01->Atlas-Prime-01->Demeter-Prime-02->Hermes-Prime-02
+35,Hermes-Prime-01->Demeter-Prime-01->Atlas-Prime-01->Janus-Prime-01->Aegis-Prime-01->Eon-Node-01->Gaia-Node-01->Aegis-Node-01->Janus-Node-01->Atlas-Node-01->Demeter-Node-01->Hermes-Node-01
+36,Hermes-Node-01->Demeter-Node-01->Atlas-Node-01->Janus-Node-01->Aegis-Node-01->Gaia-Node-01->Eon-Node-01->Aegis-Prime-01->Janus-Prime-01->Atlas-Prime-01->Demeter-Prime-01->Hermes-Prime-01
+37,Hermes-Node-01->Demeter-Node-01->Atlas-Node-01->Demeter-Node-02->Hermes-Node-02
+38,Hermes-Prime-01->Demeter-Prime-01->Atlas-Prime-01->Janus-Prime-01->Aegis-Prime-01->Eon-Node-01->Gaia-Node-01->Aegis-Node-01->Janus-Node-01->Atlas-Node-01->Demeter-Node-02->Hermes-Node-02
+39,"Janus-Prime-01;GE1/0/0;shutdown
+Janus-Prime-01;GE1/0/1;shutdown"
+40,Demeter-Prime-01;10.1.6.3;L3VPN configuration error
+41,Demeter-Prime-01;10.1.6.3;L3VPN configuration error
+42,Demeter-Prime-01;Vbdif10;MAC address configuration error
+43,Demeter-Prime-01;Vbdif50;VPN configuration missing
+44,"Demeter-Prime-02;Vbdif50;host information collection function missing
+Janus-Prime-02;Vbdif8050;host information collection function missing"
+45,Demeter-Prime-01;10.60.1.2;BGP configuration error
+46,"Atlas-Prime-01;GE1/0/2;OSPF configuration error
+Atlas-Prime-02;GE1/0/2;OSPF configuration error"
+47,"Atlas-Prime-01;GE1/0/3;OSPF configuration error
+Atlas-Prime-02;GE1/0/3;OSPF configuration error"
+48,Demeter-Prime-02;20.1.1.20;VXLAN configuration error
+49,Demeter-Prime-01;20.1.4.10;loopback IP configuration conflict
+50,Demeter-Prime-02;10.1.1.20;VXLAN configuration error

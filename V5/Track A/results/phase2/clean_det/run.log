@@ -1,0 +1,1570 @@
+Loaded 500 Phase 2 scenarios from data/Phase_2/test.json
+[40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+[40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[40573780-92ac-4436-97c7-efca33b2a839] done in 0.4s — answer: 'C7'
+[7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+[7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+[7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 0.4s — answer: 'C16'
+[78960ba6-b2d6-4961-a683-78f177ca34bc] tag=single-answer, bs=4, family=F1
+[78960ba6-b2d6-4961-a683-78f177ca34bc] answer='C5' top_candidate={'answer': 'C5', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3250799_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[78960ba6-b2d6-4961-a683-78f177ca34bc] done in 0.3s — answer: 'C5'
+[196f910b-ce56-43e2-a2ba-8e61a2b5034b] tag=single-answer, bs=13, family=F4
+[196f910b-ce56-43e2-a2ba-8e61a2b5034b] answer='C23' top_candidate={'answer': 'C23', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3214602_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[196f910b-ce56-43e2-a2ba-8e61a2b5034b] done in 0.3s — answer: 'C23'
+[cde21831-ca8c-4b0a-8c7f-3b76c2391b78] tag=multiple-answer, bs=5, family=F3
+[cde21831-ca8c-4b0a-8c7f-3b76c2391b78] answer='C3|C4|C7|C24' top_candidate={'answer': 'C3|C4|C7|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[cde21831-ca8c-4b0a-8c7f-3b76c2391b78] done in 0.2s — answer: 'C3|C4|C7|C24'
+[a1ffe49d-dc72-411b-bba4-0fb04e6146d8] tag=single-answer, bs=4, family=F1
+[a1ffe49d-dc72-411b-bba4-0fb04e6146d8] answer='C1' top_candidate={'answer': 'C1', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3252488_1', 'reason': 'geometry recommendation'}
+[a1ffe49d-dc72-411b-bba4-0fb04e6146d8] done in 0.4s — answer: 'C1'
+[d56ae664-59ed-453f-8703-36c8e3e44227] tag=single-answer, bs=4, family=F1
+[d56ae664-59ed-453f-8703-36c8e3e44227] answer='C16' top_candidate={'answer': 'C16', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3246004_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[d56ae664-59ed-453f-8703-36c8e3e44227] done in 0.3s — answer: 'C16'
+[c93d2fa8-52b3-4623-aab9-d5fada486543] tag=multiple-answer, bs=5, family=F3
+[c93d2fa8-52b3-4623-aab9-d5fada486543] answer='C5|C6|C7|C11' top_candidate={'answer': 'C5|C6|C7|C11', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[c93d2fa8-52b3-4623-aab9-d5fada486543] done in 0.3s — answer: 'C5|C6|C7|C11'
+[f37da282-72a1-45a1-9087-7fc6fcf66be0] tag=single-answer, bs=4, family=F1
+[f37da282-72a1-45a1-9087-7fc6fcf66be0] answer='C14' top_candidate={'answer': 'C14', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3255322_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[f37da282-72a1-45a1-9087-7fc6fcf66be0] done in 0.3s — answer: 'C14'
+[b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] tag=multiple-answer, bs=4, family=F2
+[b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] answer='C6|C23' top_candidate={'answer': 'C6|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3219013_2 (serving=3269324_3, best_neighbor=3219013_2, overlap=0.38)'}
+[b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] done in 0.3s — answer: 'C6|C23'
+[73546f0f-b54a-4db8-8281-086606ba456d] tag=single-answer, bs=4, family=F1
+[73546f0f-b54a-4db8-8281-086606ba456d] answer='C20' top_candidate={'answer': 'C20', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3273197_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[73546f0f-b54a-4db8-8281-086606ba456d] done in 0.4s — answer: 'C20'
+[0ceb1fc4-9d83-4467-b72e-d9ea692a358e] tag=single-answer, bs=4, family=F1
+[0ceb1fc4-9d83-4467-b72e-d9ea692a358e] answer='C7' top_candidate={'answer': 'C7', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3270578_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[0ceb1fc4-9d83-4467-b72e-d9ea692a358e] done in 0.3s — answer: 'C7'
+[f00df504-5e00-49c3-b040-29c62021793d] tag=multiple-answer, bs=4, family=F2
+[f00df504-5e00-49c3-b040-29c62021793d] answer='C12|C22' top_candidate={'answer': 'C12|C22', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3244548_4 (serving=3244548_4, overlap=0.1)'}
+[f00df504-5e00-49c3-b040-29c62021793d] done in 0.3s — answer: 'C12|C22'
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] Family override: F1_5BS (tag=single-answer, bs=5)
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] tag=single-answer, bs=5, family=F1_5BS
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] answer='C1' top_candidate={'answer': 'C1', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3234830_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] done in 0.4s — answer: 'C1'
+[87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] tag=single-answer, bs=4, family=F1
+[87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3252632_3', 'reason': 'geometry recommendation'}
+[87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] done in 0.4s — answer: 'C17'
+[e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] tag=single-answer, bs=4, family=F1
+[e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] answer='C10' top_candidate={'answer': 'C10', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3265013_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] done in 0.3s — answer: 'C10'
+[d82d2ab4-beb2-4fb9-8610-b627cc951549] tag=single-answer, bs=4, family=F1
+[d82d2ab4-beb2-4fb9-8610-b627cc951549] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3225934_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[d82d2ab4-beb2-4fb9-8610-b627cc951549] done in 0.3s — answer: 'C24'
+[955b8cf8-257c-4790-9e74-a6546f2a6fc3] tag=single-answer, bs=4, family=F1
+[955b8cf8-257c-4790-9e74-a6546f2a6fc3] answer='C1' top_candidate={'answer': 'C1', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3271584_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[955b8cf8-257c-4790-9e74-a6546f2a6fc3] done in 0.3s — answer: 'C1'
+[1f872048-7692-4443-bbda-324975dbef07] tag=multiple-answer, bs=4, family=F2
+[1f872048-7692-4443-bbda-324975dbef07] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3231849_2 (serving=3231849_2, overlap=0.18)'}
+[1f872048-7692-4443-bbda-324975dbef07] done in 0.3s — answer: 'C1|C2'
+[f86420da-3884-4a89-985e-13b870108ac8] tag=multiple-answer, bs=4, family=F2
+[f86420da-3884-4a89-985e-13b870108ac8] answer='C3|C8' top_candidate={'answer': 'C3|C8', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3250042_1 (serving=3250042_1, overlap=0.24)'}
+[f86420da-3884-4a89-985e-13b870108ac8] done in 0.3s — answer: 'C3|C8'
+[473369c4-d7f8-464c-9f53-6ac6c636c78f] tag=single-answer, bs=4, family=F1
+[473369c4-d7f8-464c-9f53-6ac6c636c78f] answer='C10' top_candidate={'answer': 'C10', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3251713_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[473369c4-d7f8-464c-9f53-6ac6c636c78f] done in 0.3s — answer: 'C10'
+[0fdd3fef-f4b7-4043-b7c3-487770a5310c] tag=single-answer, bs=4, family=F1
+[0fdd3fef-f4b7-4043-b7c3-487770a5310c] answer='C12' top_candidate={'answer': 'C12', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[0fdd3fef-f4b7-4043-b7c3-487770a5310c] done in 0.4s — answer: 'C12'
+[3861f9e6-55c0-4c20-8700-a44c3c0c57cc] tag=multiple-answer, bs=4, family=F2
+[3861f9e6-55c0-4c20-8700-a44c3c0c57cc] answer='C10|C21' top_candidate={'answer': 'C10|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3251791_2 (serving=3230417_4, best_neighbor=3251791_2, overlap=1.0)'}
+[3861f9e6-55c0-4c20-8700-a44c3c0c57cc] done in 0.3s — answer: 'C10|C21'
+[1ff7c477-6dea-4ce0-88b7-2c2ba3f34129] tag=single-answer, bs=4, family=F1
+[1ff7c477-6dea-4ce0-88b7-2c2ba3f34129] answer='C20' top_candidate={'answer': 'C20', 'score': 0.6636000000000001, 'action_type': 'add_neighbor', 'target_cell': '3224187_4', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[1ff7c477-6dea-4ce0-88b7-2c2ba3f34129] done in 0.3s — answer: 'C20'
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] Family override: F1_5BS (tag=single-answer, bs=5)
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] tag=single-answer, bs=5, family=F1_5BS
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] answer='C4' top_candidate={'answer': 'C4', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3270045_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] done in 0.4s — answer: 'C4'
+[8019a802-ec66-4fef-b2d2-e30f75849e7e] tag=single-answer, bs=4, family=F1
+[8019a802-ec66-4fef-b2d2-e30f75849e7e] answer='C12' top_candidate={'answer': 'C12', 'score': 0.61194, 'action_type': 'decrease_a3', 'target_cell': '3260078_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[8019a802-ec66-4fef-b2d2-e30f75849e7e] done in 0.3s — answer: 'C12'
+[c43e5abc-8118-4f75-90d0-5b1d5420fc7d] tag=single-answer, bs=4, family=F1
+[c43e5abc-8118-4f75-90d0-5b1d5420fc7d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3226819_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[c43e5abc-8118-4f75-90d0-5b1d5420fc7d] done in 0.3s — answer: 'C16'
+[bdb9f531-553c-46e4-93e8-2b9549b56eba] tag=single-answer, bs=4, family=F1
+[bdb9f531-553c-46e4-93e8-2b9549b56eba] answer='C1' top_candidate={'answer': 'C1', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3251223_2', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[bdb9f531-553c-46e4-93e8-2b9549b56eba] done in 0.3s — answer: 'C1'
+[77930e8b-e435-4e40-b633-cb7731e4a03b] tag=multiple-answer, bs=5, family=F3
+[77930e8b-e435-4e40-b633-cb7731e4a03b] answer='C3|C9|C13|C22' top_candidate={'answer': 'C3|C9|C13|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[77930e8b-e435-4e40-b633-cb7731e4a03b] done in 0.2s — answer: 'C3|C9|C13|C22'
+[e73fcb38-c1be-4153-99ce-a04c3bf8fb4a] tag=single-answer, bs=4, family=F1
+[e73fcb38-c1be-4153-99ce-a04c3bf8fb4a] answer='C14' top_candidate={'answer': 'C14', 'score': 0.65268, 'action_type': 'decrease_a3', 'target_cell': '3254191_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[e73fcb38-c1be-4153-99ce-a04c3bf8fb4a] done in 0.3s — answer: 'C14'
+[510e1132-6951-4772-8ef5-4eedec6a2ac8] tag=single-answer, bs=4, family=F1
+[510e1132-6951-4772-8ef5-4eedec6a2ac8] answer='C17' top_candidate={'answer': 'C17', 'score': 0.6560400000000001, 'action_type': 'decrease_a3', 'target_cell': '3212134_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[510e1132-6951-4772-8ef5-4eedec6a2ac8] done in 0.3s — answer: 'C17'
+[53d0aaea-93f5-405c-bdcb-0f4057af53b6] tag=single-answer, bs=4, family=F1
+[53d0aaea-93f5-405c-bdcb-0f4057af53b6] answer='C18' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3247547_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[53d0aaea-93f5-405c-bdcb-0f4057af53b6] done in 0.3s — answer: 'C18'
+[f428f517-0bcd-4d13-b31a-929eb3584363] tag=multiple-answer, bs=4, family=F2
+[f428f517-0bcd-4d13-b31a-929eb3584363] answer='C1|C6|C9|C20' top_candidate={'answer': 'C1|C6|C9|C20', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3233774_2, best_neighbor=3245633_3)'}
+[f428f517-0bcd-4d13-b31a-929eb3584363] done in 0.3s — answer: 'C1|C6|C9|C20'
+[2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] Family override: F4M (tag=multiple-answer, bs=13)
+[2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] tag=multiple-answer, bs=13, family=F4M
+[2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] done in 0.2s — answer: 'C1|C2'
+[95cda870-3964-4e6b-b661-46ff57c94aba] tag=single-answer, bs=4, family=F1
+[95cda870-3964-4e6b-b661-46ff57c94aba] answer='C10' top_candidate={'answer': 'C10', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3217171_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[95cda870-3964-4e6b-b661-46ff57c94aba] done in 0.3s — answer: 'C10'
+[a5c16b90-0e9a-4d4c-849a-5139913c350a] tag=single-answer, bs=4, family=F1
+[a5c16b90-0e9a-4d4c-849a-5139913c350a] answer='C18' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3215387_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[a5c16b90-0e9a-4d4c-849a-5139913c350a] done in 0.3s — answer: 'C18'
+[a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4] tag=multiple-answer, bs=4, family=F2
+[a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4] answer='C2|C11' top_candidate={'answer': 'C2|C11', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3277364_1 (serving=3277364_1, overlap=0.15)'}
+[a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4] done in 0.3s — answer: 'C2|C11'
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] Family override: F1_5BS (tag=single-answer, bs=5)
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] tag=single-answer, bs=5, family=F1_5BS
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] answer='C2' top_candidate={'answer': 'C2', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3251842_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] done in 0.3s — answer: 'C2'
+[73ed8db9-a06f-47b9-a758-5f456c9ec9b7] tag=single-answer, bs=4, family=F1
+[73ed8db9-a06f-47b9-a758-5f456c9ec9b7] answer='C11' top_candidate={'answer': 'C11', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3228889_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[73ed8db9-a06f-47b9-a758-5f456c9ec9b7] done in 0.3s — answer: 'C11'
+[bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] tag=multiple-answer, bs=4, family=F2
+[bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3277938_4 (serving=3230529_3, best_neighbor=3277938_4, overlap=0.88)'}
+[bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] done in 0.3s — answer: 'C6|C15'
+[2d5a3045-8ef8-4e01-ac3b-91365b904718] tag=single-answer, bs=4, family=F1
+[2d5a3045-8ef8-4e01-ac3b-91365b904718] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3265059_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[2d5a3045-8ef8-4e01-ac3b-91365b904718] done in 0.3s — answer: 'C24'
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] Family override: F1_5BS (tag=single-answer, bs=5)
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] tag=single-answer, bs=5, family=F1_5BS
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3250543_5', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] done in 0.4s — answer: 'C11'
+[62b0b362-fad9-4d4e-9daa-9bff2ff5a924] tag=single-answer, bs=4, family=F1
+[62b0b362-fad9-4d4e-9daa-9bff2ff5a924] answer='C13' top_candidate={'answer': 'C13', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[62b0b362-fad9-4d4e-9daa-9bff2ff5a924] done in 0.4s — answer: 'C13'
+[0b835223-c0e7-438d-b4e5-8647c54be1bb] tag=single-answer, bs=4, family=F1
+[0b835223-c0e7-438d-b4e5-8647c54be1bb] answer='C11' top_candidate={'answer': 'C11', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3270748_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[0b835223-c0e7-438d-b4e5-8647c54be1bb] done in 0.3s — answer: 'C11'
+[26ffc4d1-36d2-4e55-84e7-9453afc83d11] tag=single-answer, bs=4, family=F1
+[26ffc4d1-36d2-4e55-84e7-9453afc83d11] answer='C22' top_candidate={'answer': 'C22', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3243541_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[26ffc4d1-36d2-4e55-84e7-9453afc83d11] done in 0.3s — answer: 'C22'
+[d6aafd83-f46a-482a-9cf2-966cbf484409] Family override: F1_5BS (tag=single-answer, bs=5)
+[d6aafd83-f46a-482a-9cf2-966cbf484409] tag=single-answer, bs=5, family=F1_5BS
+[d6aafd83-f46a-482a-9cf2-966cbf484409] answer='C4' top_candidate={'answer': 'C4', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[d6aafd83-f46a-482a-9cf2-966cbf484409] done in 0.4s — answer: 'C4'
+[69a578a6-b1a8-4402-8b82-8112534988c7] tag=single-answer, bs=4, family=F1
+[69a578a6-b1a8-4402-8b82-8112534988c7] answer='C18' top_candidate={'answer': 'C18', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+[69a578a6-b1a8-4402-8b82-8112534988c7] done in 0.3s — answer: 'C18'
+[d51b968b-24ad-4a84-8014-1678ccc3ac58] tag=single-answer, bs=4, family=F1
+[d51b968b-24ad-4a84-8014-1678ccc3ac58] answer='C19' top_candidate={'answer': 'C19', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3232143_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[d51b968b-24ad-4a84-8014-1678ccc3ac58] done in 0.3s — answer: 'C19'
+[863e801a-af00-411d-95c8-9795bf7859fd] tag=multiple-answer, bs=4, family=F2
+[863e801a-af00-411d-95c8-9795bf7859fd] answer='C3|C23' top_candidate={'answer': 'C3|C23', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3252180_3 (serving=3252180_3, overlap=0.21)'}
+[863e801a-af00-411d-95c8-9795bf7859fd] done in 0.3s — answer: 'C3|C23'
+[0f6dd5f1-149b-49ae-92a8-ab13d08ff5bd] tag=single-answer, bs=4, family=F1
+[0f6dd5f1-149b-49ae-92a8-ab13d08ff5bd] answer='C13' top_candidate={'answer': 'C13', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3233616_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[0f6dd5f1-149b-49ae-92a8-ab13d08ff5bd] done in 0.3s — answer: 'C13'
+Saved 50 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[3835862a-870d-4402-9b44-384c8fca146b] Family override: F1_5BS (tag=single-answer, bs=5)
+[3835862a-870d-4402-9b44-384c8fca146b] tag=single-answer, bs=5, family=F1_5BS
+[3835862a-870d-4402-9b44-384c8fca146b] answer='C4' top_candidate={'answer': 'C4', 'score': 0.8320200000000001, 'action_type': 'add_neighbor', 'target_cell': '3248427_3', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[3835862a-870d-4402-9b44-384c8fca146b] done in 0.3s — answer: 'C4'
+[cc8de794-e4fd-4d3c-95cb-158f4672355d] Family override: F4M (tag=multiple-answer, bs=13)
+[cc8de794-e4fd-4d3c-95cb-158f4672355d] tag=multiple-answer, bs=13, family=F4M
+[cc8de794-e4fd-4d3c-95cb-158f4672355d] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[cc8de794-e4fd-4d3c-95cb-158f4672355d] done in 0.2s — answer: 'C6|C7'
+[039f867d-64a3-4d8b-9f59-9a69bc15f259] tag=single-answer, bs=13, family=F4
+[039f867d-64a3-4d8b-9f59-9a69bc15f259] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3256153_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[039f867d-64a3-4d8b-9f59-9a69bc15f259] done in 0.2s — answer: 'C17'
+[815f0842-32f3-440f-837d-42abdd09f248] tag=multiple-answer, bs=4, family=F2
+[815f0842-32f3-440f-837d-42abdd09f248] answer='C2|C20' top_candidate={'answer': 'C2|C20', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3221987_2 (serving=3221987_2, overlap=0.24)'}
+[815f0842-32f3-440f-837d-42abdd09f248] done in 0.3s — answer: 'C2|C20'
+[1a4ce5ef-f940-480c-92bf-38b4397dfb34] tag=single-answer, bs=4, family=F1
+[1a4ce5ef-f940-480c-92bf-38b4397dfb34] answer='C9' top_candidate={'answer': 'C9', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3212325_2', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[1a4ce5ef-f940-480c-92bf-38b4397dfb34] done in 0.3s — answer: 'C9'
+[d3a65e48-1068-41d3-b205-f7526dc3c164] tag=multiple-answer, bs=4, family=F2
+[d3a65e48-1068-41d3-b205-f7526dc3c164] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3279414_3 (serving=3220409_1, best_neighbor=?, overlap=1.0)'}
+[d3a65e48-1068-41d3-b205-f7526dc3c164] done in 0.3s — answer: 'C1|C23'
+[5f3bbe40-689f-413e-b50a-c4f43ab27899] tag=single-answer, bs=13, family=F4
+[5f3bbe40-689f-413e-b50a-c4f43ab27899] answer='C19' top_candidate={'answer': 'C19', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3264577_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[5f3bbe40-689f-413e-b50a-c4f43ab27899] done in 0.2s — answer: 'C19'
+[b479af8e-8d29-43ca-86ef-601f24c2ad4f] tag=single-answer, bs=4, family=F1
+[b479af8e-8d29-43ca-86ef-601f24c2ad4f] answer='C16' top_candidate={'answer': 'C16', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3258774_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[b479af8e-8d29-43ca-86ef-601f24c2ad4f] done in 0.3s — answer: 'C16'
+[9b0f8c28-7a09-4871-9f26-b852a49fd173] tag=single-answer, bs=4, family=F1
+[9b0f8c28-7a09-4871-9f26-b852a49fd173] answer='C22' top_candidate={'answer': 'C22', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3277392_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[9b0f8c28-7a09-4871-9f26-b852a49fd173] done in 0.3s — answer: 'C22'
+[d4354d60-160c-45ee-a99e-ef7d05e39c19] Family override: F1_5BS (tag=single-answer, bs=5)
+[d4354d60-160c-45ee-a99e-ef7d05e39c19] tag=single-answer, bs=5, family=F1_5BS
+[d4354d60-160c-45ee-a99e-ef7d05e39c19] answer='C20' top_candidate={'answer': 'C20', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[d4354d60-160c-45ee-a99e-ef7d05e39c19] done in 0.4s — answer: 'C20'
+[d2e36af8-f277-43dc-a0d7-f49d9a1436d3] tag=single-answer, bs=4, family=F1
+[d2e36af8-f277-43dc-a0d7-f49d9a1436d3] answer='C18' top_candidate={'answer': 'C18', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[d2e36af8-f277-43dc-a0d7-f49d9a1436d3] done in 0.4s — answer: 'C18'
+[ccb728ac-9083-4f43-a89d-135d00e1a357] tag=single-answer, bs=4, family=F1
+[ccb728ac-9083-4f43-a89d-135d00e1a357] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6451200000000001, 'action_type': 'add_neighbor', 'target_cell': '3260657_1', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[ccb728ac-9083-4f43-a89d-135d00e1a357] done in 0.3s — answer: 'C7'
+[2901eb3e-765a-43ad-ad9d-d660ebd1ce37] tag=multiple-answer, bs=4, family=F2
+[2901eb3e-765a-43ad-ad9d-d660ebd1ce37] answer='C1|C19' top_candidate={'answer': 'C1|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3226678_3 (serving=3271162_1, best_neighbor=3226678_3, overlap=0.37)'}
+[2901eb3e-765a-43ad-ad9d-d660ebd1ce37] done in 0.3s — answer: 'C1|C19'
+[44840230-1070-42f8-b480-83bd5968391d] tag=single-answer, bs=4, family=F1
+[44840230-1070-42f8-b480-83bd5968391d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[44840230-1070-42f8-b480-83bd5968391d] done in 0.3s — answer: 'C16'
+[f16193c4-00f8-45be-8df5-edc7a12f6d2b] Family override: F1_5BS (tag=single-answer, bs=5)
+[f16193c4-00f8-45be-8df5-edc7a12f6d2b] tag=single-answer, bs=5, family=F1_5BS
+[f16193c4-00f8-45be-8df5-edc7a12f6d2b] answer='C19' top_candidate={'answer': 'C19', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[f16193c4-00f8-45be-8df5-edc7a12f6d2b] done in 0.3s — answer: 'C19'
+[0f6691b9-cfb1-4251-b6e7-a37872eb623a] tag=multiple-answer, bs=4, family=F2
+[0f6691b9-cfb1-4251-b6e7-a37872eb623a] answer='C16|C23' top_candidate={'answer': 'C16|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270392_2 (serving=3261278_1, best_neighbor=?, overlap=1.0)'}
+[0f6691b9-cfb1-4251-b6e7-a37872eb623a] done in 0.3s — answer: 'C16|C23'
+[71f8e7bd-15b6-490d-adf4-b4746615987a] tag=multiple-answer, bs=4, family=F2
+[71f8e7bd-15b6-490d-adf4-b4746615987a] answer='C1|C24' top_candidate={'answer': 'C1|C24', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3232425_1 (serving=3232425_1, overlap=0.25)'}
+[71f8e7bd-15b6-490d-adf4-b4746615987a] done in 0.3s — answer: 'C1|C24'
+[e72d1cd8-f9ec-495b-81fa-8469bbc665ac] tag=multiple-answer, bs=4, family=F2
+[e72d1cd8-f9ec-495b-81fa-8469bbc665ac] answer='C2|C5' top_candidate={'answer': 'C2|C5', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3246815_3 (serving=3246815_3, overlap=0.19)'}
+[e72d1cd8-f9ec-495b-81fa-8469bbc665ac] done in 0.3s — answer: 'C2|C5'
+[0025e3f1-6a6a-4146-8fce-c0cf97816995] tag=single-answer, bs=4, family=F1
+[0025e3f1-6a6a-4146-8fce-c0cf97816995] answer='C14' top_candidate={'answer': 'C14', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3244234_3', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[0025e3f1-6a6a-4146-8fce-c0cf97816995] done in 0.3s — answer: 'C14'
+[c1e268da-594a-4e37-8313-1ac798c6f921] tag=single-answer, bs=4, family=F1
+[c1e268da-594a-4e37-8313-1ac798c6f921] answer='C14' top_candidate={'answer': 'C14', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3230189_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[c1e268da-594a-4e37-8313-1ac798c6f921] done in 0.3s — answer: 'C14'
+[fa44ffa9-ccd7-4a3a-bfa1-bfbd55ffab81] tag=single-answer, bs=4, family=F1
+[fa44ffa9-ccd7-4a3a-bfa1-bfbd55ffab81] answer='C22' top_candidate={'answer': 'C22', 'score': 0.6552, 'action_type': 'decrease_a3', 'target_cell': '3244176_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[fa44ffa9-ccd7-4a3a-bfa1-bfbd55ffab81] done in 0.3s — answer: 'C22'
+[68ba2457-eaa3-4535-9b5c-3656bb8cc66b] tag=single-answer, bs=4, family=F1
+[68ba2457-eaa3-4535-9b5c-3656bb8cc66b] answer='C23' top_candidate={'answer': 'C23', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3264702_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[68ba2457-eaa3-4535-9b5c-3656bb8cc66b] done in 0.3s — answer: 'C23'
+[de896155-b409-4446-8679-e1bb486e4882] tag=multiple-answer, bs=4, family=F2
+[de896155-b409-4446-8679-e1bb486e4882] answer='C2|C7' top_candidate={'answer': 'C2|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3270601_1 (serving=3270601_1, overlap=0.21)'}
+[de896155-b409-4446-8679-e1bb486e4882] done in 0.3s — answer: 'C2|C7'
+[9c9ddada-5ef5-4f71-90ac-93b1edc7bcab] tag=multiple-answer, bs=4, family=F2
+[9c9ddada-5ef5-4f71-90ac-93b1edc7bcab] answer='C6|C10' top_candidate={'answer': 'C6|C10', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3220065_4 (serving=3263457_2, best_neighbor=?, overlap=1.0)'}
+[9c9ddada-5ef5-4f71-90ac-93b1edc7bcab] done in 0.3s — answer: 'C6|C10'
+[732ac9cf-5ad2-4934-a5f6-f41d6edde04e] tag=multiple-answer, bs=4, family=F2
+[732ac9cf-5ad2-4934-a5f6-f41d6edde04e] answer='C6|C12|C15|C19' top_candidate={'answer': 'C6|C12|C15|C19', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3215650_4, best_neighbor=3255155_2)'}
+[732ac9cf-5ad2-4934-a5f6-f41d6edde04e] done in 0.3s — answer: 'C6|C12|C15|C19'
+[a23ab670-fd49-4272-b64c-fcbf270dae96] tag=multiple-answer, bs=4, family=F2
+[a23ab670-fd49-4272-b64c-fcbf270dae96] answer='C1|C7' top_candidate={'answer': 'C1|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3242229_1 (serving=3242229_1, overlap=0.15)'}
+[a23ab670-fd49-4272-b64c-fcbf270dae96] done in 0.3s — answer: 'C1|C7'
+[26b2f2d2-27dc-4457-a6fc-a505a3dc723d] tag=single-answer, bs=4, family=F1
+[26b2f2d2-27dc-4457-a6fc-a505a3dc723d] answer='C5' top_candidate={'answer': 'C5', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3237057_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[26b2f2d2-27dc-4457-a6fc-a505a3dc723d] done in 0.3s — answer: 'C5'
+[c827524a-bdd2-4003-b2ed-2850289f6be4] tag=single-answer, bs=4, family=F1
+[c827524a-bdd2-4003-b2ed-2850289f6be4] answer='C1' top_candidate={'answer': 'C1', 'score': 0.7354200000000001, 'action_type': 'decrease_a3', 'target_cell': '3256014_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[c827524a-bdd2-4003-b2ed-2850289f6be4] done in 0.3s — answer: 'C1'
+[e063186f-c960-483f-b7e5-47f406910c4b] tag=single-answer, bs=4, family=F1
+[e063186f-c960-483f-b7e5-47f406910c4b] answer='C17' top_candidate={'answer': 'C17', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3228888_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[e063186f-c960-483f-b7e5-47f406910c4b] done in 0.3s — answer: 'C17'
+[95a3235a-cad3-4765-b379-ce5087f30e5f] tag=single-answer, bs=4, family=F1
+[95a3235a-cad3-4765-b379-ce5087f30e5f] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[95a3235a-cad3-4765-b379-ce5087f30e5f] done in 0.4s — answer: 'C9'
+[830f10bd-b05c-47df-824b-8c72e99e372e] tag=single-answer, bs=13, family=F4
+[830f10bd-b05c-47df-824b-8c72e99e372e] answer='C9' top_candidate={'answer': 'C9', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3276807_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[830f10bd-b05c-47df-824b-8c72e99e372e] done in 0.2s — answer: 'C9'
+[92771857-14a0-4bfc-9cad-4a88d3e553fb] Family override: F1_5BS (tag=single-answer, bs=5)
+[92771857-14a0-4bfc-9cad-4a88d3e553fb] tag=single-answer, bs=5, family=F1_5BS
+[92771857-14a0-4bfc-9cad-4a88d3e553fb] answer='C4' top_candidate={'answer': 'C4', 'score': 0.7446600000000001, 'action_type': 'add_neighbor', 'target_cell': '3249568_3', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[92771857-14a0-4bfc-9cad-4a88d3e553fb] done in 0.3s — answer: 'C4'
+[2955c497-5f13-4273-a753-16d3d27febb3] tag=single-answer, bs=4, family=F1
+[2955c497-5f13-4273-a753-16d3d27febb3] answer='C22' top_candidate={'answer': 'C22', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3273376_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[2955c497-5f13-4273-a753-16d3d27febb3] done in 0.3s — answer: 'C22'
+[18bd7eab-15c9-4c60-99e1-fb83be0428e5] Family override: F4M (tag=multiple-answer, bs=13)
+[18bd7eab-15c9-4c60-99e1-fb83be0428e5] tag=multiple-answer, bs=13, family=F4M
+[18bd7eab-15c9-4c60-99e1-fb83be0428e5] answer='C2|C13' top_candidate={'answer': 'C2|C13', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[18bd7eab-15c9-4c60-99e1-fb83be0428e5] done in 0.2s — answer: 'C2|C13'
+[f765cbbc-ad37-492b-bfb2-b4844b28e1d7] tag=multiple-answer, bs=4, family=F2
+[f765cbbc-ad37-492b-bfb2-b4844b28e1d7] answer='C6|C9' top_candidate={'answer': 'C6|C9', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3270105_1 (serving=3270105_1, overlap=0.21)'}
+[f765cbbc-ad37-492b-bfb2-b4844b28e1d7] done in 0.3s — answer: 'C6|C9'
+[e32e041c-dc9d-4598-b4dc-40f8d55e303d] Family override: F1_5BS (tag=single-answer, bs=5)
+[e32e041c-dc9d-4598-b4dc-40f8d55e303d] tag=single-answer, bs=5, family=F1_5BS
+[e32e041c-dc9d-4598-b4dc-40f8d55e303d] answer='C20' top_candidate={'answer': 'C20', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[e32e041c-dc9d-4598-b4dc-40f8d55e303d] done in 0.3s — answer: 'C20'
+[8b0618d4-6149-403d-b617-b430f9cc668a] Family override: F4M (tag=multiple-answer, bs=13)
+[8b0618d4-6149-403d-b617-b430f9cc668a] tag=multiple-answer, bs=13, family=F4M
+[8b0618d4-6149-403d-b617-b430f9cc668a] answer='C6|C13' top_candidate={'answer': 'C6|C13', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[8b0618d4-6149-403d-b617-b430f9cc668a] done in 0.2s — answer: 'C6|C13'
+[422843a3-02b2-43d6-b681-cdaad918f4ff] tag=multiple-answer, bs=4, family=F2
+[422843a3-02b2-43d6-b681-cdaad918f4ff] answer='C12|C14' top_candidate={'answer': 'C12|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3239549_4 (serving=3247247_1, best_neighbor=3239549_4, overlap=0.32)'}
+[422843a3-02b2-43d6-b681-cdaad918f4ff] done in 0.3s — answer: 'C12|C14'
+[bfc2dc55-713e-473f-b417-aeadc3a1b6c7] tag=multiple-answer, bs=4, family=F2
+[bfc2dc55-713e-473f-b417-aeadc3a1b6c7] answer='C5|C11' top_candidate={'answer': 'C5|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3243485_4 (serving=3232421_3, best_neighbor=3243485_4, overlap=0.36)'}
+[bfc2dc55-713e-473f-b417-aeadc3a1b6c7] done in 0.3s — answer: 'C5|C11'
+[13482c57-c7d2-40b3-8020-c45ff3a396f4] tag=multiple-answer, bs=4, family=F2
+[13482c57-c7d2-40b3-8020-c45ff3a396f4] answer='C1|C4|C6|C22' top_candidate={'answer': 'C1|C4|C6|C22', 'score': 0.744, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3259320_2, best_neighbor=3248020_3)'}
+[13482c57-c7d2-40b3-8020-c45ff3a396f4] done in 0.3s — answer: 'C1|C4|C6|C22'
+[6109e7b7-b970-4d08-b00e-cf46a9614880] tag=single-answer, bs=4, family=F1
+[6109e7b7-b970-4d08-b00e-cf46a9614880] answer='C18' top_candidate={'answer': 'C18', 'score': 0.55, 'action_type': 'lift_tilt', 'target_cell': '3271667_2', 'reason': 'geometry recommendation'}
+[6109e7b7-b970-4d08-b00e-cf46a9614880] done in 0.4s — answer: 'C18'
+[a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] tag=single-answer, bs=4, family=F1
+[a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] answer='C22' top_candidate={'answer': 'C22', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3264109_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] done in 0.3s — answer: 'C22'
+[9ce2509c-e2ab-40ab-948f-a57b6f6d4583] tag=single-answer, bs=4, family=F1
+[9ce2509c-e2ab-40ab-948f-a57b6f6d4583] answer='C16' top_candidate={'answer': 'C16', 'score': 0.63882, 'action_type': 'decrease_a3', 'target_cell': '3217637_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[9ce2509c-e2ab-40ab-948f-a57b6f6d4583] done in 0.3s — answer: 'C16'
+[ff500b22-2cdd-48b8-9029-a19556a0284b] tag=multiple-answer, bs=4, family=F2
+[ff500b22-2cdd-48b8-9029-a19556a0284b] answer='C3|C13' top_candidate={'answer': 'C3|C13', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3260801_3 (serving=3260801_3, overlap=0.22)'}
+[ff500b22-2cdd-48b8-9029-a19556a0284b] done in 0.3s — answer: 'C3|C13'
+[d1db7c9d-0831-43cc-8458-2c592f8ddd11] tag=multiple-answer, bs=4, family=F2
+[d1db7c9d-0831-43cc-8458-2c592f8ddd11] answer='C2|C10' top_candidate={'answer': 'C2|C10', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3268237_1 (serving=3268237_1, overlap=0.16)'}
+[d1db7c9d-0831-43cc-8458-2c592f8ddd11] done in 0.3s — answer: 'C2|C10'
+[575a50bb-24b4-4b7b-9d29-90efb4c2f4f2] tag=single-answer, bs=4, family=F1
+[575a50bb-24b4-4b7b-9d29-90efb4c2f4f2] answer='C6' top_candidate={'answer': 'C6', 'score': 0.6711600000000001, 'action_type': 'add_neighbor', 'target_cell': '3216593_1', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[575a50bb-24b4-4b7b-9d29-90efb4c2f4f2] done in 0.3s — answer: 'C6'
+[fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] Family override: F1_5BS (tag=single-answer, bs=5)
+[fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] tag=single-answer, bs=5, family=F1_5BS
+[fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] answer='C23' top_candidate={'answer': 'C23', 'score': 0.85, 'action_type': 'decrease_a3', 'target_cell': '3279661_2', 'reason': 'late_handover (score=0.85) → decrease_a3/primary'}
+[fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] done in 0.3s — answer: 'C23'
+[6147bada-cf92-4cdf-a7e4-7655e1300925] Family override: F1_5BS (tag=single-answer, bs=5)
+[6147bada-cf92-4cdf-a7e4-7655e1300925] tag=single-answer, bs=5, family=F1_5BS
+[6147bada-cf92-4cdf-a7e4-7655e1300925] answer='C3' top_candidate={'answer': 'C3', 'score': 0.7824000000000001, 'action_type': 'decrease_a3', 'target_cell': '3245992_2', 'reason': 'late_handover (score=0.78) → decrease_a3/primary'}
+[6147bada-cf92-4cdf-a7e4-7655e1300925] done in 0.3s — answer: 'C3'
+[ddb040fe-708c-472d-8ef6-584b8ec5b7ec] tag=multiple-answer, bs=4, family=F2
+[ddb040fe-708c-472d-8ef6-584b8ec5b7ec] answer='C1|C2|C12|C20' top_candidate={'answer': 'C1|C2|C12|C20', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3274544_3, best_neighbor=3260349_4)'}
+[ddb040fe-708c-472d-8ef6-584b8ec5b7ec] done in 0.3s — answer: 'C1|C2|C12|C20'
+[982b3e86-a7f4-42d3-97c8-7bfec2fd1025] tag=single-answer, bs=4, family=F1
+[982b3e86-a7f4-42d3-97c8-7bfec2fd1025] answer='C6' top_candidate={'answer': 'C6', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3256542_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[982b3e86-a7f4-42d3-97c8-7bfec2fd1025] done in 0.3s — answer: 'C6'
+Saved 100 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[b84d0afd-0856-4974-a9a0-3012a24ffef4] tag=single-answer, bs=4, family=F1
+[b84d0afd-0856-4974-a9a0-3012a24ffef4] answer='C5' top_candidate={'answer': 'C5', 'score': 0.5796000000000001, 'action_type': 'decrease_a3', 'target_cell': '3242996_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[b84d0afd-0856-4974-a9a0-3012a24ffef4] done in 0.3s — answer: 'C5'
+[9914f65b-06e1-4f0d-91e2-4fa06d5c0d13] tag=multiple-answer, bs=4, family=F2
+[9914f65b-06e1-4f0d-91e2-4fa06d5c0d13] answer='C22|C24' top_candidate={'answer': 'C22|C24', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3227624_1 (serving=3278518_2, best_neighbor=3227624_1, overlap=0.32)'}
+[9914f65b-06e1-4f0d-91e2-4fa06d5c0d13] done in 0.3s — answer: 'C22|C24'
+[568f196c-ba3a-4092-b1b0-7ebe332efd70] tag=single-answer, bs=4, family=F1
+[568f196c-ba3a-4092-b1b0-7ebe332efd70] answer='C16' top_candidate={'answer': 'C16', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3235531_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[568f196c-ba3a-4092-b1b0-7ebe332efd70] done in 0.3s — answer: 'C16'
+[7bb4febb-7c48-4c46-8012-5e2d108d4c9b] tag=multiple-answer, bs=4, family=F2
+[7bb4febb-7c48-4c46-8012-5e2d108d4c9b] answer='C3|C23' top_candidate={'answer': 'C3|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3277527_2 (serving=3212484_4, best_neighbor=?, overlap=1.0)'}
+[7bb4febb-7c48-4c46-8012-5e2d108d4c9b] done in 0.3s — answer: 'C3|C23'
+[d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] tag=single-answer, bs=4, family=F1
+[d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] answer='C9' top_candidate={'answer': 'C9', 'score': 0.6472200000000001, 'action_type': 'decrease_a3', 'target_cell': '3210853_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] done in 0.3s — answer: 'C9'
+[4a209def-ff65-4fcc-91d3-3ed840cd97b4] tag=multiple-answer, bs=4, family=F2
+[4a209def-ff65-4fcc-91d3-3ed840cd97b4] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3262929_4 (serving=3271115_1, best_neighbor=3262929_4, overlap=1.0)'}
+[4a209def-ff65-4fcc-91d3-3ed840cd97b4] done in 0.3s — answer: 'C6|C7'
+[32ad6a89-3f8c-4e03-9936-5d1be80459b4] tag=multiple-answer, bs=4, family=F2
+[32ad6a89-3f8c-4e03-9936-5d1be80459b4] answer='C14|C23' top_candidate={'answer': 'C14|C23', 'score': 0.451, 'reason': 'F2 role fallback: decrease_power/primary + press_down_tilt/primary'}
+[32ad6a89-3f8c-4e03-9936-5d1be80459b4] done in 0.3s — answer: 'C14|C23'
+[da968423-724d-4d1d-a4b7-17541f21d116] tag=single-answer, bs=4, family=F1
+[da968423-724d-4d1d-a4b7-17541f21d116] answer='C8' top_candidate={'answer': 'C8', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3254456_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[da968423-724d-4d1d-a4b7-17541f21d116] done in 0.3s — answer: 'C8'
+[74536f80-5d30-42dc-91f0-1a73dc6acc0c] tag=single-answer, bs=4, family=F1
+[74536f80-5d30-42dc-91f0-1a73dc6acc0c] answer='C17' top_candidate={'answer': 'C17', 'score': 0.7161, 'action_type': 'decrease_a3', 'target_cell': '3247726_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[74536f80-5d30-42dc-91f0-1a73dc6acc0c] done in 0.3s — answer: 'C17'
+[effdd6ec-7918-4f5e-bb01-390ae8060302] tag=single-answer, bs=13, family=F4
+[effdd6ec-7918-4f5e-bb01-390ae8060302] answer='C12' top_candidate={'answer': 'C12', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3248872_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[effdd6ec-7918-4f5e-bb01-390ae8060302] done in 0.2s — answer: 'C12'
+[2ff9fe61-ffa9-4116-a3af-f76e2a3e2bd2] tag=single-answer, bs=13, family=F4
+[2ff9fe61-ffa9-4116-a3af-f76e2a3e2bd2] answer='C14' top_candidate={'answer': 'C14', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3215464_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[2ff9fe61-ffa9-4116-a3af-f76e2a3e2bd2] done in 0.2s — answer: 'C14'
+[a0d59e59-2024-47fe-99e8-a2e0b2c0a877] tag=multiple-answer, bs=4, family=F2
+[a0d59e59-2024-47fe-99e8-a2e0b2c0a877] answer='C9|C16' top_candidate={'answer': 'C9|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3242068_3 (serving=3214989_4, best_neighbor=3242068_3, overlap=0.34)'}
+[a0d59e59-2024-47fe-99e8-a2e0b2c0a877] done in 0.3s — answer: 'C9|C16'
+[b62410af-0de9-49f1-ad8e-71ff8ddff0fa] tag=single-answer, bs=4, family=F1
+[b62410af-0de9-49f1-ad8e-71ff8ddff0fa] answer='C24' top_candidate={'answer': 'C24', 'score': 0.5859000000000001, 'action_type': 'decrease_a3', 'target_cell': '3227484_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[b62410af-0de9-49f1-ad8e-71ff8ddff0fa] done in 0.4s — answer: 'C24'
+[0d3d53d7-473e-42cc-9d87-c15700742492] tag=single-answer, bs=4, family=F1
+[0d3d53d7-473e-42cc-9d87-c15700742492] answer='C1' top_candidate={'answer': 'C1', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3238794_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[0d3d53d7-473e-42cc-9d87-c15700742492] done in 0.3s — answer: 'C1'
+[54110aae-c06a-4ea4-91ae-650818b0b88c] tag=single-answer, bs=4, family=F1
+[54110aae-c06a-4ea4-91ae-650818b0b88c] answer='C21' top_candidate={'answer': 'C21', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[54110aae-c06a-4ea4-91ae-650818b0b88c] done in 0.3s — answer: 'C21'
+[4c81b4cd-2d3a-42c4-a09a-bc110b8d2cc9] tag=multiple-answer, bs=4, family=F2
+[4c81b4cd-2d3a-42c4-a09a-bc110b8d2cc9] answer='C8|C11' top_candidate={'answer': 'C8|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3225255_4 (serving=3223528_3, best_neighbor=?, overlap=1.0)'}
+[4c81b4cd-2d3a-42c4-a09a-bc110b8d2cc9] done in 0.3s — answer: 'C8|C11'
+[8125c1bd-1a2d-4a81-9e15-71c93ff7caba] tag=single-answer, bs=4, family=F1
+[8125c1bd-1a2d-4a81-9e15-71c93ff7caba] answer='C3' top_candidate={'answer': 'C3', 'score': 0.6572999999999999, 'action_type': 'decrease_a3', 'target_cell': '3258383_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[8125c1bd-1a2d-4a81-9e15-71c93ff7caba] done in 0.3s — answer: 'C3'
+[4ff7e5c7-e7cf-406f-ad73-a1e3438caccb] tag=single-answer, bs=4, family=F1
+[4ff7e5c7-e7cf-406f-ad73-a1e3438caccb] answer='C11' top_candidate={'answer': 'C11', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3241580_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[4ff7e5c7-e7cf-406f-ad73-a1e3438caccb] done in 0.3s — answer: 'C11'
+[5261bcc3-99f5-4ce2-b4a0-075b9ae95cf6] tag=multiple-answer, bs=5, family=F3
+[5261bcc3-99f5-4ce2-b4a0-075b9ae95cf6] answer='C12|C13|C16|C23' top_candidate={'answer': 'C12|C13|C16|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[5261bcc3-99f5-4ce2-b4a0-075b9ae95cf6] done in 0.2s — answer: 'C12|C13|C16|C23'
+[539e5f7f-22f1-4764-9810-122c5c87bc02] tag=multiple-answer, bs=4, family=F2
+[539e5f7f-22f1-4764-9810-122c5c87bc02] answer='C10|C22' top_candidate={'answer': 'C10|C22', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3249698_4 (serving=3248446_2, best_neighbor=3249698_4, overlap=1.0)'}
+[539e5f7f-22f1-4764-9810-122c5c87bc02] done in 0.3s — answer: 'C10|C22'
+[eb91eb27-7ab5-4f60-bb38-7d71c58e02a8] tag=single-answer, bs=4, family=F1
+[eb91eb27-7ab5-4f60-bb38-7d71c58e02a8] answer='C1' top_candidate={'answer': 'C1', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3264914_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[eb91eb27-7ab5-4f60-bb38-7d71c58e02a8] done in 0.3s — answer: 'C1'
+[2d8e1ea0-6688-41cb-89b1-db82985469bf] Family override: F4M (tag=multiple-answer, bs=13)
+[2d8e1ea0-6688-41cb-89b1-db82985469bf] tag=multiple-answer, bs=13, family=F4M
+[2d8e1ea0-6688-41cb-89b1-db82985469bf] answer='C2|C7' top_candidate={'answer': 'C2|C7', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[2d8e1ea0-6688-41cb-89b1-db82985469bf] done in 0.2s — answer: 'C2|C7'
+[57ff95b0-924b-44f1-b5a8-4603b422af24] tag=multiple-answer, bs=4, family=F2
+[57ff95b0-924b-44f1-b5a8-4603b422af24] answer='C3|C21' top_candidate={'answer': 'C3|C21', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3260634_2 (serving=3260634_2, overlap=0.14)'}
+[57ff95b0-924b-44f1-b5a8-4603b422af24] done in 0.3s — answer: 'C3|C21'
+[107ae2cd-7cef-47b1-8b90-cb71cab7cdd0] tag=single-answer, bs=13, family=F4
+[107ae2cd-7cef-47b1-8b90-cb71cab7cdd0] answer='C2' top_candidate={'answer': 'C2', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3277455_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[107ae2cd-7cef-47b1-8b90-cb71cab7cdd0] done in 0.2s — answer: 'C2'
+[6060dca7-32c8-4cd8-adef-425aa1aec774] tag=single-answer, bs=4, family=F1
+[6060dca7-32c8-4cd8-adef-425aa1aec774] answer='C23' top_candidate={'answer': 'C23', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3258232_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[6060dca7-32c8-4cd8-adef-425aa1aec774] done in 0.3s — answer: 'C23'
+[f3a881f3-2a7c-4065-85b6-fc210962372f] tag=single-answer, bs=4, family=F1
+[f3a881f3-2a7c-4065-85b6-fc210962372f] answer='C16' top_candidate={'answer': 'C16', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3253222_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[f3a881f3-2a7c-4065-85b6-fc210962372f] done in 0.3s — answer: 'C16'
+[f3d7cd99-2ea9-46f9-91f6-79ea7bd303fd] tag=multiple-answer, bs=4, family=F2
+[f3d7cd99-2ea9-46f9-91f6-79ea7bd303fd] answer='C1|C7' top_candidate={'answer': 'C1|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3279996_1 (serving=3279996_1, overlap=0.07)'}
+[f3d7cd99-2ea9-46f9-91f6-79ea7bd303fd] done in 0.3s — answer: 'C1|C7'
+[b7f28655-5793-47f2-a469-fbad258569d9] tag=single-answer, bs=4, family=F1
+[b7f28655-5793-47f2-a469-fbad258569d9] answer='C10' top_candidate={'answer': 'C10', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3226441_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[b7f28655-5793-47f2-a469-fbad258569d9] done in 0.3s — answer: 'C10'
+[56fa72b3-31b1-4b27-bba8-7737d5added4] tag=multiple-answer, bs=5, family=F3
+[56fa72b3-31b1-4b27-bba8-7737d5added4] answer='C2|C6|C10|C11' top_candidate={'answer': 'C2|C6|C10|C11', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[56fa72b3-31b1-4b27-bba8-7737d5added4] done in 0.2s — answer: 'C2|C6|C10|C11'
+[4a33c95c-1032-42e4-8745-649752ae74e3] tag=single-answer, bs=4, family=F1
+[4a33c95c-1032-42e4-8745-649752ae74e3] answer='C19' top_candidate={'answer': 'C19', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[4a33c95c-1032-42e4-8745-649752ae74e3] done in 0.4s — answer: 'C19'
+[6f319176-8f50-4fc7-8c36-bb68ce26062d] tag=single-answer, bs=4, family=F1
+[6f319176-8f50-4fc7-8c36-bb68ce26062d] answer='C19' top_candidate={'answer': 'C19', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3227070_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[6f319176-8f50-4fc7-8c36-bb68ce26062d] done in 0.3s — answer: 'C19'
+[f4de78d3-5e53-43b8-ba53-00eb0302b3b0] tag=multiple-answer, bs=5, family=F3
+[f4de78d3-5e53-43b8-ba53-00eb0302b3b0] answer='C10|C18|C20|C24' top_candidate={'answer': 'C10|C18|C20|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[f4de78d3-5e53-43b8-ba53-00eb0302b3b0] done in 0.2s — answer: 'C10|C18|C20|C24'
+[fd142bee-be4f-4222-b4c1-7133d9fdf39e] tag=single-answer, bs=4, family=F1
+[fd142bee-be4f-4222-b4c1-7133d9fdf39e] answer='C18' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3230201_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[fd142bee-be4f-4222-b4c1-7133d9fdf39e] done in 0.3s — answer: 'C18'
+[254bbd9b-dcaa-4fb1-9174-5a8a9a027e94] tag=multiple-answer, bs=4, family=F2
+[254bbd9b-dcaa-4fb1-9174-5a8a9a027e94] answer='C3|C7' top_candidate={'answer': 'C3|C7', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3248599_4 (serving=3224241_3, best_neighbor=3248599_4, overlap=0.83)'}
+[254bbd9b-dcaa-4fb1-9174-5a8a9a027e94] done in 0.3s — answer: 'C3|C7'
+[f142c352-559d-4e73-9114-7f4f42e2fbe3] tag=single-answer, bs=13, family=F4
+[f142c352-559d-4e73-9114-7f4f42e2fbe3] answer='C15' top_candidate={'answer': 'C15', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3230750_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[f142c352-559d-4e73-9114-7f4f42e2fbe3] done in 0.2s — answer: 'C15'
+[d06a257c-34d3-4641-a17b-6ec6284a1f20] tag=multiple-answer, bs=4, family=F2
+[d06a257c-34d3-4641-a17b-6ec6284a1f20] answer='C7|C10' top_candidate={'answer': 'C7|C10', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3220949_3 (serving=3220949_3, overlap=0.18)'}
+[d06a257c-34d3-4641-a17b-6ec6284a1f20] done in 0.3s — answer: 'C7|C10'
+[42bc56e9-1d6d-40f1-bb72-88105831765c] tag=single-answer, bs=4, family=F1
+[42bc56e9-1d6d-40f1-bb72-88105831765c] answer='C10' top_candidate={'answer': 'C10', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3226676_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[42bc56e9-1d6d-40f1-bb72-88105831765c] done in 0.3s — answer: 'C10'
+[ecb7cb08-4e8e-4c6c-8ff8-3c7a310a987d] tag=single-answer, bs=4, family=F1
+[ecb7cb08-4e8e-4c6c-8ff8-3c7a310a987d] answer='C4' top_candidate={'answer': 'C4', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3275246_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[ecb7cb08-4e8e-4c6c-8ff8-3c7a310a987d] done in 0.3s — answer: 'C4'
+[4506e56b-12b2-4328-87d9-c7ee5a7940ed] tag=single-answer, bs=4, family=F1
+[4506e56b-12b2-4328-87d9-c7ee5a7940ed] answer='C23' top_candidate={'answer': 'C23', 'score': 0.8047200000000001, 'action_type': 'decrease_a3', 'target_cell': '3245790_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[4506e56b-12b2-4328-87d9-c7ee5a7940ed] done in 0.4s — answer: 'C23'
+[bd375ddc-b6b2-4e8d-be99-5a97b660abe5] tag=single-answer, bs=4, family=F1
+[bd375ddc-b6b2-4e8d-be99-5a97b660abe5] answer='C12' top_candidate={'answer': 'C12', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3253225_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[bd375ddc-b6b2-4e8d-be99-5a97b660abe5] done in 0.3s — answer: 'C12'
+[f02d340d-18c0-43c9-ae9c-c6132c5fe719] tag=multiple-answer, bs=4, family=F2
+[f02d340d-18c0-43c9-ae9c-c6132c5fe719] answer='C10|C15|C20|C22' top_candidate={'answer': 'C10|C15|C20|C22', 'score': 0.7196, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3215976_2, best_neighbor=3241057_3)'}
+[f02d340d-18c0-43c9-ae9c-c6132c5fe719] done in 0.3s — answer: 'C10|C15|C20|C22'
+[cb7b7f86-85d0-4b50-9d30-8619de2a888e] tag=single-answer, bs=4, family=F1
+[cb7b7f86-85d0-4b50-9d30-8619de2a888e] answer='C16' top_candidate={'answer': 'C16', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3249260_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[cb7b7f86-85d0-4b50-9d30-8619de2a888e] done in 0.3s — answer: 'C16'
+[1f161b48-f54c-4948-9658-3de6e60a4397] tag=single-answer, bs=4, family=F1
+[1f161b48-f54c-4948-9658-3de6e60a4397] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[1f161b48-f54c-4948-9658-3de6e60a4397] done in 0.4s — answer: 'C3'
+[02ff3c6f-486b-4c99-9abf-a326c5184c68] Family override: F1_5BS (tag=single-answer, bs=5)
+[02ff3c6f-486b-4c99-9abf-a326c5184c68] tag=single-answer, bs=5, family=F1_5BS
+[02ff3c6f-486b-4c99-9abf-a326c5184c68] answer='C20' top_candidate={'answer': 'C20', 'score': 0.7757400000000001, 'action_type': 'add_neighbor', 'target_cell': '3210255_3', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[02ff3c6f-486b-4c99-9abf-a326c5184c68] done in 0.4s — answer: 'C20'
+[72bdfa71-19eb-4668-a5b8-7fb6a4273d26] tag=single-answer, bs=4, family=F1
+[72bdfa71-19eb-4668-a5b8-7fb6a4273d26] answer='C5' top_candidate={'answer': 'C5', 'score': 0.5854800000000001, 'action_type': 'decrease_a3', 'target_cell': '3218777_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[72bdfa71-19eb-4668-a5b8-7fb6a4273d26] done in 0.3s — answer: 'C5'
+[ec522d69-f033-42bf-bcb3-b5e010664f4f] tag=single-answer, bs=4, family=F1
+[ec522d69-f033-42bf-bcb3-b5e010664f4f] answer='C22' top_candidate={'answer': 'C22', 'score': 0.6501600000000001, 'action_type': 'decrease_a3', 'target_cell': '3228637_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[ec522d69-f033-42bf-bcb3-b5e010664f4f] done in 0.3s — answer: 'C22'
+[10189b4b-48e8-4ef4-b34c-199606e1f288] tag=single-answer, bs=4, family=F1
+[10189b4b-48e8-4ef4-b34c-199606e1f288] answer='C7' top_candidate={'answer': 'C7', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3264561_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[10189b4b-48e8-4ef4-b34c-199606e1f288] done in 0.3s — answer: 'C7'
+[10f63584-28ba-4a37-b5ad-084c2418800c] tag=single-answer, bs=4, family=F1
+[10f63584-28ba-4a37-b5ad-084c2418800c] answer='C5' top_candidate={'answer': 'C5', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3228003_3', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[10f63584-28ba-4a37-b5ad-084c2418800c] done in 0.3s — answer: 'C5'
+[7b12c38c-274a-4475-befa-d67d7d813601] tag=single-answer, bs=4, family=F1
+[7b12c38c-274a-4475-befa-d67d7d813601] answer='C20' top_candidate={'answer': 'C20', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3268060_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[7b12c38c-274a-4475-befa-d67d7d813601] done in 0.3s — answer: 'C20'
+[5137d812-1c90-4200-98c7-b1d4f44bb3d5] tag=multiple-answer, bs=4, family=F2
+[5137d812-1c90-4200-98c7-b1d4f44bb3d5] answer='C5|C23' top_candidate={'answer': 'C5|C23', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3237117_1 (serving=3237117_1, overlap=0.25)'}
+[5137d812-1c90-4200-98c7-b1d4f44bb3d5] done in 0.3s — answer: 'C5|C23'
+Saved 150 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[11e38c8b-be62-4ee5-a536-475a93359ac3] tag=single-answer, bs=4, family=F1
+[11e38c8b-be62-4ee5-a536-475a93359ac3] answer='C10' top_candidate={'answer': 'C10', 'score': 0.735, 'action_type': 'decrease_a3', 'target_cell': '3253538_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[11e38c8b-be62-4ee5-a536-475a93359ac3] done in 0.3s — answer: 'C10'
+[37b86ce4-1d0b-4bfc-b3a8-8482ec5bfd2d] tag=multiple-answer, bs=5, family=F3
+[37b86ce4-1d0b-4bfc-b3a8-8482ec5bfd2d] answer='C3|C4|C16|C18' top_candidate={'answer': 'C3|C4|C16|C18', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[37b86ce4-1d0b-4bfc-b3a8-8482ec5bfd2d] done in 0.2s — answer: 'C3|C4|C16|C18'
+[e83a09dd-795a-4066-9f5c-2de6da46dfea] tag=multiple-answer, bs=4, family=F2
+[e83a09dd-795a-4066-9f5c-2de6da46dfea] answer='C13|C14|C15|C23' top_candidate={'answer': 'C13|C14|C15|C23', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3254560_1, best_neighbor=3254576_2)'}
+[e83a09dd-795a-4066-9f5c-2de6da46dfea] done in 0.3s — answer: 'C13|C14|C15|C23'
+[fe1fb529-a95f-4498-a829-d11880213b3f] tag=single-answer, bs=4, family=F1
+[fe1fb529-a95f-4498-a829-d11880213b3f] answer='C16' top_candidate={'answer': 'C16', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3229939_4', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[fe1fb529-a95f-4498-a829-d11880213b3f] done in 0.3s — answer: 'C16'
+[06599034-eb42-47bd-8d3f-55d991146660] tag=single-answer, bs=4, family=F1
+[06599034-eb42-47bd-8d3f-55d991146660] answer='C8' top_candidate={'answer': 'C8', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3276326_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[06599034-eb42-47bd-8d3f-55d991146660] done in 0.3s — answer: 'C8'
+[68481bc5-b257-45da-9279-09575d5ab783] tag=single-answer, bs=4, family=F1
+[68481bc5-b257-45da-9279-09575d5ab783] answer='C3' top_candidate={'answer': 'C3', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3225523_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[68481bc5-b257-45da-9279-09575d5ab783] done in 0.3s — answer: 'C3'
+[da28c256-f98d-4248-b7cc-81cd293f3321] tag=single-answer, bs=4, family=F1
+[da28c256-f98d-4248-b7cc-81cd293f3321] answer='C17' top_candidate={'answer': 'C17', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3229535_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[da28c256-f98d-4248-b7cc-81cd293f3321] done in 0.3s — answer: 'C17'
+[4977d843-18af-47e7-87dd-f3a99ad8306c] tag=single-answer, bs=4, family=F1
+[4977d843-18af-47e7-87dd-f3a99ad8306c] answer='C7' top_candidate={'answer': 'C7', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3255086_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[4977d843-18af-47e7-87dd-f3a99ad8306c] done in 0.3s — answer: 'C7'
+[47159200-ab39-41a9-b0de-33cfb8befa83] tag=multiple-answer, bs=4, family=F2
+[47159200-ab39-41a9-b0de-33cfb8befa83] answer='C6|C16' top_candidate={'answer': 'C6|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3253089_1 (serving=3219975_2, best_neighbor=3253089_1, overlap=0.31)'}
+[47159200-ab39-41a9-b0de-33cfb8befa83] done in 0.3s — answer: 'C6|C16'
+[fa586242-b810-4a6b-9135-ad052d961445] tag=multiple-answer, bs=4, family=F2
+[fa586242-b810-4a6b-9135-ad052d961445] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3231075_3 (serving=3231153_4, best_neighbor=3231075_3, overlap=0.76)'}
+[fa586242-b810-4a6b-9135-ad052d961445] done in 0.3s — answer: 'C1|C23'
+[dfbb36ea-71bd-4cda-82d9-92ff94cfb35e] tag=multiple-answer, bs=5, family=F3
+[dfbb36ea-71bd-4cda-82d9-92ff94cfb35e] answer='C3|C10|C13|C16' top_candidate={'answer': 'C3|C10|C13|C16', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[dfbb36ea-71bd-4cda-82d9-92ff94cfb35e] done in 0.2s — answer: 'C3|C10|C13|C16'
+[a4176c2c-458b-4c9c-b89b-c0c873747d0b] tag=multiple-answer, bs=4, family=F2
+[a4176c2c-458b-4c9c-b89b-c0c873747d0b] answer='C12|C13|C19|C20' top_candidate={'answer': 'C12|C13|C19|C20', 'score': 0.7452000000000001, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3235813_2, best_neighbor=3272762_3)'}
+[a4176c2c-458b-4c9c-b89b-c0c873747d0b] done in 0.3s — answer: 'C12|C13|C19|C20'
+[337083f8-8abe-425c-b1bb-9ff292a5517b] tag=multiple-answer, bs=4, family=F2
+[337083f8-8abe-425c-b1bb-9ff292a5517b] answer='C2|C8' top_candidate={'answer': 'C2|C8', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3229133_1 (serving=3229133_1, overlap=0.1)'}
+[337083f8-8abe-425c-b1bb-9ff292a5517b] done in 0.3s — answer: 'C2|C8'
+[d0c60cfc-c5be-4e02-bae3-ad890741e414] tag=single-answer, bs=4, family=F1
+[d0c60cfc-c5be-4e02-bae3-ad890741e414] answer='C7' top_candidate={'answer': 'C7', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3241462_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[d0c60cfc-c5be-4e02-bae3-ad890741e414] done in 0.3s — answer: 'C7'
+[f88ec12a-82ad-4f49-be0a-c278cc038ae6] tag=multiple-answer, bs=4, family=F2
+[f88ec12a-82ad-4f49-be0a-c278cc038ae6] answer='C3|C4' top_candidate={'answer': 'C3|C4', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3243619_4 (serving=3243619_4, overlap=0.06)'}
+[f88ec12a-82ad-4f49-be0a-c278cc038ae6] done in 0.3s — answer: 'C3|C4'
+[dfb3d30b-32d1-4243-aa46-380143d05a62] tag=single-answer, bs=4, family=F1
+[dfb3d30b-32d1-4243-aa46-380143d05a62] answer='C19' top_candidate={'answer': 'C19', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3246544_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[dfb3d30b-32d1-4243-aa46-380143d05a62] done in 0.3s — answer: 'C19'
+[e7e18fcc-ba79-4760-8143-22fbe52261c8] tag=single-answer, bs=4, family=F1
+[e7e18fcc-ba79-4760-8143-22fbe52261c8] answer='C18' top_candidate={'answer': 'C18', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3248367_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[e7e18fcc-ba79-4760-8143-22fbe52261c8] done in 0.3s — answer: 'C18'
+[16943de0-d3f1-4339-92bb-e9cc42b37486] tag=single-answer, bs=4, family=F1
+[16943de0-d3f1-4339-92bb-e9cc42b37486] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[16943de0-d3f1-4339-92bb-e9cc42b37486] done in 0.3s — answer: 'C9'
+[e3481556-e1e4-49f2-9d9d-a047297cc242] tag=multiple-answer, bs=4, family=F2
+[e3481556-e1e4-49f2-9d9d-a047297cc242] answer='C12|C15' top_candidate={'answer': 'C12|C15', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3264161_1 (serving=3264161_1, overlap=0.21)'}
+[e3481556-e1e4-49f2-9d9d-a047297cc242] done in 0.3s — answer: 'C12|C15'
+[1480de40-ae10-471a-abd3-80d42ff53a39] tag=multiple-answer, bs=5, family=F3
+[1480de40-ae10-471a-abd3-80d42ff53a39] answer='C2|C7|C11|C23' top_candidate={'answer': 'C2|C7|C11|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[1480de40-ae10-471a-abd3-80d42ff53a39] done in 0.2s — answer: 'C2|C7|C11|C23'
+[4fdbdf68-edc9-4088-9572-62f94a83bafb] tag=single-answer, bs=4, family=F1
+[4fdbdf68-edc9-4088-9572-62f94a83bafb] answer='C18' top_candidate={'answer': 'C18', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3244594_4', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[4fdbdf68-edc9-4088-9572-62f94a83bafb] done in 0.3s — answer: 'C18'
+[fbc104bd-e5f6-4202-b6db-bdf9703aa7bd] Family override: F4M (tag=multiple-answer, bs=13)
+[fbc104bd-e5f6-4202-b6db-bdf9703aa7bd] tag=multiple-answer, bs=13, family=F4M
+[fbc104bd-e5f6-4202-b6db-bdf9703aa7bd] answer='C16|C18' top_candidate={'answer': 'C16|C18', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[fbc104bd-e5f6-4202-b6db-bdf9703aa7bd] done in 0.2s — answer: 'C16|C18'
+[70a5d3e9-aa0c-4a22-8c07-96c814fc7c80] tag=single-answer, bs=4, family=F1
+[70a5d3e9-aa0c-4a22-8c07-96c814fc7c80] answer='C8' top_candidate={'answer': 'C8', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[70a5d3e9-aa0c-4a22-8c07-96c814fc7c80] done in 0.4s — answer: 'C8'
+[6eda2da2-1b12-43f8-bb8c-71fa8c873126] tag=multiple-answer, bs=5, family=F3
+[6eda2da2-1b12-43f8-bb8c-71fa8c873126] answer='C1|C8|C20|C21' top_candidate={'answer': 'C1|C8|C20|C21', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[6eda2da2-1b12-43f8-bb8c-71fa8c873126] done in 0.2s — answer: 'C1|C8|C20|C21'
+[5c138c28-2ba0-4f6b-b148-37a95a34544e] tag=multiple-answer, bs=5, family=F3
+[5c138c28-2ba0-4f6b-b148-37a95a34544e] answer='C1|C2|C19|C21' top_candidate={'answer': 'C1|C2|C19|C21', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[5c138c28-2ba0-4f6b-b148-37a95a34544e] done in 0.2s — answer: 'C1|C2|C19|C21'
+[cbb79510-5415-476c-af3a-afaf5411f0cd] Family override: F4M (tag=multiple-answer, bs=13)
+[cbb79510-5415-476c-af3a-afaf5411f0cd] tag=multiple-answer, bs=13, family=F4M
+[cbb79510-5415-476c-af3a-afaf5411f0cd] answer='C9|C23' top_candidate={'answer': 'C9|C23', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[cbb79510-5415-476c-af3a-afaf5411f0cd] done in 0.2s — answer: 'C9|C23'
+[d9eaeff3-b856-4461-ae2c-61208cfd90e6] tag=single-answer, bs=4, family=F1
+[d9eaeff3-b856-4461-ae2c-61208cfd90e6] answer='C19' top_candidate={'answer': 'C19', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3213525_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[d9eaeff3-b856-4461-ae2c-61208cfd90e6] done in 0.3s — answer: 'C19'
+[627c5218-fdaa-4abb-8303-9781db342b4b] Family override: F4M (tag=multiple-answer, bs=13)
+[627c5218-fdaa-4abb-8303-9781db342b4b] tag=multiple-answer, bs=13, family=F4M
+[627c5218-fdaa-4abb-8303-9781db342b4b] answer='C12|C21' top_candidate={'answer': 'C12|C21', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[627c5218-fdaa-4abb-8303-9781db342b4b] done in 0.2s — answer: 'C12|C21'
+[2effd9b1-85d9-4ca3-9f9b-a28c23872a95] tag=single-answer, bs=13, family=F4
+[2effd9b1-85d9-4ca3-9f9b-a28c23872a95] answer='C12' top_candidate={'answer': 'C12', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3253483_2', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[2effd9b1-85d9-4ca3-9f9b-a28c23872a95] done in 0.2s — answer: 'C12'
+[b34c0dd8-6200-4fbb-8cb8-0c0c199cedf4] tag=single-answer, bs=4, family=F1
+[b34c0dd8-6200-4fbb-8cb8-0c0c199cedf4] answer='C4' top_candidate={'answer': 'C4', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3266619_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[b34c0dd8-6200-4fbb-8cb8-0c0c199cedf4] done in 0.3s — answer: 'C4'
+[10231381-fab0-45a2-837d-e3c202a6a849] tag=single-answer, bs=4, family=F1
+[10231381-fab0-45a2-837d-e3c202a6a849] answer='C2' top_candidate={'answer': 'C2', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3269435_2', 'reason': 'geometry recommendation'}
+[10231381-fab0-45a2-837d-e3c202a6a849] done in 0.4s — answer: 'C2'
+[411d8bbd-90dd-41d0-a31a-d2e98ee70bf5] tag=single-answer, bs=4, family=F1
+[411d8bbd-90dd-41d0-a31a-d2e98ee70bf5] answer='C11' top_candidate={'answer': 'C11', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3259180_2', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[411d8bbd-90dd-41d0-a31a-d2e98ee70bf5] done in 0.3s — answer: 'C11'
+[371ea7fb-d6f9-45e8-b502-81c4804af9ba] tag=multiple-answer, bs=4, family=F2
+[371ea7fb-d6f9-45e8-b502-81c4804af9ba] answer='C11|C14' top_candidate={'answer': 'C11|C14', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3237865_3 (serving=3237865_3, overlap=0.03)'}
+[371ea7fb-d6f9-45e8-b502-81c4804af9ba] done in 0.3s — answer: 'C11|C14'
+[acb8a1db-6d3f-4949-b26f-bdab3ec0008b] tag=multiple-answer, bs=4, family=F2
+[acb8a1db-6d3f-4949-b26f-bdab3ec0008b] answer='C6|C24' top_candidate={'answer': 'C6|C24', 'score': 0.7636000000000001, 'reason': 'F2 relationship: add neighbor between serving 3236459_1 and best neighbor ? + decrease_a3 on serving 3236459_1'}
+[acb8a1db-6d3f-4949-b26f-bdab3ec0008b] done in 0.3s — answer: 'C6|C24'
+[e09c9577-79f4-422a-b848-9480d6a037c0] tag=single-answer, bs=4, family=F1
+[e09c9577-79f4-422a-b848-9480d6a037c0] answer='C12' top_candidate={'answer': 'C12', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3262465_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[e09c9577-79f4-422a-b848-9480d6a037c0] done in 0.3s — answer: 'C12'
+[78d5e1bc-1052-4aa5-b001-16a91539073e] tag=single-answer, bs=13, family=F4
+[78d5e1bc-1052-4aa5-b001-16a91539073e] answer='C5' top_candidate={'answer': 'C5', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3263090_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[78d5e1bc-1052-4aa5-b001-16a91539073e] done in 0.2s — answer: 'C5'
+[c7af696b-7e5c-421c-964f-63adb0ed71c4] tag=single-answer, bs=4, family=F1
+[c7af696b-7e5c-421c-964f-63adb0ed71c4] answer='C9' top_candidate={'answer': 'C9', 'score': 0.7492800000000001, 'action_type': 'decrease_a3', 'target_cell': '3246249_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[c7af696b-7e5c-421c-964f-63adb0ed71c4] done in 0.3s — answer: 'C9'
+[a4e55fd2-d4c5-40ab-adb8-45ab5a3524f5] tag=single-answer, bs=4, family=F1
+[a4e55fd2-d4c5-40ab-adb8-45ab5a3524f5] answer='C23' top_candidate={'answer': 'C23', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3240512_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[a4e55fd2-d4c5-40ab-adb8-45ab5a3524f5] done in 0.3s — answer: 'C23'
+[3f2dfc96-37d6-402c-8669-6b83c60e5b78] tag=single-answer, bs=4, family=F1
+[3f2dfc96-37d6-402c-8669-6b83c60e5b78] answer='C20' top_candidate={'answer': 'C20', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3236985_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[3f2dfc96-37d6-402c-8669-6b83c60e5b78] done in 0.3s — answer: 'C20'
+[fc923942-b23c-42a9-aa9a-bb299da874e1] Family override: F4M (tag=multiple-answer, bs=13)
+[fc923942-b23c-42a9-aa9a-bb299da874e1] tag=multiple-answer, bs=13, family=F4M
+[fc923942-b23c-42a9-aa9a-bb299da874e1] answer='C2|C14' top_candidate={'answer': 'C2|C14', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[fc923942-b23c-42a9-aa9a-bb299da874e1] done in 0.2s — answer: 'C2|C14'
+[9bb271e8-0094-4eef-954e-d0d2f39a2d20] tag=single-answer, bs=4, family=F1
+[9bb271e8-0094-4eef-954e-d0d2f39a2d20] answer='C9' top_candidate={'answer': 'C9', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3212447_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[9bb271e8-0094-4eef-954e-d0d2f39a2d20] done in 0.3s — answer: 'C9'
+[1c3503e7-2ef7-4443-a4db-91e50904be27] tag=single-answer, bs=4, family=F1
+[1c3503e7-2ef7-4443-a4db-91e50904be27] answer='C15' top_candidate={'answer': 'C15', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3233837_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[1c3503e7-2ef7-4443-a4db-91e50904be27] done in 0.3s — answer: 'C15'
+[40400e43-4205-47bb-86cb-4e7e9653a9fe] tag=multiple-answer, bs=4, family=F2
+[40400e43-4205-47bb-86cb-4e7e9653a9fe] answer='C9|C10' top_candidate={'answer': 'C9|C10', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3218614_1 (serving=3218614_1, overlap=0.11)'}
+[40400e43-4205-47bb-86cb-4e7e9653a9fe] done in 0.3s — answer: 'C9|C10'
+[3b750b62-6ec6-400e-83fc-caaa948f565d] tag=multiple-answer, bs=4, family=F2
+[3b750b62-6ec6-400e-83fc-caaa948f565d] answer='C4|C10' top_candidate={'answer': 'C4|C10', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3254314_3 (serving=3274678_4, best_neighbor=3254314_3, overlap=1.0)'}
+[3b750b62-6ec6-400e-83fc-caaa948f565d] done in 0.3s — answer: 'C4|C10'
+[13412d8f-8d77-435a-9b51-3bc4b43c72ab] tag=multiple-answer, bs=5, family=F3
+[13412d8f-8d77-435a-9b51-3bc4b43c72ab] answer='C5|C15|C17|C19' top_candidate={'answer': 'C5|C15|C17|C19', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[13412d8f-8d77-435a-9b51-3bc4b43c72ab] done in 0.2s — answer: 'C5|C15|C17|C19'
+[17e76ca9-c89a-4c39-ae9e-6585ca4a8a09] tag=single-answer, bs=4, family=F1
+[17e76ca9-c89a-4c39-ae9e-6585ca4a8a09] answer='C12' top_candidate={'answer': 'C12', 'score': 0.59178, 'action_type': 'decrease_a3', 'target_cell': '3231257_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[17e76ca9-c89a-4c39-ae9e-6585ca4a8a09] done in 0.3s — answer: 'C12'
+[0789fc22-c946-44c0-b181-46304da5734a] tag=single-answer, bs=13, family=F4
+[0789fc22-c946-44c0-b181-46304da5734a] answer='C1' top_candidate={'answer': 'C1', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3275322_6', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[0789fc22-c946-44c0-b181-46304da5734a] done in 0.2s — answer: 'C1'
+[716bbc17-8113-4723-86f8-46558f12e494] Family override: F1_5BS (tag=single-answer, bs=5)
+[716bbc17-8113-4723-86f8-46558f12e494] tag=single-answer, bs=5, family=F1_5BS
+[716bbc17-8113-4723-86f8-46558f12e494] answer='C4' top_candidate={'answer': 'C4', 'score': 0.85, 'action_type': 'add_neighbor', 'target_cell': '3215708_2', 'reason': 'F1 arbitration candidate: add_neighbor between serving and best neighbor'}
+[716bbc17-8113-4723-86f8-46558f12e494] done in 0.4s — answer: 'C4'
+[ebc631a0-dc02-4510-9793-964a40d2e6cc] tag=single-answer, bs=13, family=F4
+[ebc631a0-dc02-4510-9793-964a40d2e6cc] answer='C15' top_candidate={'answer': 'C15', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3241784_2', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[ebc631a0-dc02-4510-9793-964a40d2e6cc] done in 0.2s — answer: 'C15'
+[ccaae63a-d663-4733-a9f2-6a4e1715544b] tag=single-answer, bs=4, family=F1
+[ccaae63a-d663-4733-a9f2-6a4e1715544b] answer='C15' top_candidate={'answer': 'C15', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3224924_2', 'reason': 'geometry recommendation'}
+[ccaae63a-d663-4733-a9f2-6a4e1715544b] done in 0.4s — answer: 'C15'
+Saved 200 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[9a03817f-631b-44f7-9ff5-f942e8cb1d03] tag=single-answer, bs=4, family=F1
+[9a03817f-631b-44f7-9ff5-f942e8cb1d03] answer='C23' top_candidate={'answer': 'C23', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[9a03817f-631b-44f7-9ff5-f942e8cb1d03] done in 0.4s — answer: 'C23'
+[fcae973b-841f-4971-a4f7-ca2f097a2f2a] Family override: F1_5BS (tag=single-answer, bs=5)
+[fcae973b-841f-4971-a4f7-ca2f097a2f2a] tag=single-answer, bs=5, family=F1_5BS
+[fcae973b-841f-4971-a4f7-ca2f097a2f2a] answer='C1' top_candidate={'answer': 'C1', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[fcae973b-841f-4971-a4f7-ca2f097a2f2a] done in 0.4s — answer: 'C1'
+[8e086574-ca1c-4e9b-8b14-88b6e7c01b0b] tag=single-answer, bs=4, family=F1
+[8e086574-ca1c-4e9b-8b14-88b6e7c01b0b] answer='C10' top_candidate={'answer': 'C10', 'score': 0.63924, 'action_type': 'decrease_a3', 'target_cell': '3224110_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[8e086574-ca1c-4e9b-8b14-88b6e7c01b0b] done in 0.3s — answer: 'C10'
+[8131b2ec-80c1-4014-b69d-baf2b0fab1e6] Family override: F4M (tag=multiple-answer, bs=13)
+[8131b2ec-80c1-4014-b69d-baf2b0fab1e6] tag=multiple-answer, bs=13, family=F4M
+[8131b2ec-80c1-4014-b69d-baf2b0fab1e6] answer='C7|C19' top_candidate={'answer': 'C7|C19', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[8131b2ec-80c1-4014-b69d-baf2b0fab1e6] done in 0.2s — answer: 'C7|C19'
+[b4e207bc-aff2-424d-a3e7-a2cab9f5d2a4] Family override: F4M (tag=multiple-answer, bs=13)
+[b4e207bc-aff2-424d-a3e7-a2cab9f5d2a4] tag=multiple-answer, bs=13, family=F4M
+[b4e207bc-aff2-424d-a3e7-a2cab9f5d2a4] answer='C9|C16' top_candidate={'answer': 'C9|C16', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[b4e207bc-aff2-424d-a3e7-a2cab9f5d2a4] done in 0.2s — answer: 'C9|C16'
+[54cacfcb-e3f4-44cd-8ecb-c691c104efa8] tag=single-answer, bs=4, family=F1
+[54cacfcb-e3f4-44cd-8ecb-c691c104efa8] answer='C6' top_candidate={'answer': 'C6', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3225402_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[54cacfcb-e3f4-44cd-8ecb-c691c104efa8] done in 0.3s — answer: 'C6'
+[fcff6672-f6eb-46d4-83e9-5c6d86e4d90d] tag=single-answer, bs=4, family=F1
+[fcff6672-f6eb-46d4-83e9-5c6d86e4d90d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3240087_3', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[fcff6672-f6eb-46d4-83e9-5c6d86e4d90d] done in 0.3s — answer: 'C16'
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] Family override: F1_5BS (tag=single-answer, bs=5)
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] tag=single-answer, bs=5, family=F1_5BS
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] answer='C6' top_candidate={'answer': 'C6', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3256071_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] done in 0.4s — answer: 'C6'
+[061897f0-c238-4a2d-a528-f6303fa0b3da] tag=single-answer, bs=4, family=F1
+[061897f0-c238-4a2d-a528-f6303fa0b3da] answer='C15' top_candidate={'answer': 'C15', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3218880_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[061897f0-c238-4a2d-a528-f6303fa0b3da] done in 0.3s — answer: 'C15'
+[d69363ae-f536-4137-b0d6-875055b87532] tag=single-answer, bs=4, family=F1
+[d69363ae-f536-4137-b0d6-875055b87532] answer='C20' top_candidate={'answer': 'C20', 'score': 0.6384, 'action_type': 'decrease_a3', 'target_cell': '3274026_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[d69363ae-f536-4137-b0d6-875055b87532] done in 0.3s — answer: 'C20'
+[8d0f8cce-5aab-44f7-bd9f-3db845c659cc] tag=single-answer, bs=4, family=F1
+[8d0f8cce-5aab-44f7-bd9f-3db845c659cc] answer='C1' top_candidate={'answer': 'C1', 'score': 0.5976600000000001, 'action_type': 'decrease_a3', 'target_cell': '3243623_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[8d0f8cce-5aab-44f7-bd9f-3db845c659cc] done in 0.3s — answer: 'C1'
+[1479fcde-8a83-4316-a8dc-078669bb3be8] tag=multiple-answer, bs=5, family=F3
+[1479fcde-8a83-4316-a8dc-078669bb3be8] answer='C5|C19|C20|C23' top_candidate={'answer': 'C5|C19|C20|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[1479fcde-8a83-4316-a8dc-078669bb3be8] done in 0.2s — answer: 'C5|C19|C20|C23'
+[201bf04f-a03e-4087-86a2-cc0361166b18] tag=multiple-answer, bs=4, family=F2
+[201bf04f-a03e-4087-86a2-cc0361166b18] answer='C3|C9' top_candidate={'answer': 'C3|C9', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3263726_1 (serving=3263726_1, overlap=0.18)'}
+[201bf04f-a03e-4087-86a2-cc0361166b18] done in 0.3s — answer: 'C3|C9'
+[54e04fe1-ab40-45af-83e7-9c50b9eb8a11] tag=multiple-answer, bs=4, family=F2
+[54e04fe1-ab40-45af-83e7-9c50b9eb8a11] answer='C13|C17' top_candidate={'answer': 'C13|C17', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3226956_1 (serving=3216051_4, best_neighbor=?, overlap=1.0)'}
+[54e04fe1-ab40-45af-83e7-9c50b9eb8a11] done in 0.3s — answer: 'C13|C17'
+[ed00ab0f-7b9d-46d6-b19b-9006665dfb89] tag=single-answer, bs=4, family=F1
+[ed00ab0f-7b9d-46d6-b19b-9006665dfb89] answer='C17' top_candidate={'answer': 'C17', 'score': 0.6719999999999999, 'action_type': 'decrease_a3', 'target_cell': '3221521_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[ed00ab0f-7b9d-46d6-b19b-9006665dfb89] done in 0.3s — answer: 'C17'
+[91b72b52-7df1-478b-b879-4e2d720f38fd] tag=single-answer, bs=4, family=F1
+[91b72b52-7df1-478b-b879-4e2d720f38fd] answer='C2' top_candidate={'answer': 'C2', 'score': 0.714, 'action_type': 'decrease_a3', 'target_cell': '3211229_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[91b72b52-7df1-478b-b879-4e2d720f38fd] done in 0.3s — answer: 'C2'
+[d319eb75-be5c-4aa9-81f6-9632f2177a8f] tag=multiple-answer, bs=4, family=F2
+[d319eb75-be5c-4aa9-81f6-9632f2177a8f] answer='C12|C23' top_candidate={'answer': 'C12|C23', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3244112_4 (serving=3244112_4, overlap=0.09)'}
+[d319eb75-be5c-4aa9-81f6-9632f2177a8f] done in 0.3s — answer: 'C12|C23'
+[b63bb459-a261-4901-98a7-945f320dae84] tag=single-answer, bs=4, family=F1
+[b63bb459-a261-4901-98a7-945f320dae84] answer='C16' top_candidate={'answer': 'C16', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3226671_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[b63bb459-a261-4901-98a7-945f320dae84] done in 0.3s — answer: 'C16'
+[907c0a60-88d9-4062-8bf7-f9cf3bb4559a] tag=single-answer, bs=4, family=F1
+[907c0a60-88d9-4062-8bf7-f9cf3bb4559a] answer='C11' top_candidate={'answer': 'C11', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[907c0a60-88d9-4062-8bf7-f9cf3bb4559a] done in 0.4s — answer: 'C11'
+[f43ee4bb-ca0a-4771-b20e-cd36cd093281] tag=single-answer, bs=4, family=F1
+[f43ee4bb-ca0a-4771-b20e-cd36cd093281] answer='C17' top_candidate={'answer': 'C17', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3243975_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[f43ee4bb-ca0a-4771-b20e-cd36cd093281] done in 0.3s — answer: 'C17'
+[b89af5d0-c370-4f1b-805b-825f9e581bd0] tag=single-answer, bs=4, family=F1
+[b89af5d0-c370-4f1b-805b-825f9e581bd0] answer='C7' top_candidate={'answer': 'C7', 'score': 0.55, 'action_type': 'lift_tilt', 'target_cell': '3275437_1', 'reason': 'geometry recommendation'}
+[b89af5d0-c370-4f1b-805b-825f9e581bd0] done in 0.4s — answer: 'C7'
+[4fc1af5e-4f0e-4058-bb04-d014d6ef2569] tag=multiple-answer, bs=4, family=F2
+[4fc1af5e-4f0e-4058-bb04-d014d6ef2569] answer='C12|C23' top_candidate={'answer': 'C12|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3246438_2 (serving=3231362_3, best_neighbor=3246438_2, overlap=1.0)'}
+[4fc1af5e-4f0e-4058-bb04-d014d6ef2569] done in 0.3s — answer: 'C12|C23'
+[8b40464d-1f1b-402b-adda-330c147a4584] tag=single-answer, bs=4, family=F1
+[8b40464d-1f1b-402b-adda-330c147a4584] answer='C4' top_candidate={'answer': 'C4', 'score': 0.6997200000000001, 'action_type': 'decrease_a3', 'target_cell': '3276012_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[8b40464d-1f1b-402b-adda-330c147a4584] done in 0.4s — answer: 'C4'
+[137f3a5b-9dbb-45e0-aa9b-5de9d0829df2] tag=single-answer, bs=4, family=F1
+[137f3a5b-9dbb-45e0-aa9b-5de9d0829df2] answer='C19' top_candidate={'answer': 'C19', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3242445_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[137f3a5b-9dbb-45e0-aa9b-5de9d0829df2] done in 0.3s — answer: 'C19'
+[ca5b30ec-601c-43c1-a917-16dd6acbdb3b] tag=single-answer, bs=13, family=F4
+[ca5b30ec-601c-43c1-a917-16dd6acbdb3b] answer='C8' top_candidate={'answer': 'C8', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3254159_2', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[ca5b30ec-601c-43c1-a917-16dd6acbdb3b] done in 0.3s — answer: 'C8'
+[ec7ec74f-5b95-4bb9-af93-81513b45d086] tag=single-answer, bs=4, family=F1
+[ec7ec74f-5b95-4bb9-af93-81513b45d086] answer='C2' top_candidate={'answer': 'C2', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3217875_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[ec7ec74f-5b95-4bb9-af93-81513b45d086] done in 0.3s — answer: 'C2'
+[bd4f4095-047d-428b-b23c-18bc4a0ffaf3] tag=single-answer, bs=4, family=F1
+[bd4f4095-047d-428b-b23c-18bc4a0ffaf3] answer='C8' top_candidate={'answer': 'C8', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3236189_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[bd4f4095-047d-428b-b23c-18bc4a0ffaf3] done in 0.3s — answer: 'C8'
+[46b455b4-f618-4336-9c53-a73628bbfd74] tag=multiple-answer, bs=4, family=F2
+[46b455b4-f618-4336-9c53-a73628bbfd74] answer='C9|C13' top_candidate={'answer': 'C9|C13', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3245062_2 (serving=3245062_2, overlap=0.13)'}
+[46b455b4-f618-4336-9c53-a73628bbfd74] done in 0.3s — answer: 'C9|C13'
+[f086f163-47aa-4b28-a846-f1e08ed39a2f] tag=multiple-answer, bs=4, family=F2
+[f086f163-47aa-4b28-a846-f1e08ed39a2f] answer='C1|C10' top_candidate={'answer': 'C1|C10', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3273231_3 (serving=3273975_2, best_neighbor=3273231_3, overlap=1.0)'}
+[f086f163-47aa-4b28-a846-f1e08ed39a2f] done in 0.3s — answer: 'C1|C10'
+[da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] tag=multiple-answer, bs=4, family=F2
+[da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] answer='C5|C23' top_candidate={'answer': 'C5|C23', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3259753_4 (serving=3259753_4, overlap=0.03)'}
+[da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] done in 0.3s — answer: 'C5|C23'
+[03533111-860a-4385-9d90-fc780a7554e6] tag=multiple-answer, bs=5, family=F3
+[03533111-860a-4385-9d90-fc780a7554e6] answer='C4|C17|C18|C24' top_candidate={'answer': 'C4|C17|C18|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[03533111-860a-4385-9d90-fc780a7554e6] done in 0.2s — answer: 'C4|C17|C18|C24'
+[de764156-6ed3-40f7-b03c-517bf7c265ed] Family override: F1_5BS (tag=single-answer, bs=5)
+[de764156-6ed3-40f7-b03c-517bf7c265ed] tag=single-answer, bs=5, family=F1_5BS
+[de764156-6ed3-40f7-b03c-517bf7c265ed] answer='C7' top_candidate={'answer': 'C7', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[de764156-6ed3-40f7-b03c-517bf7c265ed] done in 0.4s — answer: 'C7'
+[8663a98f-734e-46a9-a5bd-23bec79731f4] tag=multiple-answer, bs=4, family=F2
+[8663a98f-734e-46a9-a5bd-23bec79731f4] answer='C9|C18' top_candidate={'answer': 'C9|C18', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3277231_3 (serving=3277231_3, overlap=0.25)'}
+[8663a98f-734e-46a9-a5bd-23bec79731f4] done in 0.3s — answer: 'C9|C18'
+[dc59458f-a437-46af-b9c0-d6b6343cf08b] tag=single-answer, bs=4, family=F1
+[dc59458f-a437-46af-b9c0-d6b6343cf08b] answer='C6' top_candidate={'answer': 'C6', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[dc59458f-a437-46af-b9c0-d6b6343cf08b] done in 0.3s — answer: 'C6'
+[19cb5e13-425a-4c57-9f24-65b11f8fba2d] tag=single-answer, bs=4, family=F1
+[19cb5e13-425a-4c57-9f24-65b11f8fba2d] answer='C6' top_candidate={'answer': 'C6', 'score': 0.7383600000000001, 'action_type': 'add_neighbor', 'target_cell': '3263948_4', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[19cb5e13-425a-4c57-9f24-65b11f8fba2d] done in 0.3s — answer: 'C6'
+[0d7724bf-0d3b-433f-ba35-d752fbaaaecb] tag=single-answer, bs=4, family=F1
+[0d7724bf-0d3b-433f-ba35-d752fbaaaecb] answer='C22' top_candidate={'answer': 'C22', 'score': 0.6682200000000001, 'action_type': 'add_neighbor', 'target_cell': '3235751_3', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[0d7724bf-0d3b-433f-ba35-d752fbaaaecb] done in 0.3s — answer: 'C22'
+[f5b57ad9-1f8d-437c-8b88-0af7919d32ca] tag=single-answer, bs=4, family=F1
+[f5b57ad9-1f8d-437c-8b88-0af7919d32ca] answer='C21' top_candidate={'answer': 'C21', 'score': 0.6846000000000001, 'action_type': 'decrease_a3', 'target_cell': '3268164_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[f5b57ad9-1f8d-437c-8b88-0af7919d32ca] done in 0.3s — answer: 'C21'
+[fb2240dd-a528-4655-af24-87b1540d6137] Family override: F4M (tag=multiple-answer, bs=13)
+[fb2240dd-a528-4655-af24-87b1540d6137] tag=multiple-answer, bs=13, family=F4M
+[fb2240dd-a528-4655-af24-87b1540d6137] answer='C19|C20' top_candidate={'answer': 'C19|C20', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[fb2240dd-a528-4655-af24-87b1540d6137] done in 0.2s — answer: 'C19|C20'
+[0a4c9faa-852f-4cd4-91c3-1a36bc669958] tag=single-answer, bs=13, family=F4
+[0a4c9faa-852f-4cd4-91c3-1a36bc669958] answer='C1' top_candidate={'answer': 'C1', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3212049_2', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[0a4c9faa-852f-4cd4-91c3-1a36bc669958] done in 0.2s — answer: 'C1'
+[65776245-eb1a-495a-ae5f-751df875693b] Family override: F4M (tag=multiple-answer, bs=13)
+[65776245-eb1a-495a-ae5f-751df875693b] tag=multiple-answer, bs=13, family=F4M
+[65776245-eb1a-495a-ae5f-751df875693b] answer='C3|C8' top_candidate={'answer': 'C3|C8', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[65776245-eb1a-495a-ae5f-751df875693b] done in 0.2s — answer: 'C3|C8'
+[4c357822-ce87-430e-ab92-0e183418b51b] tag=single-answer, bs=4, family=F1
+[4c357822-ce87-430e-ab92-0e183418b51b] answer='C19' top_candidate={'answer': 'C19', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3247886_1', 'reason': 'geometry recommendation'}
+[4c357822-ce87-430e-ab92-0e183418b51b] done in 0.3s — answer: 'C19'
+[21ab19cb-716c-4788-a12c-1c30fc76baed] tag=single-answer, bs=4, family=F1
+[21ab19cb-716c-4788-a12c-1c30fc76baed] answer='C21' top_candidate={'answer': 'C21', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3245322_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[21ab19cb-716c-4788-a12c-1c30fc76baed] done in 0.3s — answer: 'C21'
+[9ccd2a41-433f-4293-b19b-40661e6c298c] tag=multiple-answer, bs=4, family=F2
+[9ccd2a41-433f-4293-b19b-40661e6c298c] answer='C16|C21' top_candidate={'answer': 'C16|C21', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3258867_3 (serving=3258867_3, overlap=0.07)'}
+[9ccd2a41-433f-4293-b19b-40661e6c298c] done in 0.3s — answer: 'C16|C21'
+[47be08c3-4d97-4537-8a60-a32709132fed] tag=single-answer, bs=4, family=F1
+[47be08c3-4d97-4537-8a60-a32709132fed] answer='C20' top_candidate={'answer': 'C20', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3235359_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[47be08c3-4d97-4537-8a60-a32709132fed] done in 0.3s — answer: 'C20'
+[e0211ca0-5aa5-4df9-b2e8-21c20b9efeaa] tag=single-answer, bs=4, family=F1
+[e0211ca0-5aa5-4df9-b2e8-21c20b9efeaa] answer='C11' top_candidate={'answer': 'C11', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3278509_2', 'reason': 'geometry recommendation'}
+[e0211ca0-5aa5-4df9-b2e8-21c20b9efeaa] done in 0.4s — answer: 'C11'
+[9b648fab-9609-49bc-bd5b-acf3e1cb9950] tag=multiple-answer, bs=5, family=F3
+[9b648fab-9609-49bc-bd5b-acf3e1cb9950] answer='C15|C16|C19|C22' top_candidate={'answer': 'C15|C16|C19|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[9b648fab-9609-49bc-bd5b-acf3e1cb9950] done in 0.3s — answer: 'C15|C16|C19|C22'
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] Family override: F1_5BS (tag=single-answer, bs=5)
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] tag=single-answer, bs=5, family=F1_5BS
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3265418_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] done in 0.4s — answer: 'C11'
+[7eeb8c3d-c714-4f93-9023-dca0a541dc4c] tag=multiple-answer, bs=4, family=F2
+[7eeb8c3d-c714-4f93-9023-dca0a541dc4c] answer='C8|C23' top_candidate={'answer': 'C8|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3251790_2 (serving=3221449_1, best_neighbor=3251790_2, overlap=1.0)'}
+[7eeb8c3d-c714-4f93-9023-dca0a541dc4c] done in 0.3s — answer: 'C8|C23'
+[054a2600-cf4c-46b4-a65b-527106768a53] tag=multiple-answer, bs=4, family=F2
+[054a2600-cf4c-46b4-a65b-527106768a53] answer='C16|C22' top_candidate={'answer': 'C16|C22', 'score': 0.782, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3262857_3 (serving=3262857_3, overlap=0.3)'}
+[054a2600-cf4c-46b4-a65b-527106768a53] done in 0.3s — answer: 'C16|C22'
+[e6508c0b-072d-40b3-8ccb-9be4395728f1] Family override: F4M (tag=multiple-answer, bs=13)
+[e6508c0b-072d-40b3-8ccb-9be4395728f1] tag=multiple-answer, bs=13, family=F4M
+[e6508c0b-072d-40b3-8ccb-9be4395728f1] answer='C2|C22' top_candidate={'answer': 'C2|C22', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[e6508c0b-072d-40b3-8ccb-9be4395728f1] done in 0.2s — answer: 'C2|C22'
+Saved 250 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[465bfdfc-4a51-4caa-83ed-56ba8946285f] tag=single-answer, bs=4, family=F1
+[465bfdfc-4a51-4caa-83ed-56ba8946285f] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[465bfdfc-4a51-4caa-83ed-56ba8946285f] done in 0.4s — answer: 'C3'
+[93bda159-dc28-4962-9216-02550846296c] tag=multiple-answer, bs=4, family=F2
+[93bda159-dc28-4962-9216-02550846296c] answer='C4|C24' top_candidate={'answer': 'C4|C24', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3235799_2 (serving=3271870_3, best_neighbor=?, overlap=1.0)'}
+[93bda159-dc28-4962-9216-02550846296c] done in 0.3s — answer: 'C4|C24'
+[9d3b9652-2f61-41d0-ac0e-dfea6e93f869] tag=single-answer, bs=4, family=F1
+[9d3b9652-2f61-41d0-ac0e-dfea6e93f869] answer='C19' top_candidate={'answer': 'C19', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3231566_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[9d3b9652-2f61-41d0-ac0e-dfea6e93f869] done in 0.3s — answer: 'C19'
+[e6fe1c90-c4b1-497e-8b31-22ab5f2c70cb] tag=single-answer, bs=4, family=F1
+[e6fe1c90-c4b1-497e-8b31-22ab5f2c70cb] answer='C17' top_candidate={'answer': 'C17', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3216448_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[e6fe1c90-c4b1-497e-8b31-22ab5f2c70cb] done in 0.3s — answer: 'C17'
+[20bee2a8-0b4f-40a8-9406-46d9ea820a8f] tag=multiple-answer, bs=4, family=F2
+[20bee2a8-0b4f-40a8-9406-46d9ea820a8f] answer='C5|C13' top_candidate={'answer': 'C5|C13', 'score': 0.778, 'reason': 'F2 relationship: add neighbor between serving 3266104_1 and best neighbor ? + decrease_a3 on serving 3266104_1'}
+[20bee2a8-0b4f-40a8-9406-46d9ea820a8f] done in 0.3s — answer: 'C5|C13'
+[2895f71c-6fdf-406b-9728-2a657bd876b6] tag=multiple-answer, bs=4, family=F2
+[2895f71c-6fdf-406b-9728-2a657bd876b6] answer='C9|C16' top_candidate={'answer': 'C9|C16', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3217457_1 (serving=3217457_1, overlap=0.27)'}
+[2895f71c-6fdf-406b-9728-2a657bd876b6] done in 0.3s — answer: 'C9|C16'
+[882de75c-93cf-449a-bd9d-5cbed4feb003] tag=single-answer, bs=13, family=F4
+[882de75c-93cf-449a-bd9d-5cbed4feb003] answer='C6' top_candidate={'answer': 'C6', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3247550_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[882de75c-93cf-449a-bd9d-5cbed4feb003] done in 0.2s — answer: 'C6'
+[1f4ab0ce-238e-42b4-9304-3b81c4a4b90f] tag=single-answer, bs=4, family=F1
+[1f4ab0ce-238e-42b4-9304-3b81c4a4b90f] answer='C22' top_candidate={'answer': 'C22', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3264116_4', 'reason': 'geometry recommendation'}
+[1f4ab0ce-238e-42b4-9304-3b81c4a4b90f] done in 0.4s — answer: 'C22'
+[f709842e-41ee-4bdc-b472-392cc93a7b99] tag=single-answer, bs=13, family=F4
+[f709842e-41ee-4bdc-b472-392cc93a7b99] answer='C6' top_candidate={'answer': 'C6', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3229295_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[f709842e-41ee-4bdc-b472-392cc93a7b99] done in 0.2s — answer: 'C6'
+[cc034c77-9a39-4ed3-9480-092da516d05c] tag=multiple-answer, bs=4, family=F2
+[cc034c77-9a39-4ed3-9480-092da516d05c] answer='C1|C5' top_candidate={'answer': 'C1|C5', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3261391_1 (serving=3274586_4, best_neighbor=3261391_1, overlap=0.39)'}
+[cc034c77-9a39-4ed3-9480-092da516d05c] done in 0.3s — answer: 'C1|C5'
+[1b12606a-5666-4048-8b42-496f02768358] tag=multiple-answer, bs=4, family=F2
+[1b12606a-5666-4048-8b42-496f02768358] answer='C11|C20' top_candidate={'answer': 'C11|C20', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3225192_1 (serving=3250201_3, best_neighbor=3225192_1, overlap=1.0)'}
+[1b12606a-5666-4048-8b42-496f02768358] done in 0.3s — answer: 'C11|C20'
+[928bf2f8-fc7a-4b90-bc7a-a9cd764a9689] tag=multiple-answer, bs=5, family=F3
+[928bf2f8-fc7a-4b90-bc7a-a9cd764a9689] answer='C7|C10|C21|C22' top_candidate={'answer': 'C7|C10|C21|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[928bf2f8-fc7a-4b90-bc7a-a9cd764a9689] done in 0.2s — answer: 'C7|C10|C21|C22'
+[37d64fd5-8680-46f7-abfa-8eb609396c65] tag=single-answer, bs=4, family=F1
+[37d64fd5-8680-46f7-abfa-8eb609396c65] answer='C15' top_candidate={'answer': 'C15', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3250969_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[37d64fd5-8680-46f7-abfa-8eb609396c65] done in 0.3s — answer: 'C15'
+[b03d5adf-157f-4406-9bdc-7844fe3bc97d] Family override: F1_5BS (tag=single-answer, bs=5)
+[b03d5adf-157f-4406-9bdc-7844fe3bc97d] tag=single-answer, bs=5, family=F1_5BS
+[b03d5adf-157f-4406-9bdc-7844fe3bc97d] answer='C12' top_candidate={'answer': 'C12', 'score': 0.6833400000000001, 'action_type': 'decrease_a3', 'target_cell': '3226195_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[b03d5adf-157f-4406-9bdc-7844fe3bc97d] done in 0.3s — answer: 'C12'
+[c9bd4492-6cd2-4c7b-b647-66df911227b0] tag=single-answer, bs=13, family=F4
+[c9bd4492-6cd2-4c7b-b647-66df911227b0] answer='C5' top_candidate={'answer': 'C5', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3221927_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[c9bd4492-6cd2-4c7b-b647-66df911227b0] done in 0.2s — answer: 'C5'
+[72d41141-5395-417b-ae27-744051a16651] tag=single-answer, bs=4, family=F1
+[72d41141-5395-417b-ae27-744051a16651] answer='C12' top_candidate={'answer': 'C12', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3212548_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[72d41141-5395-417b-ae27-744051a16651] done in 0.3s — answer: 'C12'
+[ce7e2a00-38b3-4eb2-9981-792e13619013] tag=multiple-answer, bs=4, family=F2
+[ce7e2a00-38b3-4eb2-9981-792e13619013] answer='C2|C16' top_candidate={'answer': 'C2|C16', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3259310_1 (serving=3259310_1, overlap=0.19)'}
+[ce7e2a00-38b3-4eb2-9981-792e13619013] done in 0.3s — answer: 'C2|C16'
+[ea065817-755c-4bc7-baff-3aaaddb90438] Family override: F1_5BS (tag=single-answer, bs=5)
+[ea065817-755c-4bc7-baff-3aaaddb90438] tag=single-answer, bs=5, family=F1_5BS
+[ea065817-755c-4bc7-baff-3aaaddb90438] answer='C7' top_candidate={'answer': 'C7', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[ea065817-755c-4bc7-baff-3aaaddb90438] done in 0.4s — answer: 'C7'
+[ac809e50-4372-497b-9e50-f2658003fb46] tag=multiple-answer, bs=4, family=F2
+[ac809e50-4372-497b-9e50-f2658003fb46] answer='C4|C20' top_candidate={'answer': 'C4|C20', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3271796_4 (serving=3271796_4, overlap=0.23)'}
+[ac809e50-4372-497b-9e50-f2658003fb46] done in 0.3s — answer: 'C4|C20'
+[93462635-d2ef-4671-a998-0e7c8512fd33] tag=multiple-answer, bs=5, family=F3
+[93462635-d2ef-4671-a998-0e7c8512fd33] answer='C14|C18|C21|C23' top_candidate={'answer': 'C14|C18|C21|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[93462635-d2ef-4671-a998-0e7c8512fd33] done in 0.2s — answer: 'C14|C18|C21|C23'
+[21eff364-b638-4b05-af3f-f1f8d60f11af] Family override: F4M (tag=multiple-answer, bs=13)
+[21eff364-b638-4b05-af3f-f1f8d60f11af] tag=multiple-answer, bs=13, family=F4M
+[21eff364-b638-4b05-af3f-f1f8d60f11af] answer='C11|C15' top_candidate={'answer': 'C11|C15', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[21eff364-b638-4b05-af3f-f1f8d60f11af] done in 0.3s — answer: 'C11|C15'
+[66184811-93d9-451f-b19c-bcde40abf82f] tag=single-answer, bs=4, family=F1
+[66184811-93d9-451f-b19c-bcde40abf82f] answer='C4' top_candidate={'answer': 'C4', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3251212_2', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[66184811-93d9-451f-b19c-bcde40abf82f] done in 0.3s — answer: 'C4'
+[dd49ec92-0fa5-4914-a9e7-c128cf1fd995] tag=single-answer, bs=4, family=F1
+[dd49ec92-0fa5-4914-a9e7-c128cf1fd995] answer='C1' top_candidate={'answer': 'C1', 'score': 0.6006000000000001, 'action_type': 'decrease_a3', 'target_cell': '3264220_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[dd49ec92-0fa5-4914-a9e7-c128cf1fd995] done in 0.3s — answer: 'C1'
+[9ba4d788-fbff-4d2e-bad0-bf9648282743] tag=multiple-answer, bs=4, family=F2
+[9ba4d788-fbff-4d2e-bad0-bf9648282743] answer='C11|C18' top_candidate={'answer': 'C11|C18', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3256158_3 (serving=3254322_1, best_neighbor=3256158_3, overlap=0.32)'}
+[9ba4d788-fbff-4d2e-bad0-bf9648282743] done in 0.3s — answer: 'C11|C18'
+[4e1d8bbe-12c9-4fe2-b915-4c30b2062234] tag=multiple-answer, bs=4, family=F2
+[4e1d8bbe-12c9-4fe2-b915-4c30b2062234] answer='C11|C16' top_candidate={'answer': 'C11|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3279396_4 (serving=3224469_2, best_neighbor=?, overlap=1.0)'}
+[4e1d8bbe-12c9-4fe2-b915-4c30b2062234] done in 0.3s — answer: 'C11|C16'
+[ed04b018-b791-4291-903c-2446607254cc] tag=single-answer, bs=4, family=F1
+[ed04b018-b791-4291-903c-2446607254cc] answer='C15' top_candidate={'answer': 'C15', 'score': 0.6262200000000001, 'action_type': 'decrease_a3', 'target_cell': '3260525_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[ed04b018-b791-4291-903c-2446607254cc] done in 0.3s — answer: 'C15'
+[b31eaf09-9077-41c5-957c-40ca9b644ff3] tag=single-answer, bs=4, family=F1
+[b31eaf09-9077-41c5-957c-40ca9b644ff3] answer='C6' top_candidate={'answer': 'C6', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3268213_1', 'reason': 'geometry recommendation'}
+[b31eaf09-9077-41c5-957c-40ca9b644ff3] done in 0.3s — answer: 'C6'
+[1d7d2d20-523c-4954-9c47-02cff9bb669b] tag=single-answer, bs=4, family=F1
+[1d7d2d20-523c-4954-9c47-02cff9bb669b] answer='C3' top_candidate={'answer': 'C3', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3236414_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[1d7d2d20-523c-4954-9c47-02cff9bb669b] done in 0.3s — answer: 'C3'
+[47328999-91e4-4058-87ff-1ec3bad26d07] tag=multiple-answer, bs=4, family=F2
+[47328999-91e4-4058-87ff-1ec3bad26d07] answer='C11|C16' top_candidate={'answer': 'C11|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3262926_4 (serving=3274856_1, best_neighbor=3262926_4, overlap=0.32)'}
+[47328999-91e4-4058-87ff-1ec3bad26d07] done in 0.3s — answer: 'C11|C16'
+[a55116fc-7a38-419c-836c-cafa63fa8bf0] tag=multiple-answer, bs=5, family=F3
+[a55116fc-7a38-419c-836c-cafa63fa8bf0] answer='C1|C6|C19|C22' top_candidate={'answer': 'C1|C6|C19|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[a55116fc-7a38-419c-836c-cafa63fa8bf0] done in 0.2s — answer: 'C1|C6|C19|C22'
+[16e2e629-c315-424a-837c-375eab4be2ad] tag=multiple-answer, bs=4, family=F2
+[16e2e629-c315-424a-837c-375eab4be2ad] answer='C3|C6' top_candidate={'answer': 'C3|C6', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3211405_1 (serving=3211405_1, overlap=0.18)'}
+[16e2e629-c315-424a-837c-375eab4be2ad] done in 0.3s — answer: 'C3|C6'
+[3de3a430-2e56-4ebf-a849-674ecae67d4b] tag=single-answer, bs=4, family=F1
+[3de3a430-2e56-4ebf-a849-674ecae67d4b] answer='C16' top_candidate={'answer': 'C16', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3279732_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[3de3a430-2e56-4ebf-a849-674ecae67d4b] done in 0.3s — answer: 'C16'
+[e470b801-ca77-4c4e-b8fd-96679001c6c8] tag=multiple-answer, bs=4, family=F2
+[e470b801-ca77-4c4e-b8fd-96679001c6c8] answer='C10|C23' top_candidate={'answer': 'C10|C23', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3265002_3 (serving=3265002_3, overlap=0.24)'}
+[e470b801-ca77-4c4e-b8fd-96679001c6c8] done in 0.3s — answer: 'C10|C23'
+[689ff6bc-b877-47c5-92c0-f66e168a9129] tag=single-answer, bs=4, family=F1
+[689ff6bc-b877-47c5-92c0-f66e168a9129] answer='C11' top_candidate={'answer': 'C11', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3214577_3', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[689ff6bc-b877-47c5-92c0-f66e168a9129] done in 0.3s — answer: 'C11'
+[6c28f77b-0f85-4b60-86f5-fffbab1a7a87] tag=single-answer, bs=13, family=F4
+[6c28f77b-0f85-4b60-86f5-fffbab1a7a87] answer='C21' top_candidate={'answer': 'C21', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3243498_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[6c28f77b-0f85-4b60-86f5-fffbab1a7a87] done in 0.2s — answer: 'C21'
+[952a1d11-1f7e-4d8d-88f7-354f207b64a1] tag=multiple-answer, bs=4, family=F2
+[952a1d11-1f7e-4d8d-88f7-354f207b64a1] answer='C1|C3' top_candidate={'answer': 'C1|C3', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3257958_1 (serving=3257958_1, overlap=0.05)'}
+[952a1d11-1f7e-4d8d-88f7-354f207b64a1] done in 0.3s — answer: 'C1|C3'
+[0b31f518-55de-4c1a-a09c-7c8add152c4b] tag=multiple-answer, bs=4, family=F2
+[0b31f518-55de-4c1a-a09c-7c8add152c4b] answer='C11|C12' top_candidate={'answer': 'C11|C12', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3237836_1 (serving=3215321_3, best_neighbor=3237836_1, overlap=1.0)'}
+[0b31f518-55de-4c1a-a09c-7c8add152c4b] done in 0.3s — answer: 'C11|C12'
+[fb6dccc5-830e-4e77-84d5-0ccd7c968849] tag=multiple-answer, bs=4, family=F2
+[fb6dccc5-830e-4e77-84d5-0ccd7c968849] answer='C10|C19' top_candidate={'answer': 'C10|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3246005_1 (serving=3220369_2, best_neighbor=3246005_1, overlap=0.35)'}
+[fb6dccc5-830e-4e77-84d5-0ccd7c968849] done in 0.3s — answer: 'C10|C19'
+[6abe1809-f86d-41f6-866a-a72363840c4e] tag=single-answer, bs=4, family=F1
+[6abe1809-f86d-41f6-866a-a72363840c4e] answer='C19' top_candidate={'answer': 'C19', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3260426_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[6abe1809-f86d-41f6-866a-a72363840c4e] done in 0.3s — answer: 'C19'
+[03cc2b88-c85f-4dd5-8bc2-d2876729f154] tag=multiple-answer, bs=4, family=F2
+[03cc2b88-c85f-4dd5-8bc2-d2876729f154] answer='C11|C22' top_candidate={'answer': 'C11|C22', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3265434_2 (serving=3225253_4, best_neighbor=3265434_2, overlap=1.0)'}
+[03cc2b88-c85f-4dd5-8bc2-d2876729f154] done in 0.3s — answer: 'C11|C22'
+[fcb1f8e0-e4c0-4d53-8ff8-afaa0a4de703] tag=single-answer, bs=4, family=F1
+[fcb1f8e0-e4c0-4d53-8ff8-afaa0a4de703] answer='C9' top_candidate={'answer': 'C9', 'score': 0.6552, 'action_type': 'decrease_a3', 'target_cell': '3277811_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[fcb1f8e0-e4c0-4d53-8ff8-afaa0a4de703] done in 0.3s — answer: 'C9'
+[4e349417-9493-4f15-bc29-150d331965e3] tag=multiple-answer, bs=4, family=F2
+[4e349417-9493-4f15-bc29-150d331965e3] answer='C9|C14' top_candidate={'answer': 'C9|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3250773_2 (serving=3245747_3, best_neighbor=3250773_2, overlap=1.0)'}
+[4e349417-9493-4f15-bc29-150d331965e3] done in 0.3s — answer: 'C9|C14'
+[98fffcd5-0042-4ea6-ba67-4bfa273761ac] tag=multiple-answer, bs=4, family=F2
+[98fffcd5-0042-4ea6-ba67-4bfa273761ac] answer='C3|C10' top_candidate={'answer': 'C3|C10', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3223984_3 (serving=3258815_1, best_neighbor=3223984_3, overlap=0.36)'}
+[98fffcd5-0042-4ea6-ba67-4bfa273761ac] done in 0.3s — answer: 'C3|C10'
+[b713f79c-207a-4d08-9a31-656208912137] tag=single-answer, bs=4, family=F1
+[b713f79c-207a-4d08-9a31-656208912137] answer='C9' top_candidate={'answer': 'C9', 'score': 0.6417600000000001, 'action_type': 'decrease_a3', 'target_cell': '3212353_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[b713f79c-207a-4d08-9a31-656208912137] done in 0.3s — answer: 'C9'
+[fa518bad-ba88-45c1-8f0d-e5b0d1c65092] tag=multiple-answer, bs=5, family=F3
+[fa518bad-ba88-45c1-8f0d-e5b0d1c65092] answer='C9|C11|C18|C20' top_candidate={'answer': 'C9|C11|C18|C20', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[fa518bad-ba88-45c1-8f0d-e5b0d1c65092] done in 0.2s — answer: 'C9|C11|C18|C20'
+[22474697-46ac-420b-9f50-1581855cf5a5] Family override: F4M (tag=multiple-answer, bs=13)
+[22474697-46ac-420b-9f50-1581855cf5a5] tag=multiple-answer, bs=13, family=F4M
+[22474697-46ac-420b-9f50-1581855cf5a5] answer='C14|C21' top_candidate={'answer': 'C14|C21', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[22474697-46ac-420b-9f50-1581855cf5a5] done in 0.2s — answer: 'C14|C21'
+[a3deb684-eb16-41e5-9436-044c91fe4ebe] tag=multiple-answer, bs=4, family=F2
+[a3deb684-eb16-41e5-9436-044c91fe4ebe] answer='C1|C11' top_candidate={'answer': 'C1|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3240262_4 (serving=3266816_1, best_neighbor=3240262_4, overlap=0.31)'}
+[a3deb684-eb16-41e5-9436-044c91fe4ebe] done in 0.3s — answer: 'C1|C11'
+[10b170f5-f249-4399-8dc9-c09af29ad832] tag=multiple-answer, bs=4, family=F2
+[10b170f5-f249-4399-8dc9-c09af29ad832] answer='C1|C3' top_candidate={'answer': 'C1|C3', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3236844_1 (serving=3218922_4, best_neighbor=3236844_1, overlap=0.37)'}
+[10b170f5-f249-4399-8dc9-c09af29ad832] done in 0.3s — answer: 'C1|C3'
+[22de1f6d-6299-4082-9a9f-0707d18b7f70] tag=single-answer, bs=4, family=F1
+[22de1f6d-6299-4082-9a9f-0707d18b7f70] answer='C1' top_candidate={'answer': 'C1', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[22de1f6d-6299-4082-9a9f-0707d18b7f70] done in 0.4s — answer: 'C1'
+[9791ca2e-f780-4a2e-a6cc-3341cd3b30d3] tag=single-answer, bs=4, family=F1
+[9791ca2e-f780-4a2e-a6cc-3341cd3b30d3] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3218875_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[9791ca2e-f780-4a2e-a6cc-3341cd3b30d3] done in 0.3s — answer: 'C24'
+Saved 300 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[dca250b6-783f-4774-bd73-06af30cc776d] tag=multiple-answer, bs=4, family=F2
+[dca250b6-783f-4774-bd73-06af30cc776d] answer='C8|C10' top_candidate={'answer': 'C8|C10', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3215057_3 (serving=3215057_3, overlap=0.13)'}
+[dca250b6-783f-4774-bd73-06af30cc776d] done in 0.3s — answer: 'C8|C10'
+[0b5ba024-af2f-4d50-9c87-83803cd4c61d] tag=single-answer, bs=4, family=F1
+[0b5ba024-af2f-4d50-9c87-83803cd4c61d] answer='C11' top_candidate={'answer': 'C11', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3250534_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[0b5ba024-af2f-4d50-9c87-83803cd4c61d] done in 0.3s — answer: 'C11'
+[3208b2af-6615-4fc2-a279-9b4258fabf91] tag=multiple-answer, bs=4, family=F2
+[3208b2af-6615-4fc2-a279-9b4258fabf91] answer='C15|C16' top_candidate={'answer': 'C15|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3267364_1 (serving=3278405_2, best_neighbor=3267364_1, overlap=0.33)'}
+[3208b2af-6615-4fc2-a279-9b4258fabf91] done in 0.3s — answer: 'C15|C16'
+[db2d0837-6082-4fb2-8415-89d0fd651f87] Family override: F4M (tag=multiple-answer, bs=13)
+[db2d0837-6082-4fb2-8415-89d0fd651f87] tag=multiple-answer, bs=13, family=F4M
+[db2d0837-6082-4fb2-8415-89d0fd651f87] answer='C11|C19' top_candidate={'answer': 'C11|C19', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[db2d0837-6082-4fb2-8415-89d0fd651f87] done in 0.2s — answer: 'C11|C19'
+[7ebd596e-af40-437a-960f-967a4524762f] tag=single-answer, bs=13, family=F4
+[7ebd596e-af40-437a-960f-967a4524762f] answer='C7' top_candidate={'answer': 'C7', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3239736_2', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[7ebd596e-af40-437a-960f-967a4524762f] done in 0.2s — answer: 'C7'
+[c0735092-64aa-4fc4-a105-35c7b462b74b] tag=single-answer, bs=4, family=F1
+[c0735092-64aa-4fc4-a105-35c7b462b74b] answer='C20' top_candidate={'answer': 'C20', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3215523_2', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[c0735092-64aa-4fc4-a105-35c7b462b74b] done in 0.3s — answer: 'C20'
+[d2a453a0-33af-47ee-bf03-cb931e5c62be] tag=single-answer, bs=4, family=F1
+[d2a453a0-33af-47ee-bf03-cb931e5c62be] answer='C22' top_candidate={'answer': 'C22', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3247927_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[d2a453a0-33af-47ee-bf03-cb931e5c62be] done in 0.3s — answer: 'C22'
+[3eccaf22-9c49-4e87-8ac7-19bb514b1b04] tag=single-answer, bs=4, family=F1
+[3eccaf22-9c49-4e87-8ac7-19bb514b1b04] answer='C2' top_candidate={'answer': 'C2', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3223996_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[3eccaf22-9c49-4e87-8ac7-19bb514b1b04] done in 0.3s — answer: 'C2'
+[7382cff2-0098-4b4f-b564-6398bf1b8347] tag=multiple-answer, bs=5, family=F3
+[7382cff2-0098-4b4f-b564-6398bf1b8347] answer='C1|C10|C11|C24' top_candidate={'answer': 'C1|C10|C11|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[7382cff2-0098-4b4f-b564-6398bf1b8347] done in 0.2s — answer: 'C1|C10|C11|C24'
+[12428b15-f528-4db7-a1b3-0b430934b2fd] tag=multiple-answer, bs=5, family=F3
+[12428b15-f528-4db7-a1b3-0b430934b2fd] answer='C1|C9|C11|C24' top_candidate={'answer': 'C1|C9|C11|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[12428b15-f528-4db7-a1b3-0b430934b2fd] done in 0.2s — answer: 'C1|C9|C11|C24'
+[903eef36-dc15-4c7b-8a82-80ec75dacad1] tag=single-answer, bs=4, family=F1
+[903eef36-dc15-4c7b-8a82-80ec75dacad1] answer='C2' top_candidate={'answer': 'C2', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[903eef36-dc15-4c7b-8a82-80ec75dacad1] done in 0.4s — answer: 'C2'
+[44f266a0-8295-4d30-9854-ba1cc449901d] tag=single-answer, bs=4, family=F1
+[44f266a0-8295-4d30-9854-ba1cc449901d] answer='C13' top_candidate={'answer': 'C13', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3275879_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[44f266a0-8295-4d30-9854-ba1cc449901d] done in 0.3s — answer: 'C13'
+[69b07994-9618-4d73-8e19-9f7a6f517994] tag=multiple-answer, bs=4, family=F2
+[69b07994-9618-4d73-8e19-9f7a6f517994] answer='C6|C9' top_candidate={'answer': 'C6|C9', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3226067_1 (serving=3226067_1, overlap=0.11)'}
+[69b07994-9618-4d73-8e19-9f7a6f517994] done in 0.3s — answer: 'C6|C9'
+[cc3421e4-1646-41cb-b31d-01129c51751a] tag=multiple-answer, bs=4, family=F2
+[cc3421e4-1646-41cb-b31d-01129c51751a] answer='C1|C6' top_candidate={'answer': 'C1|C6', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3251616_1 (serving=3251616_1, overlap=0.02)'}
+[cc3421e4-1646-41cb-b31d-01129c51751a] done in 0.3s — answer: 'C1|C6'
+[348c374f-7328-4182-865c-f4c800cd1efc] tag=single-answer, bs=13, family=F4
+[348c374f-7328-4182-865c-f4c800cd1efc] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3227207_6', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[348c374f-7328-4182-865c-f4c800cd1efc] done in 0.2s — answer: 'C17'
+[76229c10-d306-4209-91d8-e78dfecccf15] tag=multiple-answer, bs=4, family=F2
+[76229c10-d306-4209-91d8-e78dfecccf15] answer='C10|C18' top_candidate={'answer': 'C10|C18', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3246458_3 (serving=3279794_1, best_neighbor=3246458_3, overlap=0.62)'}
+[76229c10-d306-4209-91d8-e78dfecccf15] done in 0.3s — answer: 'C10|C18'
+[b4b57660-d3d8-4059-90dd-07d26947d1bd] tag=multiple-answer, bs=4, family=F2
+[b4b57660-d3d8-4059-90dd-07d26947d1bd] answer='C8|C10' top_candidate={'answer': 'C8|C10', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3258393_4 (serving=3258393_4, overlap=0.06)'}
+[b4b57660-d3d8-4059-90dd-07d26947d1bd] done in 0.3s — answer: 'C8|C10'
+[6528193e-027d-4f01-8572-cadd82c020c3] tag=multiple-answer, bs=5, family=F3
+[6528193e-027d-4f01-8572-cadd82c020c3] answer='C7|C10|C14|C22' top_candidate={'answer': 'C7|C10|C14|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[6528193e-027d-4f01-8572-cadd82c020c3] done in 0.3s — answer: 'C7|C10|C14|C22'
+[3233507d-ce90-4d6b-a16e-475f9d6d202a] tag=single-answer, bs=4, family=F1
+[3233507d-ce90-4d6b-a16e-475f9d6d202a] answer='C6' top_candidate={'answer': 'C6', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3225077_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[3233507d-ce90-4d6b-a16e-475f9d6d202a] done in 0.3s — answer: 'C6'
+[095d6e1a-15b5-4602-b3c4-af2106ca271d] tag=multiple-answer, bs=4, family=F2
+[095d6e1a-15b5-4602-b3c4-af2106ca271d] answer='C10|C18' top_candidate={'answer': 'C10|C18', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3278897_3 (serving=3214645_1, best_neighbor=?, overlap=1.0)'}
+[095d6e1a-15b5-4602-b3c4-af2106ca271d] done in 0.3s — answer: 'C10|C18'
+[7e376f7f-0003-4e59-92b3-8c872449c100] tag=single-answer, bs=13, family=F4
+[7e376f7f-0003-4e59-92b3-8c872449c100] answer='C16' top_candidate={'answer': 'C16', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3277313_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[7e376f7f-0003-4e59-92b3-8c872449c100] done in 0.2s — answer: 'C16'
+[ba05f47d-e2a7-4f60-b05a-a521d84bbeef] tag=multiple-answer, bs=4, family=F2
+[ba05f47d-e2a7-4f60-b05a-a521d84bbeef] answer='C11|C16|C18|C19' top_candidate={'answer': 'C11|C16|C18|C19', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3260056_4, best_neighbor=3259308_3)'}
+[ba05f47d-e2a7-4f60-b05a-a521d84bbeef] done in 0.3s — answer: 'C11|C16|C18|C19'
+[8ed4a11a-8047-48e2-bd46-f5efd5bc89c5] tag=multiple-answer, bs=4, family=F2
+[8ed4a11a-8047-48e2-bd46-f5efd5bc89c5] answer='C16|C18' top_candidate={'answer': 'C16|C18', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3243358_3 (serving=3274848_2, best_neighbor=3243358_3, overlap=0.51)'}
+[8ed4a11a-8047-48e2-bd46-f5efd5bc89c5] done in 0.3s — answer: 'C16|C18'
+[b6412181-4681-41c1-a018-b8492344c200] tag=single-answer, bs=4, family=F1
+[b6412181-4681-41c1-a018-b8492344c200] answer='C8' top_candidate={'answer': 'C8', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[b6412181-4681-41c1-a018-b8492344c200] done in 0.4s — answer: 'C8'
+[a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] tag=multiple-answer, bs=4, family=F2
+[a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] answer='C9|C19' top_candidate={'answer': 'C9|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3248612_2 (serving=3245939_4, best_neighbor=3248612_2, overlap=0.89)'}
+[a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] done in 0.3s — answer: 'C9|C19'
+[7d42fef9-be87-4d24-98a9-e976e985b552] tag=multiple-answer, bs=4, family=F2
+[7d42fef9-be87-4d24-98a9-e976e985b552] answer='C10|C23' top_candidate={'answer': 'C10|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3213000_4 (serving=3239840_1, best_neighbor=3213000_4, overlap=0.98)'}
+[7d42fef9-be87-4d24-98a9-e976e985b552] done in 0.3s — answer: 'C10|C23'
+[fa48c252-2974-4dec-91de-90e58e1b48c9] Family override: F1_5BS (tag=single-answer, bs=5)
+[fa48c252-2974-4dec-91de-90e58e1b48c9] tag=single-answer, bs=5, family=F1_5BS
+[fa48c252-2974-4dec-91de-90e58e1b48c9] answer='C10' top_candidate={'answer': 'C10', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[fa48c252-2974-4dec-91de-90e58e1b48c9] done in 0.4s — answer: 'C10'
+[4f892a3e-2699-4b3d-a45c-4cce05d78add] tag=single-answer, bs=4, family=F1
+[4f892a3e-2699-4b3d-a45c-4cce05d78add] answer='C5' top_candidate={'answer': 'C5', 'score': 0.60396, 'action_type': 'decrease_a3', 'target_cell': '3256527_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[4f892a3e-2699-4b3d-a45c-4cce05d78add] done in 0.3s — answer: 'C5'
+[b41d769d-3aa7-4f68-ad25-a380108d8e36] tag=single-answer, bs=4, family=F1
+[b41d769d-3aa7-4f68-ad25-a380108d8e36] answer='C11' top_candidate={'answer': 'C11', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3222510_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[b41d769d-3aa7-4f68-ad25-a380108d8e36] done in 0.3s — answer: 'C11'
+[e3440c65-1fc0-42cc-9ecd-53fb4099e92f] tag=single-answer, bs=4, family=F1
+[e3440c65-1fc0-42cc-9ecd-53fb4099e92f] answer='C3' top_candidate={'answer': 'C3', 'score': 0.55, 'action_type': 'lift_tilt', 'target_cell': '3233846_2', 'reason': 'geometry recommendation'}
+[e3440c65-1fc0-42cc-9ecd-53fb4099e92f] done in 0.4s — answer: 'C3'
+[f65b0156-604d-4c47-988c-39549cc03c88] Family override: F4M (tag=multiple-answer, bs=13)
+[f65b0156-604d-4c47-988c-39549cc03c88] tag=multiple-answer, bs=13, family=F4M
+[f65b0156-604d-4c47-988c-39549cc03c88] answer='C2|C13' top_candidate={'answer': 'C2|C13', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[f65b0156-604d-4c47-988c-39549cc03c88] done in 0.2s — answer: 'C2|C13'
+[e1a21a77-d3d9-49ef-9d63-3aecdbc54312] tag=single-answer, bs=4, family=F1
+[e1a21a77-d3d9-49ef-9d63-3aecdbc54312] answer='C6' top_candidate={'answer': 'C6', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3218595_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[e1a21a77-d3d9-49ef-9d63-3aecdbc54312] done in 0.3s — answer: 'C6'
+[402a40a1-32cf-4ae3-97db-4d49dadc2560] tag=single-answer, bs=4, family=F1
+[402a40a1-32cf-4ae3-97db-4d49dadc2560] answer='C7' top_candidate={'answer': 'C7', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3265467_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[402a40a1-32cf-4ae3-97db-4d49dadc2560] done in 0.3s — answer: 'C7'
+[72bdc1cf-977d-4414-a2a3-a815529fc14e] tag=single-answer, bs=4, family=F1
+[72bdc1cf-977d-4414-a2a3-a815529fc14e] answer='C11' top_candidate={'answer': 'C11', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3268493_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[72bdc1cf-977d-4414-a2a3-a815529fc14e] done in 0.3s — answer: 'C11'
+[49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] Family override: F4M (tag=multiple-answer, bs=13)
+[49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] tag=multiple-answer, bs=13, family=F4M
+[49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] answer='C11|C15' top_candidate={'answer': 'C11|C15', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0] done in 0.2s — answer: 'C11|C15'
+[723fc7ff-b24d-4b34-a108-631d9e07de81] tag=single-answer, bs=13, family=F4
+[723fc7ff-b24d-4b34-a108-631d9e07de81] answer='C3' top_candidate={'answer': 'C3', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3220662_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[723fc7ff-b24d-4b34-a108-631d9e07de81] done in 0.2s — answer: 'C3'
+[bc2e61ee-93fb-451f-8656-9c6590f4b002] tag=multiple-answer, bs=4, family=F2
+[bc2e61ee-93fb-451f-8656-9c6590f4b002] answer='C4|C12' top_candidate={'answer': 'C4|C12', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3257673_4 (serving=3257673_4, overlap=0.12)'}
+[bc2e61ee-93fb-451f-8656-9c6590f4b002] done in 0.3s — answer: 'C4|C12'
+[d00d1d18-e09d-4d7f-8df0-12fe0b15e6bc] tag=single-answer, bs=4, family=F1
+[d00d1d18-e09d-4d7f-8df0-12fe0b15e6bc] answer='C22' top_candidate={'answer': 'C22', 'score': 0.7223999999999999, 'action_type': 'decrease_a3', 'target_cell': '3251493_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[d00d1d18-e09d-4d7f-8df0-12fe0b15e6bc] done in 0.3s — answer: 'C22'
+[5622037e-9be6-4408-958b-6ac8d158af1b] tag=single-answer, bs=4, family=F1
+[5622037e-9be6-4408-958b-6ac8d158af1b] answer='C19' top_candidate={'answer': 'C19', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3216148_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[5622037e-9be6-4408-958b-6ac8d158af1b] done in 0.3s — answer: 'C19'
+[8055076b-22b7-46ec-8d54-61b531382b09] Family override: F1_5BS (tag=single-answer, bs=5)
+[8055076b-22b7-46ec-8d54-61b531382b09] tag=single-answer, bs=5, family=F1_5BS
+[8055076b-22b7-46ec-8d54-61b531382b09] answer='C10' top_candidate={'answer': 'C10', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[8055076b-22b7-46ec-8d54-61b531382b09] done in 0.4s — answer: 'C10'
+[4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] tag=multiple-answer, bs=4, family=F2
+[4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] answer='C9|C13' top_candidate={'answer': 'C9|C13', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3249463_4 (serving=3215110_3, best_neighbor=?, overlap=1.0)'}
+[4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] done in 0.3s — answer: 'C9|C13'
+[f2cb0cff-fafa-494e-9d5e-364a685b742a] tag=single-answer, bs=4, family=F1
+[f2cb0cff-fafa-494e-9d5e-364a685b742a] answer='C20' top_candidate={'answer': 'C20', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3235570_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[f2cb0cff-fafa-494e-9d5e-364a685b742a] done in 0.3s — answer: 'C20'
+[a67fe176-2e47-4078-beda-48f373beb115] tag=single-answer, bs=4, family=F1
+[a67fe176-2e47-4078-beda-48f373beb115] answer='C15' top_candidate={'answer': 'C15', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3211209_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[a67fe176-2e47-4078-beda-48f373beb115] done in 0.3s — answer: 'C15'
+[e8148dea-bdff-4a39-9a41-b3cae6ea792a] tag=single-answer, bs=4, family=F1
+[e8148dea-bdff-4a39-9a41-b3cae6ea792a] answer='C13' top_candidate={'answer': 'C13', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3247376_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[e8148dea-bdff-4a39-9a41-b3cae6ea792a] done in 0.3s — answer: 'C13'
+[a6d0061e-0283-4754-9e2f-fd19640db87e] Family override: F4M (tag=multiple-answer, bs=13)
+[a6d0061e-0283-4754-9e2f-fd19640db87e] tag=multiple-answer, bs=13, family=F4M
+[a6d0061e-0283-4754-9e2f-fd19640db87e] answer='C5|C22' top_candidate={'answer': 'C5|C22', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[a6d0061e-0283-4754-9e2f-fd19640db87e] done in 0.2s — answer: 'C5|C22'
+[c5ff8577-0f24-4dd7-88d2-c11df01e4d83] tag=multiple-answer, bs=4, family=F2
+[c5ff8577-0f24-4dd7-88d2-c11df01e4d83] answer='C13|C23' top_candidate={'answer': 'C13|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270874_4 (serving=3211990_3, best_neighbor=3270874_4, overlap=0.77)'}
+[c5ff8577-0f24-4dd7-88d2-c11df01e4d83] done in 0.3s — answer: 'C13|C23'
+[534fe552-5e61-4e56-9559-11f2c713c491] tag=single-answer, bs=4, family=F1
+[534fe552-5e61-4e56-9559-11f2c713c491] answer='C1' top_candidate={'answer': 'C1', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3269458_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[534fe552-5e61-4e56-9559-11f2c713c491] done in 0.3s — answer: 'C1'
+[0723bd3a-60d4-4f7c-a441-e9c14cd6c6ca] tag=multiple-answer, bs=4, family=F2
+[0723bd3a-60d4-4f7c-a441-e9c14cd6c6ca] answer='C12|C18' top_candidate={'answer': 'C12|C18', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3214770_1 (serving=3214770_1, overlap=0.01)'}
+[0723bd3a-60d4-4f7c-a441-e9c14cd6c6ca] done in 0.3s — answer: 'C12|C18'
+[0afa57e3-05e1-41b2-8f2a-c473409d0e56] tag=single-answer, bs=4, family=F1
+[0afa57e3-05e1-41b2-8f2a-c473409d0e56] answer='C6' top_candidate={'answer': 'C6', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3268077_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[0afa57e3-05e1-41b2-8f2a-c473409d0e56] done in 0.3s — answer: 'C6'
+[da59ee4b-28ec-43f8-93e2-0ae84128dc88] tag=multiple-answer, bs=4, family=F2
+[da59ee4b-28ec-43f8-93e2-0ae84128dc88] answer='C8|C17' top_candidate={'answer': 'C8|C17', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3228289_3 (serving=3234955_4, best_neighbor=?, overlap=1.0)'}
+[da59ee4b-28ec-43f8-93e2-0ae84128dc88] done in 0.3s — answer: 'C8|C17'
+Saved 350 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[ea0e514d-a126-4982-b399-df5f1883de67] tag=single-answer, bs=4, family=F1
+[ea0e514d-a126-4982-b399-df5f1883de67] answer='C20' top_candidate={'answer': 'C20', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3234195_3', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+[ea0e514d-a126-4982-b399-df5f1883de67] done in 0.4s — answer: 'C20'
+[2b853245-b38a-4180-9dea-587232b74baf] tag=multiple-answer, bs=4, family=F2
+[2b853245-b38a-4180-9dea-587232b74baf] answer='C12|C19' top_candidate={'answer': 'C12|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3228659_4 (serving=3275492_3, best_neighbor=3228659_4, overlap=0.35)'}
+[2b853245-b38a-4180-9dea-587232b74baf] done in 0.3s — answer: 'C12|C19'
+[3e7e649d-4004-4cc8-82c9-799f896cb9ce] tag=single-answer, bs=4, family=F1
+[3e7e649d-4004-4cc8-82c9-799f896cb9ce] answer='C11' top_candidate={'answer': 'C11', 'score': 0.7803600000000002, 'action_type': 'decrease_a3', 'target_cell': '3270010_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[3e7e649d-4004-4cc8-82c9-799f896cb9ce] done in 0.3s — answer: 'C11'
+[76aba6e6-a6eb-4454-8e81-6a8d2c5c5896] tag=single-answer, bs=4, family=F1
+[76aba6e6-a6eb-4454-8e81-6a8d2c5c5896] answer='C2' top_candidate={'answer': 'C2', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3266427_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[76aba6e6-a6eb-4454-8e81-6a8d2c5c5896] done in 0.3s — answer: 'C2'
+[ae56dae8-a9fb-4e73-ae6a-cb6eadc3639b] tag=multiple-answer, bs=4, family=F2
+[ae56dae8-a9fb-4e73-ae6a-cb6eadc3639b] answer='C1|C6' top_candidate={'answer': 'C1|C6', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3256780_2 (serving=3234475_3, best_neighbor=3256780_2, overlap=0.31)'}
+[ae56dae8-a9fb-4e73-ae6a-cb6eadc3639b] done in 0.3s — answer: 'C1|C6'
+[ed3aa954-aedd-444b-85d7-1c537756a2e0] tag=multiple-answer, bs=5, family=F3
+[ed3aa954-aedd-444b-85d7-1c537756a2e0] answer='C6|C10|C23|C24' top_candidate={'answer': 'C6|C10|C23|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[ed3aa954-aedd-444b-85d7-1c537756a2e0] done in 0.2s — answer: 'C6|C10|C23|C24'
+[4285e888-22c3-4caa-a245-81d76d891757] tag=single-answer, bs=4, family=F1
+[4285e888-22c3-4caa-a245-81d76d891757] answer='C24' top_candidate={'answer': 'C24', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3260814_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[4285e888-22c3-4caa-a245-81d76d891757] done in 0.3s — answer: 'C24'
+[b71c86a7-c89b-4bc1-b58a-f437de5c68d6] tag=multiple-answer, bs=4, family=F2
+[b71c86a7-c89b-4bc1-b58a-f437de5c68d6] answer='C1|C11' top_candidate={'answer': 'C1|C11', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3214435_1 (serving=3214435_1, overlap=0.2)'}
+[b71c86a7-c89b-4bc1-b58a-f437de5c68d6] done in 0.3s — answer: 'C1|C11'
+[999685d2-dd51-4856-8dd7-e15fdf02513f] tag=single-answer, bs=4, family=F1
+[999685d2-dd51-4856-8dd7-e15fdf02513f] answer='C4' top_candidate={'answer': 'C4', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3228573_3', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[999685d2-dd51-4856-8dd7-e15fdf02513f] done in 0.3s — answer: 'C4'
+[c9a30826-52d5-4898-9486-731b30a07f74] Family override: F4M (tag=multiple-answer, bs=13)
+[c9a30826-52d5-4898-9486-731b30a07f74] tag=multiple-answer, bs=13, family=F4M
+[c9a30826-52d5-4898-9486-731b30a07f74] answer='C1|C16' top_candidate={'answer': 'C1|C16', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[c9a30826-52d5-4898-9486-731b30a07f74] done in 0.2s — answer: 'C1|C16'
+[965fb97a-ab86-43e3-a460-f3bfb49f6624] tag=multiple-answer, bs=5, family=F3
+[965fb97a-ab86-43e3-a460-f3bfb49f6624] answer='C11|C13|C18|C22' top_candidate={'answer': 'C11|C13|C18|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[965fb97a-ab86-43e3-a460-f3bfb49f6624] done in 0.2s — answer: 'C11|C13|C18|C22'
+[60576c9f-50d9-4b6d-856b-63fbbedb9240] tag=multiple-answer, bs=4, family=F2
+[60576c9f-50d9-4b6d-856b-63fbbedb9240] answer='C11|C24' top_candidate={'answer': 'C11|C24', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3242481_4 (serving=3214274_1, best_neighbor=3242481_4, overlap=0.66)'}
+[60576c9f-50d9-4b6d-856b-63fbbedb9240] done in 0.3s — answer: 'C11|C24'
+[37020348-6b81-4098-9e53-8ece23158960] tag=single-answer, bs=4, family=F1
+[37020348-6b81-4098-9e53-8ece23158960] answer='C8' top_candidate={'answer': 'C8', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3236929_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[37020348-6b81-4098-9e53-8ece23158960] done in 0.3s — answer: 'C8'
+[32d92c4a-2071-4dc2-90fc-30b842ba00b8] tag=multiple-answer, bs=4, family=F2
+[32d92c4a-2071-4dc2-90fc-30b842ba00b8] answer='C10|C21' top_candidate={'answer': 'C10|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3240653_2 (serving=3241858_3, best_neighbor=3240653_2, overlap=0.81)'}
+[32d92c4a-2071-4dc2-90fc-30b842ba00b8] done in 0.3s — answer: 'C10|C21'
+[579fe840-2772-4ed5-84b6-97ba4b483592] tag=multiple-answer, bs=4, family=F2
+[579fe840-2772-4ed5-84b6-97ba4b483592] answer='C16|C17' top_candidate={'answer': 'C16|C17', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270939_2 (serving=3278421_1, best_neighbor=3270939_2, overlap=0.38)'}
+[579fe840-2772-4ed5-84b6-97ba4b483592] done in 0.3s — answer: 'C16|C17'
+[66f1eb29-ea69-47d9-bd56-3d1540bd7426] tag=single-answer, bs=4, family=F1
+[66f1eb29-ea69-47d9-bd56-3d1540bd7426] answer='C8' top_candidate={'answer': 'C8', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3235036_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[66f1eb29-ea69-47d9-bd56-3d1540bd7426] done in 0.3s — answer: 'C8'
+[8a98c175-ce8a-4fdd-81ad-ccb7e9f25828] tag=single-answer, bs=4, family=F1
+[8a98c175-ce8a-4fdd-81ad-ccb7e9f25828] answer='C17' top_candidate={'answer': 'C17', 'score': 0.64344, 'action_type': 'decrease_a3', 'target_cell': '3276015_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[8a98c175-ce8a-4fdd-81ad-ccb7e9f25828] done in 0.3s — answer: 'C17'
+[b019d631-6f59-49cf-a489-85a561281d51] tag=multiple-answer, bs=4, family=F2
+[b019d631-6f59-49cf-a489-85a561281d51] answer='C5|C24' top_candidate={'answer': 'C5|C24', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3229950_1 (serving=3229950_1, overlap=0.28)'}
+[b019d631-6f59-49cf-a489-85a561281d51] done in 0.3s — answer: 'C5|C24'
+[740490db-c0ab-4733-adbc-93832cc9c64c] tag=single-answer, bs=4, family=F1
+[740490db-c0ab-4733-adbc-93832cc9c64c] answer='C24' top_candidate={'answer': 'C24', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3226101_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[740490db-c0ab-4733-adbc-93832cc9c64c] done in 0.3s — answer: 'C24'
+[d65f5bd9-e955-465b-be4d-b07c76690b95] tag=multiple-answer, bs=4, family=F2
+[d65f5bd9-e955-465b-be4d-b07c76690b95] answer='C8|C9' top_candidate={'answer': 'C8|C9', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3252096_1 (serving=3252096_1, overlap=0.25)'}
+[d65f5bd9-e955-465b-be4d-b07c76690b95] done in 0.3s — answer: 'C8|C9'
+[12dd7c1a-bc19-4956-808a-22178f1b5ec9] tag=single-answer, bs=4, family=F1
+[12dd7c1a-bc19-4956-808a-22178f1b5ec9] answer='C11' top_candidate={'answer': 'C11', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3279387_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[12dd7c1a-bc19-4956-808a-22178f1b5ec9] done in 0.3s — answer: 'C11'
+[ca969cc9-78df-47ae-aefc-2972691e9ff4] tag=multiple-answer, bs=4, family=F2
+[ca969cc9-78df-47ae-aefc-2972691e9ff4] answer='C5|C14' top_candidate={'answer': 'C5|C14', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3273793_2 (serving=3273793_2, overlap=0.01)'}
+[ca969cc9-78df-47ae-aefc-2972691e9ff4] done in 0.3s — answer: 'C5|C14'
+[1784b64c-3a27-4056-9aec-aaac8cdd284e] tag=single-answer, bs=4, family=F1
+[1784b64c-3a27-4056-9aec-aaac8cdd284e] answer='C21' top_candidate={'answer': 'C21', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3225579_3', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[1784b64c-3a27-4056-9aec-aaac8cdd284e] done in 0.3s — answer: 'C21'
+[8e500b94-74bd-4b8a-8dce-1fdae889734c] tag=single-answer, bs=4, family=F1
+[8e500b94-74bd-4b8a-8dce-1fdae889734c] answer='C6' top_candidate={'answer': 'C6', 'score': 0.6745200000000001, 'action_type': 'add_neighbor', 'target_cell': '3245464_2', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[8e500b94-74bd-4b8a-8dce-1fdae889734c] done in 0.3s — answer: 'C6'
+[808b3059-5c99-4bc6-88e1-fed97004b94e] tag=multiple-answer, bs=4, family=F2
+[808b3059-5c99-4bc6-88e1-fed97004b94e] answer='C5|C20' top_candidate={'answer': 'C5|C20', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3274728_3 (serving=3236140_1, best_neighbor=3274728_3, overlap=0.36)'}
+[808b3059-5c99-4bc6-88e1-fed97004b94e] done in 0.3s — answer: 'C5|C20'
+[1793a0eb-50fa-407f-9af7-b2b4dd992527] Family override: F4M (tag=multiple-answer, bs=13)
+[1793a0eb-50fa-407f-9af7-b2b4dd992527] tag=multiple-answer, bs=13, family=F4M
+[1793a0eb-50fa-407f-9af7-b2b4dd992527] answer='C19|C20' top_candidate={'answer': 'C19|C20', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[1793a0eb-50fa-407f-9af7-b2b4dd992527] done in 0.2s — answer: 'C19|C20'
+[37e2a29e-9a86-4c38-b28f-19756ec9b68a] tag=multiple-answer, bs=4, family=F2
+[37e2a29e-9a86-4c38-b28f-19756ec9b68a] answer='C4|C15' top_candidate={'answer': 'C4|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3230748_1 (serving=3210806_3, best_neighbor=3230748_1, overlap=0.38)'}
+[37e2a29e-9a86-4c38-b28f-19756ec9b68a] done in 0.3s — answer: 'C4|C15'
+[f3a57239-c799-45ff-8c33-c1b3b9005d77] tag=single-answer, bs=13, family=F4
+[f3a57239-c799-45ff-8c33-c1b3b9005d77] answer='C8' top_candidate={'answer': 'C8', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3274321_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[f3a57239-c799-45ff-8c33-c1b3b9005d77] done in 0.2s — answer: 'C8'
+[aa7c719f-2ecf-4b31-9b9a-4c024de0d769] tag=multiple-answer, bs=4, family=F2
+[aa7c719f-2ecf-4b31-9b9a-4c024de0d769] answer='C4|C8' top_candidate={'answer': 'C4|C8', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3230702_1 (serving=3230702_1, overlap=0.21)'}
+[aa7c719f-2ecf-4b31-9b9a-4c024de0d769] done in 0.3s — answer: 'C4|C8'
+[d071a876-59ee-46c1-b28e-93649a757b43] tag=single-answer, bs=13, family=F4
+[d071a876-59ee-46c1-b28e-93649a757b43] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3251353_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[d071a876-59ee-46c1-b28e-93649a757b43] done in 0.2s — answer: 'C17'
+[62191282-c80f-4541-89ad-7e41410e16f6] tag=single-answer, bs=13, family=F4
+[62191282-c80f-4541-89ad-7e41410e16f6] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3270684_6', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[62191282-c80f-4541-89ad-7e41410e16f6] done in 0.2s — answer: 'C17'
+[238710b4-0d22-4792-bbe8-4d093320f2ef] tag=single-answer, bs=4, family=F1
+[238710b4-0d22-4792-bbe8-4d093320f2ef] answer='C8' top_candidate={'answer': 'C8', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3211389_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[238710b4-0d22-4792-bbe8-4d093320f2ef] done in 0.3s — answer: 'C8'
+[38e124f5-d736-4f0a-b1d9-53db02f3840f] tag=single-answer, bs=4, family=F1
+[38e124f5-d736-4f0a-b1d9-53db02f3840f] answer='C5' top_candidate={'answer': 'C5', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[38e124f5-d736-4f0a-b1d9-53db02f3840f] done in 0.3s — answer: 'C5'
+[8b106f70-6cc8-4641-910d-061d80a63d2b] tag=multiple-answer, bs=4, family=F2
+[8b106f70-6cc8-4641-910d-061d80a63d2b] answer='C1|C8' top_candidate={'answer': 'C1|C8', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3239540_4 (serving=3251419_3, best_neighbor=?, overlap=1.0)'}
+[8b106f70-6cc8-4641-910d-061d80a63d2b] done in 0.3s — answer: 'C1|C8'
+[80844485-d0c3-4b51-b91f-f6c52fd946aa] tag=single-answer, bs=4, family=F1
+[80844485-d0c3-4b51-b91f-f6c52fd946aa] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[80844485-d0c3-4b51-b91f-f6c52fd946aa] done in 0.4s — answer: 'C3'
+[fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] tag=multiple-answer, bs=4, family=F2
+[fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] answer='C11|C17' top_candidate={'answer': 'C11|C17', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3265680_4 (serving=3265680_4, overlap=0.14)'}
+[fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] done in 0.3s — answer: 'C11|C17'
+[2fe0c43d-2183-4a2b-9a33-4e09d10cea30] tag=multiple-answer, bs=4, family=F2
+[2fe0c43d-2183-4a2b-9a33-4e09d10cea30] answer='C7|C24' top_candidate={'answer': 'C7|C24', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3215374_1 (serving=3215374_1, overlap=0.07)'}
+[2fe0c43d-2183-4a2b-9a33-4e09d10cea30] done in 0.3s — answer: 'C7|C24'
+[be386ef4-9495-4f89-b311-d1a0113d85ab] tag=single-answer, bs=4, family=F1
+[be386ef4-9495-4f89-b311-d1a0113d85ab] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6774600000000001, 'action_type': 'decrease_a3', 'target_cell': '3275549_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[be386ef4-9495-4f89-b311-d1a0113d85ab] done in 0.4s — answer: 'C7'
+[cb8431e8-d36f-4b45-8370-0e0cd46c8ff7] Family override: F4M (tag=multiple-answer, bs=13)
+[cb8431e8-d36f-4b45-8370-0e0cd46c8ff7] tag=multiple-answer, bs=13, family=F4M
+[cb8431e8-d36f-4b45-8370-0e0cd46c8ff7] answer='C18|C21' top_candidate={'answer': 'C18|C21', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[cb8431e8-d36f-4b45-8370-0e0cd46c8ff7] done in 0.3s — answer: 'C18|C21'
+[e1595b92-c3a9-43c4-9f80-2b2bc2662228] tag=multiple-answer, bs=4, family=F2
+[e1595b92-c3a9-43c4-9f80-2b2bc2662228] answer='C12|C14' top_candidate={'answer': 'C12|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3243738_1 (serving=3224196_2, best_neighbor=?, overlap=1.0)'}
+[e1595b92-c3a9-43c4-9f80-2b2bc2662228] done in 0.3s — answer: 'C12|C14'
+[dead280b-a7bf-4dec-b7fd-4008ccadf47d] tag=single-answer, bs=4, family=F1
+[dead280b-a7bf-4dec-b7fd-4008ccadf47d] answer='C15' top_candidate={'answer': 'C15', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3275209_2', 'reason': 'geometry recommendation'}
+[dead280b-a7bf-4dec-b7fd-4008ccadf47d] done in 0.4s — answer: 'C15'
+[fb93f000-08f3-4c8c-b831-f4ba76e1be4e] tag=single-answer, bs=4, family=F1
+[fb93f000-08f3-4c8c-b831-f4ba76e1be4e] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[fb93f000-08f3-4c8c-b831-f4ba76e1be4e] done in 0.4s — answer: 'C9'
+[9e62763e-ffa5-4ecf-82f5-8f693064b32f] tag=multiple-answer, bs=4, family=F2
+[9e62763e-ffa5-4ecf-82f5-8f693064b32f] answer='C3|C19' top_candidate={'answer': 'C3|C19', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3229351_2 (serving=3229351_2, overlap=0.02)'}
+[9e62763e-ffa5-4ecf-82f5-8f693064b32f] done in 0.3s — answer: 'C3|C19'
+[35463299-505f-4fd8-b0f1-d6f8aee6aa53] tag=single-answer, bs=4, family=F1
+[35463299-505f-4fd8-b0f1-d6f8aee6aa53] answer='C1' top_candidate={'answer': 'C1', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3239448_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[35463299-505f-4fd8-b0f1-d6f8aee6aa53] done in 0.3s — answer: 'C1'
+[3662d26a-0f36-4546-8983-3f6cd36fa6ba] tag=multiple-answer, bs=4, family=F2
+[3662d26a-0f36-4546-8983-3f6cd36fa6ba] answer='C3|C12' top_candidate={'answer': 'C3|C12', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3264652_1 (serving=3270174_2, best_neighbor=3264652_1, overlap=1.0)'}
+[3662d26a-0f36-4546-8983-3f6cd36fa6ba] done in 0.3s — answer: 'C3|C12'
+[8f8e3ba8-c35a-41ec-8870-9e0602450a5d] tag=multiple-answer, bs=4, family=F2
+[8f8e3ba8-c35a-41ec-8870-9e0602450a5d] answer='C17|C20' top_candidate={'answer': 'C17|C20', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3259704_4 (serving=3259704_4, overlap=0.24)'}
+[8f8e3ba8-c35a-41ec-8870-9e0602450a5d] done in 0.3s — answer: 'C17|C20'
+[d0e7a28f-2474-4d35-8487-f0fb0fe21429] tag=multiple-answer, bs=4, family=F2
+[d0e7a28f-2474-4d35-8487-f0fb0fe21429] answer='C2|C22' top_candidate={'answer': 'C2|C22', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3233881_3 (serving=3233881_3, overlap=0.22)'}
+[d0e7a28f-2474-4d35-8487-f0fb0fe21429] done in 0.3s — answer: 'C2|C22'
+[9b7e9a95-029a-455c-9ec2-7a4ebd425cb9] tag=single-answer, bs=4, family=F1
+[9b7e9a95-029a-455c-9ec2-7a4ebd425cb9] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[9b7e9a95-029a-455c-9ec2-7a4ebd425cb9] done in 0.4s — answer: 'C3'
+[0e4eb0cd-19c2-4f4d-b045-7e25a7a4ba12] tag=single-answer, bs=4, family=F1
+[0e4eb0cd-19c2-4f4d-b045-7e25a7a4ba12] answer='C16' top_candidate={'answer': 'C16', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3252493_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[0e4eb0cd-19c2-4f4d-b045-7e25a7a4ba12] done in 0.3s — answer: 'C16'
+[7004ee6b-54e5-4497-a5fc-8d4239b2c0c4] tag=single-answer, bs=4, family=F1
+[7004ee6b-54e5-4497-a5fc-8d4239b2c0c4] answer='C5' top_candidate={'answer': 'C5', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3215922_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[7004ee6b-54e5-4497-a5fc-8d4239b2c0c4] done in 0.3s — answer: 'C5'
+Saved 400 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[ff8052bf-9055-4b62-9956-852459abf73a] tag=single-answer, bs=4, family=F1
+[ff8052bf-9055-4b62-9956-852459abf73a] answer='C24' top_candidate={'answer': 'C24', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3243921_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[ff8052bf-9055-4b62-9956-852459abf73a] done in 0.3s — answer: 'C24'
+[1c30a245-d4e1-4f4f-9e1e-e6c94edaf8e6] tag=multiple-answer, bs=4, family=F2
+[1c30a245-d4e1-4f4f-9e1e-e6c94edaf8e6] answer='C1|C14' top_candidate={'answer': 'C1|C14', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3257245_4 (serving=3257245_4, overlap=0.12)'}
+[1c30a245-d4e1-4f4f-9e1e-e6c94edaf8e6] done in 0.3s — answer: 'C1|C14'
+[2634e99c-8307-4ab4-91cb-9bd813d574ec] tag=single-answer, bs=4, family=F1
+[2634e99c-8307-4ab4-91cb-9bd813d574ec] answer='C20' top_candidate={'answer': 'C20', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3254837_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[2634e99c-8307-4ab4-91cb-9bd813d574ec] done in 0.3s — answer: 'C20'
+[dadca28e-7563-436f-8ef9-c58e97812225] tag=single-answer, bs=4, family=F1
+[dadca28e-7563-436f-8ef9-c58e97812225] answer='C5' top_candidate={'answer': 'C5', 'score': 0.6190800000000001, 'action_type': 'decrease_a3', 'target_cell': '3217538_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[dadca28e-7563-436f-8ef9-c58e97812225] done in 0.3s — answer: 'C5'
+[be526c5a-43a3-4015-b9f0-2273b54b2ceb] tag=single-answer, bs=4, family=F1
+[be526c5a-43a3-4015-b9f0-2273b54b2ceb] answer='C10' top_candidate={'answer': 'C10', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[be526c5a-43a3-4015-b9f0-2273b54b2ceb] done in 0.4s — answer: 'C10'
+[32245d27-e1ca-470d-ae47-cd8351c240df] tag=single-answer, bs=4, family=F1
+[32245d27-e1ca-470d-ae47-cd8351c240df] answer='C14' top_candidate={'answer': 'C14', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[32245d27-e1ca-470d-ae47-cd8351c240df] done in 0.4s — answer: 'C14'
+[d4a15e5b-b7de-4e60-ad74-1974d88758cd] tag=multiple-answer, bs=4, family=F2
+[d4a15e5b-b7de-4e60-ad74-1974d88758cd] answer='C10|C20' top_candidate={'answer': 'C10|C20', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3279000_3 (serving=3230686_2, best_neighbor=3279000_3, overlap=0.35)'}
+[d4a15e5b-b7de-4e60-ad74-1974d88758cd] done in 0.3s — answer: 'C10|C20'
+[06e423f6-d8f7-4260-91db-2d53e7d56cd2] tag=single-answer, bs=4, family=F1
+[06e423f6-d8f7-4260-91db-2d53e7d56cd2] answer='C15' top_candidate={'answer': 'C15', 'score': 0.8925, 'action_type': 'add_neighbor', 'target_cell': '3234895_3', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[06e423f6-d8f7-4260-91db-2d53e7d56cd2] done in 0.3s — answer: 'C15'
+[a9b82051-f954-405d-962f-7f95f67a7104] tag=single-answer, bs=4, family=F1
+[a9b82051-f954-405d-962f-7f95f67a7104] answer='C23' top_candidate={'answer': 'C23', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3268079_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[a9b82051-f954-405d-962f-7f95f67a7104] done in 0.4s — answer: 'C23'
+[fac240be-92ef-48da-8aea-fdb37026d05a] tag=single-answer, bs=4, family=F1
+[fac240be-92ef-48da-8aea-fdb37026d05a] answer='C23' top_candidate={'answer': 'C23', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3252471_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[fac240be-92ef-48da-8aea-fdb37026d05a] done in 0.3s — answer: 'C23'
+[61761283-e398-4929-afad-111dc459daec] Family override: F4M (tag=multiple-answer, bs=13)
+[61761283-e398-4929-afad-111dc459daec] tag=multiple-answer, bs=13, family=F4M
+[61761283-e398-4929-afad-111dc459daec] answer='C3|C22' top_candidate={'answer': 'C3|C22', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[61761283-e398-4929-afad-111dc459daec] done in 0.2s — answer: 'C3|C22'
+[2c9e99d0-bc53-4a96-a942-a8f84c768029] tag=multiple-answer, bs=4, family=F2
+[2c9e99d0-bc53-4a96-a942-a8f84c768029] answer='C3|C18' top_candidate={'answer': 'C3|C18', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3215198_1 (serving=3215198_1, overlap=0.22)'}
+[2c9e99d0-bc53-4a96-a942-a8f84c768029] done in 0.3s — answer: 'C3|C18'
+[ed2c5525-94c7-4e25-bcd8-d447fd77358d] tag=single-answer, bs=4, family=F1
+[ed2c5525-94c7-4e25-bcd8-d447fd77358d] answer='C8' top_candidate={'answer': 'C8', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3252196_4', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[ed2c5525-94c7-4e25-bcd8-d447fd77358d] done in 0.3s — answer: 'C8'
+[cfcbe96d-8979-41f3-8946-419d7812cb81] tag=multiple-answer, bs=4, family=F2
+[cfcbe96d-8979-41f3-8946-419d7812cb81] answer='C6|C8' top_candidate={'answer': 'C6|C8', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3269238_2 (serving=3269238_2, overlap=0.3)'}
+[cfcbe96d-8979-41f3-8946-419d7812cb81] done in 0.3s — answer: 'C6|C8'
+[f5cd3113-1318-4067-a6fe-e9dfe3e8211a] tag=single-answer, bs=4, family=F1
+[f5cd3113-1318-4067-a6fe-e9dfe3e8211a] answer='C17' top_candidate={'answer': 'C17', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3211729_4', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[f5cd3113-1318-4067-a6fe-e9dfe3e8211a] done in 0.3s — answer: 'C17'
+[1500e616-4f0d-48cb-a67b-cf225a2bfd85] tag=multiple-answer, bs=4, family=F2
+[1500e616-4f0d-48cb-a67b-cf225a2bfd85] answer='C2|C3' top_candidate={'answer': 'C2|C3', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3278930_1 (serving=3278930_1, overlap=0.29)'}
+[1500e616-4f0d-48cb-a67b-cf225a2bfd85] done in 0.3s — answer: 'C2|C3'
+[5d2e110b-02da-4cc3-8dd4-cc994b024a1d] tag=single-answer, bs=4, family=F1
+[5d2e110b-02da-4cc3-8dd4-cc994b024a1d] answer='C14' top_candidate={'answer': 'C14', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3251397_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[5d2e110b-02da-4cc3-8dd4-cc994b024a1d] done in 0.3s — answer: 'C14'
+[dcd24c23-61e4-4f13-bf73-280e2ccc7869] tag=multiple-answer, bs=5, family=F3
+[dcd24c23-61e4-4f13-bf73-280e2ccc7869] answer='C2|C5|C8|C19' top_candidate={'answer': 'C2|C5|C8|C19', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[dcd24c23-61e4-4f13-bf73-280e2ccc7869] done in 0.2s — answer: 'C2|C5|C8|C19'
+[c7855316-97b9-48ed-8919-c5853aca58d3] tag=multiple-answer, bs=4, family=F2
+[c7855316-97b9-48ed-8919-c5853aca58d3] answer='C2|C18' top_candidate={'answer': 'C2|C18', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3230924_3 (serving=3230924_3, overlap=0.07)'}
+[c7855316-97b9-48ed-8919-c5853aca58d3] done in 0.3s — answer: 'C2|C18'
+[bb1b6139-66c0-4c7c-a72d-7000ccb89c53] tag=single-answer, bs=4, family=F1
+[bb1b6139-66c0-4c7c-a72d-7000ccb89c53] answer='C11' top_candidate={'answer': 'C11', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3243090_3', 'reason': 'geometry recommendation'}
+[bb1b6139-66c0-4c7c-a72d-7000ccb89c53] done in 0.4s — answer: 'C11'
+[6be53ad8-59e2-4130-926a-2a21a4ba0555] tag=single-answer, bs=4, family=F1
+[6be53ad8-59e2-4130-926a-2a21a4ba0555] answer='C20' top_candidate={'answer': 'C20', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+[6be53ad8-59e2-4130-926a-2a21a4ba0555] done in 0.3s — answer: 'C20'
+[132c624a-c39d-4adf-bd70-653b8a7acdd8] tag=multiple-answer, bs=4, family=F2
+[132c624a-c39d-4adf-bd70-653b8a7acdd8] answer='C9|C19' top_candidate={'answer': 'C9|C19', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3258986_1 (serving=3258986_1, overlap=0.05)'}
+[132c624a-c39d-4adf-bd70-653b8a7acdd8] done in 0.3s — answer: 'C9|C19'
+[6a6bafaf-d4f2-4441-82b0-16027a93d32c] tag=single-answer, bs=4, family=F1
+[6a6bafaf-d4f2-4441-82b0-16027a93d32c] answer='C15' top_candidate={'answer': 'C15', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3221386_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[6a6bafaf-d4f2-4441-82b0-16027a93d32c] done in 0.3s — answer: 'C15'
+[e343af89-f7da-417c-930d-48a953d69a7f] tag=multiple-answer, bs=4, family=F2
+[e343af89-f7da-417c-930d-48a953d69a7f] answer='C6|C12' top_candidate={'answer': 'C6|C12', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3228764_4 (serving=3237137_1, best_neighbor=?, overlap=1.0)'}
+[e343af89-f7da-417c-930d-48a953d69a7f] done in 0.3s — answer: 'C6|C12'
+[8537f835-5853-41f7-8498-bf789bf86166] tag=multiple-answer, bs=4, family=F2
+[8537f835-5853-41f7-8498-bf789bf86166] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3212113_4 (serving=3212113_4, overlap=0.26)'}
+[8537f835-5853-41f7-8498-bf789bf86166] done in 0.3s — answer: 'C1|C2'
+[7e1d1dbb-c023-42f1-8c9a-645208b09e5a] Family override: F1_5BS (tag=single-answer, bs=5)
+[7e1d1dbb-c023-42f1-8c9a-645208b09e5a] tag=single-answer, bs=5, family=F1_5BS
+[7e1d1dbb-c023-42f1-8c9a-645208b09e5a] answer='C24' top_candidate={'answer': 'C24', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[7e1d1dbb-c023-42f1-8c9a-645208b09e5a] done in 0.4s — answer: 'C24'
+[7134273d-baaf-4982-b967-63177b4ea941] tag=single-answer, bs=4, family=F1
+[7134273d-baaf-4982-b967-63177b4ea941] answer='C8' top_candidate={'answer': 'C8', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3241949_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[7134273d-baaf-4982-b967-63177b4ea941] done in 0.3s — answer: 'C8'
+[0c6ffc3f-4555-4523-b1ad-2b4707d32ba0] tag=single-answer, bs=4, family=F1
+[0c6ffc3f-4555-4523-b1ad-2b4707d32ba0] answer='C22' top_candidate={'answer': 'C22', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3211545_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[0c6ffc3f-4555-4523-b1ad-2b4707d32ba0] done in 0.3s — answer: 'C22'
+[ab4909b6-09cc-4ce9-937b-062dfb01c87b] tag=single-answer, bs=4, family=F1
+[ab4909b6-09cc-4ce9-937b-062dfb01c87b] answer='C10' top_candidate={'answer': 'C10', 'score': 0.5972400000000001, 'action_type': 'decrease_a3', 'target_cell': '3233892_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[ab4909b6-09cc-4ce9-937b-062dfb01c87b] done in 0.3s — answer: 'C10'
+[c2c80a6c-d00d-4227-b741-14fb30170130] tag=multiple-answer, bs=4, family=F2
+[c2c80a6c-d00d-4227-b741-14fb30170130] answer='C3|C12' top_candidate={'answer': 'C3|C12', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3254061_2 (serving=3254061_2, overlap=0.29)'}
+[c2c80a6c-d00d-4227-b741-14fb30170130] done in 0.3s — answer: 'C3|C12'
+[45ced617-4e52-4d9c-ab7b-c1df7287b386] tag=single-answer, bs=4, family=F1
+[45ced617-4e52-4d9c-ab7b-c1df7287b386] answer='C15' top_candidate={'answer': 'C15', 'score': 0.5817000000000001, 'action_type': 'decrease_a3', 'target_cell': '3226706_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[45ced617-4e52-4d9c-ab7b-c1df7287b386] done in 0.3s — answer: 'C15'
+[4cedcf0b-1367-4534-8dd7-1f862fc91854] Family override: F1_5BS (tag=single-answer, bs=5)
+[4cedcf0b-1367-4534-8dd7-1f862fc91854] tag=single-answer, bs=5, family=F1_5BS
+[4cedcf0b-1367-4534-8dd7-1f862fc91854] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[4cedcf0b-1367-4534-8dd7-1f862fc91854] done in 0.4s — answer: 'C9'
+[216ec377-a3ad-4415-888c-d62596f97a6d] tag=single-answer, bs=4, family=F1
+[216ec377-a3ad-4415-888c-d62596f97a6d] answer='C15' top_candidate={'answer': 'C15', 'score': 0.7013999999999999, 'action_type': 'decrease_a3', 'target_cell': '3216087_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[216ec377-a3ad-4415-888c-d62596f97a6d] done in 0.3s — answer: 'C15'
+[27a816db-ff5c-4744-8f18-84a42e27d540] tag=single-answer, bs=4, family=F1
+[27a816db-ff5c-4744-8f18-84a42e27d540] answer='C19' top_candidate={'answer': 'C19', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3217043_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[27a816db-ff5c-4744-8f18-84a42e27d540] done in 0.3s — answer: 'C19'
+[b4e916dd-ffce-435e-ba64-301706376b84] tag=multiple-answer, bs=4, family=F2
+[b4e916dd-ffce-435e-ba64-301706376b84] answer='C2|C7' top_candidate={'answer': 'C2|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3272316_3 (serving=3272316_3, overlap=0.13)'}
+[b4e916dd-ffce-435e-ba64-301706376b84] done in 0.3s — answer: 'C2|C7'
+[1489d20f-dfe2-4b77-a1ba-9bc7bf33aaea] tag=single-answer, bs=4, family=F1
+[1489d20f-dfe2-4b77-a1ba-9bc7bf33aaea] answer='C21' top_candidate={'answer': 'C21', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[1489d20f-dfe2-4b77-a1ba-9bc7bf33aaea] done in 0.4s — answer: 'C21'
+[bd2d94e8-bb28-44bc-8697-6594222b7bfb] tag=single-answer, bs=4, family=F1
+[bd2d94e8-bb28-44bc-8697-6594222b7bfb] answer='C17' top_candidate={'answer': 'C17', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3268341_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[bd2d94e8-bb28-44bc-8697-6594222b7bfb] done in 0.4s — answer: 'C17'
+[ec7a63d4-a986-4436-af45-2ae8f799cedf] tag=single-answer, bs=4, family=F1
+[ec7a63d4-a986-4436-af45-2ae8f799cedf] answer='C1' top_candidate={'answer': 'C1', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3226273_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[ec7a63d4-a986-4436-af45-2ae8f799cedf] done in 0.3s — answer: 'C1'
+[391c4d6f-1540-4185-a586-b1db6bd2ee18] tag=single-answer, bs=4, family=F1
+[391c4d6f-1540-4185-a586-b1db6bd2ee18] answer='C14' top_candidate={'answer': 'C14', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3245695_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[391c4d6f-1540-4185-a586-b1db6bd2ee18] done in 0.3s — answer: 'C14'
+[2274a8f4-9377-4b31-a45a-2a34e1039892] tag=multiple-answer, bs=4, family=F2
+[2274a8f4-9377-4b31-a45a-2a34e1039892] answer='C3|C14' top_candidate={'answer': 'C3|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3213860_4 (serving=3223093_2, best_neighbor=?, overlap=1.0)'}
+[2274a8f4-9377-4b31-a45a-2a34e1039892] done in 0.3s — answer: 'C3|C14'
+[1098a156-0cef-47a7-8747-0ea9cf109da3] Family override: F1_5BS (tag=single-answer, bs=5)
+[1098a156-0cef-47a7-8747-0ea9cf109da3] tag=single-answer, bs=5, family=F1_5BS
+[1098a156-0cef-47a7-8747-0ea9cf109da3] answer='C9' top_candidate={'answer': 'C9', 'score': 0.58086, 'action_type': 'decrease_a3', 'target_cell': '3222396_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[1098a156-0cef-47a7-8747-0ea9cf109da3] done in 0.4s — answer: 'C9'
+[cd7796ff-4b7b-411c-970c-eb88da5e0b6f] tag=single-answer, bs=4, family=F1
+[cd7796ff-4b7b-411c-970c-eb88da5e0b6f] answer='C12' top_candidate={'answer': 'C12', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3272498_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[cd7796ff-4b7b-411c-970c-eb88da5e0b6f] done in 0.3s — answer: 'C12'
+[dffb3949-dab7-4e1f-a157-bd1ad1167c1e] tag=multiple-answer, bs=4, family=F2
+[dffb3949-dab7-4e1f-a157-bd1ad1167c1e] answer='C17|C18' top_candidate={'answer': 'C17|C18', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3256351_2 (serving=3217527_1, best_neighbor=?, overlap=1.0)'}
+[dffb3949-dab7-4e1f-a157-bd1ad1167c1e] done in 0.3s — answer: 'C17|C18'
+[66c32957-18d2-4a2c-8bf1-bf679ebaa6ab] Family override: F4M (tag=multiple-answer, bs=13)
+[66c32957-18d2-4a2c-8bf1-bf679ebaa6ab] tag=multiple-answer, bs=13, family=F4M
+[66c32957-18d2-4a2c-8bf1-bf679ebaa6ab] answer='C12|C18' top_candidate={'answer': 'C12|C18', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[66c32957-18d2-4a2c-8bf1-bf679ebaa6ab] done in 0.2s — answer: 'C12|C18'
+[814a0b57-3698-47e3-a2c7-b6b5e83528ce] tag=multiple-answer, bs=4, family=F2
+[814a0b57-3698-47e3-a2c7-b6b5e83528ce] answer='C4|C11' top_candidate={'answer': 'C4|C11', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3215784_4 (serving=3215784_4, overlap=0.11)'}
+[814a0b57-3698-47e3-a2c7-b6b5e83528ce] done in 0.3s — answer: 'C4|C11'
+[dbc3594e-e84a-461a-90ef-61f69a4ce24a] tag=single-answer, bs=4, family=F1
+[dbc3594e-e84a-461a-90ef-61f69a4ce24a] answer='C5' top_candidate={'answer': 'C5', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3262206_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[dbc3594e-e84a-461a-90ef-61f69a4ce24a] done in 0.3s — answer: 'C5'
+[b0751b16-f138-4c7a-91b3-d3d06307bfbb] tag=single-answer, bs=13, family=F4
+[b0751b16-f138-4c7a-91b3-d3d06307bfbb] answer='C1' top_candidate={'answer': 'C1', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3258077_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[b0751b16-f138-4c7a-91b3-d3d06307bfbb] done in 0.2s — answer: 'C1'
+[5d29f98f-eedc-49c2-b70d-932e47faa859] tag=multiple-answer, bs=4, family=F2
+[5d29f98f-eedc-49c2-b70d-932e47faa859] answer='C2|C16' top_candidate={'answer': 'C2|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3229627_3 (serving=3245089_4, best_neighbor=?, overlap=1.0)'}
+[5d29f98f-eedc-49c2-b70d-932e47faa859] done in 0.3s — answer: 'C2|C16'
+[f2d2f27a-1f66-4e28-a731-2e0948b763cb] tag=single-answer, bs=4, family=F1
+[f2d2f27a-1f66-4e28-a731-2e0948b763cb] answer='C17' top_candidate={'answer': 'C17', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3220280_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[f2d2f27a-1f66-4e28-a731-2e0948b763cb] done in 0.3s — answer: 'C17'
+[c61b4061-4cf1-477e-abdc-a61f7b7a5e21] tag=multiple-answer, bs=4, family=F2
+[c61b4061-4cf1-477e-abdc-a61f7b7a5e21] answer='C12|C21' top_candidate={'answer': 'C12|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3235801_4 (serving=3273204_3, best_neighbor=?, overlap=1.0)'}
+[c61b4061-4cf1-477e-abdc-a61f7b7a5e21] done in 0.3s — answer: 'C12|C21'
+Saved 450 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+[6f67d5d5-dbec-4bb4-a258-25b962db256f] tag=single-answer, bs=4, family=F1
+[6f67d5d5-dbec-4bb4-a258-25b962db256f] answer='C12' top_candidate={'answer': 'C12', 'score': 0.6140400000000001, 'action_type': 'decrease_a3', 'target_cell': '3242397_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[6f67d5d5-dbec-4bb4-a258-25b962db256f] done in 0.3s — answer: 'C12'
+[57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] tag=multiple-answer, bs=4, family=F2
+[57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] answer='C4|C19' top_candidate={'answer': 'C4|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3273026_4 (serving=3234587_1, best_neighbor=3273026_4, overlap=0.54)'}
+[57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] done in 0.3s — answer: 'C4|C19'
+[041efc72-b61d-4c14-b8af-6a75a2ec272d] tag=single-answer, bs=4, family=F1
+[041efc72-b61d-4c14-b8af-6a75a2ec272d] answer='C23' top_candidate={'answer': 'C23', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3242734_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[041efc72-b61d-4c14-b8af-6a75a2ec272d] done in 0.3s — answer: 'C23'
+[fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] tag=multiple-answer, bs=4, family=F2
+[fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] answer='C1|C15' top_candidate={'answer': 'C1|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3258117_3 (serving=3261312_2, best_neighbor=3258117_3, overlap=0.94)'}
+[fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] done in 0.3s — answer: 'C1|C15'
+[bc5ad307-4ea5-4f19-a3c8-f3fda5dbf8ed] tag=single-answer, bs=4, family=F1
+[bc5ad307-4ea5-4f19-a3c8-f3fda5dbf8ed] answer='C21' top_candidate={'answer': 'C21', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[bc5ad307-4ea5-4f19-a3c8-f3fda5dbf8ed] done in 0.4s — answer: 'C21'
+[3eb5d4cc-91eb-4d97-a695-35e5215afcfc] Family override: F4M (tag=multiple-answer, bs=13)
+[3eb5d4cc-91eb-4d97-a695-35e5215afcfc] tag=multiple-answer, bs=13, family=F4M
+[3eb5d4cc-91eb-4d97-a695-35e5215afcfc] answer='C1|C11' top_candidate={'answer': 'C1|C11', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[3eb5d4cc-91eb-4d97-a695-35e5215afcfc] done in 0.2s — answer: 'C1|C11'
+[b12d176f-8116-4c29-a900-ec41abfb6b60] tag=multiple-answer, bs=4, family=F2
+[b12d176f-8116-4c29-a900-ec41abfb6b60] answer='C8|C22' top_candidate={'answer': 'C8|C22', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3273728_3 (serving=3273728_3, overlap=0.23)'}
+[b12d176f-8116-4c29-a900-ec41abfb6b60] done in 0.3s — answer: 'C8|C22'
+[b7a92d2e-7395-4b72-a339-1722862f80c3] tag=single-answer, bs=4, family=F1
+[b7a92d2e-7395-4b72-a339-1722862f80c3] answer='C20' top_candidate={'answer': 'C20', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3255776_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[b7a92d2e-7395-4b72-a339-1722862f80c3] done in 0.3s — answer: 'C20'
+[880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] tag=single-answer, bs=4, family=F1
+[880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] answer='C13' top_candidate={'answer': 'C13', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3238954_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+[880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] done in 0.3s — answer: 'C13'
+[b039f8fb-133f-4655-a231-81cceb8aadf3] tag=single-answer, bs=4, family=F1
+[b039f8fb-133f-4655-a231-81cceb8aadf3] answer='C9' top_candidate={'answer': 'C9', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3231578_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[b039f8fb-133f-4655-a231-81cceb8aadf3] done in 0.3s — answer: 'C9'
+[41d93845-0cda-45ed-a126-51f211ba7f03] Family override: F4M (tag=multiple-answer, bs=13)
+[41d93845-0cda-45ed-a126-51f211ba7f03] tag=multiple-answer, bs=13, family=F4M
+[41d93845-0cda-45ed-a126-51f211ba7f03] answer='C1|C12' top_candidate={'answer': 'C1|C12', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[41d93845-0cda-45ed-a126-51f211ba7f03] done in 0.2s — answer: 'C1|C12'
+[3ccc4eba-6648-4901-b1c3-e3ba6dae218d] tag=multiple-answer, bs=4, family=F2
+[3ccc4eba-6648-4901-b1c3-e3ba6dae218d] answer='C9|C19' top_candidate={'answer': 'C9|C19', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3258751_1 (serving=3258751_1, overlap=0.25)'}
+[3ccc4eba-6648-4901-b1c3-e3ba6dae218d] done in 0.3s — answer: 'C9|C19'
+[9cdd5c86-a7fa-4e60-b78c-e461f2243efe] tag=multiple-answer, bs=4, family=F2
+[9cdd5c86-a7fa-4e60-b78c-e461f2243efe] answer='C6|C14' top_candidate={'answer': 'C6|C14', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3248911_2 (serving=3248911_2, overlap=0.27)'}
+[9cdd5c86-a7fa-4e60-b78c-e461f2243efe] done in 0.3s — answer: 'C6|C14'
+[691c6e56-a3a7-4402-8ea8-b23ac07196ec] tag=single-answer, bs=4, family=F1
+[691c6e56-a3a7-4402-8ea8-b23ac07196ec] answer='C13' top_candidate={'answer': 'C13', 'score': 0.6762, 'action_type': 'add_neighbor', 'target_cell': '3226124_4', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[691c6e56-a3a7-4402-8ea8-b23ac07196ec] done in 0.3s — answer: 'C13'
+[b0719a09-7ef9-427a-b23a-8336baa61d37] tag=single-answer, bs=4, family=F1
+[b0719a09-7ef9-427a-b23a-8336baa61d37] answer='C18' top_candidate={'answer': 'C18', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3269424_1', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[b0719a09-7ef9-427a-b23a-8336baa61d37] done in 0.3s — answer: 'C18'
+[aade4889-818b-4936-916e-258989f578bf] tag=single-answer, bs=4, family=F1
+[aade4889-818b-4936-916e-258989f578bf] answer='C24' top_candidate={'answer': 'C24', 'score': 0.61782, 'action_type': 'decrease_a3', 'target_cell': '3267877_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[aade4889-818b-4936-916e-258989f578bf] done in 0.3s — answer: 'C24'
+[a1b67ebd-5814-4750-8c6c-c121e45ea233] tag=single-answer, bs=4, family=F1
+[a1b67ebd-5814-4750-8c6c-c121e45ea233] answer='C17' top_candidate={'answer': 'C17', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3222903_1', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[a1b67ebd-5814-4750-8c6c-c121e45ea233] done in 1.3s — answer: 'C17'
+[484a4598-4f13-4c08-b48c-0722092438f8] tag=multiple-answer, bs=4, family=F2
+[484a4598-4f13-4c08-b48c-0722092438f8] answer='C2|C7' top_candidate={'answer': 'C2|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3236096_2 (serving=3236096_2, overlap=0.22)'}
+[484a4598-4f13-4c08-b48c-0722092438f8] done in 0.3s — answer: 'C2|C7'
+[af7536e6-135b-43b0-a01f-6e94d96e1518] tag=single-answer, bs=4, family=F1
+[af7536e6-135b-43b0-a01f-6e94d96e1518] answer='C11' top_candidate={'answer': 'C11', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[af7536e6-135b-43b0-a01f-6e94d96e1518] done in 0.4s — answer: 'C11'
+[00371d60-46be-4ebd-929a-23820de41b88] Family override: F4M (tag=multiple-answer, bs=13)
+[00371d60-46be-4ebd-929a-23820de41b88] tag=multiple-answer, bs=13, family=F4M
+[00371d60-46be-4ebd-929a-23820de41b88] answer='C13|C19' top_candidate={'answer': 'C13|C19', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+[00371d60-46be-4ebd-929a-23820de41b88] done in 0.2s — answer: 'C13|C19'
+[26cbc971-e111-4da6-abca-e7eea8a31f66] tag=multiple-answer, bs=4, family=F2
+[26cbc971-e111-4da6-abca-e7eea8a31f66] answer='C2|C7' top_candidate={'answer': 'C2|C7', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3264455_1 (serving=3213512_3, best_neighbor=?, overlap=1.0)'}
+[26cbc971-e111-4da6-abca-e7eea8a31f66] done in 0.3s — answer: 'C2|C7'
+[ddc54a58-8604-40f1-8e79-d2b976dd4a85] tag=multiple-answer, bs=4, family=F2
+[ddc54a58-8604-40f1-8e79-d2b976dd4a85] answer='C4|C5' top_candidate={'answer': 'C4|C5', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3266481_2 (serving=3266481_2, overlap=0.12)'}
+[ddc54a58-8604-40f1-8e79-d2b976dd4a85] done in 0.3s — answer: 'C4|C5'
+[ee425c14-ac51-4605-9cbe-38083e1db691] tag=single-answer, bs=4, family=F1
+[ee425c14-ac51-4605-9cbe-38083e1db691] answer='C16' top_candidate={'answer': 'C16', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3258071_3', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[ee425c14-ac51-4605-9cbe-38083e1db691] done in 0.3s — answer: 'C16'
+[9d6dd36d-e04e-41d7-ba90-e389c6e5b065] tag=single-answer, bs=4, family=F1
+[9d6dd36d-e04e-41d7-ba90-e389c6e5b065] answer='C23' top_candidate={'answer': 'C23', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3210211_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[9d6dd36d-e04e-41d7-ba90-e389c6e5b065] done in 0.3s — answer: 'C23'
+[732eafb6-9a40-4e36-a9b5-d78595e6e9c9] tag=multiple-answer, bs=4, family=F2
+[732eafb6-9a40-4e36-a9b5-d78595e6e9c9] answer='C18|C19' top_candidate={'answer': 'C18|C19', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3221889_1 (serving=3221889_1, overlap=0.16)'}
+[732eafb6-9a40-4e36-a9b5-d78595e6e9c9] done in 0.3s — answer: 'C18|C19'
+[9d0594c2-592b-468c-98c4-93a6226e1592] tag=multiple-answer, bs=4, family=F2
+[9d0594c2-592b-468c-98c4-93a6226e1592] answer='C14|C15' top_candidate={'answer': 'C14|C15', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3243291_2 (serving=3243291_2, overlap=0.07)'}
+[9d0594c2-592b-468c-98c4-93a6226e1592] done in 0.3s — answer: 'C14|C15'
+[03b3b409-ba30-4c48-b5b7-93d8589438df] tag=single-answer, bs=4, family=F1
+[03b3b409-ba30-4c48-b5b7-93d8589438df] answer='C1' top_candidate={'answer': 'C1', 'score': 0.5896800000000001, 'action_type': 'decrease_a3', 'target_cell': '3252107_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[03b3b409-ba30-4c48-b5b7-93d8589438df] done in 0.3s — answer: 'C1'
+[e06b2ff2-12ae-4fa1-b5d4-b424e9c3c2c9] tag=single-answer, bs=4, family=F1
+[e06b2ff2-12ae-4fa1-b5d4-b424e9c3c2c9] answer='C14' top_candidate={'answer': 'C14', 'score': 0.82362, 'action_type': 'decrease_a3', 'target_cell': '3244711_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[e06b2ff2-12ae-4fa1-b5d4-b424e9c3c2c9] done in 0.3s — answer: 'C14'
+[170183db-70a1-4142-8cce-242dc241cebc] tag=multiple-answer, bs=4, family=F2
+[170183db-70a1-4142-8cce-242dc241cebc] answer='C13|C17' top_candidate={'answer': 'C13|C17', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3275639_2 (serving=3228450_4, best_neighbor=?, overlap=1.0)'}
+[170183db-70a1-4142-8cce-242dc241cebc] done in 0.3s — answer: 'C13|C17'
+[ee57455a-b786-4967-aaf4-77945e3e0d3b] tag=single-answer, bs=13, family=F4
+[ee57455a-b786-4967-aaf4-77945e3e0d3b] answer='C7' top_candidate={'answer': 'C7', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3264589_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[ee57455a-b786-4967-aaf4-77945e3e0d3b] done in 0.2s — answer: 'C7'
+[81244451-d19a-46ed-9a61-d46b2fb20d93] tag=single-answer, bs=13, family=F4
+[81244451-d19a-46ed-9a61-d46b2fb20d93] answer='C13' top_candidate={'answer': 'C13', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3212201_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[81244451-d19a-46ed-9a61-d46b2fb20d93] done in 0.2s — answer: 'C13'
+[71962fcb-a011-4ff0-8a5e-7216dafb7b5f] tag=single-answer, bs=13, family=F4
+[71962fcb-a011-4ff0-8a5e-7216dafb7b5f] answer='C2' top_candidate={'answer': 'C2', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3225871_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+[71962fcb-a011-4ff0-8a5e-7216dafb7b5f] done in 0.2s — answer: 'C2'
+[12aadc27-7b18-4b83-bb8a-5b8c40fdde7c] tag=single-answer, bs=4, family=F1
+[12aadc27-7b18-4b83-bb8a-5b8c40fdde7c] answer='C1' top_candidate={'answer': 'C1', 'score': 0.7446600000000001, 'action_type': 'decrease_a3', 'target_cell': '3276763_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[12aadc27-7b18-4b83-bb8a-5b8c40fdde7c] done in 0.3s — answer: 'C1'
+[9c51a80e-20bd-4df3-9e04-e7b9b3b2fd82] tag=multiple-answer, bs=5, family=F3
+[9c51a80e-20bd-4df3-9e04-e7b9b3b2fd82] answer='C4|C9|C10|C24' top_candidate={'answer': 'C4|C9|C10|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[9c51a80e-20bd-4df3-9e04-e7b9b3b2fd82] done in 0.2s — answer: 'C4|C9|C10|C24'
+[bc03ab5f-aeae-4dfe-b107-2ef5f42f1fec] tag=single-answer, bs=4, family=F1
+[bc03ab5f-aeae-4dfe-b107-2ef5f42f1fec] answer='C16' top_candidate={'answer': 'C16', 'score': 0.55, 'action_type': 'lift_tilt', 'target_cell': '3260790_2', 'reason': 'geometry recommendation'}
+[bc03ab5f-aeae-4dfe-b107-2ef5f42f1fec] done in 0.4s — answer: 'C16'
+[71132e49-2052-462b-9bd0-48f1c2cc95f2] Family override: F1_5BS (tag=single-answer, bs=5)
+[71132e49-2052-462b-9bd0-48f1c2cc95f2] tag=single-answer, bs=5, family=F1_5BS
+[71132e49-2052-462b-9bd0-48f1c2cc95f2] answer='C4' top_candidate={'answer': 'C4', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[71132e49-2052-462b-9bd0-48f1c2cc95f2] done in 0.4s — answer: 'C4'
+[56591d6e-23c9-4934-b202-83fbdc80488a] tag=single-answer, bs=4, family=F1
+[56591d6e-23c9-4934-b202-83fbdc80488a] answer='C1' top_candidate={'answer': 'C1', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[56591d6e-23c9-4934-b202-83fbdc80488a] done in 0.4s — answer: 'C1'
+[a2107abb-46c7-4e67-a011-07aaf2339ba0] tag=single-answer, bs=4, family=F1
+[a2107abb-46c7-4e67-a011-07aaf2339ba0] answer='C2' top_candidate={'answer': 'C2', 'score': 0.7908600000000001, 'action_type': 'decrease_a3', 'target_cell': '3230158_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+[a2107abb-46c7-4e67-a011-07aaf2339ba0] done in 0.3s — answer: 'C2'
+[f37d0166-c908-4e30-a5ad-288188c44a9d] tag=single-answer, bs=4, family=F1
+[f37d0166-c908-4e30-a5ad-288188c44a9d] answer='C12' top_candidate={'answer': 'C12', 'score': 0.72, 'action_type': 'lift_tilt', 'target_cell': '3236313_2', 'reason': 'F1 high-PRB healthy-radio → lift_tilt/primary hypothesis'}
+[f37d0166-c908-4e30-a5ad-288188c44a9d] done in 0.3s — answer: 'C12'
+[4528d0fe-09e5-48a9-a931-06e11011f2d9] tag=single-answer, bs=4, family=F1
+[4528d0fe-09e5-48a9-a931-06e11011f2d9] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+[4528d0fe-09e5-48a9-a931-06e11011f2d9] done in 0.4s — answer: 'C16'
+[746f92a7-108a-4af3-a37b-03de32e94381] tag=multiple-answer, bs=5, family=F3
+[746f92a7-108a-4af3-a37b-03de32e94381] answer='C5|C8|C15|C16' top_candidate={'answer': 'C5|C8|C15|C16', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[746f92a7-108a-4af3-a37b-03de32e94381] done in 0.2s — answer: 'C5|C8|C15|C16'
+[423344f6-871d-4b99-ac51-404461aaec32] tag=single-answer, bs=4, family=F1
+[423344f6-871d-4b99-ac51-404461aaec32] answer='C11' top_candidate={'answer': 'C11', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3254182_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+[423344f6-871d-4b99-ac51-404461aaec32] done in 0.3s — answer: 'C11'
+[c43eb381-df63-4202-b5bb-9e097ae03fe2] tag=single-answer, bs=4, family=F1
+[c43eb381-df63-4202-b5bb-9e097ae03fe2] answer='C20' top_candidate={'answer': 'C20', 'score': 0.651, 'action_type': 'pdcch_2sym', 'target_cell': '3274699_4', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+[c43eb381-df63-4202-b5bb-9e097ae03fe2] done in 0.3s — answer: 'C20'
+[6dee5bb0-ec69-4194-abad-359a9c514d65] tag=single-answer, bs=4, family=F1
+[6dee5bb0-ec69-4194-abad-359a9c514d65] answer='C4' top_candidate={'answer': 'C4', 'score': 0.7480000000000001, 'action_type': 'lift_tilt', 'target_cell': '3259705_1', 'reason': 'F1 coverage hypothesis → lift_tilt/tertiary'}
+[6dee5bb0-ec69-4194-abad-359a9c514d65] done in 0.3s — answer: 'C4'
+[0e618e4b-2c31-4e3d-ae24-8a75f6241d24] Family override: F1_5BS (tag=single-answer, bs=5)
+[0e618e4b-2c31-4e3d-ae24-8a75f6241d24] tag=single-answer, bs=5, family=F1_5BS
+[0e618e4b-2c31-4e3d-ae24-8a75f6241d24] answer='C10' top_candidate={'answer': 'C10', 'score': 0.7484400000000001, 'action_type': 'add_neighbor', 'target_cell': '3215698_1', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+[0e618e4b-2c31-4e3d-ae24-8a75f6241d24] done in 0.4s — answer: 'C10'
+[f53a1781-d243-47a2-b287-e92b77a0f6a3] tag=multiple-answer, bs=5, family=F3
+[f53a1781-d243-47a2-b287-e92b77a0f6a3] answer='C3|C7|C10|C23' top_candidate={'answer': 'C3|C7|C10|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[f53a1781-d243-47a2-b287-e92b77a0f6a3] done in 0.2s — answer: 'C3|C7|C10|C23'
+[82be4904-97c7-4857-9215-bd889fab9d87] tag=single-answer, bs=4, family=F1
+[82be4904-97c7-4857-9215-bd889fab9d87] answer='C1' top_candidate={'answer': 'C1', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3234666_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[82be4904-97c7-4857-9215-bd889fab9d87] done in 0.3s — answer: 'C1'
+[e22a3b5a-3646-4846-9d5b-1fb84ea75f76] tag=single-answer, bs=4, family=F1
+[e22a3b5a-3646-4846-9d5b-1fb84ea75f76] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3255752_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+[e22a3b5a-3646-4846-9d5b-1fb84ea75f76] done in 0.3s — answer: 'C24'
+[faab3b03-cfab-4216-849f-0a66c0f72fa0] tag=multiple-answer, bs=4, family=F2
+[faab3b03-cfab-4216-849f-0a66c0f72fa0] answer='C10|C21' top_candidate={'answer': 'C10|C21', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3263925_4 (serving=3263925_4, overlap=0.05)'}
+[faab3b03-cfab-4216-849f-0a66c0f72fa0] done in 0.3s — answer: 'C10|C21'
+[6eba32be-259a-42e0-a8ba-12a043b71763] tag=multiple-answer, bs=5, family=F3
+[6eba32be-259a-42e0-a8ba-12a043b71763] answer='C6|C17|C22|C23' top_candidate={'answer': 'C6|C17|C22|C23', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+[6eba32be-259a-42e0-a8ba-12a043b71763] done in 0.2s — answer: 'C6|C17|C22|C23'
+Saved 500 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+Saved 500 rows → results/phase2/clean_det/v6_clean_deterministic.csv
+
+Done. 500/500 answered in 152s (avg 0.3s/scenario)

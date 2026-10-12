@@ -1,0 +1,15 @@
+2026-05-06 18:27:13,498 - root - INFO - Scenario ID filter: 1/500 selected
+2026-05-06 18:27:13,499 - root - INFO - Loaded 1 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 18:27:13,520 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-06 18:27:13,578 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V4/Track A/data/Phase_1/train.json
+2026-05-06 18:27:13,578 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 18:27:13,578 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 18:28:42,799 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 18:28:46,986 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 18:28:46,987 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] LLM arbitration retry accepted answer='C16' deterministic='C16' reasons=new_phase2_family:F1_5BS,high_risk_issue:insufficient_data,lift_tilt_vs_insufficient_data_boundary
+2026-05-06 18:28:46,988 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C16' top_candidate={'answer': 'C16', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-06 18:28:46,988 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 93.4s — answer: 'C16'
+2026-05-06 18:28:46,988 - root - INFO - Saved 1 rows → results/phase2/probe_thinking_1024.csv
+2026-05-06 18:28:46,989 - root - INFO - Saved 1 rows → results/phase2/probe_thinking_1024.csv
+2026-05-06 18:28:46,989 - root - INFO - 
+Done. 1/1 answered in 93s (avg 93.4s/scenario)

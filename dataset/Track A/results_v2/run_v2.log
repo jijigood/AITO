@@ -1,0 +1,1555 @@
+2026-04-19 09:29:56,328 - root - INFO - [RAG V2] Structured index ready.
+2026-04-19 09:29:56,708 - root - INFO - [V2] Running on 500 scenarios...
+2026-04-19 09:29:59,465 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:29:59,484 - root - INFO - [80e3aa96-815d-4683-980c-16db42eab0ef] Final answer: C1  (2.8s)
+2026-04-19 09:29:59,484 - root - INFO - [95m[80e3aa96-815d-4683-980c-16db42eab0ef] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:01,421 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:01,422 - root - INFO - [f55a819f-3fb9-4c8f-8859-a5b1649ff2d5] Final answer: C4  (1.9s)
+2026-04-19 09:30:01,423 - root - INFO - [95m[f55a819f-3fb9-4c8f-8859-a5b1649ff2d5] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:03,407 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:03,408 - root - INFO - [2cd1f674-a411-4860-82c6-a16ba624b172] Final answer: C8  (2.0s)
+2026-04-19 09:30:03,408 - root - INFO - [95m[2cd1f674-a411-4860-82c6-a16ba624b172] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:04,956 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:04,957 - root - INFO - [923c459f-2ead-4c18-a204-751574ed6ae3] Final answer: C1  (1.6s)
+2026-04-19 09:30:04,958 - root - INFO - [95m[923c459f-2ead-4c18-a204-751574ed6ae3] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:06,530 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:06,531 - root - INFO - [2e83ae4f-dca0-4931-bb13-d13d672e14e1] Final answer: C21  (1.6s)
+2026-04-19 09:30:06,531 - root - INFO - [95m[2e83ae4f-dca0-4931-bb13-d13d672e14e1] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:08,066 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:08,066 - root - INFO - [cb846c3c-8900-4b40-917b-0bd848114d00] Final answer: C16  (1.5s)
+2026-04-19 09:30:08,067 - root - INFO - [95m[cb846c3c-8900-4b40-917b-0bd848114d00] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:09,496 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:09,497 - root - INFO - [a082017c-d1cf-47c3-984b-48cd78048951] Final answer: C7  (1.4s)
+2026-04-19 09:30:09,497 - root - INFO - [95m[a082017c-d1cf-47c3-984b-48cd78048951] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:11,603 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:11,604 - root - INFO - [39ae0e0f-cac1-416b-ace8-b72ca6354807] Final answer: C10  (2.1s)
+2026-04-19 09:30:11,604 - root - INFO - [95m[39ae0e0f-cac1-416b-ace8-b72ca6354807] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:13,101 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:13,102 - root - INFO - [75a17b6a-ce1b-4a5e-b843-bdd967e81580] Final answer: C3  (1.5s)
+2026-04-19 09:30:13,102 - root - INFO - [95m[75a17b6a-ce1b-4a5e-b843-bdd967e81580] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:15,219 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:15,220 - root - INFO - [c4e11e51-c978-4d39-bfc0-c298d2e7ac16] Final answer: C18  (2.1s)
+2026-04-19 09:30:15,221 - root - INFO - [95m[c4e11e51-c978-4d39-bfc0-c298d2e7ac16] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:15,241 - root - INFO - [V2] Saved 10/500  mean_iou=0.000
+2026-04-19 09:30:18,311 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:18,313 - root - INFO - [404fb825-8603-4497-91ce-92e40d4a2164] Final answer: C1|C4|C13|C22  (3.1s)
+2026-04-19 09:30:18,313 - root - INFO - [95m[404fb825-8603-4497-91ce-92e40d4a2164] pred='C1|C4|C13|C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:19,837 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:19,840 - root - INFO - [c95c7270-9e74-47b8-b475-eff7d7c3b5eb] Final answer: C7  (1.5s)
+2026-04-19 09:30:19,840 - root - INFO - [95m[c95c7270-9e74-47b8-b475-eff7d7c3b5eb] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:21,447 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:21,449 - root - INFO - [a7b35fcb-2fe5-4c3a-bf50-58fd5f3d7d1b] Final answer: C22  (1.6s)
+2026-04-19 09:30:21,449 - root - INFO - [95m[a7b35fcb-2fe5-4c3a-bf50-58fd5f3d7d1b] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:23,548 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:23,549 - root - INFO - [b0ef4fd7-e69f-4659-b71b-a5af2b53c24d] Final answer: C19  (2.1s)
+2026-04-19 09:30:23,549 - root - INFO - [95m[b0ef4fd7-e69f-4659-b71b-a5af2b53c24d] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:25,415 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:25,417 - root - INFO - [6f1825be-13f8-4604-948b-aac796e32344] Final answer: C9  (1.9s)
+2026-04-19 09:30:25,417 - root - INFO - [95m[6f1825be-13f8-4604-948b-aac796e32344] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:26,970 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:26,971 - root - INFO - [74abdf87-76b3-434f-aecf-735dd4d82345] Final answer: C17  (1.6s)
+2026-04-19 09:30:26,972 - root - INFO - [95m[74abdf87-76b3-434f-aecf-735dd4d82345] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:28,974 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:28,976 - root - INFO - [acb898f7-5e9f-4c39-ba2f-ac677ae6355c] Final answer: C2  (2.0s)
+2026-04-19 09:30:28,977 - root - INFO - [95m[acb898f7-5e9f-4c39-ba2f-ac677ae6355c] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:30,474 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:30,475 - root - INFO - [06df7252-3bfe-4a3d-9806-189404de1c9b] Final answer: C1  (1.5s)
+2026-04-19 09:30:30,476 - root - INFO - [95m[06df7252-3bfe-4a3d-9806-189404de1c9b] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:32,011 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:32,012 - root - INFO - [e5930631-de96-4c81-bd7a-e1bbaaa9bede] Final answer: C15  (1.5s)
+2026-04-19 09:30:32,012 - root - INFO - [95m[e5930631-de96-4c81-bd7a-e1bbaaa9bede] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:33,593 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:33,595 - root - INFO - [c0d6fcb9-3c93-45ad-9a1b-98cce32086d0] Final answer: C15  (1.6s)
+2026-04-19 09:30:33,596 - root - INFO - [95m[c0d6fcb9-3c93-45ad-9a1b-98cce32086d0] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:33,600 - root - INFO - [V2] Saved 20/500  mean_iou=0.000
+2026-04-19 09:30:35,017 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:35,018 - root - INFO - [f1d0426c-94a2-496e-b5c5-d8ead9e867ca] Final answer: C6  (1.4s)
+2026-04-19 09:30:35,019 - root - INFO - [95m[f1d0426c-94a2-496e-b5c5-d8ead9e867ca] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:36,639 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:36,642 - root - INFO - [558e64d5-26af-4977-9551-8e1630686b19] Final answer: C14  (1.6s)
+2026-04-19 09:30:36,642 - root - INFO - [95m[558e64d5-26af-4977-9551-8e1630686b19] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:38,744 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:38,745 - root - INFO - [06b971d7-131a-4a2c-976f-a433d6f028cd] Final answer: C18  (2.1s)
+2026-04-19 09:30:38,745 - root - INFO - [95m[06b971d7-131a-4a2c-976f-a433d6f028cd] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:40,664 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:40,665 - root - INFO - [28312271-c54b-4840-8596-5645346e0ba7] Final answer: C8  (1.9s)
+2026-04-19 09:30:40,665 - root - INFO - [95m[28312271-c54b-4840-8596-5645346e0ba7] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:42,801 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:42,802 - root - INFO - [aa431504-d22a-44dc-b539-c364985b6f75] Final answer: C20  (2.1s)
+2026-04-19 09:30:42,802 - root - INFO - [95m[aa431504-d22a-44dc-b539-c364985b6f75] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:44,326 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:44,327 - root - INFO - [8ed1021f-abd2-4fdb-9a4e-b0b6a4869c11] Final answer: C16  (1.5s)
+2026-04-19 09:30:44,328 - root - INFO - [95m[8ed1021f-abd2-4fdb-9a4e-b0b6a4869c11] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:45,915 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:45,917 - root - INFO - [be3d8972-47e7-4f0a-8979-e1fe1d272212] Final answer: C10  (1.6s)
+2026-04-19 09:30:45,918 - root - INFO - [95m[be3d8972-47e7-4f0a-8979-e1fe1d272212] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:47,418 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:47,421 - root - INFO - [873fc69e-de64-43c8-ae3b-8f02060b47eb] Final answer: C21  (1.5s)
+2026-04-19 09:30:47,422 - root - INFO - [95m[873fc69e-de64-43c8-ae3b-8f02060b47eb] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:49,417 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:49,418 - root - INFO - [953a2987-d2cb-4697-8f77-760546a1845c] Final answer: C17  (2.0s)
+2026-04-19 09:30:49,418 - root - INFO - [95m[953a2987-d2cb-4697-8f77-760546a1845c] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:50,852 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:50,853 - root - INFO - [57895e51-e6e0-4d9a-bf80-94cd2cee557f] Final answer: C1  (1.4s)
+2026-04-19 09:30:50,854 - root - INFO - [95m[57895e51-e6e0-4d9a-bf80-94cd2cee557f] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:50,857 - root - INFO - [V2] Saved 30/500  mean_iou=0.000
+2026-04-19 09:30:52,435 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:52,437 - root - INFO - [ec36b28f-50fb-4ea4-9bae-cf5add603526] Final answer: C12  (1.6s)
+2026-04-19 09:30:52,437 - root - INFO - [95m[ec36b28f-50fb-4ea4-9bae-cf5add603526] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:53,927 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:53,929 - root - INFO - [a13f26bb-650c-41e0-bda7-4eb1fa2f15b7] Final answer: C7  (1.5s)
+2026-04-19 09:30:53,929 - root - INFO - [95m[a13f26bb-650c-41e0-bda7-4eb1fa2f15b7] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:55,753 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:55,754 - root - INFO - [a94886e5-732b-4786-9a3d-a0730a1aa23d] Final answer: C18  (1.8s)
+2026-04-19 09:30:55,755 - root - INFO - [95m[a94886e5-732b-4786-9a3d-a0730a1aa23d] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:57,711 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:57,713 - root - INFO - [dc8c7b18-2e52-4d8f-b283-e7c8af8eaccd] Final answer: C13  (2.0s)
+2026-04-19 09:30:57,713 - root - INFO - [95m[dc8c7b18-2e52-4d8f-b283-e7c8af8eaccd] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:30:59,220 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:30:59,221 - root - INFO - [db60dc66-0cf4-4294-a2a5-9561ac03d18a] Final answer: C10  (1.5s)
+2026-04-19 09:30:59,222 - root - INFO - [95m[db60dc66-0cf4-4294-a2a5-9561ac03d18a] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:01,232 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:01,234 - root - INFO - [473e08dd-1acf-49c8-9730-8e1962f202cf] Final answer: C1  (2.0s)
+2026-04-19 09:31:01,234 - root - INFO - [95m[473e08dd-1acf-49c8-9730-8e1962f202cf] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:03,152 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:03,154 - root - INFO - [261da544-08ac-48da-80f0-d3f9ada44f29] Final answer: C2  (1.9s)
+2026-04-19 09:31:03,154 - root - INFO - [95m[261da544-08ac-48da-80f0-d3f9ada44f29] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:04,581 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:04,582 - root - INFO - [8b1ccd46-7cca-465e-9c02-1862afaa907d] Final answer: C5  (1.4s)
+2026-04-19 09:31:04,583 - root - INFO - [95m[8b1ccd46-7cca-465e-9c02-1862afaa907d] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:06,179 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:06,181 - root - INFO - [55477a77-37d4-467a-9511-9f99866644b2] Final answer: C17  (1.6s)
+2026-04-19 09:31:06,182 - root - INFO - [95m[55477a77-37d4-467a-9511-9f99866644b2] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:07,747 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:07,749 - root - INFO - [82e04c0a-479d-4be8-a0eb-5456ad418b75] Final answer: C12  (1.6s)
+2026-04-19 09:31:07,749 - root - INFO - [95m[82e04c0a-479d-4be8-a0eb-5456ad418b75] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:07,752 - root - INFO - [V2] Saved 40/500  mean_iou=0.000
+2026-04-19 09:31:09,719 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:09,720 - root - INFO - [4760488a-0f65-447c-82c5-9523ba4afda9] Final answer: C5  (2.0s)
+2026-04-19 09:31:09,721 - root - INFO - [95m[4760488a-0f65-447c-82c5-9523ba4afda9] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:11,677 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:11,679 - root - INFO - [047973ff-6f7b-4760-88a6-acd32a89fc00] Final answer: C19  (2.0s)
+2026-04-19 09:31:11,680 - root - INFO - [95m[047973ff-6f7b-4760-88a6-acd32a89fc00] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:13,784 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:13,786 - root - INFO - [9eb599d5-bbfb-4d59-81e2-c435b4486894] Final answer: C12  (2.1s)
+2026-04-19 09:31:13,787 - root - INFO - [95m[9eb599d5-bbfb-4d59-81e2-c435b4486894] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:15,866 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:15,867 - root - INFO - [4d39f7f8-6467-4dce-bc31-c2292e7407a6] Final answer: C12  (2.1s)
+2026-04-19 09:31:15,867 - root - INFO - [95m[4d39f7f8-6467-4dce-bc31-c2292e7407a6] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:17,585 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:17,587 - root - INFO - [074d8dcd-dca7-4102-babd-4b0ba4c5813d] Final answer: C18  (1.7s)
+2026-04-19 09:31:17,587 - root - INFO - [95m[074d8dcd-dca7-4102-babd-4b0ba4c5813d] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:20,136 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:20,138 - root - INFO - [51d20b8e-e226-4601-b2a5-7269a68e8285] Final answer: C9|C13|C17|C22  (2.5s)
+2026-04-19 09:31:20,138 - root - INFO - [95m[51d20b8e-e226-4601-b2a5-7269a68e8285] pred='C9|C13|C17|C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:21,703 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:21,704 - root - INFO - [f902d75d-dbac-46ed-8cea-e81c1d1e213f] Final answer: C12  (1.6s)
+2026-04-19 09:31:21,704 - root - INFO - [95m[f902d75d-dbac-46ed-8cea-e81c1d1e213f] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:23,808 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:23,809 - root - INFO - [3720ba2c-7aac-41f5-a408-b37379a33b6e] Final answer: C19  (2.1s)
+2026-04-19 09:31:23,809 - root - INFO - [95m[3720ba2c-7aac-41f5-a408-b37379a33b6e] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:25,461 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:25,463 - root - INFO - [f45d84d2-ae71-42ef-b814-4d4d9fbddf46] Final answer: C17  (1.6s)
+2026-04-19 09:31:25,463 - root - INFO - [95m[f45d84d2-ae71-42ef-b814-4d4d9fbddf46] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:26,942 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:26,944 - root - INFO - [66c959ea-332d-4802-a7ff-af79dc2bf566] Final answer: C8  (1.5s)
+2026-04-19 09:31:26,944 - root - INFO - [95m[66c959ea-332d-4802-a7ff-af79dc2bf566] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:26,947 - root - INFO - [V2] Saved 50/500  mean_iou=0.000
+2026-04-19 09:31:28,402 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:28,404 - root - INFO - [eb655747-35b4-4ea2-bf73-5bb03e299faa] Final answer: C6  (1.5s)
+2026-04-19 09:31:28,404 - root - INFO - [95m[eb655747-35b4-4ea2-bf73-5bb03e299faa] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:29,920 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:29,922 - root - INFO - [2e3d9609-f71f-4344-b2e7-ca6620fa1224] Final answer: C2  (1.5s)
+2026-04-19 09:31:29,922 - root - INFO - [95m[2e3d9609-f71f-4344-b2e7-ca6620fa1224] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:31,609 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:31,610 - root - INFO - [7283e6f7-0f5a-45da-805e-8d710e5ceaf2] Final answer: C10  (1.7s)
+2026-04-19 09:31:31,611 - root - INFO - [95m[7283e6f7-0f5a-45da-805e-8d710e5ceaf2] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:33,587 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:33,588 - root - INFO - [e9d5b45b-6be6-432d-8289-36892bf73426] Final answer: C9  (2.0s)
+2026-04-19 09:31:33,588 - root - INFO - [95m[e9d5b45b-6be6-432d-8289-36892bf73426] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:35,121 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:35,123 - root - INFO - [07fb0741-dbe8-488b-a5a3-2f51e20533ea] Final answer: C20  (1.5s)
+2026-04-19 09:31:35,124 - root - INFO - [95m[07fb0741-dbe8-488b-a5a3-2f51e20533ea] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:36,602 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:36,604 - root - INFO - [eb31cd59-dac8-42a0-96ef-3aae0b056a09] Final answer: C4  (1.5s)
+2026-04-19 09:31:36,605 - root - INFO - [95m[eb31cd59-dac8-42a0-96ef-3aae0b056a09] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:38,123 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:38,124 - root - INFO - [09a398d6-d9af-4eb6-8cf7-cc0db6cdada9] Final answer: C15  (1.5s)
+2026-04-19 09:31:38,124 - root - INFO - [95m[09a398d6-d9af-4eb6-8cf7-cc0db6cdada9] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:40,258 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:40,260 - root - INFO - [33780221-c9be-4da1-b5c8-1fb5fb87fd7c] Final answer: C10  (2.1s)
+2026-04-19 09:31:40,260 - root - INFO - [95m[33780221-c9be-4da1-b5c8-1fb5fb87fd7c] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:42,369 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:42,371 - root - INFO - [059e81bf-125a-4500-82c4-9a636ed2f76e] Final answer: C13  (2.1s)
+2026-04-19 09:31:42,372 - root - INFO - [95m[059e81bf-125a-4500-82c4-9a636ed2f76e] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:44,454 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:44,455 - root - INFO - [2c8c8f98-5c31-4f15-af64-61c445a37b09] Final answer: C13  (2.1s)
+2026-04-19 09:31:44,456 - root - INFO - [95m[2c8c8f98-5c31-4f15-af64-61c445a37b09] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:44,460 - root - INFO - [V2] Saved 60/500  mean_iou=0.000
+2026-04-19 09:31:46,410 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:46,412 - root - INFO - [bc51228a-4d7e-48c7-a2fb-8ed9b5383964] Final answer: C8  (1.9s)
+2026-04-19 09:31:46,413 - root - INFO - [95m[bc51228a-4d7e-48c7-a2fb-8ed9b5383964] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:48,505 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:48,506 - root - INFO - [b013a598-26c4-44be-b6a3-741291489b97] Final answer: C14  (2.1s)
+2026-04-19 09:31:48,506 - root - INFO - [95m[b013a598-26c4-44be-b6a3-741291489b97] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:50,490 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:50,492 - root - INFO - [37babafe-bf9f-448e-b9d4-09a8b8025352] Final answer: C3  (2.0s)
+2026-04-19 09:31:50,492 - root - INFO - [95m[37babafe-bf9f-448e-b9d4-09a8b8025352] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:52,139 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:52,140 - root - INFO - [78ff9e6c-ae81-44f8-b0dd-dc2ecc9c8afe] Final answer: C14  (1.6s)
+2026-04-19 09:31:52,141 - root - INFO - [95m[78ff9e6c-ae81-44f8-b0dd-dc2ecc9c8afe] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:53,653 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:53,655 - root - INFO - [7db4595e-509b-4947-b1f8-070dc7690da4] Final answer: C12  (1.5s)
+2026-04-19 09:31:53,655 - root - INFO - [95m[7db4595e-509b-4947-b1f8-070dc7690da4] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:55,738 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:55,739 - root - INFO - [06dde601-83f3-4aba-a2e4-b73d1fa430bc] Final answer: C11  (2.1s)
+2026-04-19 09:31:55,739 - root - INFO - [95m[06dde601-83f3-4aba-a2e4-b73d1fa430bc] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:57,849 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:57,850 - root - INFO - [e1ca3a6b-32df-4a80-82c8-52a2b9ed7a95] Final answer: C13  (2.1s)
+2026-04-19 09:31:57,851 - root - INFO - [95m[e1ca3a6b-32df-4a80-82c8-52a2b9ed7a95] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:31:59,850 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:31:59,852 - root - INFO - [21a770ea-10f3-4a02-8fb2-e98c2a6798f0] Final answer: C9  (2.0s)
+2026-04-19 09:31:59,852 - root - INFO - [95m[21a770ea-10f3-4a02-8fb2-e98c2a6798f0] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:01,953 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:01,954 - root - INFO - [08a2494c-2a8e-46ea-9817-9429ef801f8a] Final answer: C19  (2.1s)
+2026-04-19 09:32:01,954 - root - INFO - [95m[08a2494c-2a8e-46ea-9817-9429ef801f8a] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:04,042 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:04,044 - root - INFO - [83ab9a55-ae4f-44cc-a353-14dbec2e76a0] Final answer: C17  (2.1s)
+2026-04-19 09:32:04,044 - root - INFO - [95m[83ab9a55-ae4f-44cc-a353-14dbec2e76a0] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:04,045 - root - INFO - [V2] Saved 70/500  mean_iou=0.000
+2026-04-19 09:32:06,013 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:06,014 - root - INFO - [228d7c46-245d-459d-961c-035f58d77e99] Final answer: C7  (2.0s)
+2026-04-19 09:32:06,015 - root - INFO - [95m[228d7c46-245d-459d-961c-035f58d77e99] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:07,698 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:07,700 - root - INFO - [127185e7-f195-48f3-8c5d-11b786a57bde] Final answer: C11  (1.7s)
+2026-04-19 09:32:07,700 - root - INFO - [95m[127185e7-f195-48f3-8c5d-11b786a57bde] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:09,094 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:09,096 - root - INFO - [be9afd70-1eb5-409e-b5de-bde1ec49b3c4] Final answer: C5  (1.4s)
+2026-04-19 09:32:09,096 - root - INFO - [95m[be9afd70-1eb5-409e-b5de-bde1ec49b3c4] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:10,588 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:10,589 - root - INFO - [01dc52be-9796-40de-815b-e65a6c644f4d] Final answer: C21  (1.5s)
+2026-04-19 09:32:10,590 - root - INFO - [95m[01dc52be-9796-40de-815b-e65a6c644f4d] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:12,656 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:12,657 - root - INFO - [e66c48ff-39d1-421a-9234-9548c20bb075] Final answer: C20  (2.1s)
+2026-04-19 09:32:12,657 - root - INFO - [95m[e66c48ff-39d1-421a-9234-9548c20bb075] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:14,646 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:14,647 - root - INFO - [2cb1a364-0be3-4fde-800b-076b80ec8140] Final answer: C7  (2.0s)
+2026-04-19 09:32:14,648 - root - INFO - [95m[2cb1a364-0be3-4fde-800b-076b80ec8140] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:16,526 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:16,527 - root - INFO - [1dbd6c19-9395-4f11-872b-0a95dca72228] Final answer: C8  (1.9s)
+2026-04-19 09:32:16,527 - root - INFO - [95m[1dbd6c19-9395-4f11-872b-0a95dca72228] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:18,466 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:18,467 - root - INFO - [399e0ae7-0286-4c48-bd6e-099b9bc15922] Final answer: C21  (1.9s)
+2026-04-19 09:32:18,467 - root - INFO - [95m[399e0ae7-0286-4c48-bd6e-099b9bc15922] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:19,910 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:19,911 - root - INFO - [3d419e73-67a1-4ac3-841e-f67088ddb14e] Final answer: C1  (1.4s)
+2026-04-19 09:32:19,911 - root - INFO - [95m[3d419e73-67a1-4ac3-841e-f67088ddb14e] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:21,893 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:21,894 - root - INFO - [4afc7315-3021-4193-add7-5e93b94b4e15] Final answer: C8  (2.0s)
+2026-04-19 09:32:21,894 - root - INFO - [95m[4afc7315-3021-4193-add7-5e93b94b4e15] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:21,896 - root - INFO - [V2] Saved 80/500  mean_iou=0.000
+2026-04-19 09:32:24,034 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:24,035 - root - INFO - [77d3f5dc-c229-4480-86f4-f915b2771bbf] Final answer: C13  (2.1s)
+2026-04-19 09:32:24,035 - root - INFO - [95m[77d3f5dc-c229-4480-86f4-f915b2771bbf] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:25,891 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:25,892 - root - INFO - [b5bae666-8ee8-47e3-8d60-8ffaa4792755] Final answer: C7  (1.9s)
+2026-04-19 09:32:25,892 - root - INFO - [95m[b5bae666-8ee8-47e3-8d60-8ffaa4792755] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:27,452 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:27,454 - root - INFO - [5b201c1f-ee21-446f-ad95-9dcc553c8c96] Final answer: C1  (1.6s)
+2026-04-19 09:32:27,454 - root - INFO - [95m[5b201c1f-ee21-446f-ad95-9dcc553c8c96] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:29,022 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:29,023 - root - INFO - [a076ba35-44fa-42c0-bd84-921b3b55c432] Final answer: C20  (1.6s)
+2026-04-19 09:32:29,024 - root - INFO - [95m[a076ba35-44fa-42c0-bd84-921b3b55c432] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:30,995 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:30,996 - root - INFO - [9e437b0e-5f27-4473-93e6-0c514f6e35be] Final answer: C8  (2.0s)
+2026-04-19 09:32:30,996 - root - INFO - [95m[9e437b0e-5f27-4473-93e6-0c514f6e35be] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:32,578 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:32,579 - root - INFO - [c01e3a7d-43ef-4b92-af0b-20f9971f55ad] Final answer: C13  (1.6s)
+2026-04-19 09:32:32,579 - root - INFO - [95m[c01e3a7d-43ef-4b92-af0b-20f9971f55ad] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:34,049 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:34,050 - root - INFO - [adda9a54-7e7b-4d3f-8849-78bd5d5a9e40] Final answer: C3  (1.5s)
+2026-04-19 09:32:34,050 - root - INFO - [95m[adda9a54-7e7b-4d3f-8849-78bd5d5a9e40] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:35,512 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:35,513 - root - INFO - [fa4937c5-34b1-4257-a863-2fc1efdb5e51] Final answer: C9  (1.5s)
+2026-04-19 09:32:35,513 - root - INFO - [95m[fa4937c5-34b1-4257-a863-2fc1efdb5e51] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:36,927 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:36,928 - root - INFO - [1c282cf8-9d81-4246-9dea-4c0332edd152] Final answer: C7  (1.4s)
+2026-04-19 09:32:36,928 - root - INFO - [95m[1c282cf8-9d81-4246-9dea-4c0332edd152] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:38,491 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:38,492 - root - INFO - [446ed34a-944e-40ae-80d1-8d0a99f10294] Final answer: C15  (1.6s)
+2026-04-19 09:32:38,492 - root - INFO - [95m[446ed34a-944e-40ae-80d1-8d0a99f10294] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:38,494 - root - INFO - [V2] Saved 90/500  mean_iou=0.000
+2026-04-19 09:32:39,872 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:39,873 - root - INFO - [1a103abd-72cf-4f63-8a7d-c687da867d42] Final answer: C9  (1.4s)
+2026-04-19 09:32:39,874 - root - INFO - [95m[1a103abd-72cf-4f63-8a7d-c687da867d42] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:41,847 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:41,848 - root - INFO - [c78acddb-e535-4f9e-bb8e-0007851ef632] Final answer: C2  (2.0s)
+2026-04-19 09:32:41,849 - root - INFO - [95m[c78acddb-e535-4f9e-bb8e-0007851ef632] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:43,846 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:43,847 - root - INFO - [0aa7797b-5562-4bf0-ad77-fb2c80be057e] Final answer: C15  (2.0s)
+2026-04-19 09:32:43,847 - root - INFO - [95m[0aa7797b-5562-4bf0-ad77-fb2c80be057e] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:45,872 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:45,873 - root - INFO - [e666e92e-aec5-453a-945c-ec6dacf8d958] Final answer: C17  (2.0s)
+2026-04-19 09:32:45,873 - root - INFO - [95m[e666e92e-aec5-453a-945c-ec6dacf8d958] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:47,337 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:47,338 - root - INFO - [47894def-46ca-4cb8-b222-30b355e27389] Final answer: C3  (1.5s)
+2026-04-19 09:32:47,338 - root - INFO - [95m[47894def-46ca-4cb8-b222-30b355e27389] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:49,371 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:49,372 - root - INFO - [990a6082-86dc-45f4-b79f-7b84ed13faad] Final answer: C12  (2.0s)
+2026-04-19 09:32:49,372 - root - INFO - [95m[990a6082-86dc-45f4-b79f-7b84ed13faad] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:51,481 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:51,482 - root - INFO - [02637243-f59b-4c2e-9d86-9d16df5fa305] Final answer: C16  (2.1s)
+2026-04-19 09:32:51,483 - root - INFO - [95m[02637243-f59b-4c2e-9d86-9d16df5fa305] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:53,505 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:53,506 - root - INFO - [6101be3f-9fa1-4827-a946-4f0947448bab] Final answer: C5  (2.0s)
+2026-04-19 09:32:53,506 - root - INFO - [95m[6101be3f-9fa1-4827-a946-4f0947448bab] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:55,579 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:55,580 - root - INFO - [fb4d6986-5f5b-4ff4-8642-08d5ec531524] Final answer: C13  (2.1s)
+2026-04-19 09:32:55,580 - root - INFO - [95m[fb4d6986-5f5b-4ff4-8642-08d5ec531524] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:57,627 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:57,629 - root - INFO - [5538b826-d1b3-49a8-b40e-b157e0ad453f] Final answer: C21  (2.0s)
+2026-04-19 09:32:57,629 - root - INFO - [95m[5538b826-d1b3-49a8-b40e-b157e0ad453f] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:32:57,631 - root - INFO - [V2] Saved 100/500  mean_iou=0.000
+2026-04-19 09:32:59,192 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:32:59,194 - root - INFO - [76a27827-bbd4-4edf-a68b-32b71883b866] Final answer: C22  (1.6s)
+2026-04-19 09:32:59,194 - root - INFO - [95m[76a27827-bbd4-4edf-a68b-32b71883b866] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:01,315 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:01,316 - root - INFO - [cecbb680-5a90-4847-acea-5b5b87ac2484] Final answer: C15  (2.1s)
+2026-04-19 09:33:01,316 - root - INFO - [95m[cecbb680-5a90-4847-acea-5b5b87ac2484] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:03,295 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:03,296 - root - INFO - [40e31b37-608c-4e96-8f70-003bf488b99c] Final answer: C7  (2.0s)
+2026-04-19 09:33:03,297 - root - INFO - [95m[40e31b37-608c-4e96-8f70-003bf488b99c] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:05,414 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:05,415 - root - INFO - [887b70e0-ae2c-4d5b-a748-0ab57809c9aa] Final answer: C16  (2.1s)
+2026-04-19 09:33:05,416 - root - INFO - [95m[887b70e0-ae2c-4d5b-a748-0ab57809c9aa] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:07,223 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:07,224 - root - INFO - [be04ca82-4b52-4b2d-b464-d9f36a5e5167] Final answer: C11  (1.8s)
+2026-04-19 09:33:07,224 - root - INFO - [95m[be04ca82-4b52-4b2d-b464-d9f36a5e5167] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:09,286 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:09,287 - root - INFO - [664d75d3-5ee0-4c4c-90c7-5eebbbcbb7bc] Final answer: C15  (2.1s)
+2026-04-19 09:33:09,287 - root - INFO - [95m[664d75d3-5ee0-4c4c-90c7-5eebbbcbb7bc] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:10,754 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:10,755 - root - INFO - [9f4f1d2d-f722-4ee7-8802-3d299e805acc] Final answer: C6  (1.5s)
+2026-04-19 09:33:10,755 - root - INFO - [95m[9f4f1d2d-f722-4ee7-8802-3d299e805acc] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:12,326 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:12,327 - root - INFO - [42ef2542-0fb3-45ed-953c-e4fb5541390f] Final answer: C20  (1.6s)
+2026-04-19 09:33:12,328 - root - INFO - [95m[42ef2542-0fb3-45ed-953c-e4fb5541390f] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:14,413 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:14,414 - root - INFO - [2b3c1dbb-1a24-4d88-8ad5-97d23e49aa0b] Final answer: C15  (2.1s)
+2026-04-19 09:33:14,414 - root - INFO - [95m[2b3c1dbb-1a24-4d88-8ad5-97d23e49aa0b] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:16,062 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:16,063 - root - INFO - [2a03e00b-2752-495b-b254-33e58f913d7a] Final answer: C13  (1.6s)
+2026-04-19 09:33:16,064 - root - INFO - [95m[2a03e00b-2752-495b-b254-33e58f913d7a] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:16,066 - root - INFO - [V2] Saved 110/500  mean_iou=0.000
+2026-04-19 09:33:17,553 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:17,554 - root - INFO - [5e215d49-b429-4c62-a937-4f9322f1673d] Final answer: C16  (1.5s)
+2026-04-19 09:33:17,555 - root - INFO - [95m[5e215d49-b429-4c62-a937-4f9322f1673d] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:19,518 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:19,519 - root - INFO - [2e81aa4e-959b-429e-8796-17898462900d] Final answer: C5  (2.0s)
+2026-04-19 09:33:19,519 - root - INFO - [95m[2e81aa4e-959b-429e-8796-17898462900d] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:21,589 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:21,590 - root - INFO - [93ec9988-f07a-4b8e-9a8d-3723ac0f840a] Final answer: C16  (2.1s)
+2026-04-19 09:33:21,591 - root - INFO - [95m[93ec9988-f07a-4b8e-9a8d-3723ac0f840a] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:23,583 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:23,584 - root - INFO - [18446dfd-8464-4331-98b8-c91c8561db98] Final answer: C15  (2.0s)
+2026-04-19 09:33:23,584 - root - INFO - [95m[18446dfd-8464-4331-98b8-c91c8561db98] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:25,187 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:25,188 - root - INFO - [7aec481f-6b42-4e6d-a25c-9c90c5f616c8] Final answer: C18  (1.6s)
+2026-04-19 09:33:25,188 - root - INFO - [95m[7aec481f-6b42-4e6d-a25c-9c90c5f616c8] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:27,941 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:27,942 - root - INFO - [9551a39a-1226-4739-89bf-8cf8e2528b3d] Final answer: C5|C8|C12|C13  (2.8s)
+2026-04-19 09:33:27,942 - root - INFO - [95m[9551a39a-1226-4739-89bf-8cf8e2528b3d] pred='C5|C8|C12|C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:29,493 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:29,494 - root - INFO - [83fdbfdb-16e1-4ba9-b362-6d37ccbd0ef9] Final answer: C8  (1.6s)
+2026-04-19 09:33:29,494 - root - INFO - [95m[83fdbfdb-16e1-4ba9-b362-6d37ccbd0ef9] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:31,068 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:31,069 - root - INFO - [27f00cc5-f01a-4beb-82d8-a992850aabed] Final answer: C22  (1.6s)
+2026-04-19 09:33:31,070 - root - INFO - [95m[27f00cc5-f01a-4beb-82d8-a992850aabed] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:32,614 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:32,615 - root - INFO - [2a890bdb-5c85-4ada-83d6-01eb7207d002] Final answer: C15  (1.6s)
+2026-04-19 09:33:32,615 - root - INFO - [95m[2a890bdb-5c85-4ada-83d6-01eb7207d002] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:34,165 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:34,166 - root - INFO - [76c6d898-030f-4abc-856e-4bce69c10373] Final answer: C11  (1.6s)
+2026-04-19 09:33:34,166 - root - INFO - [95m[76c6d898-030f-4abc-856e-4bce69c10373] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:34,168 - root - INFO - [V2] Saved 120/500  mean_iou=0.000
+2026-04-19 09:33:35,694 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:35,695 - root - INFO - [b6ff0bd0-7dc5-400c-b4c1-037d23d2f119] Final answer: C16  (1.5s)
+2026-04-19 09:33:35,695 - root - INFO - [95m[b6ff0bd0-7dc5-400c-b4c1-037d23d2f119] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:37,221 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:37,222 - root - INFO - [4c8eb707-6640-4d74-90b1-ed51d9ea8e66] Final answer: C18  (1.5s)
+2026-04-19 09:33:37,222 - root - INFO - [95m[4c8eb707-6640-4d74-90b1-ed51d9ea8e66] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:39,257 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:39,258 - root - INFO - [284e3fa1-c8ac-4ec0-8d92-2361bd9ac3da] Final answer: C15  (2.0s)
+2026-04-19 09:33:39,258 - root - INFO - [95m[284e3fa1-c8ac-4ec0-8d92-2361bd9ac3da] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:41,014 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:41,015 - root - INFO - [8c5dae6f-b785-4add-92d3-fc08a0badc29] Final answer: C7  (1.8s)
+2026-04-19 09:33:41,015 - root - INFO - [95m[8c5dae6f-b785-4add-92d3-fc08a0badc29] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:43,098 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:43,099 - root - INFO - [7a77f811-99d9-4ad9-97f1-4438a4162cd1] Final answer: C11  (2.1s)
+2026-04-19 09:33:43,099 - root - INFO - [95m[7a77f811-99d9-4ad9-97f1-4438a4162cd1] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:44,708 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:44,709 - root - INFO - [182b5716-ebb1-4963-88f2-bcc1965a22e3] Final answer: C14  (1.6s)
+2026-04-19 09:33:44,710 - root - INFO - [95m[182b5716-ebb1-4963-88f2-bcc1965a22e3] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:46,623 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:46,624 - root - INFO - [0e98afd0-e867-4726-aba7-9a65f715285f] Final answer: C8  (1.9s)
+2026-04-19 09:33:46,625 - root - INFO - [95m[0e98afd0-e867-4726-aba7-9a65f715285f] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:48,164 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:48,165 - root - INFO - [9fe58e8a-2f92-443c-8999-ec304588f46d] Final answer: C10  (1.5s)
+2026-04-19 09:33:48,166 - root - INFO - [95m[9fe58e8a-2f92-443c-8999-ec304588f46d] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:50,289 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:50,290 - root - INFO - [68eac603-caac-4c9f-843d-fe1773039a6c] Final answer: C17  (2.1s)
+2026-04-19 09:33:50,290 - root - INFO - [95m[68eac603-caac-4c9f-843d-fe1773039a6c] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:52,412 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:52,413 - root - INFO - [7874bc60-b5f8-41e4-b7c2-399085a1928d] Final answer: C10  (2.1s)
+2026-04-19 09:33:52,414 - root - INFO - [95m[7874bc60-b5f8-41e4-b7c2-399085a1928d] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:52,416 - root - INFO - [V2] Saved 130/500  mean_iou=0.000
+2026-04-19 09:33:54,393 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:54,394 - root - INFO - [affbf4ce-5420-4dbd-ac8e-ac15bb72c227] Final answer: C9  (2.0s)
+2026-04-19 09:33:54,395 - root - INFO - [95m[affbf4ce-5420-4dbd-ac8e-ac15bb72c227] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:55,892 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:55,894 - root - INFO - [0f78678a-8d25-408c-88fc-a1fcc2f99712] Final answer: C6  (1.5s)
+2026-04-19 09:33:55,894 - root - INFO - [95m[0f78678a-8d25-408c-88fc-a1fcc2f99712] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:57,798 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:57,800 - root - INFO - [0ff664c2-3c3d-4945-89f9-3c9201d18f2d] Final answer: C4  (1.9s)
+2026-04-19 09:33:57,800 - root - INFO - [95m[0ff664c2-3c3d-4945-89f9-3c9201d18f2d] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:33:59,906 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:33:59,908 - root - INFO - [1f265be2-2043-48bd-81ed-37debc7f375e] Final answer: C21  (2.1s)
+2026-04-19 09:33:59,908 - root - INFO - [95m[1f265be2-2043-48bd-81ed-37debc7f375e] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:01,650 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:01,651 - root - INFO - [f3a0ae80-aea9-416c-8f89-953d49610a85] Final answer: C10  (1.7s)
+2026-04-19 09:34:01,651 - root - INFO - [95m[f3a0ae80-aea9-416c-8f89-953d49610a85] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:03,740 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:03,742 - root - INFO - [40e306bc-4110-4efc-9a01-48fd671429b0] Final answer: C14  (2.1s)
+2026-04-19 09:34:03,742 - root - INFO - [95m[40e306bc-4110-4efc-9a01-48fd671429b0] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:05,887 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:05,888 - root - INFO - [6074cfac-e2e7-4207-ba0f-14c3361097da] Final answer: C15  (2.1s)
+2026-04-19 09:34:05,889 - root - INFO - [95m[6074cfac-e2e7-4207-ba0f-14c3361097da] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:07,567 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:07,569 - root - INFO - [04d5399b-13dd-4878-bf24-f420290476a1] Final answer: C14  (1.7s)
+2026-04-19 09:34:07,569 - root - INFO - [95m[04d5399b-13dd-4878-bf24-f420290476a1] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:09,498 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:09,499 - root - INFO - [fca75eb4-a6a8-44f0-961c-38fd3d1782d1] Final answer: C4  (1.9s)
+2026-04-19 09:34:09,499 - root - INFO - [95m[fca75eb4-a6a8-44f0-961c-38fd3d1782d1] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:11,415 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:11,416 - root - INFO - [afa24180-af8d-4560-bb0e-2416d263b770] Final answer: C3  (1.9s)
+2026-04-19 09:34:11,417 - root - INFO - [95m[afa24180-af8d-4560-bb0e-2416d263b770] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:11,420 - root - INFO - [V2] Saved 140/500  mean_iou=0.000
+2026-04-19 09:34:13,502 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:13,503 - root - INFO - [f6b40ef4-7e29-46df-bc31-74e4d0109ef3] Final answer: C13  (2.1s)
+2026-04-19 09:34:13,503 - root - INFO - [95m[f6b40ef4-7e29-46df-bc31-74e4d0109ef3] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:15,625 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:15,626 - root - INFO - [805c01e9-c1cf-48d8-b0c3-7a6d13b00695] Final answer: C17  (2.1s)
+2026-04-19 09:34:15,627 - root - INFO - [95m[805c01e9-c1cf-48d8-b0c3-7a6d13b00695] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:17,713 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:17,715 - root - INFO - [2d45b5cf-c107-42d0-b5aa-9e86e4334c2a] Final answer: C20  (2.1s)
+2026-04-19 09:34:17,715 - root - INFO - [95m[2d45b5cf-c107-42d0-b5aa-9e86e4334c2a] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:19,844 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:19,846 - root - INFO - [1d8947b0-7135-45ea-b7f8-3b3e8d6512d9] Final answer: C10  (2.1s)
+2026-04-19 09:34:19,846 - root - INFO - [95m[1d8947b0-7135-45ea-b7f8-3b3e8d6512d9] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:21,471 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:21,473 - root - INFO - [aafaf462-2e10-4a5a-8b9c-c8c65b656483] Final answer: C12  (1.6s)
+2026-04-19 09:34:21,473 - root - INFO - [95m[aafaf462-2e10-4a5a-8b9c-c8c65b656483] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:23,015 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:23,016 - root - INFO - [060a207b-5918-43e4-8b56-d1687190b4ee] Final answer: C20  (1.5s)
+2026-04-19 09:34:23,017 - root - INFO - [95m[060a207b-5918-43e4-8b56-d1687190b4ee] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:24,554 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:24,555 - root - INFO - [9158917d-3486-4916-8121-1b5a7fc48217] Final answer: C15  (1.5s)
+2026-04-19 09:34:24,555 - root - INFO - [95m[9158917d-3486-4916-8121-1b5a7fc48217] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:26,028 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:26,029 - root - INFO - [8be2f8b9-6be2-41de-9844-205deef92705] Final answer: C3  (1.5s)
+2026-04-19 09:34:26,030 - root - INFO - [95m[8be2f8b9-6be2-41de-9844-205deef92705] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:27,493 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:27,494 - root - INFO - [2693d888-edf7-4070-976d-68a1b5191e37] Final answer: C5  (1.5s)
+2026-04-19 09:34:27,494 - root - INFO - [95m[2693d888-edf7-4070-976d-68a1b5191e37] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:29,560 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:29,561 - root - INFO - [49f218ff-162a-4f60-94ed-e2eb28f4d6e6] Final answer: C17  (2.1s)
+2026-04-19 09:34:29,562 - root - INFO - [95m[49f218ff-162a-4f60-94ed-e2eb28f4d6e6] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:29,564 - root - INFO - [V2] Saved 150/500  mean_iou=0.000
+2026-04-19 09:34:31,672 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:31,674 - root - INFO - [fcf851e4-6599-4318-9e11-0dd37a111772] Final answer: C10  (2.1s)
+2026-04-19 09:34:31,674 - root - INFO - [95m[fcf851e4-6599-4318-9e11-0dd37a111772] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:33,689 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:33,690 - root - INFO - [58a4dfc1-0c52-4595-96ce-21a791553e16] Final answer: C3  (2.0s)
+2026-04-19 09:34:33,691 - root - INFO - [95m[58a4dfc1-0c52-4595-96ce-21a791553e16] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:35,834 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:35,835 - root - INFO - [a27443a4-96c8-4cb7-b496-1b99aae9c67a] Final answer: C19  (2.1s)
+2026-04-19 09:34:35,836 - root - INFO - [95m[a27443a4-96c8-4cb7-b496-1b99aae9c67a] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:38,164 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:38,166 - root - INFO - [84112bf4-76b6-4d3c-bbba-54ae026d0b51] Final answer: C14  (2.3s)
+2026-04-19 09:34:38,166 - root - INFO - [95m[84112bf4-76b6-4d3c-bbba-54ae026d0b51] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:40,164 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:40,165 - root - INFO - [82167500-f425-4e89-be2d-ce82b46841b2] Final answer: C3  (2.0s)
+2026-04-19 09:34:40,166 - root - INFO - [95m[82167500-f425-4e89-be2d-ce82b46841b2] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:42,101 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:42,102 - root - INFO - [da418ba2-d746-4441-ad6d-6f44cebb38cd] Final answer: C4  (1.9s)
+2026-04-19 09:34:42,103 - root - INFO - [95m[da418ba2-d746-4441-ad6d-6f44cebb38cd] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:43,617 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:43,619 - root - INFO - [6a69251a-4d70-4458-9e34-87effccf0d01] Final answer: C7  (1.5s)
+2026-04-19 09:34:43,620 - root - INFO - [95m[6a69251a-4d70-4458-9e34-87effccf0d01] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:45,604 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:45,606 - root - INFO - [0b3595bd-5654-43ef-bb58-07c6351866ab] Final answer: C3  (2.0s)
+2026-04-19 09:34:45,606 - root - INFO - [95m[0b3595bd-5654-43ef-bb58-07c6351866ab] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:47,692 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:47,694 - root - INFO - [145a5ef5-5576-487b-9d01-c82ba24ea60f] Final answer: C13  (2.1s)
+2026-04-19 09:34:47,694 - root - INFO - [95m[145a5ef5-5576-487b-9d01-c82ba24ea60f] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:49,789 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:49,790 - root - INFO - [5e736544-ed52-46a8-b504-841c7f3110d6] Final answer: C16  (2.1s)
+2026-04-19 09:34:49,791 - root - INFO - [95m[5e736544-ed52-46a8-b504-841c7f3110d6] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:49,799 - root - INFO - [V2] Saved 160/500  mean_iou=0.000
+2026-04-19 09:34:51,251 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:51,252 - root - INFO - [04e89b3f-524e-44a0-b590-d9c958b63085] Final answer: C8  (1.4s)
+2026-04-19 09:34:51,252 - root - INFO - [95m[04e89b3f-524e-44a0-b590-d9c958b63085] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:53,232 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:53,233 - root - INFO - [5efdae65-ef21-4d82-9633-b0a39e2d2c0a] Final answer: C7  (2.0s)
+2026-04-19 09:34:53,234 - root - INFO - [95m[5efdae65-ef21-4d82-9633-b0a39e2d2c0a] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:55,360 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:55,361 - root - INFO - [da5a2248-2112-43be-9412-1ce570311074] Final answer: C11  (2.1s)
+2026-04-19 09:34:55,362 - root - INFO - [95m[da5a2248-2112-43be-9412-1ce570311074] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:57,414 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:57,415 - root - INFO - [4d0e7959-428f-4469-93dc-5a9c7ef5544c] Final answer: C15  (2.0s)
+2026-04-19 09:34:57,416 - root - INFO - [95m[4d0e7959-428f-4469-93dc-5a9c7ef5544c] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:34:59,356 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:34:59,358 - root - INFO - [7bd2f82c-87ad-40b3-a7e8-a5695b915f43] Final answer: C2  (1.9s)
+2026-04-19 09:34:59,359 - root - INFO - [95m[7bd2f82c-87ad-40b3-a7e8-a5695b915f43] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:01,385 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:01,387 - root - INFO - [d8c4075c-440e-45b8-95af-d4d2ca665b1b] Final answer: C8  (2.0s)
+2026-04-19 09:35:01,388 - root - INFO - [95m[d8c4075c-440e-45b8-95af-d4d2ca665b1b] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:03,267 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:03,269 - root - INFO - [1d613485-cd0b-4f81-be5f-a1ebf5831453] Final answer: C7  (1.9s)
+2026-04-19 09:35:03,269 - root - INFO - [95m[1d613485-cd0b-4f81-be5f-a1ebf5831453] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:04,824 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:04,825 - root - INFO - [eb89c6c7-989f-4e3b-8b74-0c7ca62e4f64] Final answer: C15  (1.6s)
+2026-04-19 09:35:04,825 - root - INFO - [95m[eb89c6c7-989f-4e3b-8b74-0c7ca62e4f64] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:06,355 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:06,357 - root - INFO - [c0916fcc-a50e-4dc4-a655-ee1493f2e164] Final answer: C10  (1.5s)
+2026-04-19 09:35:06,357 - root - INFO - [95m[c0916fcc-a50e-4dc4-a655-ee1493f2e164] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:08,462 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:08,463 - root - INFO - [e39bdd6a-e8b1-47af-b52c-ad3fdab990b6] Final answer: C19  (2.1s)
+2026-04-19 09:35:08,464 - root - INFO - [95m[e39bdd6a-e8b1-47af-b52c-ad3fdab990b6] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:08,466 - root - INFO - [V2] Saved 170/500  mean_iou=0.000
+2026-04-19 09:35:10,269 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:10,270 - root - INFO - [1cfe8e26-cff1-435d-975e-7db5f634c930] Final answer: C13  (1.8s)
+2026-04-19 09:35:10,270 - root - INFO - [95m[1cfe8e26-cff1-435d-975e-7db5f634c930] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:11,769 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:11,771 - root - INFO - [307d34ee-e100-4b49-b223-6c5292db2945] Final answer: C22  (1.5s)
+2026-04-19 09:35:11,771 - root - INFO - [95m[307d34ee-e100-4b49-b223-6c5292db2945] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:13,333 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:13,334 - root - INFO - [23e9c24c-7bd6-4ff5-9df7-6889d4ec92b2] Final answer: C17  (1.6s)
+2026-04-19 09:35:13,334 - root - INFO - [95m[23e9c24c-7bd6-4ff5-9df7-6889d4ec92b2] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:14,856 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:14,857 - root - INFO - [6b1084e5-330e-452d-bd41-e1d9267b82bc] Final answer: C21  (1.5s)
+2026-04-19 09:35:14,857 - root - INFO - [95m[6b1084e5-330e-452d-bd41-e1d9267b82bc] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:16,948 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:16,950 - root - INFO - [8f99cfa5-8037-472b-bbe5-3c032b289470] Final answer: C21  (2.1s)
+2026-04-19 09:35:16,950 - root - INFO - [95m[8f99cfa5-8037-472b-bbe5-3c032b289470] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:18,928 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:18,929 - root - INFO - [c55410a3-6e19-4312-824f-7afd3d94b89c] Final answer: C5  (2.0s)
+2026-04-19 09:35:18,930 - root - INFO - [95m[c55410a3-6e19-4312-824f-7afd3d94b89c] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:20,624 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:20,625 - root - INFO - [92a570c8-97e1-4a18-973d-20f2539c7afd] Final answer: C13  (1.7s)
+2026-04-19 09:35:20,625 - root - INFO - [95m[92a570c8-97e1-4a18-973d-20f2539c7afd] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:22,690 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:22,691 - root - INFO - [40d54730-655e-401e-9b62-3ee9d30b9227] Final answer: C17  (2.1s)
+2026-04-19 09:35:22,691 - root - INFO - [95m[40d54730-655e-401e-9b62-3ee9d30b9227] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:24,286 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:24,288 - root - INFO - [35463934-73a0-4d66-8372-b2f65b8b081e] Final answer: C13  (1.6s)
+2026-04-19 09:35:24,288 - root - INFO - [95m[35463934-73a0-4d66-8372-b2f65b8b081e] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:26,400 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:26,401 - root - INFO - [3fc6dd90-c8f7-4982-9713-83fcb66acde5] Final answer: C22  (2.1s)
+2026-04-19 09:35:26,401 - root - INFO - [95m[3fc6dd90-c8f7-4982-9713-83fcb66acde5] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:26,404 - root - INFO - [V2] Saved 180/500  mean_iou=0.000
+2026-04-19 09:35:28,504 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:28,505 - root - INFO - [ddb980fe-bf9f-4bed-b6c1-8acee32b02a0] Final answer: C17  (2.1s)
+2026-04-19 09:35:28,505 - root - INFO - [95m[ddb980fe-bf9f-4bed-b6c1-8acee32b02a0] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:30,211 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:30,212 - root - INFO - [ead37073-edfa-48c8-8689-69022c35be38] Final answer: C12  (1.7s)
+2026-04-19 09:35:30,212 - root - INFO - [95m[ead37073-edfa-48c8-8689-69022c35be38] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:32,317 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:32,319 - root - INFO - [951b9766-9099-47fa-9e9c-d2c9ec51bef7] Final answer: C17  (2.1s)
+2026-04-19 09:35:32,319 - root - INFO - [95m[951b9766-9099-47fa-9e9c-d2c9ec51bef7] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:34,305 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:34,307 - root - INFO - [c3c50ed6-25ec-426b-b6eb-f9fb8a1c6ccd] Final answer: C6  (2.0s)
+2026-04-19 09:35:34,308 - root - INFO - [95m[c3c50ed6-25ec-426b-b6eb-f9fb8a1c6ccd] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:35,938 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:35,940 - root - INFO - [11ef6de0-a0b8-486a-a3d0-742617c3b99a] Final answer: C19  (1.6s)
+2026-04-19 09:35:35,940 - root - INFO - [95m[11ef6de0-a0b8-486a-a3d0-742617c3b99a] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:37,557 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:37,559 - root - INFO - [21d519a0-d463-4b80-9582-34f7a35cfe09] Final answer: C15  (1.6s)
+2026-04-19 09:35:37,559 - root - INFO - [95m[21d519a0-d463-4b80-9582-34f7a35cfe09] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:39,274 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:39,276 - root - INFO - [9194a6b3-99eb-422e-aa06-fe97fc6fb439] Final answer: C8  (1.7s)
+2026-04-19 09:35:39,276 - root - INFO - [95m[9194a6b3-99eb-422e-aa06-fe97fc6fb439] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:41,399 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:41,400 - root - INFO - [1d55d74e-bd5c-409c-a7c7-bf9dd0beadc5] Final answer: C11  (2.1s)
+2026-04-19 09:35:41,400 - root - INFO - [95m[1d55d74e-bd5c-409c-a7c7-bf9dd0beadc5] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:43,465 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:43,466 - root - INFO - [cec59a76-39fb-42db-9cda-bbdecd4bd9ab] Final answer: C20  (2.1s)
+2026-04-19 09:35:43,467 - root - INFO - [95m[cec59a76-39fb-42db-9cda-bbdecd4bd9ab] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:44,925 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:44,926 - root - INFO - [52731b2a-aa57-4a41-8de9-3d3ab90d058d] Final answer: C7  (1.5s)
+2026-04-19 09:35:44,926 - root - INFO - [95m[52731b2a-aa57-4a41-8de9-3d3ab90d058d] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:44,929 - root - INFO - [V2] Saved 190/500  mean_iou=0.000
+2026-04-19 09:35:46,482 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:46,483 - root - INFO - [d41178af-2f18-4d8e-910e-e3507144de55] Final answer: C21  (1.6s)
+2026-04-19 09:35:46,483 - root - INFO - [95m[d41178af-2f18-4d8e-910e-e3507144de55] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:48,027 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:48,028 - root - INFO - [ae4fb431-f189-4383-b6be-bbe654ef6f94] Final answer: C18  (1.5s)
+2026-04-19 09:35:48,028 - root - INFO - [95m[ae4fb431-f189-4383-b6be-bbe654ef6f94] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:49,713 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:49,714 - root - INFO - [55b007b6-72a8-4e63-a44a-172fd77d470f] Final answer: C2  (1.7s)
+2026-04-19 09:35:49,714 - root - INFO - [95m[55b007b6-72a8-4e63-a44a-172fd77d470f] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:51,559 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:51,560 - root - INFO - [c83b850c-7c2a-4f65-8c32-b35e6a00b61e] Fallback to top candidate: C7
+2026-04-19 09:35:51,561 - root - INFO - [c83b850c-7c2a-4f65-8c32-b35e6a00b61e] Final answer: C7  (1.9s)
+2026-04-19 09:35:51,561 - root - INFO - [95m[c83b850c-7c2a-4f65-8c32-b35e6a00b61e] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:54,713 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:54,714 - root - INFO - [9baf6d46-2902-43fb-bc48-8740c8877b1e] Final answer: C2|C8|C14|C15  (3.1s)
+2026-04-19 09:35:54,714 - root - INFO - [95m[9baf6d46-2902-43fb-bc48-8740c8877b1e] pred='C2|C8|C14|C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:56,236 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:56,237 - root - INFO - [af52175e-56f4-49be-a86b-7764d2982e1a] Final answer: C20  (1.5s)
+2026-04-19 09:35:56,237 - root - INFO - [95m[af52175e-56f4-49be-a86b-7764d2982e1a] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:35:58,355 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:35:58,356 - root - INFO - [9c32f53f-622a-4877-a9c8-d030850278c0] Final answer: C14  (2.1s)
+2026-04-19 09:35:58,356 - root - INFO - [95m[9c32f53f-622a-4877-a9c8-d030850278c0] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:00,011 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:00,012 - root - INFO - [b6462848-e146-4d07-8940-6c0b215d2ca0] Final answer: C21  (1.7s)
+2026-04-19 09:36:00,012 - root - INFO - [95m[b6462848-e146-4d07-8940-6c0b215d2ca0] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:01,471 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:01,472 - root - INFO - [4a7d1ec9-3ce0-45e3-a499-fa32a4e36e0e] Final answer: C9  (1.5s)
+2026-04-19 09:36:01,472 - root - INFO - [95m[4a7d1ec9-3ce0-45e3-a499-fa32a4e36e0e] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:03,416 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:03,417 - root - INFO - [256b3278-3058-4017-8fe9-524e795a347f] Final answer: C6  (1.9s)
+2026-04-19 09:36:03,418 - root - INFO - [95m[256b3278-3058-4017-8fe9-524e795a347f] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:03,420 - root - INFO - [V2] Saved 200/500  mean_iou=0.000
+2026-04-19 09:36:04,892 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:04,893 - root - INFO - [25c5bb95-a476-40d1-9b9e-705f9f046ad4] Final answer: C5  (1.5s)
+2026-04-19 09:36:04,893 - root - INFO - [95m[25c5bb95-a476-40d1-9b9e-705f9f046ad4] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:06,388 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:06,389 - root - INFO - [dd382472-1c6c-4044-aa03-2fddddbb38c5] Final answer: C22  (1.5s)
+2026-04-19 09:36:06,389 - root - INFO - [95m[dd382472-1c6c-4044-aa03-2fddddbb38c5] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:08,456 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:08,457 - root - INFO - [709f4a68-1ea9-4816-8b49-3fe58ba7e4c8] Final answer: C14  (2.1s)
+2026-04-19 09:36:08,457 - root - INFO - [95m[709f4a68-1ea9-4816-8b49-3fe58ba7e4c8] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:10,577 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:10,579 - root - INFO - [ec2a5048-42a0-4ae9-999b-67263bdc2f90] Final answer: C22  (2.1s)
+2026-04-19 09:36:10,579 - root - INFO - [95m[ec2a5048-42a0-4ae9-999b-67263bdc2f90] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:12,697 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:12,698 - root - INFO - [943d9f90-009b-416e-afde-497247b7f552] Final answer: C15  (2.1s)
+2026-04-19 09:36:12,698 - root - INFO - [95m[943d9f90-009b-416e-afde-497247b7f552] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:14,796 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:14,797 - root - INFO - [c1b8381c-6850-423c-921d-f2f3938a87aa] Final answer: C17  (2.1s)
+2026-04-19 09:36:14,797 - root - INFO - [95m[c1b8381c-6850-423c-921d-f2f3938a87aa] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:16,966 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:16,968 - root - INFO - [09630a87-1ba8-43d4-b4b5-559de74d9a2d] Final answer: C22  (2.2s)
+2026-04-19 09:36:16,968 - root - INFO - [95m[09630a87-1ba8-43d4-b4b5-559de74d9a2d] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:19,091 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:19,092 - root - INFO - [c5304405-33e4-4bf4-9f23-32d8328d0c12] Final answer: C19  (2.1s)
+2026-04-19 09:36:19,092 - root - INFO - [95m[c5304405-33e4-4bf4-9f23-32d8328d0c12] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:21,025 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:21,027 - root - INFO - [1055a805-991a-4582-ad61-d47de9369dce] Final answer: C9  (1.9s)
+2026-04-19 09:36:21,027 - root - INFO - [95m[1055a805-991a-4582-ad61-d47de9369dce] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:23,049 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:23,051 - root - INFO - [5062639c-c700-478a-8ea9-6da1f2c189ad] Final answer: C6  (2.0s)
+2026-04-19 09:36:23,051 - root - INFO - [95m[5062639c-c700-478a-8ea9-6da1f2c189ad] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:23,054 - root - INFO - [V2] Saved 210/500  mean_iou=0.000
+2026-04-19 09:36:25,193 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:25,194 - root - INFO - [3f2036ca-1638-408d-b704-90aeff6a2b6d] Final answer: C12  (2.1s)
+2026-04-19 09:36:25,195 - root - INFO - [95m[3f2036ca-1638-408d-b704-90aeff6a2b6d] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:27,160 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:27,161 - root - INFO - [a778a705-e927-49bd-8053-747b56802869] Final answer: C1  (2.0s)
+2026-04-19 09:36:27,162 - root - INFO - [95m[a778a705-e927-49bd-8053-747b56802869] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:29,306 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:29,307 - root - INFO - [542b638a-4845-46a4-a772-bc8da935fd28] Final answer: C19  (2.1s)
+2026-04-19 09:36:29,307 - root - INFO - [95m[542b638a-4845-46a4-a772-bc8da935fd28] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:31,396 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:31,398 - root - INFO - [3febfe40-bc43-4dde-b9ac-f4a67d2c1d6c] Final answer: C12  (2.1s)
+2026-04-19 09:36:31,398 - root - INFO - [95m[3febfe40-bc43-4dde-b9ac-f4a67d2c1d6c] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:33,411 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:33,412 - root - INFO - [03bf382e-b3b6-4673-b4b1-621f077694e2] Final answer: C8  (2.0s)
+2026-04-19 09:36:33,412 - root - INFO - [95m[03bf382e-b3b6-4673-b4b1-621f077694e2] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:35,467 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:35,468 - root - INFO - [bd11e64e-ed00-42df-97e2-1cd01295bc4f] Final answer: C13  (2.1s)
+2026-04-19 09:36:35,468 - root - INFO - [95m[bd11e64e-ed00-42df-97e2-1cd01295bc4f] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:37,405 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:37,406 - root - INFO - [2c5f5b73-4264-407c-8a5f-8a17b92aa827] Final answer: C3  (1.9s)
+2026-04-19 09:36:37,406 - root - INFO - [95m[2c5f5b73-4264-407c-8a5f-8a17b92aa827] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:39,356 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:39,357 - root - INFO - [7a44dd46-f96f-4f7d-b015-9d4f5f61aa1c] Final answer: C4  (1.9s)
+2026-04-19 09:36:39,357 - root - INFO - [95m[7a44dd46-f96f-4f7d-b015-9d4f5f61aa1c] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:41,463 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:41,464 - root - INFO - [59be7f74-123a-4f3a-b9fe-bbb9c77b7861] Final answer: C20  (2.1s)
+2026-04-19 09:36:41,465 - root - INFO - [95m[59be7f74-123a-4f3a-b9fe-bbb9c77b7861] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:43,449 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:43,450 - root - INFO - [73db8c81-a46e-416f-afa5-d8d18b81acf5] Final answer: C1  (2.0s)
+2026-04-19 09:36:43,450 - root - INFO - [95m[73db8c81-a46e-416f-afa5-d8d18b81acf5] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:43,452 - root - INFO - [V2] Saved 220/500  mean_iou=0.000
+2026-04-19 09:36:45,417 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:45,418 - root - INFO - [048ba1a1-6379-4df2-89b1-bb83caa500fa] Final answer: C7  (2.0s)
+2026-04-19 09:36:45,418 - root - INFO - [95m[048ba1a1-6379-4df2-89b1-bb83caa500fa] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:47,236 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:47,237 - root - INFO - [f6a4dafa-3d34-43b5-855d-9fefaf0b4368] Final answer: C10  (1.8s)
+2026-04-19 09:36:47,237 - root - INFO - [95m[f6a4dafa-3d34-43b5-855d-9fefaf0b4368] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:49,344 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:49,345 - root - INFO - [6313fd29-96ee-4dca-b2be-5665c467cac5] Final answer: C19  (2.1s)
+2026-04-19 09:36:49,345 - root - INFO - [95m[6313fd29-96ee-4dca-b2be-5665c467cac5] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:51,466 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:51,467 - root - INFO - [e0288b8f-14ad-4f53-88fc-d5075cea9239] Final answer: C12  (2.1s)
+2026-04-19 09:36:51,467 - root - INFO - [95m[e0288b8f-14ad-4f53-88fc-d5075cea9239] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:53,551 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:53,552 - root - INFO - [01460025-b633-4f96-b70f-77af580fde23] Final answer: C12  (2.1s)
+2026-04-19 09:36:53,552 - root - INFO - [95m[01460025-b633-4f96-b70f-77af580fde23] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:55,531 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:55,532 - root - INFO - [44075c68-d113-4da3-b26c-6816ed868a96] Final answer: C8  (2.0s)
+2026-04-19 09:36:55,532 - root - INFO - [95m[44075c68-d113-4da3-b26c-6816ed868a96] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:57,625 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:57,626 - root - INFO - [6ff19396-f8ca-414a-abe3-f05fa2290745] Final answer: C20  (2.1s)
+2026-04-19 09:36:57,627 - root - INFO - [95m[6ff19396-f8ca-414a-abe3-f05fa2290745] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:36:59,687 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:36:59,688 - root - INFO - [6bdaaf60-1628-4045-a667-e1cec698bdb4] Final answer: C10  (2.1s)
+2026-04-19 09:36:59,688 - root - INFO - [95m[6bdaaf60-1628-4045-a667-e1cec698bdb4] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:01,242 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:01,244 - root - INFO - [3cb19161-fca9-4ac6-8e50-80dbfe33a544] Final answer: C6  (1.6s)
+2026-04-19 09:37:01,245 - root - INFO - [95m[3cb19161-fca9-4ac6-8e50-80dbfe33a544] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:02,809 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:02,810 - root - INFO - [73a957d1-fa8b-43d6-9828-e7c145346e87] Final answer: C18  (1.6s)
+2026-04-19 09:37:02,811 - root - INFO - [95m[73a957d1-fa8b-43d6-9828-e7c145346e87] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:02,812 - root - INFO - [V2] Saved 230/500  mean_iou=0.000
+2026-04-19 09:37:04,384 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:04,385 - root - INFO - [8d971287-9324-46d1-8718-297903024f9c] Final answer: C17  (1.6s)
+2026-04-19 09:37:04,385 - root - INFO - [95m[8d971287-9324-46d1-8718-297903024f9c] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:06,348 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:06,349 - root - INFO - [e0ea374e-8d31-4043-bf83-238b97fbf639] Final answer: C3  (2.0s)
+2026-04-19 09:37:06,350 - root - INFO - [95m[e0ea374e-8d31-4043-bf83-238b97fbf639] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:08,376 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:08,379 - root - INFO - [d7f93cd4-05f6-41f0-b44e-0dc3d459aa62] Final answer: C10  (2.0s)
+2026-04-19 09:37:08,379 - root - INFO - [95m[d7f93cd4-05f6-41f0-b44e-0dc3d459aa62] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:09,977 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:09,979 - root - INFO - [96a1171c-84da-4f8f-a9da-35b22f265b8e] Final answer: C8  (1.6s)
+2026-04-19 09:37:09,979 - root - INFO - [95m[96a1171c-84da-4f8f-a9da-35b22f265b8e] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:12,398 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:12,399 - root - INFO - [181effab-f64c-4091-b44d-443386468716] Final answer: C2|C4|C15|C18  (2.4s)
+2026-04-19 09:37:12,399 - root - INFO - [95m[181effab-f64c-4091-b44d-443386468716] pred='C2|C4|C15|C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:14,421 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:14,422 - root - INFO - [9c4b3b5e-f343-4d56-974b-4f373705bbcf] Final answer: C8  (2.0s)
+2026-04-19 09:37:14,423 - root - INFO - [95m[9c4b3b5e-f343-4d56-974b-4f373705bbcf] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:16,419 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:16,421 - root - INFO - [b6db3a8a-7126-4a0a-8d0d-f171fac37711] Final answer: C6  (2.0s)
+2026-04-19 09:37:16,421 - root - INFO - [95m[b6db3a8a-7126-4a0a-8d0d-f171fac37711] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:18,386 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:18,387 - root - INFO - [61573815-1f67-43fc-853f-b652931b3154] Final answer: C2  (2.0s)
+2026-04-19 09:37:18,388 - root - INFO - [95m[61573815-1f67-43fc-853f-b652931b3154] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:20,272 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:20,274 - root - INFO - [63c3f8c0-7a9d-4d35-afd2-6b9a9cfaaa0c] Final answer: C3  (1.9s)
+2026-04-19 09:37:20,274 - root - INFO - [95m[63c3f8c0-7a9d-4d35-afd2-6b9a9cfaaa0c] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:22,189 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:22,190 - root - INFO - [b8885d83-91d3-4927-816a-88c9e850a6fc] Final answer: C12  (1.9s)
+2026-04-19 09:37:22,190 - root - INFO - [95m[b8885d83-91d3-4927-816a-88c9e850a6fc] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:22,193 - root - INFO - [V2] Saved 240/500  mean_iou=0.000
+2026-04-19 09:37:24,260 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:24,261 - root - INFO - [f61eea97-9c40-418d-8556-673cd9e59d2c] Final answer: C16  (2.1s)
+2026-04-19 09:37:24,261 - root - INFO - [95m[f61eea97-9c40-418d-8556-673cd9e59d2c] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:26,067 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:26,068 - root - INFO - [1d6d05bc-dfd4-4aa3-9237-37f48916d354] Final answer: C21  (1.8s)
+2026-04-19 09:37:26,068 - root - INFO - [95m[1d6d05bc-dfd4-4aa3-9237-37f48916d354] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:27,962 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:27,963 - root - INFO - [5164011d-5df3-42c4-869b-d611dcbfabe2] Final answer: C5  (1.9s)
+2026-04-19 09:37:27,963 - root - INFO - [95m[5164011d-5df3-42c4-869b-d611dcbfabe2] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:31,257 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:31,259 - root - INFO - [53b0e0b6-b3bd-4b84-afc2-18365086fb1c] Final answer: C1|C16|C17|C18  (3.3s)
+2026-04-19 09:37:31,259 - root - INFO - [95m[53b0e0b6-b3bd-4b84-afc2-18365086fb1c] pred='C1|C16|C17|C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:32,733 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:32,735 - root - INFO - [ab98861f-fa2c-461c-bdf2-f1184aa79bc9] Final answer: C17  (1.5s)
+2026-04-19 09:37:32,735 - root - INFO - [95m[ab98861f-fa2c-461c-bdf2-f1184aa79bc9] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:34,260 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:34,262 - root - INFO - [08982883-e4e6-427c-8e83-5239ce67a804] Final answer: C10  (1.5s)
+2026-04-19 09:37:34,262 - root - INFO - [95m[08982883-e4e6-427c-8e83-5239ce67a804] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:36,392 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:36,393 - root - INFO - [0d99d2b4-8344-491a-8ffc-5cf63b7d9c9e] Final answer: C22  (2.1s)
+2026-04-19 09:37:36,394 - root - INFO - [95m[0d99d2b4-8344-491a-8ffc-5cf63b7d9c9e] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:38,537 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:38,538 - root - INFO - [46a737d2-c00a-4a0b-ab40-90ede90e60fb] Final answer: C19  (2.1s)
+2026-04-19 09:37:38,538 - root - INFO - [95m[46a737d2-c00a-4a0b-ab40-90ede90e60fb] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:40,629 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:40,631 - root - INFO - [71375ac3-7176-49ee-adf1-ec42415219b7] Final answer: C11  (2.1s)
+2026-04-19 09:37:40,631 - root - INFO - [95m[71375ac3-7176-49ee-adf1-ec42415219b7] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:42,599 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:42,600 - root - INFO - [e0d6eae2-4992-4bdb-ab99-00abd365445b] Final answer: C4  (2.0s)
+2026-04-19 09:37:42,600 - root - INFO - [95m[e0d6eae2-4992-4bdb-ab99-00abd365445b] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:42,602 - root - INFO - [V2] Saved 250/500  mean_iou=0.000
+2026-04-19 09:37:44,693 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:44,694 - root - INFO - [8d67eaa2-f2fd-46b4-b751-bd9b7a9f83e3] Final answer: C10  (2.1s)
+2026-04-19 09:37:44,694 - root - INFO - [95m[8d67eaa2-f2fd-46b4-b751-bd9b7a9f83e3] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:46,808 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:46,809 - root - INFO - [b9bf3cb0-e9c8-451b-8709-2b7d53ac9ae2] Final answer: C21  (2.1s)
+2026-04-19 09:37:46,810 - root - INFO - [95m[b9bf3cb0-e9c8-451b-8709-2b7d53ac9ae2] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:48,908 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:48,909 - root - INFO - [1cc4104f-7166-4d4e-a061-6af23e5e1062] Final answer: C15  (2.1s)
+2026-04-19 09:37:48,910 - root - INFO - [95m[1cc4104f-7166-4d4e-a061-6af23e5e1062] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:52,147 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:52,148 - root - INFO - [a4de052b-38b7-4924-a84a-ba4dcb736fcc] Final answer: C10|C16|C17|C22  (3.2s)
+2026-04-19 09:37:52,148 - root - INFO - [95m[a4de052b-38b7-4924-a84a-ba4dcb736fcc] pred='C10|C16|C17|C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:54,150 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:54,151 - root - INFO - [7c24794f-c14b-482b-9351-e3491f77bbb4] Final answer: C1  (2.0s)
+2026-04-19 09:37:54,151 - root - INFO - [95m[7c24794f-c14b-482b-9351-e3491f77bbb4] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:56,287 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:56,288 - root - INFO - [7e07891d-13e5-4ff9-8468-4c927d98c6ba] Final answer: C17  (2.1s)
+2026-04-19 09:37:56,289 - root - INFO - [95m[7e07891d-13e5-4ff9-8468-4c927d98c6ba] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:37:58,079 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:37:58,080 - root - INFO - [5d9078b0-e1b7-4a2e-9db3-6e3394fa252e] Final answer: C3  (1.8s)
+2026-04-19 09:37:58,080 - root - INFO - [95m[5d9078b0-e1b7-4a2e-9db3-6e3394fa252e] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:00,174 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:00,176 - root - INFO - [ed30b351-98d0-4b98-ab39-d3ee74acd2e1] Final answer: C19  (2.1s)
+2026-04-19 09:38:00,176 - root - INFO - [95m[ed30b351-98d0-4b98-ab39-d3ee74acd2e1] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:02,260 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:02,261 - root - INFO - [f5d30f47-7a81-433d-97d2-6207ee3d9c00] Final answer: C19  (2.1s)
+2026-04-19 09:38:02,261 - root - INFO - [95m[f5d30f47-7a81-433d-97d2-6207ee3d9c00] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:04,024 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:04,025 - root - INFO - [8a3f83cc-e689-4fef-b41c-8d453e51a191] Final answer: C18  (1.8s)
+2026-04-19 09:38:04,025 - root - INFO - [95m[8a3f83cc-e689-4fef-b41c-8d453e51a191] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:04,028 - root - INFO - [V2] Saved 260/500  mean_iou=0.000
+2026-04-19 09:38:06,129 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:06,130 - root - INFO - [ef719179-ad0f-42a1-8e59-64d297df9e20] Final answer: C17  (2.1s)
+2026-04-19 09:38:06,131 - root - INFO - [95m[ef719179-ad0f-42a1-8e59-64d297df9e20] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:08,248 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:08,250 - root - INFO - [f7701cea-ddcd-4570-8c03-8109b7b8666d] Final answer: C19  (2.1s)
+2026-04-19 09:38:08,250 - root - INFO - [95m[f7701cea-ddcd-4570-8c03-8109b7b8666d] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:10,207 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:10,209 - root - INFO - [68d7b65d-ee19-456b-aadd-77595e6c9edd] Final answer: C9  (2.0s)
+2026-04-19 09:38:10,209 - root - INFO - [95m[68d7b65d-ee19-456b-aadd-77595e6c9edd] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:11,996 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:11,997 - root - INFO - [57e9e338-fbbc-496d-b2aa-a466df5c99f8] Final answer: C9  (1.8s)
+2026-04-19 09:38:11,997 - root - INFO - [95m[57e9e338-fbbc-496d-b2aa-a466df5c99f8] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:13,964 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:13,966 - root - INFO - [7d220d58-fc5a-4975-b1b8-b95c4a90b169] Final answer: C9  (2.0s)
+2026-04-19 09:38:13,966 - root - INFO - [95m[7d220d58-fc5a-4975-b1b8-b95c4a90b169] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:17,226 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:17,228 - root - INFO - [490929ca-ead4-42e2-ae8e-06e33b3a7751] Final answer: C1|C5|C7|C20  (3.3s)
+2026-04-19 09:38:17,228 - root - INFO - [95m[490929ca-ead4-42e2-ae8e-06e33b3a7751] pred='C1|C5|C7|C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:19,172 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:19,173 - root - INFO - [e30770a1-3c80-4146-b484-8d97433cb0e5] Final answer: C1  (1.9s)
+2026-04-19 09:38:19,173 - root - INFO - [95m[e30770a1-3c80-4146-b484-8d97433cb0e5] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:21,306 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:21,307 - root - INFO - [5f7ac8ba-db13-48b8-8ca1-69f48195bdb2] Final answer: C22  (2.1s)
+2026-04-19 09:38:21,308 - root - INFO - [95m[5f7ac8ba-db13-48b8-8ca1-69f48195bdb2] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:23,424 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:23,426 - root - INFO - [cb1e7dd1-c6b9-4bfa-98ad-2c446b47c449] Final answer: C15  (2.1s)
+2026-04-19 09:38:23,426 - root - INFO - [95m[cb1e7dd1-c6b9-4bfa-98ad-2c446b47c449] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:25,557 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:25,558 - root - INFO - [22b185a7-d5d6-411b-86b5-4cae5a7cd1ff] Final answer: C18  (2.1s)
+2026-04-19 09:38:25,559 - root - INFO - [95m[22b185a7-d5d6-411b-86b5-4cae5a7cd1ff] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:25,561 - root - INFO - [V2] Saved 270/500  mean_iou=0.000
+2026-04-19 09:38:27,148 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:27,149 - root - INFO - [c6fd35ca-fd7c-4470-825b-8f814d44a2c2] Final answer: C13  (1.6s)
+2026-04-19 09:38:27,150 - root - INFO - [95m[c6fd35ca-fd7c-4470-825b-8f814d44a2c2] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:29,188 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:29,189 - root - INFO - [27ec44ed-2846-4331-a650-b82688e0bc93] Final answer: C14  (2.0s)
+2026-04-19 09:38:29,189 - root - INFO - [95m[27ec44ed-2846-4331-a650-b82688e0bc93] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:30,756 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:30,759 - root - INFO - [c48c772c-6cac-46c5-bdbd-e3d695ac6178] Final answer: C4  (1.6s)
+2026-04-19 09:38:30,760 - root - INFO - [95m[c48c772c-6cac-46c5-bdbd-e3d695ac6178] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:32,751 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:32,753 - root - INFO - [3f1e8a1c-33c3-42fd-a216-8d9904a27e6b] Final answer: C9  (2.0s)
+2026-04-19 09:38:32,753 - root - INFO - [95m[3f1e8a1c-33c3-42fd-a216-8d9904a27e6b] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:34,861 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:34,863 - root - INFO - [7ebb3374-b857-43a3-9930-9359212530dd] Final answer: C19  (2.1s)
+2026-04-19 09:38:34,863 - root - INFO - [95m[7ebb3374-b857-43a3-9930-9359212530dd] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:36,976 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:36,977 - root - INFO - [419dfe03-35a4-44d7-a391-06b90de41872] Final answer: C11  (2.1s)
+2026-04-19 09:38:36,978 - root - INFO - [95m[419dfe03-35a4-44d7-a391-06b90de41872] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:39,080 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:39,082 - root - INFO - [bce6d685-3e1d-49e8-8cb5-3b98dc4774ff] Final answer: C11  (2.1s)
+2026-04-19 09:38:39,082 - root - INFO - [95m[bce6d685-3e1d-49e8-8cb5-3b98dc4774ff] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:40,944 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:40,945 - root - INFO - [e233b67c-f5f4-409f-bf94-9f7fb9cb9497] Final answer: C16  (1.9s)
+2026-04-19 09:38:40,946 - root - INFO - [95m[e233b67c-f5f4-409f-bf94-9f7fb9cb9497] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:42,608 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:42,609 - root - INFO - [6d6dca89-d769-4ec6-8053-5d4b1a7481ba] Final answer: C13  (1.7s)
+2026-04-19 09:38:42,610 - root - INFO - [95m[6d6dca89-d769-4ec6-8053-5d4b1a7481ba] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:44,461 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:44,463 - root - INFO - [2cad12ac-b4ad-44a0-bb96-5f11a15effe1] Final answer: C4  (1.9s)
+2026-04-19 09:38:44,463 - root - INFO - [95m[2cad12ac-b4ad-44a0-bb96-5f11a15effe1] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:44,468 - root - INFO - [V2] Saved 280/500  mean_iou=0.000
+2026-04-19 09:38:46,366 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:46,369 - root - INFO - [420fd6bb-9a8c-451f-9b1a-99971a9aca3b] Final answer: C3  (1.9s)
+2026-04-19 09:38:46,370 - root - INFO - [95m[420fd6bb-9a8c-451f-9b1a-99971a9aca3b] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:47,778 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:47,780 - root - INFO - [7a329918-6f13-4794-86f4-12fae9974c61] Final answer: C8  (1.4s)
+2026-04-19 09:38:47,780 - root - INFO - [95m[7a329918-6f13-4794-86f4-12fae9974c61] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:49,502 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:49,504 - root - INFO - [bd599082-1cc1-446e-8f75-5de537220a2e] Final answer: C6  (1.7s)
+2026-04-19 09:38:49,504 - root - INFO - [95m[bd599082-1cc1-446e-8f75-5de537220a2e] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:51,391 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:51,393 - root - INFO - [4a04fb6d-c7a9-4b67-b69c-8fd4b319e37a] Final answer: C10  (1.9s)
+2026-04-19 09:38:51,393 - root - INFO - [95m[4a04fb6d-c7a9-4b67-b69c-8fd4b319e37a] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:53,487 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:53,489 - root - INFO - [43439b12-da9b-4290-ac75-f2ba3cd618ed] Final answer: C18  (2.1s)
+2026-04-19 09:38:53,489 - root - INFO - [95m[43439b12-da9b-4290-ac75-f2ba3cd618ed] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:55,583 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:55,585 - root - INFO - [c15fa4f0-2eef-4195-943c-2f87871a5fca] Final answer: C14  (2.1s)
+2026-04-19 09:38:55,585 - root - INFO - [95m[c15fa4f0-2eef-4195-943c-2f87871a5fca] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:57,616 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:57,618 - root - INFO - [ec36924c-70b8-4e2f-8a7c-2db429e886bc] Final answer: C8  (2.0s)
+2026-04-19 09:38:57,618 - root - INFO - [95m[ec36924c-70b8-4e2f-8a7c-2db429e886bc] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:38:59,176 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:38:59,177 - root - INFO - [a25b3802-e908-43bb-9c91-43dcf8c24bf2] Final answer: C4  (1.6s)
+2026-04-19 09:38:59,178 - root - INFO - [95m[a25b3802-e908-43bb-9c91-43dcf8c24bf2] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:01,323 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:01,324 - root - INFO - [1df0054b-c893-4564-b957-0a359771fa00] Final answer: C15  (2.1s)
+2026-04-19 09:39:01,324 - root - INFO - [95m[1df0054b-c893-4564-b957-0a359771fa00] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:03,360 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:03,362 - root - INFO - [47e8b48f-0b30-438c-9333-3796829aae7e] Final answer: C17  (2.0s)
+2026-04-19 09:39:03,362 - root - INFO - [95m[47e8b48f-0b30-438c-9333-3796829aae7e] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:03,366 - root - INFO - [V2] Saved 290/500  mean_iou=0.000
+2026-04-19 09:39:05,522 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:05,523 - root - INFO - [46069693-61c3-431e-84a2-c438e6be8d81] Final answer: C14  (2.2s)
+2026-04-19 09:39:05,523 - root - INFO - [95m[46069693-61c3-431e-84a2-c438e6be8d81] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:07,558 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:07,559 - root - INFO - [524ea0a2-1d54-4e35-99f6-de96c121fcbf] Final answer: C16  (2.0s)
+2026-04-19 09:39:07,560 - root - INFO - [95m[524ea0a2-1d54-4e35-99f6-de96c121fcbf] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:09,689 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:09,691 - root - INFO - [0009e432-6645-4f51-9de5-62c908f429e0] Final answer: C15  (2.1s)
+2026-04-19 09:39:09,691 - root - INFO - [95m[0009e432-6645-4f51-9de5-62c908f429e0] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:11,838 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:11,840 - root - INFO - [a97d8660-c413-4e92-a159-458954fa2046] Final answer: C13  (2.1s)
+2026-04-19 09:39:11,840 - root - INFO - [95m[a97d8660-c413-4e92-a159-458954fa2046] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:13,915 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:13,916 - root - INFO - [72ac892b-e74c-4c1a-a84c-a1305865a853] Final answer: C13  (2.1s)
+2026-04-19 09:39:13,916 - root - INFO - [95m[72ac892b-e74c-4c1a-a84c-a1305865a853] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:16,050 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:16,052 - root - INFO - [4a0d2f3d-98c4-4fa0-a5c9-124086e01435] Final answer: C12  (2.1s)
+2026-04-19 09:39:16,053 - root - INFO - [95m[4a0d2f3d-98c4-4fa0-a5c9-124086e01435] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:18,183 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:18,184 - root - INFO - [4fb1d9a6-c5db-428b-a734-ed143d63cacc] Final answer: C11  (2.1s)
+2026-04-19 09:39:18,184 - root - INFO - [95m[4fb1d9a6-c5db-428b-a734-ed143d63cacc] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:20,303 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:20,304 - root - INFO - [c68566f1-996a-41fb-9e35-5c6d4b753ab1] Final answer: C19  (2.1s)
+2026-04-19 09:39:20,305 - root - INFO - [95m[c68566f1-996a-41fb-9e35-5c6d4b753ab1] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:22,437 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:22,438 - root - INFO - [f2e9383a-9471-4f7a-8d9c-355e68193cf7] Final answer: C13  (2.1s)
+2026-04-19 09:39:22,439 - root - INFO - [95m[f2e9383a-9471-4f7a-8d9c-355e68193cf7] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:24,548 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:24,549 - root - INFO - [65a90582-b070-4bf1-b22e-53b40cc6d7fb] Final answer: C17  (2.1s)
+2026-04-19 09:39:24,549 - root - INFO - [95m[65a90582-b070-4bf1-b22e-53b40cc6d7fb] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:24,552 - root - INFO - [V2] Saved 300/500  mean_iou=0.000
+2026-04-19 09:39:26,366 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:26,367 - root - INFO - [5d799708-2e57-459c-8adc-b73167593e25] Final answer: C7  (1.8s)
+2026-04-19 09:39:26,367 - root - INFO - [95m[5d799708-2e57-459c-8adc-b73167593e25] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:27,780 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:27,781 - root - INFO - [5c3a5ebb-f305-4168-8e5d-8e4898573b82] Final answer: C8  (1.4s)
+2026-04-19 09:39:27,781 - root - INFO - [95m[5c3a5ebb-f305-4168-8e5d-8e4898573b82] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:29,368 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:29,369 - root - INFO - [06970f12-3576-4112-9e5f-96a5cd838f5e] Final answer: C20  (1.6s)
+2026-04-19 09:39:29,369 - root - INFO - [95m[06970f12-3576-4112-9e5f-96a5cd838f5e] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:31,359 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:31,360 - root - INFO - [622ea6f9-d095-438b-b5d9-b98c7c948da3] Final answer: C6  (2.0s)
+2026-04-19 09:39:31,360 - root - INFO - [95m[622ea6f9-d095-438b-b5d9-b98c7c948da3] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:33,349 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:33,350 - root - INFO - [8a2feb2d-90fa-4231-89f8-00742b5137e6] Final answer: C8  (2.0s)
+2026-04-19 09:39:33,350 - root - INFO - [95m[8a2feb2d-90fa-4231-89f8-00742b5137e6] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:35,338 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:35,339 - root - INFO - [56a98aea-02e0-4a30-9315-715c1e8bd1f3] Final answer: C6  (2.0s)
+2026-04-19 09:39:35,340 - root - INFO - [95m[56a98aea-02e0-4a30-9315-715c1e8bd1f3] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:37,276 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:37,278 - root - INFO - [f7ab4aa3-2110-4765-ada3-6e2dfcd9ebd0] Final answer: C5  (1.9s)
+2026-04-19 09:39:37,278 - root - INFO - [95m[f7ab4aa3-2110-4765-ada3-6e2dfcd9ebd0] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:39,363 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:39,364 - root - INFO - [fa34c7c0-30a0-4bfc-bc66-8dc4e48d0381] Final answer: C21  (2.1s)
+2026-04-19 09:39:39,365 - root - INFO - [95m[fa34c7c0-30a0-4bfc-bc66-8dc4e48d0381] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:41,479 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:41,480 - root - INFO - [b2c2f51c-d86d-4105-b995-7e697de1f02f] Final answer: C12  (2.1s)
+2026-04-19 09:39:41,480 - root - INFO - [95m[b2c2f51c-d86d-4105-b995-7e697de1f02f] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:43,020 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:43,021 - root - INFO - [36f53307-797a-418f-8328-63e72b87a206] Final answer: C10  (1.5s)
+2026-04-19 09:39:43,021 - root - INFO - [95m[36f53307-797a-418f-8328-63e72b87a206] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:43,024 - root - INFO - [V2] Saved 310/500  mean_iou=0.000
+2026-04-19 09:39:44,448 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:44,450 - root - INFO - [4a730640-0365-4141-a8c1-fe74eb2533ce] Final answer: C8  (1.4s)
+2026-04-19 09:39:44,450 - root - INFO - [95m[4a730640-0365-4141-a8c1-fe74eb2533ce] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:45,956 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:45,957 - root - INFO - [3e0a4e06-7c4c-4d62-b133-5f1950c508a5] Final answer: C1  (1.5s)
+2026-04-19 09:39:45,957 - root - INFO - [95m[3e0a4e06-7c4c-4d62-b133-5f1950c508a5] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:47,928 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:47,929 - root - INFO - [5f626d52-a13d-4421-a7ed-bd66051af19a] Final answer: C2  (2.0s)
+2026-04-19 09:39:47,929 - root - INFO - [95m[5f626d52-a13d-4421-a7ed-bd66051af19a] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:50,072 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:50,074 - root - INFO - [362e7e17-9362-4ed4-8728-056232f17a3e] Final answer: C11  (2.1s)
+2026-04-19 09:39:50,075 - root - INFO - [95m[362e7e17-9362-4ed4-8728-056232f17a3e] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:51,595 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:51,597 - root - INFO - [2fd4d917-31bc-4ffd-8b7b-4c106417466d] Final answer: C7  (1.5s)
+2026-04-19 09:39:51,598 - root - INFO - [95m[2fd4d917-31bc-4ffd-8b7b-4c106417466d] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:53,573 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:53,574 - root - INFO - [2becd14a-c15f-48e5-a5b1-e0767273b294] Final answer: C4  (2.0s)
+2026-04-19 09:39:53,574 - root - INFO - [95m[2becd14a-c15f-48e5-a5b1-e0767273b294] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:55,649 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:55,650 - root - INFO - [206f4053-dc76-44ce-9ad2-2cf976818317] Final answer: C22  (2.1s)
+2026-04-19 09:39:55,651 - root - INFO - [95m[206f4053-dc76-44ce-9ad2-2cf976818317] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:57,719 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:57,720 - root - INFO - [dfe02cee-859f-4f25-bef2-1eaddfbf93ab] Final answer: C15  (2.1s)
+2026-04-19 09:39:57,720 - root - INFO - [95m[dfe02cee-859f-4f25-bef2-1eaddfbf93ab] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:39:59,660 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:39:59,661 - root - INFO - [5d036c3c-734a-49a1-a7ea-a9c0aac141cd] Final answer: C18  (1.9s)
+2026-04-19 09:39:59,661 - root - INFO - [95m[5d036c3c-734a-49a1-a7ea-a9c0aac141cd] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:01,559 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:01,560 - root - INFO - [b5d68670-276e-40cb-9e1a-0f41a49c814e] Final answer: C6  (1.9s)
+2026-04-19 09:40:01,560 - root - INFO - [95m[b5d68670-276e-40cb-9e1a-0f41a49c814e] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:01,565 - root - INFO - [V2] Saved 320/500  mean_iou=0.000
+2026-04-19 09:40:03,067 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:03,069 - root - INFO - [7425ee8c-4722-4b12-8c75-73462dee3ee5] Final answer: C17  (1.5s)
+2026-04-19 09:40:03,070 - root - INFO - [95m[7425ee8c-4722-4b12-8c75-73462dee3ee5] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:05,164 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:05,165 - root - INFO - [75d95403-52d8-46a0-b1bb-6e5f6f25dc5b] Final answer: C22  (2.1s)
+2026-04-19 09:40:05,165 - root - INFO - [95m[75d95403-52d8-46a0-b1bb-6e5f6f25dc5b] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:07,325 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:07,326 - root - INFO - [afe69cae-79a4-4ed4-b54c-b2d5ab62a2c9] Final answer: C10  (2.2s)
+2026-04-19 09:40:07,327 - root - INFO - [95m[afe69cae-79a4-4ed4-b54c-b2d5ab62a2c9] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:09,280 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:09,282 - root - INFO - [074ac8e7-4c04-4046-9145-3a1de23d2dcc] Final answer: C5  (1.9s)
+2026-04-19 09:40:09,282 - root - INFO - [95m[074ac8e7-4c04-4046-9145-3a1de23d2dcc] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:11,269 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:11,270 - root - INFO - [e7fec92b-76d2-4733-98d7-fd2a7616d1f0] Final answer: C1  (2.0s)
+2026-04-19 09:40:11,271 - root - INFO - [95m[e7fec92b-76d2-4733-98d7-fd2a7616d1f0] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:13,356 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:13,358 - root - INFO - [7bf49ea7-fcf2-46b4-b0b5-f2980e1e7b6f] Final answer: C12  (2.1s)
+2026-04-19 09:40:13,358 - root - INFO - [95m[7bf49ea7-fcf2-46b4-b0b5-f2980e1e7b6f] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:15,467 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:15,469 - root - INFO - [34666e73-9ac4-44a7-a61d-414848e0d4b4] Final answer: C12  (2.1s)
+2026-04-19 09:40:15,469 - root - INFO - [95m[34666e73-9ac4-44a7-a61d-414848e0d4b4] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:17,584 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:17,586 - root - INFO - [8a97cbab-5a71-433b-bd06-a80e02b1c9df] Final answer: C17  (2.1s)
+2026-04-19 09:40:17,586 - root - INFO - [95m[8a97cbab-5a71-433b-bd06-a80e02b1c9df] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:19,647 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:19,648 - root - INFO - [006d5394-3dec-4a3d-bb7e-d2b8450c39a9] Final answer: C17  (2.1s)
+2026-04-19 09:40:19,648 - root - INFO - [95m[006d5394-3dec-4a3d-bb7e-d2b8450c39a9] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:21,699 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:21,700 - root - INFO - [bb5989fd-6942-46e3-93ce-4781517ee241] Final answer: C18  (2.0s)
+2026-04-19 09:40:21,701 - root - INFO - [95m[bb5989fd-6942-46e3-93ce-4781517ee241] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:21,703 - root - INFO - [V2] Saved 330/500  mean_iou=0.000
+2026-04-19 09:40:23,843 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:23,844 - root - INFO - [88c829f2-3ddc-42c2-9e34-f582acf5bc6f] Final answer: C11  (2.1s)
+2026-04-19 09:40:23,845 - root - INFO - [95m[88c829f2-3ddc-42c2-9e34-f582acf5bc6f] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:25,946 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:25,947 - root - INFO - [5448a0b9-86fb-484d-bd78-9c84851dfc57] Final answer: C19  (2.1s)
+2026-04-19 09:40:25,947 - root - INFO - [95m[5448a0b9-86fb-484d-bd78-9c84851dfc57] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:28,028 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:28,030 - root - INFO - [1c8cb0f6-fa98-4d86-806b-c5814c279843] Final answer: C10  (2.1s)
+2026-04-19 09:40:28,030 - root - INFO - [95m[1c8cb0f6-fa98-4d86-806b-c5814c279843] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:29,973 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:29,974 - root - INFO - [71659374-5a07-415a-9e34-3995ed3b1845] Final answer: C4  (1.9s)
+2026-04-19 09:40:29,975 - root - INFO - [95m[71659374-5a07-415a-9e34-3995ed3b1845] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:31,980 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:31,981 - root - INFO - [e7bb58ef-23ae-47fb-848d-2eace2b41807] Final answer: C8  (2.0s)
+2026-04-19 09:40:31,981 - root - INFO - [95m[e7bb58ef-23ae-47fb-848d-2eace2b41807] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:33,804 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:33,805 - root - INFO - [1cbc400c-5d78-458a-972b-a5e9d25f6593] Final answer: C8  (1.8s)
+2026-04-19 09:40:33,805 - root - INFO - [95m[1cbc400c-5d78-458a-972b-a5e9d25f6593] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:35,846 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:35,848 - root - INFO - [0f6e0ddf-43b4-4898-a963-1b9ba55e8d5d] Final answer: C3  (2.0s)
+2026-04-19 09:40:35,848 - root - INFO - [95m[0f6e0ddf-43b4-4898-a963-1b9ba55e8d5d] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:37,763 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:37,765 - root - INFO - [ed92910e-26f8-4889-af52-2a8897453e2f] Final answer: C9  (1.9s)
+2026-04-19 09:40:37,765 - root - INFO - [95m[ed92910e-26f8-4889-af52-2a8897453e2f] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:39,899 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:39,900 - root - INFO - [dad40072-ec97-4628-9262-9c9be1656a9d] Final answer: C18  (2.1s)
+2026-04-19 09:40:39,900 - root - INFO - [95m[dad40072-ec97-4628-9262-9c9be1656a9d] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:41,853 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:41,854 - root - INFO - [ee57f213-477b-4e0a-9663-6fb4f69e921e] Final answer: C5  (1.9s)
+2026-04-19 09:40:41,854 - root - INFO - [95m[ee57f213-477b-4e0a-9663-6fb4f69e921e] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:41,859 - root - INFO - [V2] Saved 340/500  mean_iou=0.000
+2026-04-19 09:40:43,945 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:43,946 - root - INFO - [41b6d944-0a96-411b-ad13-96453eccad8f] Final answer: C18  (2.1s)
+2026-04-19 09:40:43,946 - root - INFO - [95m[41b6d944-0a96-411b-ad13-96453eccad8f] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:46,098 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:46,099 - root - INFO - [04a262c3-c8ea-4282-9e81-3857bd6d5871] Final answer: C21  (2.1s)
+2026-04-19 09:40:46,099 - root - INFO - [95m[04a262c3-c8ea-4282-9e81-3857bd6d5871] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:47,561 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:47,562 - root - INFO - [0333cb46-4b46-4732-b56e-7d0c26daf4c3] Final answer: C5  (1.5s)
+2026-04-19 09:40:47,562 - root - INFO - [95m[0333cb46-4b46-4732-b56e-7d0c26daf4c3] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:49,147 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:49,148 - root - INFO - [aeef5efd-cdf4-48ab-be26-e7a00241d653] Final answer: C17  (1.6s)
+2026-04-19 09:40:49,149 - root - INFO - [95m[aeef5efd-cdf4-48ab-be26-e7a00241d653] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:50,789 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:50,790 - root - INFO - [fba0b836-05b4-46ff-86f0-b5f98261a3fc] Final answer: C7  (1.6s)
+2026-04-19 09:40:50,790 - root - INFO - [95m[fba0b836-05b4-46ff-86f0-b5f98261a3fc] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:52,234 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:52,235 - root - INFO - [374ba283-89a9-4eb1-a2cf-db324ae82aef] Final answer: C4  (1.4s)
+2026-04-19 09:40:52,236 - root - INFO - [95m[374ba283-89a9-4eb1-a2cf-db324ae82aef] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:54,092 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:54,093 - root - INFO - [d457e694-57ff-4e93-9d32-eb01a93237a8] Final answer: C12  (1.9s)
+2026-04-19 09:40:54,093 - root - INFO - [95m[d457e694-57ff-4e93-9d32-eb01a93237a8] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:56,064 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:56,066 - root - INFO - [f28753e3-1fdc-4642-8fb5-03339ac1fb3e] Final answer: C1  (2.0s)
+2026-04-19 09:40:56,067 - root - INFO - [95m[f28753e3-1fdc-4642-8fb5-03339ac1fb3e] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:40:58,199 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:40:58,200 - root - INFO - [453ce562-7d86-43a8-9564-9eb845bb5bff] Final answer: C12  (2.1s)
+2026-04-19 09:40:58,201 - root - INFO - [95m[453ce562-7d86-43a8-9564-9eb845bb5bff] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:00,197 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:00,198 - root - INFO - [739c9d1a-6d93-440d-9784-59bb5cf7a49c] Final answer: C9  (2.0s)
+2026-04-19 09:41:00,199 - root - INFO - [95m[739c9d1a-6d93-440d-9784-59bb5cf7a49c] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:00,203 - root - INFO - [V2] Saved 350/500  mean_iou=0.000
+2026-04-19 09:41:02,308 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:02,309 - root - INFO - [4bce96d9-0d8f-41cc-958e-43e45ae91bff] Final answer: C21  (2.1s)
+2026-04-19 09:41:02,310 - root - INFO - [95m[4bce96d9-0d8f-41cc-958e-43e45ae91bff] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:04,374 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:04,376 - root - INFO - [16b206a7-2020-436d-9913-2b930f4bc8d8] Final answer: C22  (2.1s)
+2026-04-19 09:41:04,376 - root - INFO - [95m[16b206a7-2020-436d-9913-2b930f4bc8d8] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:06,495 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:06,496 - root - INFO - [69e49b75-5eee-454d-ba9a-125ac072c68a] Final answer: C21  (2.1s)
+2026-04-19 09:41:06,496 - root - INFO - [95m[69e49b75-5eee-454d-ba9a-125ac072c68a] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:08,541 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:08,542 - root - INFO - [f457bbd4-7a7a-4deb-b21d-4c0f469d97bc] Final answer: C11  (2.0s)
+2026-04-19 09:41:08,543 - root - INFO - [95m[f457bbd4-7a7a-4deb-b21d-4c0f469d97bc] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:10,087 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:10,089 - root - INFO - [67cd4921-94f0-4f21-830a-350bb4b389e5] Final answer: C16  (1.6s)
+2026-04-19 09:41:10,089 - root - INFO - [95m[67cd4921-94f0-4f21-830a-350bb4b389e5] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:12,081 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:12,082 - root - INFO - [794d2dec-0dce-43a3-8946-01f15a9fbace] Final answer: C3  (2.0s)
+2026-04-19 09:41:12,083 - root - INFO - [95m[794d2dec-0dce-43a3-8946-01f15a9fbace] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:14,212 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:14,213 - root - INFO - [e109a460-d8b1-43cd-bdd1-e20c29267564] Final answer: C12  (2.1s)
+2026-04-19 09:41:14,214 - root - INFO - [95m[e109a460-d8b1-43cd-bdd1-e20c29267564] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:15,911 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:15,913 - root - INFO - [bc9fb314-bfbc-4199-8e62-71fec2d90ee0] Final answer: C16  (1.7s)
+2026-04-19 09:41:15,913 - root - INFO - [95m[bc9fb314-bfbc-4199-8e62-71fec2d90ee0] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:18,030 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:18,032 - root - INFO - [9a762276-78d6-44d4-9730-5f12234556cf] Final answer: C13  (2.1s)
+2026-04-19 09:41:18,033 - root - INFO - [95m[9a762276-78d6-44d4-9730-5f12234556cf] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:20,100 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:20,102 - root - INFO - [2de48943-77ba-40ab-9626-b9ae783730f1] Final answer: C15  (2.1s)
+2026-04-19 09:41:20,102 - root - INFO - [95m[2de48943-77ba-40ab-9626-b9ae783730f1] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:20,106 - root - INFO - [V2] Saved 360/500  mean_iou=0.000
+2026-04-19 09:41:21,801 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:21,802 - root - INFO - [b30e0689-deff-4b89-b65f-2345a6fcb378] Final answer: C13  (1.7s)
+2026-04-19 09:41:21,803 - root - INFO - [95m[b30e0689-deff-4b89-b65f-2345a6fcb378] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:23,281 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:23,283 - root - INFO - [f5c9bb3b-5782-45fe-af49-27cb8809fe8f] Final answer: C19  (1.5s)
+2026-04-19 09:41:23,283 - root - INFO - [95m[f5c9bb3b-5782-45fe-af49-27cb8809fe8f] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:24,900 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:24,902 - root - INFO - [21be2d5e-b394-4e4a-b445-9b6cb8f2865c] Final answer: C14  (1.6s)
+2026-04-19 09:41:24,902 - root - INFO - [95m[21be2d5e-b394-4e4a-b445-9b6cb8f2865c] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:26,898 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:26,899 - root - INFO - [41ceeb25-c8d1-4826-9be5-fd8e05fe5567] Final answer: C7  (2.0s)
+2026-04-19 09:41:26,900 - root - INFO - [95m[41ceeb25-c8d1-4826-9be5-fd8e05fe5567] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:29,026 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:29,027 - root - INFO - [2d1e7246-b1cf-4f23-bc36-9113b4ee09c3] Final answer: C22  (2.1s)
+2026-04-19 09:41:29,027 - root - INFO - [95m[2d1e7246-b1cf-4f23-bc36-9113b4ee09c3] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:30,627 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:30,628 - root - INFO - [41f61b30-e7a5-4824-9a3b-e54bcc194e19] Final answer: C13  (1.6s)
+2026-04-19 09:41:30,628 - root - INFO - [95m[41f61b30-e7a5-4824-9a3b-e54bcc194e19] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:32,278 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:32,279 - root - INFO - [fa81d4d7-44b9-4431-b229-60c6fb71d723] Final answer: C13  (1.6s)
+2026-04-19 09:41:32,279 - root - INFO - [95m[fa81d4d7-44b9-4431-b229-60c6fb71d723] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:34,376 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:34,377 - root - INFO - [0e12307c-6cdd-4842-a5fd-a8e4ce89a3be] Final answer: C10  (2.1s)
+2026-04-19 09:41:34,377 - root - INFO - [95m[0e12307c-6cdd-4842-a5fd-a8e4ce89a3be] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:36,376 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:36,377 - root - INFO - [8928b6a6-1748-4867-a93a-bee588505280] Final answer: C2  (2.0s)
+2026-04-19 09:41:36,377 - root - INFO - [95m[8928b6a6-1748-4867-a93a-bee588505280] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:38,510 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:38,511 - root - INFO - [1548ce1d-00fd-46f4-92ef-e9e2e5634b79] Final answer: C17  (2.1s)
+2026-04-19 09:41:38,511 - root - INFO - [95m[1548ce1d-00fd-46f4-92ef-e9e2e5634b79] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:38,516 - root - INFO - [V2] Saved 370/500  mean_iou=0.000
+2026-04-19 09:41:40,263 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:40,265 - root - INFO - [5e1fcdd2-93f9-4d95-94b1-11984382157b] Final answer: C5  (1.8s)
+2026-04-19 09:41:40,266 - root - INFO - [95m[5e1fcdd2-93f9-4d95-94b1-11984382157b] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:41,823 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:41,824 - root - INFO - [ac75112c-b997-437e-8619-bf142281c12e] Final answer: C15  (1.6s)
+2026-04-19 09:41:41,824 - root - INFO - [95m[ac75112c-b997-437e-8619-bf142281c12e] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:44,383 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:44,384 - root - INFO - [87b4d91d-d25d-46a9-92a8-1bcdba6226cf] Final answer: C9|C13|C17|C19  (2.6s)
+2026-04-19 09:41:44,385 - root - INFO - [95m[87b4d91d-d25d-46a9-92a8-1bcdba6226cf] pred='C9|C13|C17|C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:46,464 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:46,465 - root - INFO - [3aaf006c-159a-4211-bd78-88a52315e268] Final answer: C10  (2.1s)
+2026-04-19 09:41:46,465 - root - INFO - [95m[3aaf006c-159a-4211-bd78-88a52315e268] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:48,388 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:48,390 - root - INFO - [122ed1ed-155f-47e1-a4e0-d9e7ca9d8fb2] Final answer: C19  (1.9s)
+2026-04-19 09:41:48,390 - root - INFO - [95m[122ed1ed-155f-47e1-a4e0-d9e7ca9d8fb2] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:50,335 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:50,336 - root - INFO - [469f3384-ec85-4ce0-a15a-dc00059a7075] Final answer: C7  (1.9s)
+2026-04-19 09:41:50,337 - root - INFO - [95m[469f3384-ec85-4ce0-a15a-dc00059a7075] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:52,762 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:52,764 - root - INFO - [5efefb61-0415-44da-9ff6-6038d549969c] Final answer: C1|C2|C12|C17  (2.4s)
+2026-04-19 09:41:52,764 - root - INFO - [95m[5efefb61-0415-44da-9ff6-6038d549969c] pred='C1|C2|C12|C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:54,316 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:54,318 - root - INFO - [9e483a6b-b7cf-4a6e-821e-1c46e642b075] Final answer: C11  (1.6s)
+2026-04-19 09:41:54,318 - root - INFO - [95m[9e483a6b-b7cf-4a6e-821e-1c46e642b075] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:55,883 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:55,884 - root - INFO - [5a677dca-8d7a-4d51-8714-0b066e4e3fbe] Final answer: C18  (1.6s)
+2026-04-19 09:41:55,884 - root - INFO - [95m[5a677dca-8d7a-4d51-8714-0b066e4e3fbe] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:57,334 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:57,335 - root - INFO - [8349aaea-ebe7-4e8f-93b7-4c3c01f6564b] Final answer: C12  (1.4s)
+2026-04-19 09:41:57,335 - root - INFO - [95m[8349aaea-ebe7-4e8f-93b7-4c3c01f6564b] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:41:57,337 - root - INFO - [V2] Saved 380/500  mean_iou=0.000
+2026-04-19 09:41:59,424 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:41:59,425 - root - INFO - [19077dd1-dd86-40ee-bd61-66dbeaa07335] Final answer: C12  (2.1s)
+2026-04-19 09:41:59,425 - root - INFO - [95m[19077dd1-dd86-40ee-bd61-66dbeaa07335] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:00,999 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:01,000 - root - INFO - [e11e78d7-5e83-4420-8d92-7359d0b21c3f] Final answer: C19  (1.6s)
+2026-04-19 09:42:01,000 - root - INFO - [95m[e11e78d7-5e83-4420-8d92-7359d0b21c3f] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:02,534 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:02,535 - root - INFO - [1c0c8a27-a6be-46fd-ab1f-1d7a753f8859] Final answer: C12  (1.5s)
+2026-04-19 09:42:02,535 - root - INFO - [95m[1c0c8a27-a6be-46fd-ab1f-1d7a753f8859] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:04,500 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:04,501 - root - INFO - [cc0dfd0c-7874-46a6-87d0-ac2e9f260f12] Final answer: C4  (2.0s)
+2026-04-19 09:42:04,502 - root - INFO - [95m[cc0dfd0c-7874-46a6-87d0-ac2e9f260f12] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:06,583 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:06,584 - root - INFO - [89c591f4-5bbd-4ba4-83a5-d2a8b64e4632] Final answer: C12  (2.1s)
+2026-04-19 09:42:06,584 - root - INFO - [95m[89c591f4-5bbd-4ba4-83a5-d2a8b64e4632] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:08,646 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:08,647 - root - INFO - [53b4fc0a-3c84-490b-ac6c-91017df6722e] Final answer: C18  (2.1s)
+2026-04-19 09:42:08,648 - root - INFO - [95m[53b4fc0a-3c84-490b-ac6c-91017df6722e] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:10,352 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:10,353 - root - INFO - [e943b1d6-5591-45ab-8679-4c5f24687de7] Final answer: C11  (1.7s)
+2026-04-19 09:42:10,354 - root - INFO - [95m[e943b1d6-5591-45ab-8679-4c5f24687de7] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:11,809 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:11,810 - root - INFO - [f201f1dc-6557-447b-a799-3265bdaf667b] Final answer: C1  (1.5s)
+2026-04-19 09:42:11,811 - root - INFO - [95m[f201f1dc-6557-447b-a799-3265bdaf667b] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:13,395 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:13,396 - root - INFO - [27eda095-b6c0-4743-8881-3acbd7f5148e] Final answer: C21  (1.6s)
+2026-04-19 09:42:13,396 - root - INFO - [95m[27eda095-b6c0-4743-8881-3acbd7f5148e] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:14,909 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:14,910 - root - INFO - [ca01d1a5-79a8-41c6-9780-e474b27b74cc] Final answer: C21  (1.5s)
+2026-04-19 09:42:14,911 - root - INFO - [95m[ca01d1a5-79a8-41c6-9780-e474b27b74cc] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:14,914 - root - INFO - [V2] Saved 390/500  mean_iou=0.000
+2026-04-19 09:42:17,012 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:17,013 - root - INFO - [191a0f74-d6c1-4a5e-af10-aa3685e80415] Final answer: C20  (2.1s)
+2026-04-19 09:42:17,014 - root - INFO - [95m[191a0f74-d6c1-4a5e-af10-aa3685e80415] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:19,063 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:19,064 - root - INFO - [e49b192e-13df-4220-865c-cdfd37054473] Final answer: C13  (2.0s)
+2026-04-19 09:42:19,064 - root - INFO - [95m[e49b192e-13df-4220-865c-cdfd37054473] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:21,187 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:21,188 - root - INFO - [8b11cbf8-f180-4c39-9caa-1935ee50c931] Final answer: C11  (2.1s)
+2026-04-19 09:42:21,188 - root - INFO - [95m[8b11cbf8-f180-4c39-9caa-1935ee50c931] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:23,262 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:23,264 - root - INFO - [e9c9b2cd-239f-45e3-b69a-9309b25d12f8] Final answer: C15  (2.1s)
+2026-04-19 09:42:23,264 - root - INFO - [95m[e9c9b2cd-239f-45e3-b69a-9309b25d12f8] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:25,410 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:25,411 - root - INFO - [9805b484-d8fc-4e12-9aec-074849e9fe0e] Final answer: C22  (2.1s)
+2026-04-19 09:42:25,411 - root - INFO - [95m[9805b484-d8fc-4e12-9aec-074849e9fe0e] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:27,509 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:27,510 - root - INFO - [7f6cffd4-024e-4d9e-a863-2389400b369e] Final answer: C11  (2.1s)
+2026-04-19 09:42:27,510 - root - INFO - [95m[7f6cffd4-024e-4d9e-a863-2389400b369e] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:29,465 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:29,466 - root - INFO - [8677dcd5-2d84-463d-84c4-bce004387d51] Final answer: C16  (2.0s)
+2026-04-19 09:42:29,466 - root - INFO - [95m[8677dcd5-2d84-463d-84c4-bce004387d51] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:31,469 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:31,471 - root - INFO - [625fad59-5511-4898-a533-b7d6c419d505] Final answer: C14  (2.0s)
+2026-04-19 09:42:31,471 - root - INFO - [95m[625fad59-5511-4898-a533-b7d6c419d505] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:33,575 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:33,576 - root - INFO - [e129be25-f19a-499c-9b8b-45173972486d] Final answer: C15  (2.1s)
+2026-04-19 09:42:33,576 - root - INFO - [95m[e129be25-f19a-499c-9b8b-45173972486d] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:35,577 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:35,578 - root - INFO - [f9c5a2e6-8582-4665-8195-f29d1d6f44cc] Final answer: C6  (2.0s)
+2026-04-19 09:42:35,578 - root - INFO - [95m[f9c5a2e6-8582-4665-8195-f29d1d6f44cc] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:35,581 - root - INFO - [V2] Saved 400/500  mean_iou=0.000
+2026-04-19 09:42:37,414 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:37,415 - root - INFO - [17157c64-352a-484c-8519-2cec4231c5fa] Final answer: C11  (1.8s)
+2026-04-19 09:42:37,415 - root - INFO - [95m[17157c64-352a-484c-8519-2cec4231c5fa] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:39,348 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:39,349 - root - INFO - [85cc4eba-d238-4ef1-89df-e1e083c33f8d] Final answer: C3  (1.9s)
+2026-04-19 09:42:39,349 - root - INFO - [95m[85cc4eba-d238-4ef1-89df-e1e083c33f8d] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:41,113 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:41,114 - root - INFO - [58a6d4cf-6671-4bb6-977d-348ff6fad618] Final answer: C9  (1.8s)
+2026-04-19 09:42:41,115 - root - INFO - [95m[58a6d4cf-6671-4bb6-977d-348ff6fad618] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:43,255 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:43,256 - root - INFO - [3035b75d-2106-4199-ba95-2a8cb01ac0d4] Final answer: C22  (2.1s)
+2026-04-19 09:42:43,257 - root - INFO - [95m[3035b75d-2106-4199-ba95-2a8cb01ac0d4] pred='C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:45,425 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:45,426 - root - INFO - [87094513-9633-4ec4-b845-4d89b738bcac] Final answer: C15  (2.2s)
+2026-04-19 09:42:45,426 - root - INFO - [95m[87094513-9633-4ec4-b845-4d89b738bcac] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:47,553 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:47,555 - root - INFO - [dfb16541-9e49-4d32-a51c-9576ed10a2a2] Final answer: C12  (2.1s)
+2026-04-19 09:42:47,555 - root - INFO - [95m[dfb16541-9e49-4d32-a51c-9576ed10a2a2] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:49,556 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:49,558 - root - INFO - [8c8f264a-0758-4746-9938-848ad317586e] Final answer: C7  (2.0s)
+2026-04-19 09:42:49,558 - root - INFO - [95m[8c8f264a-0758-4746-9938-848ad317586e] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:52,369 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:52,371 - root - INFO - [78bd577f-2c2b-48e5-91ab-ca6d74bd4c04] Final answer: C4|C10|C19|C20  (2.8s)
+2026-04-19 09:42:52,371 - root - INFO - [95m[78bd577f-2c2b-48e5-91ab-ca6d74bd4c04] pred='C4|C10|C19|C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:53,907 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:53,909 - root - INFO - [85bc95aa-f021-4620-b8f1-005aed19bc15] Final answer: C10  (1.5s)
+2026-04-19 09:42:53,909 - root - INFO - [95m[85bc95aa-f021-4620-b8f1-005aed19bc15] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:55,399 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:55,400 - root - INFO - [55e4900f-dc88-420d-9428-d84fc9229deb] Final answer: C3  (1.5s)
+2026-04-19 09:42:55,400 - root - INFO - [95m[55e4900f-dc88-420d-9428-d84fc9229deb] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:55,403 - root - INFO - [V2] Saved 410/500  mean_iou=0.000
+2026-04-19 09:42:57,298 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:57,300 - root - INFO - [7fd88f00-290e-4275-b4fb-10cefa39292d] Final answer: C5  (1.9s)
+2026-04-19 09:42:57,300 - root - INFO - [95m[7fd88f00-290e-4275-b4fb-10cefa39292d] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:42:58,862 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:42:58,863 - root - INFO - [aceb0717-8db8-4035-8338-f00b10d9b76b] Final answer: C15  (1.6s)
+2026-04-19 09:42:58,863 - root - INFO - [95m[aceb0717-8db8-4035-8338-f00b10d9b76b] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:00,398 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:00,399 - root - INFO - [9877a44c-d716-4b19-b0f0-cca37cf0ec76] Final answer: C14  (1.5s)
+2026-04-19 09:43:00,399 - root - INFO - [95m[9877a44c-d716-4b19-b0f0-cca37cf0ec76] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:02,376 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:02,378 - root - INFO - [06a1c19a-2f07-4255-8361-5aaffcafa190] Final answer: C2  (2.0s)
+2026-04-19 09:43:02,378 - root - INFO - [95m[06a1c19a-2f07-4255-8361-5aaffcafa190] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:03,920 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:03,921 - root - INFO - [7ae7f4a7-dbfa-4300-8e22-827ac42f2cbd] Final answer: C19  (1.5s)
+2026-04-19 09:43:03,922 - root - INFO - [95m[7ae7f4a7-dbfa-4300-8e22-827ac42f2cbd] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:06,035 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:06,037 - root - INFO - [56f0c845-88f6-4e85-bad6-2bee62524801] Final answer: C20  (2.1s)
+2026-04-19 09:43:06,037 - root - INFO - [95m[56f0c845-88f6-4e85-bad6-2bee62524801] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:08,146 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:08,147 - root - INFO - [113b97c5-e231-4e88-bc81-7831b869771f] Final answer: C17  (2.1s)
+2026-04-19 09:43:08,148 - root - INFO - [95m[113b97c5-e231-4e88-bc81-7831b869771f] pred='C17'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:10,230 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:10,232 - root - INFO - [4866d7bf-6bbb-40e6-9ab0-616e44e5de3e] Final answer: C18  (2.1s)
+2026-04-19 09:43:10,232 - root - INFO - [95m[4866d7bf-6bbb-40e6-9ab0-616e44e5de3e] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:12,352 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:12,353 - root - INFO - [f83c3a67-1086-4156-a6ae-6f970c4e1849] Final answer: C15  (2.1s)
+2026-04-19 09:43:12,353 - root - INFO - [95m[f83c3a67-1086-4156-a6ae-6f970c4e1849] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:14,339 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:14,340 - root - INFO - [852494de-d192-4edc-b0f8-42475a4d8e4b] Final answer: C7  (2.0s)
+2026-04-19 09:43:14,340 - root - INFO - [95m[852494de-d192-4edc-b0f8-42475a4d8e4b] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:14,343 - root - INFO - [V2] Saved 420/500  mean_iou=0.000
+2026-04-19 09:43:15,872 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:15,873 - root - INFO - [38447098-245d-45c3-8dc2-1be1207deac7] Final answer: C14  (1.5s)
+2026-04-19 09:43:15,874 - root - INFO - [95m[38447098-245d-45c3-8dc2-1be1207deac7] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:17,916 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:17,917 - root - INFO - [dabca732-6b66-49c5-ba5b-b2ac8cca1437] Final answer: C21  (2.0s)
+2026-04-19 09:43:17,917 - root - INFO - [95m[dabca732-6b66-49c5-ba5b-b2ac8cca1437] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:19,737 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:19,738 - root - INFO - [c92759f6-59b4-41ea-9248-16b1a73dd166] Final answer: C1  (1.8s)
+2026-04-19 09:43:19,739 - root - INFO - [95m[c92759f6-59b4-41ea-9248-16b1a73dd166] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:21,892 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:21,893 - root - INFO - [87f2ea40-2bc5-463d-89a1-4b595641adfd] Final answer: C19  (2.1s)
+2026-04-19 09:43:21,893 - root - INFO - [95m[87f2ea40-2bc5-463d-89a1-4b595641adfd] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:23,947 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:23,949 - root - INFO - [0a7dad77-54c7-4efb-9ae4-1cdb2507cda1] Final answer: C13  (2.1s)
+2026-04-19 09:43:23,949 - root - INFO - [95m[0a7dad77-54c7-4efb-9ae4-1cdb2507cda1] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:25,955 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:25,957 - root - INFO - [9a924492-dc1f-467f-b815-b82be0bfef98] Final answer: C7  (2.0s)
+2026-04-19 09:43:25,957 - root - INFO - [95m[9a924492-dc1f-467f-b815-b82be0bfef98] pred='C7'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:28,109 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:28,110 - root - INFO - [8205389e-d634-4007-8260-f333bbdf4d10] Final answer: C15  (2.1s)
+2026-04-19 09:43:28,111 - root - INFO - [95m[8205389e-d634-4007-8260-f333bbdf4d10] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:30,108 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:30,110 - root - INFO - [279df29d-cd9e-4bd4-bdc3-e443a781f3ae] Final answer: C5  (2.0s)
+2026-04-19 09:43:30,110 - root - INFO - [95m[279df29d-cd9e-4bd4-bdc3-e443a781f3ae] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:32,133 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:32,135 - root - INFO - [375b6cf0-1d6d-46c0-8a81-ef9bf11ce9d6] Final answer: C13  (2.0s)
+2026-04-19 09:43:32,135 - root - INFO - [95m[375b6cf0-1d6d-46c0-8a81-ef9bf11ce9d6] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:34,123 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:34,124 - root - INFO - [162e9a74-99c1-48bf-9a7f-ff461ae88dec] Final answer: C6  (2.0s)
+2026-04-19 09:43:34,125 - root - INFO - [95m[162e9a74-99c1-48bf-9a7f-ff461ae88dec] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:34,127 - root - INFO - [V2] Saved 430/500  mean_iou=0.000
+2026-04-19 09:43:36,284 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:36,286 - root - INFO - [ba03de5c-3874-4be5-a820-91ff6e2c66dc] Final answer: C12  (2.2s)
+2026-04-19 09:43:36,286 - root - INFO - [95m[ba03de5c-3874-4be5-a820-91ff6e2c66dc] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:38,305 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:38,306 - root - INFO - [20ceba42-006a-4a62-9738-27fb476facab] Final answer: C2  (2.0s)
+2026-04-19 09:43:38,306 - root - INFO - [95m[20ceba42-006a-4a62-9738-27fb476facab] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:40,459 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:40,460 - root - INFO - [0c778413-a8d8-44aa-a7ec-d70d1c85edfe] Final answer: C20  (2.1s)
+2026-04-19 09:43:40,460 - root - INFO - [95m[0c778413-a8d8-44aa-a7ec-d70d1c85edfe] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:44,060 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:44,061 - root - INFO - [61d117ca-f7d6-4bb4-941a-99d9394012dd] Final answer: C11|C20|C21|C22  (3.6s)
+2026-04-19 09:43:44,061 - root - INFO - [95m[61d117ca-f7d6-4bb4-941a-99d9394012dd] pred='C11|C20|C21|C22'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:46,192 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:46,193 - root - INFO - [cd7425c1-f243-43f4-8b73-fefb9ae47553] Final answer: C13  (2.1s)
+2026-04-19 09:43:46,193 - root - INFO - [95m[cd7425c1-f243-43f4-8b73-fefb9ae47553] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:48,252 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:48,254 - root - INFO - [13332a50-9e81-482b-8e42-09fac1d1dc20] Final answer: C13  (2.1s)
+2026-04-19 09:43:48,254 - root - INFO - [95m[13332a50-9e81-482b-8e42-09fac1d1dc20] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:50,375 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:50,376 - root - INFO - [83cee0ce-2bbf-482e-94e5-1910a7ce7688] Final answer: C21  (2.1s)
+2026-04-19 09:43:50,376 - root - INFO - [95m[83cee0ce-2bbf-482e-94e5-1910a7ce7688] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:52,356 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:52,357 - root - INFO - [ad0b061e-9122-41fa-940b-3f8348a42138] Final answer: C6  (2.0s)
+2026-04-19 09:43:52,357 - root - INFO - [95m[ad0b061e-9122-41fa-940b-3f8348a42138] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:54,490 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:54,491 - root - INFO - [e3217eba-56be-49c0-ac3b-78fc298dcf55] Final answer: C14  (2.1s)
+2026-04-19 09:43:54,491 - root - INFO - [95m[e3217eba-56be-49c0-ac3b-78fc298dcf55] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:56,648 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:56,649 - root - INFO - [8a5359c1-ae64-48e6-9bf4-2e75a9062d93] Final answer: C14  (2.2s)
+2026-04-19 09:43:56,649 - root - INFO - [95m[8a5359c1-ae64-48e6-9bf4-2e75a9062d93] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:43:56,652 - root - INFO - [V2] Saved 440/500  mean_iou=0.000
+2026-04-19 09:43:58,574 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:43:58,575 - root - INFO - [c077ae18-f4b2-4c94-bdda-8f6c323ae216] Final answer: C4  (1.9s)
+2026-04-19 09:43:58,575 - root - INFO - [95m[c077ae18-f4b2-4c94-bdda-8f6c323ae216] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:00,583 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:00,584 - root - INFO - [f8b790f0-b34a-4003-897f-2759c4ffc007] Final answer: C3  (2.0s)
+2026-04-19 09:44:00,585 - root - INFO - [95m[f8b790f0-b34a-4003-897f-2759c4ffc007] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:02,555 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:02,556 - root - INFO - [043f6132-917a-432b-91ea-64db57ed0cda] Final answer: C9  (2.0s)
+2026-04-19 09:44:02,556 - root - INFO - [95m[043f6132-917a-432b-91ea-64db57ed0cda] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:04,682 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:04,684 - root - INFO - [80ee0db6-6fa8-4797-a5da-7a623e754423] Final answer: C19  (2.1s)
+2026-04-19 09:44:04,684 - root - INFO - [95m[80ee0db6-6fa8-4797-a5da-7a623e754423] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:06,735 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:06,736 - root - INFO - [b144d49f-5938-4f43-b662-9f9aa35ca48e] Final answer: C21  (2.0s)
+2026-04-19 09:44:06,736 - root - INFO - [95m[b144d49f-5938-4f43-b662-9f9aa35ca48e] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:08,835 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:08,837 - root - INFO - [db674175-94d6-4040-b142-be728f37d16a] Final answer: C15  (2.1s)
+2026-04-19 09:44:08,837 - root - INFO - [95m[db674175-94d6-4040-b142-be728f37d16a] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:10,994 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:10,996 - root - INFO - [98d94e6f-74db-4933-ac1e-c1b48c452d7d] Final answer: C21  (2.2s)
+2026-04-19 09:44:10,996 - root - INFO - [95m[98d94e6f-74db-4933-ac1e-c1b48c452d7d] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:13,122 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:13,124 - root - INFO - [4108db9f-92e9-4d1a-8e71-02bb23e8e909] Final answer: C18  (2.1s)
+2026-04-19 09:44:13,124 - root - INFO - [95m[4108db9f-92e9-4d1a-8e71-02bb23e8e909] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:15,278 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:15,279 - root - INFO - [0398bf0e-df2c-4049-a2d9-792a45ae49d4] Final answer: C14  (2.2s)
+2026-04-19 09:44:15,280 - root - INFO - [95m[0398bf0e-df2c-4049-a2d9-792a45ae49d4] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:17,278 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:17,279 - root - INFO - [b33a9a1e-d851-4b55-8e6e-0d5b3658834d] Final answer: C4  (2.0s)
+2026-04-19 09:44:17,280 - root - INFO - [95m[b33a9a1e-d851-4b55-8e6e-0d5b3658834d] pred='C4'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:17,282 - root - INFO - [V2] Saved 450/500  mean_iou=0.000
+2026-04-19 09:44:19,237 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:19,238 - root - INFO - [cea6a945-03a2-42f1-b6f4-4a024bff4c6d] Final answer: C9  (2.0s)
+2026-04-19 09:44:19,239 - root - INFO - [95m[cea6a945-03a2-42f1-b6f4-4a024bff4c6d] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:21,278 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:21,279 - root - INFO - [4cfe0816-ced9-4d7b-ade7-cb27a46c97b0] Final answer: C14  (2.0s)
+2026-04-19 09:44:21,279 - root - INFO - [95m[4cfe0816-ced9-4d7b-ade7-cb27a46c97b0] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:23,257 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:23,258 - root - INFO - [bd45cfcc-0780-42f3-b110-28d7e43d8b2b] Final answer: C5  (2.0s)
+2026-04-19 09:44:23,258 - root - INFO - [95m[bd45cfcc-0780-42f3-b110-28d7e43d8b2b] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:25,225 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:25,226 - root - INFO - [97c0218f-91c5-4382-b371-59dd9eb8138d] Final answer: C3  (2.0s)
+2026-04-19 09:44:25,226 - root - INFO - [95m[97c0218f-91c5-4382-b371-59dd9eb8138d] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:27,343 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:27,344 - root - INFO - [b25a3f95-073f-43a0-8322-87a13871a6de] Final answer: C15  (2.1s)
+2026-04-19 09:44:27,344 - root - INFO - [95m[b25a3f95-073f-43a0-8322-87a13871a6de] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:29,447 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:29,448 - root - INFO - [d1cf0274-e713-4252-97b6-dd6ff0e20e1a] Final answer: C16  (2.1s)
+2026-04-19 09:44:29,448 - root - INFO - [95m[d1cf0274-e713-4252-97b6-dd6ff0e20e1a] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:31,331 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:31,332 - root - INFO - [5b81cf32-74f6-409f-8ce5-28bcc1cf1952] Final answer: C6  (1.9s)
+2026-04-19 09:44:31,332 - root - INFO - [95m[5b81cf32-74f6-409f-8ce5-28bcc1cf1952] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:33,311 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:33,312 - root - INFO - [b8b8ac25-0944-41ec-a668-c9b1e861f9cc] Final answer: C8  (2.0s)
+2026-04-19 09:44:33,313 - root - INFO - [95m[b8b8ac25-0944-41ec-a668-c9b1e861f9cc] pred='C8'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:35,429 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:35,430 - root - INFO - [2e8837d5-7779-4925-8e66-b75b185757ab] Final answer: C12  (2.1s)
+2026-04-19 09:44:35,430 - root - INFO - [95m[2e8837d5-7779-4925-8e66-b75b185757ab] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:37,558 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:37,560 - root - INFO - [f2e50ae6-693f-4c61-ae43-787bf580ebd1] Final answer: C19  (2.1s)
+2026-04-19 09:44:37,560 - root - INFO - [95m[f2e50ae6-693f-4c61-ae43-787bf580ebd1] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:37,563 - root - INFO - [V2] Saved 460/500  mean_iou=0.000
+2026-04-19 09:44:39,666 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:39,667 - root - INFO - [a577deab-98fa-437f-9d62-8a24dd68eb29] Final answer: C14  (2.1s)
+2026-04-19 09:44:39,667 - root - INFO - [95m[a577deab-98fa-437f-9d62-8a24dd68eb29] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:41,751 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:41,752 - root - INFO - [876ed32a-9d20-451a-ab34-cf00a359c9ab] Final answer: C16  (2.1s)
+2026-04-19 09:44:41,752 - root - INFO - [95m[876ed32a-9d20-451a-ab34-cf00a359c9ab] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:43,270 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:43,272 - root - INFO - [f36fa200-2663-43b7-9c2e-38e2d86d4cdd] Final answer: C11  (1.5s)
+2026-04-19 09:44:43,272 - root - INFO - [95m[f36fa200-2663-43b7-9c2e-38e2d86d4cdd] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:44,807 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:44,809 - root - INFO - [30773ba2-5573-4f07-96ee-9d00c33f3c44] Final answer: C10  (1.5s)
+2026-04-19 09:44:44,809 - root - INFO - [95m[30773ba2-5573-4f07-96ee-9d00c33f3c44] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:46,390 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:46,392 - root - INFO - [cde99b8d-9cf0-4b85-8405-ab7f1332f668] Final answer: C12  (1.6s)
+2026-04-19 09:44:46,392 - root - INFO - [95m[cde99b8d-9cf0-4b85-8405-ab7f1332f668] pred='C12'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:48,469 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:48,471 - root - INFO - [7d3b4269-14da-4f3a-88e9-ef870a78e642] Final answer: C15  (2.1s)
+2026-04-19 09:44:48,471 - root - INFO - [95m[7d3b4269-14da-4f3a-88e9-ef870a78e642] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:50,469 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:50,471 - root - INFO - [62ef2bda-6321-4d14-8552-23ba22c8070d] Final answer: C2  (2.0s)
+2026-04-19 09:44:50,471 - root - INFO - [95m[62ef2bda-6321-4d14-8552-23ba22c8070d] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:52,264 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:52,265 - root - INFO - [306eb76b-a77c-4a9b-b44e-5dc10d932ee9] Final answer: C1  (1.8s)
+2026-04-19 09:44:52,265 - root - INFO - [95m[306eb76b-a77c-4a9b-b44e-5dc10d932ee9] pred='C1'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:54,242 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:54,244 - root - INFO - [d86c1476-bc33-49b9-bb53-c7b2424d31cf] Final answer: C2  (2.0s)
+2026-04-19 09:44:54,244 - root - INFO - [95m[d86c1476-bc33-49b9-bb53-c7b2424d31cf] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:56,259 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:56,261 - root - INFO - [0b51cf22-a36d-422a-aa3e-dfa9bc30773d] Final answer: C2  (2.0s)
+2026-04-19 09:44:56,262 - root - INFO - [95m[0b51cf22-a36d-422a-aa3e-dfa9bc30773d] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:44:56,266 - root - INFO - [V2] Saved 470/500  mean_iou=0.000
+2026-04-19 09:44:58,363 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:44:58,365 - root - INFO - [c315a094-589c-44a7-8f5f-e7f99ec63aff] Final answer: C14  (2.1s)
+2026-04-19 09:44:58,365 - root - INFO - [95m[c315a094-589c-44a7-8f5f-e7f99ec63aff] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:00,491 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:00,492 - root - INFO - [1af6a259-71b8-4058-8cfd-26e89184d672] Final answer: C14  (2.1s)
+2026-04-19 09:45:00,492 - root - INFO - [95m[1af6a259-71b8-4058-8cfd-26e89184d672] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:02,229 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:02,231 - root - INFO - [411f9e52-9f4f-4952-9eb1-5b9e1841e7f6] Final answer: C6  (1.7s)
+2026-04-19 09:45:02,232 - root - INFO - [95m[411f9e52-9f4f-4952-9eb1-5b9e1841e7f6] pred='C6'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:03,757 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:03,759 - root - INFO - [efd34331-bd21-4967-97af-f8fce4cc7038] Final answer: C19  (1.5s)
+2026-04-19 09:45:03,759 - root - INFO - [95m[efd34331-bd21-4967-97af-f8fce4cc7038] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:05,276 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:05,277 - root - INFO - [2b0b5c18-06ca-445f-98e3-c040f2aeb22b] Final answer: C20  (1.5s)
+2026-04-19 09:45:05,277 - root - INFO - [95m[2b0b5c18-06ca-445f-98e3-c040f2aeb22b] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:07,300 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:07,301 - root - INFO - [85114ee1-3aca-4d8e-b020-594cc0d393a5] Final answer: C10  (2.0s)
+2026-04-19 09:45:07,301 - root - INFO - [95m[85114ee1-3aca-4d8e-b020-594cc0d393a5] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:09,098 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:09,100 - root - INFO - [9224ad4a-0eb9-46d3-b18c-e9a7eb7604b9] Final answer: C20  (1.8s)
+2026-04-19 09:45:09,101 - root - INFO - [95m[9224ad4a-0eb9-46d3-b18c-e9a7eb7604b9] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:10,599 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:10,600 - root - INFO - [81e4c4d8-23e0-42ab-a9ab-160e44205757] Final answer: C13  (1.5s)
+2026-04-19 09:45:10,600 - root - INFO - [95m[81e4c4d8-23e0-42ab-a9ab-160e44205757] pred='C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:12,206 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:12,208 - root - INFO - [86b8d1cc-5b7c-4ed8-b008-7c9d03b6dba3] Final answer: C20  (1.6s)
+2026-04-19 09:45:12,208 - root - INFO - [95m[86b8d1cc-5b7c-4ed8-b008-7c9d03b6dba3] pred='C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:13,751 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:13,753 - root - INFO - [17c4c305-4583-41a7-8a0e-c940c7a3d5fb] Final answer: C11  (1.5s)
+2026-04-19 09:45:13,753 - root - INFO - [95m[17c4c305-4583-41a7-8a0e-c940c7a3d5fb] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:13,758 - root - INFO - [V2] Saved 480/500  mean_iou=0.000
+2026-04-19 09:45:15,207 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:15,208 - root - INFO - [2f747ef2-f964-4acf-ad49-bccad40b6ef9] Final answer: C5  (1.4s)
+2026-04-19 09:45:15,209 - root - INFO - [95m[2f747ef2-f964-4acf-ad49-bccad40b6ef9] pred='C5'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:16,749 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:16,750 - root - INFO - [ec8fae76-aa46-426d-9c6b-180de8a76429] Final answer: C10  (1.5s)
+2026-04-19 09:45:16,751 - root - INFO - [95m[ec8fae76-aa46-426d-9c6b-180de8a76429] pred='C10'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:19,199 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:19,200 - root - INFO - [b181851b-2d29-49da-9b85-2b2f7f0df2e4] Final answer: C4|C9|C12|C20  (2.5s)
+2026-04-19 09:45:19,201 - root - INFO - [95m[b181851b-2d29-49da-9b85-2b2f7f0df2e4] pred='C4|C9|C12|C20'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:21,306 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:21,307 - root - INFO - [ef0a6aea-c74c-4027-8d04-bf8264f1800b] Final answer: C14  (2.1s)
+2026-04-19 09:45:21,307 - root - INFO - [95m[ef0a6aea-c74c-4027-8d04-bf8264f1800b] pred='C14'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:23,243 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:23,247 - root - INFO - [a416ebda-2f57-4e20-810b-08863a632d2e] Final answer: C15  (1.9s)
+2026-04-19 09:45:23,249 - root - INFO - [95m[a416ebda-2f57-4e20-810b-08863a632d2e] pred='C15'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:24,743 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:24,745 - root - INFO - [c96e627c-7062-4b38-a668-1b54b3d956b2] Final answer: C18  (1.5s)
+2026-04-19 09:45:24,745 - root - INFO - [95m[c96e627c-7062-4b38-a668-1b54b3d956b2] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:26,861 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:26,863 - root - INFO - [b822373e-3d9f-4aa3-ab8a-e16ff8b63ceb] Final answer: C21  (2.1s)
+2026-04-19 09:45:26,863 - root - INFO - [95m[b822373e-3d9f-4aa3-ab8a-e16ff8b63ceb] pred='C21'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:28,717 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:28,719 - root - INFO - [f2269270-7706-4777-86fe-19638fb8036b] Final answer: C9  (1.9s)
+2026-04-19 09:45:28,719 - root - INFO - [95m[f2269270-7706-4777-86fe-19638fb8036b] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:30,171 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:30,173 - root - INFO - [0afc34cc-d900-4ac7-9e4c-f80046460e69] Final answer: C3  (1.4s)
+2026-04-19 09:45:30,173 - root - INFO - [95m[0afc34cc-d900-4ac7-9e4c-f80046460e69] pred='C3'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:31,688 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:31,690 - root - INFO - [923e2a8a-c179-4910-a000-bb225c4c9f94] Final answer: C18  (1.5s)
+2026-04-19 09:45:31,690 - root - INFO - [95m[923e2a8a-c179-4910-a000-bb225c4c9f94] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:31,694 - root - INFO - [V2] Saved 490/500  mean_iou=0.000
+2026-04-19 09:45:33,182 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:33,183 - root - INFO - [d665ee22-b321-4006-b16d-2536082a5501] Final answer: C11  (1.5s)
+2026-04-19 09:45:33,184 - root - INFO - [95m[d665ee22-b321-4006-b16d-2536082a5501] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:34,878 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:34,880 - root - INFO - [c29d8867-ce87-4096-886c-0e3e48f88463] Final answer: C11  (1.7s)
+2026-04-19 09:45:34,880 - root - INFO - [95m[c29d8867-ce87-4096-886c-0e3e48f88463] pred='C11'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:36,383 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:36,384 - root - INFO - [d177a511-d4d0-4381-affc-8cfca79ff936] Final answer: C16  (1.5s)
+2026-04-19 09:45:36,384 - root - INFO - [95m[d177a511-d4d0-4381-affc-8cfca79ff936] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:38,462 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:38,464 - root - INFO - [c4968703-ff24-401d-80f7-2f4ce2486e25] Final answer: C19  (2.1s)
+2026-04-19 09:45:38,465 - root - INFO - [95m[c4968703-ff24-401d-80f7-2f4ce2486e25] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:40,633 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:40,635 - root - INFO - [20246447-016a-4262-80f5-9ec14f2a852a] Final answer: C19  (2.2s)
+2026-04-19 09:45:40,635 - root - INFO - [95m[20246447-016a-4262-80f5-9ec14f2a852a] pred='C19'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:42,761 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:42,762 - root - INFO - [0d0eb9a9-641e-4c9d-8ac4-a009996d42ec] Fallback to top candidate: C9
+2026-04-19 09:45:42,762 - root - INFO - [0d0eb9a9-641e-4c9d-8ac4-a009996d42ec] Final answer: C9  (2.1s)
+2026-04-19 09:45:42,763 - root - INFO - [95m[0d0eb9a9-641e-4c9d-8ac4-a009996d42ec] pred='C9'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:44,776 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:44,777 - root - INFO - [a43ccc33-0022-4a2e-b6ad-8d333cc37e67] Final answer: C2  (2.0s)
+2026-04-19 09:45:44,778 - root - INFO - [95m[a43ccc33-0022-4a2e-b6ad-8d333cc37e67] pred='C2'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:46,418 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:46,420 - root - INFO - [4797741d-1691-49cb-ad1e-b57c1502b03c] Final answer: C16  (1.6s)
+2026-04-19 09:45:46,420 - root - INFO - [95m[4797741d-1691-49cb-ad1e-b57c1502b03c] pred='C16'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:48,020 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:48,022 - root - INFO - [2c1973e2-3000-448b-a016-857b591c6069] Final answer: C18  (1.6s)
+2026-04-19 09:45:48,022 - root - INFO - [95m[2c1973e2-3000-448b-a016-857b591c6069] pred='C18'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:50,332 - httpx - INFO - HTTP Request: POST http://localhost:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-19 09:45:50,334 - root - INFO - [f95c5233-bd9c-4305-8bd4-5385158c436e] Final answer: C2|C7|C8|C13  (2.3s)
+2026-04-19 09:45:50,334 - root - INFO - [95m[f95c5233-bd9c-4305-8bd4-5385158c436e] pred='C2|C7|C8|C13'  gt='To be determined'  iou=0.000[0m
+2026-04-19 09:45:50,340 - root - INFO - [V2] Saved 500/500  mean_iou=0.000
+2026-04-19 09:45:50,341 - root - INFO - [V2] Done. Final mean IOU: 0.000

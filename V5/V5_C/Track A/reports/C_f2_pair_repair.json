@@ -1,0 +1,199 @@
+{
+  "base_csv": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_v5_07_adj_only.csv",
+  "out_csv": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_v5_10_adj_only_plus_f2_pair_fix.csv",
+  "changed_rows": 10,
+  "skipped_rows": 0,
+  "pair_split_in_fix": {
+    "azimuth": 7,
+    "tilt": 3
+  },
+  "changes": [
+    {
+      "sid": "f428f517-0bcd-4d13-b31a-929eb3584363",
+      "old": "C1|C6|C9|C20",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C2|C18",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.66,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "732ac9cf-5ad2-4934-a5f6-f41d6edde04e",
+      "old": "C6|C12|C15|C19",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C8|C9",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.66,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "13482c57-c7d2-40b3-8020-c45ff3a396f4",
+      "old": "C1|C4|C6|C22",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C3|C17",
+      "new_actions": [
+        "decrease_power",
+        "press_down_tilt"
+      ],
+      "new_score": 0.74,
+      "pair_kind": "tilt",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "ddb040fe-708c-472d-8ef6-584b8ec5b7ec",
+      "old": "C1|C2|C12|C20",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C4|C10",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.66,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "f02d340d-18c0-43c9-ae9c-c6132c5fe719",
+      "old": "C10|C15|C20|C22",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C7|C9",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.662,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "e83a09dd-795a-4066-9f5c-2de6da46dfea",
+      "old": "C13|C14|C15|C23",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C6|C16",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.66,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "a4176c2c-458b-4c9c-b89b-c0c873747d0b",
+      "old": "C12|C13|C19|C20",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C2|C10",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.6856,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    },
+    {
+      "sid": "acb8a1db-6d3f-4949-b26f-bdab3ec0008b",
+      "old": "C6|C24",
+      "old_actions": [
+        "decrease_a3",
+        "add_neighbor"
+      ],
+      "old_cardinality": 2,
+      "new": "C2|C11",
+      "new_actions": [
+        "decrease_power",
+        "press_down_tilt"
+      ],
+      "new_score": 0.74,
+      "pair_kind": "tilt",
+      "top_issue": "missing_neighbor"
+    },
+    {
+      "sid": "20bee2a8-0b4f-40a8-9406-46d9ea820a8f",
+      "old": "C5|C13",
+      "old_actions": [
+        "decrease_a3",
+        "add_neighbor"
+      ],
+      "old_cardinality": 2,
+      "new": "C1|C20",
+      "new_actions": [
+        "decrease_power",
+        "press_down_tilt"
+      ],
+      "new_score": 0.74,
+      "pair_kind": "tilt",
+      "top_issue": "missing_neighbor"
+    },
+    {
+      "sid": "ba05f47d-e2a7-4f60-b05a-a521d84bbeef",
+      "old": "C11|C16|C18|C19",
+      "old_actions": [
+        "decrease_a3",
+        "decrease_power",
+        "add_neighbor",
+        "press_down_tilt"
+      ],
+      "old_cardinality": 4,
+      "new": "C5|C9",
+      "new_actions": [
+        "increase_power",
+        "adjust_azimuth"
+      ],
+      "new_score": 0.66,
+      "pair_kind": "azimuth",
+      "top_issue": "late_handover"
+    }
+  ],
+  "skipped": []
+}

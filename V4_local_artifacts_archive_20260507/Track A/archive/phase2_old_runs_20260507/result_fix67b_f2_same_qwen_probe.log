@@ -1,0 +1,122 @@
+2026-05-06 15:19:50,821 - root - INFO - Scenario ID filter: 22/500 selected
+2026-05-06 15:19:50,821 - root - INFO - Loaded 22 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 15:19:50,854 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-06 15:19:50,929 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V4/Track A/data/Phase_1/train.json
+2026-05-06 15:19:50,929 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:20:05,862 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:20:05,882 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] LLM arbitration accepted answer='C6|C15' deterministic='C6|C15' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:20:05,882 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3277938_4 (serving=3230529_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:20:05,882 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] done in 15.0s — answer: 'C6|C15'
+2026-05-06 15:20:05,883 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:20:17,553 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:20:17,555 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] LLM arbitration accepted answer='C1|C23' deterministic='C1|C23' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:20:17,556 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3279414_3 (serving=3220409_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:20:17,556 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] done in 11.7s — answer: 'C1|C23'
+2026-05-06 15:20:17,557 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:20:32,985 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:20:32,986 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] LLM arbitration accepted answer='C16|C23' deterministic='C16|C23' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:20:32,986 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] answer='C16|C23' top_candidate={'answer': 'C16|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270392_2 (serving=3261278_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:20:32,986 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] done in 15.4s — answer: 'C16|C23'
+2026-05-06 15:20:32,987 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:20:46,582 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:20:46,586 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] LLM arbitration accepted answer='C4|C21' deterministic='C4|C21' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:20:46,587 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] answer='C4|C21' top_candidate={'answer': 'C4|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3222719_1 (serving=3246815_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:20:46,587 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] done in 13.6s — answer: 'C4|C21'
+2026-05-06 15:20:46,588 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:21:00,394 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:21:00,396 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] LLM arbitration accepted answer='C6|C7' deterministic='C6|C7' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:21:00,397 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3262929_4 (serving=3271115_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:21:00,397 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] done in 13.8s — answer: 'C6|C7'
+2026-05-06 15:21:00,399 - root - INFO - Saved 5 rows → results/phase2/result_fix67b_f2_same_qwen_probe.csv
+2026-05-06 15:21:00,399 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:21:11,370 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:21:11,373 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] LLM arbitration accepted answer='C10|C22' deterministic='C10|C22' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:21:11,373 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] answer='C10|C22' top_candidate={'answer': 'C10|C22', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3249698_4 (serving=3248446_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:21:11,373 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] done in 11.0s — answer: 'C10|C22'
+2026-05-06 15:21:11,375 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:21:25,992 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:21:25,994 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] LLM arbitration accepted answer='C17|C23' deterministic='C17|C23' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:21:25,994 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] answer='C17|C23' top_candidate={'answer': 'C17|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3241057_3 (serving=3215976_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:21:25,994 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] done in 14.6s — answer: 'C17|C23'
+2026-05-06 15:21:25,995 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:21:36,775 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:21:36,780 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] LLM arbitration accepted answer='C3|C11' deterministic='C3|C11' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:21:36,780 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] answer='C3|C11' top_candidate={'answer': 'C3|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3254576_2 (serving=3254560_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:21:36,781 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] done in 10.8s — answer: 'C3|C11'
+2026-05-06 15:21:36,782 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:21:50,350 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:21:50,351 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] LLM arbitration accepted answer='C1|C23' deterministic='C1|C23' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:21:50,351 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3231075_3 (serving=3231153_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:21:50,351 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] done in 13.6s — answer: 'C1|C23'
+2026-05-06 15:21:50,352 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:22:01,590 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:22:01,592 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] LLM arbitration accepted answer='C19|C20' deterministic='C19|C20' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:22:01,592 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] answer='C19|C20' top_candidate={'answer': 'C19|C20', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3234713_1 (serving=3259753_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:22:01,593 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] done in 11.2s — answer: 'C19|C20'
+2026-05-06 15:22:01,595 - root - INFO - Saved 10 rows → results/phase2/result_fix67b_f2_same_qwen_probe.csv
+2026-05-06 15:22:01,595 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:22:11,723 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:22:11,726 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] LLM arbitration accepted answer='C8|C23' deterministic='C8|C23' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:22:11,726 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] answer='C8|C23' top_candidate={'answer': 'C8|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3251790_2 (serving=3221449_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:22:11,727 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] done in 10.1s — answer: 'C8|C23'
+2026-05-06 15:22:11,728 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:22:21,907 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:22:21,908 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] LLM arbitration accepted answer='C9|C19' deterministic='C9|C19' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:22:21,908 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] answer='C9|C19' top_candidate={'answer': 'C9|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3248612_2 (serving=3245939_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:22:21,909 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] done in 10.2s — answer: 'C9|C19'
+2026-05-06 15:22:21,909 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:22:33,586 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:22:33,588 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] LLM arbitration accepted answer='C9|C13' deterministic='C9|C13' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:22:33,589 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] answer='C9|C13' top_candidate={'answer': 'C9|C13', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3249463_4 (serving=3215110_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:22:33,589 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] done in 11.7s — answer: 'C9|C13'
+2026-05-06 15:22:33,590 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:22:45,659 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:22:45,661 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] LLM arbitration accepted answer='C13|C23' deterministic='C13|C23' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:22:45,661 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] answer='C13|C23' top_candidate={'answer': 'C13|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270874_4 (serving=3211990_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:22:45,662 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] done in 12.1s — answer: 'C13|C23'
+2026-05-06 15:22:45,663 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:22:58,749 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:22:58,750 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] LLM arbitration accepted answer='C10|C21' deterministic='C10|C21' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:22:58,751 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] answer='C10|C21' top_candidate={'answer': 'C10|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3240653_2 (serving=3241858_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:22:58,751 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] done in 13.1s — answer: 'C10|C21'
+2026-05-06 15:22:58,752 - root - INFO - Saved 15 rows → results/phase2/result_fix67b_f2_same_qwen_probe.csv
+2026-05-06 15:22:58,752 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:23:17,273 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:23:17,275 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] LLM arbitration accepted answer='C16|C17' deterministic='C16|C17' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:23:17,275 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] answer='C16|C17' top_candidate={'answer': 'C16|C17', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270939_2 (serving=3278421_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:23:17,275 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] done in 18.5s — answer: 'C16|C17'
+2026-05-06 15:23:17,275 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:23:28,906 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:23:28,908 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] LLM arbitration accepted answer='C11|C16' deterministic='C11|C16' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:23:28,909 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] answer='C11|C16' top_candidate={'answer': 'C11|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3267805_4 (serving=3230702_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:23:28,909 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] done in 11.6s — answer: 'C11|C16'
+2026-05-06 15:23:28,910 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:23:39,884 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:23:39,887 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] LLM arbitration accepted answer='C6|C15' deterministic='C6|C15' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:23:39,887 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3246721_1 (serving=3265680_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:23:39,887 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] done in 11.0s — answer: 'C6|C15'
+2026-05-06 15:23:39,888 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:23:54,342 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:23:54,344 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] LLM arbitration accepted answer='C12|C14' deterministic='C12|C14' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:23:54,345 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] answer='C12|C14' top_candidate={'answer': 'C12|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3243738_1 (serving=3224196_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:23:54,345 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] done in 14.5s — answer: 'C12|C14'
+2026-05-06 15:23:54,346 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:24:07,872 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:24:07,875 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] LLM arbitration accepted answer='C6|C12' deterministic='C6|C12' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:24:07,876 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] answer='C6|C12' top_candidate={'answer': 'C6|C12', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3228764_4 (serving=3237137_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:24:07,877 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] done in 13.5s — answer: 'C6|C12'
+2026-05-06 15:24:07,880 - root - INFO - Saved 20 rows → results/phase2/result_fix67b_f2_same_qwen_probe.csv
+2026-05-06 15:24:07,880 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:24:19,092 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:24:19,093 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] LLM arbitration accepted answer='C4|C19' deterministic='C4|C19' reasons=multi_answer_cell_pair_selection
+2026-05-06 15:24:19,093 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] answer='C4|C19' top_candidate={'answer': 'C4|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3273026_4 (serving=3234587_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:24:19,093 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] done in 11.2s — answer: 'C4|C19'
+2026-05-06 15:24:19,094 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:24:33,071 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 15:24:33,073 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] LLM arbitration accepted answer='C1|C15' deterministic='C1|C15' reasons=multi_answer_cell_pair_selection,high_risk_issue:coverage_hole,close_candidate_gap:0.000
+2026-05-06 15:24:33,074 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] answer='C1|C15' top_candidate={'answer': 'C1|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3258117_3 (serving=3261312_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:24:33,074 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] done in 14.0s — answer: 'C1|C15'
+2026-05-06 15:24:33,076 - root - INFO - Saved 22 rows → results/phase2/result_fix67b_f2_same_qwen_probe.csv
+2026-05-06 15:24:33,076 - root - INFO - Saved 22 rows → results/phase2/result_fix67b_f2_same_qwen_probe.csv
+2026-05-06 15:24:33,077 - root - INFO - 
+Done. 22/22 answered in 282s (avg 12.8s/scenario)

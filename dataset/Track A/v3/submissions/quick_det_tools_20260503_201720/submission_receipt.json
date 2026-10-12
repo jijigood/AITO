@@ -1,0 +1,41 @@
+{
+  "timestamp_utc": "2026-05-03T12:17:41.860771+00:00",
+  "dry_run": true,
+  "server_url": "http://127.0.0.1:7860",
+  "model_url": "http://127.0.0.1:8001/v1",
+  "lora": "checkpoints/v3_a3_corrected",
+  "output_dir": "submissions/quick_det_tools_20260503_201720",
+  "command": [
+    "/home/huangxiaolin/AITO/bin/python",
+    "/home/huangxiaolin/AITO/dataset/Track A/v3/main_v3.py",
+    "--server_url",
+    "http://127.0.0.1:7860",
+    "--model_url",
+    "http://127.0.0.1:8001/v1",
+    "--model_name",
+    "qwen",
+    "--max_tokens",
+    "256",
+    "--save_dir",
+    "submissions/quick_det_tools_20260503_201720",
+    "--log_file",
+    "submissions/quick_det_tools_20260503_201720/run_v3.log",
+    "--save_freq",
+    "25",
+    "--use-tools",
+    "--deterministic",
+    "--no_rag"
+  ],
+  "main_returncode": 0,
+  "stdout_log": "submissions/quick_det_tools_20260503_201720/main_v3.stdout.log",
+  "run_log": "submissions/quick_det_tools_20260503_201720/run_v3.log",
+  "validation": {
+    "result_csv": "submissions/quick_det_tools_20260503_201720/result.csv",
+    "result_final_csv": "submissions/quick_det_tools_20260503_201720/result_final.csv",
+    "rows": 500,
+    "duplicate_ids": 0,
+    "track_a_non_empty": 500
+  },
+  "status": "dry_run_passed",
+  "upload": "skipped"
+}

@@ -1,0 +1,221 @@
+{
+  "deterministic_current": {
+    "exact_match": 0.8165,
+    "family": {
+      "F1": {
+        "exact_match": 0.7726648351648352,
+        "f1_illegal": 1,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.7726648351648352,
+        "n": 1456
+      },
+      "F2": {
+        "exact_match": 0.8421052631578947,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.8421052631578947,
+        "n": 228
+      },
+      "F3_5BS_MULTI": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 71
+      },
+      "F4": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 245
+      }
+    },
+    "mean_iou": 0.8165,
+    "mechanism": "deterministic_current",
+    "n": 2000,
+    "single_action_metrics": {
+      "add_neighbor": {
+        "gt": 240,
+        "precision": 0.96,
+        "pred": 175,
+        "recall": 0.7,
+        "tp": 168
+      },
+      "check_server": {
+        "gt": 239,
+        "precision": 1.0,
+        "pred": 239,
+        "recall": 1.0,
+        "tp": 239
+      },
+      "decrease_a3": {
+        "gt": 231,
+        "precision": 0.7593220338983051,
+        "pred": 295,
+        "recall": 0.9696969696969697,
+        "tp": 224
+      },
+      "decrease_interfreq": {
+        "gt": 245,
+        "precision": 1.0,
+        "pred": 245,
+        "recall": 1.0,
+        "tp": 245
+      },
+      "insufficient_data": {
+        "gt": 252,
+        "precision": 0.0,
+        "pred": 0,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "lift_tilt": {
+        "gt": 254,
+        "precision": 0.5019762845849802,
+        "pred": 506,
+        "recall": 1.0,
+        "tp": 254
+      },
+      "pdcch_2sym": {
+        "gt": 240,
+        "precision": 1.0,
+        "pred": 240,
+        "recall": 1.0,
+        "tp": 240
+      },
+      "press_down_tilt": {
+        "gt": 0,
+        "precision": 0.0,
+        "pred": 1,
+        "recall": 0.0,
+        "tp": 0
+      }
+    },
+    "structural_totals": {
+      "f1_illegal": 1,
+      "f2_bad": 0,
+      "f3_bad_cardinality": 0,
+      "f4_bad": 0,
+      "f4m_bad": 0
+    }
+  },
+  "strict_f1_allowed_guard": {
+    "exact_match": 0.8165,
+    "family": {
+      "F1": {
+        "exact_match": 0.7726648351648352,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.7726648351648352,
+        "n": 1456
+      },
+      "F2": {
+        "exact_match": 0.8421052631578947,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.8421052631578947,
+        "n": 228
+      },
+      "F3_5BS_MULTI": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 71
+      },
+      "F4": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 245
+      }
+    },
+    "mean_iou": 0.8165,
+    "mechanism": "strict_f1_allowed_guard",
+    "n": 2000,
+    "single_action_metrics": {
+      "add_neighbor": {
+        "gt": 240,
+        "precision": 0.96,
+        "pred": 175,
+        "recall": 0.7,
+        "tp": 168
+      },
+      "check_server": {
+        "gt": 239,
+        "precision": 1.0,
+        "pred": 239,
+        "recall": 1.0,
+        "tp": 239
+      },
+      "decrease_a3": {
+        "gt": 231,
+        "precision": 0.7567567567567568,
+        "pred": 296,
+        "recall": 0.9696969696969697,
+        "tp": 224
+      },
+      "decrease_interfreq": {
+        "gt": 245,
+        "precision": 1.0,
+        "pred": 245,
+        "recall": 1.0,
+        "tp": 245
+      },
+      "insufficient_data": {
+        "gt": 252,
+        "precision": 0.0,
+        "pred": 0,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "lift_tilt": {
+        "gt": 254,
+        "precision": 0.5019762845849802,
+        "pred": 506,
+        "recall": 1.0,
+        "tp": 254
+      },
+      "pdcch_2sym": {
+        "gt": 240,
+        "precision": 1.0,
+        "pred": 240,
+        "recall": 1.0,
+        "tp": 240
+      }
+    },
+    "structural_totals": {
+      "f1_illegal": 0,
+      "f2_bad": 0,
+      "f3_bad_cardinality": 0,
+      "f4_bad": 0,
+      "f4m_bad": 0
+    }
+  }
+}

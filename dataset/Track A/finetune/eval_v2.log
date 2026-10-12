@@ -1,0 +1,75 @@
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+
+============================================================
+Fine-tuned V2 Model Accuracy Check
+  base:    /home/huangxiaolin/AITO/model
+  adapter: /home/huangxiaolin/AITO/dataset/Track A/finetune/lora_output_v2
+  samples: 20  seed: 42
+============================================================
+
+Sampled 20 examples from 2000 total.
+
+Building RAG index from training data...
+[RAG V2] Loading cached structured index...
+[RAG V2] Loaded 2000 cases.
+RAG index ready.
+
+Loading tokenizer from /home/huangxiaolin/AITO/dataset/Track A/finetune/lora_output_v2...
+Loading base model from /home/huangxiaolin/AITO/model...
+Loading weights:   0%|          | 0/693 [00:00<?, ?it/s]Loading weights:   0%|          | 2/693 [00:00<01:35,  7.21it/s]Loading weights:   2%|▏         | 13/693 [00:00<00:17, 38.89it/s]Loading weights:   3%|▎         | 19/693 [00:00<00:19, 35.19it/s]Loading weights:   4%|▍         | 31/693 [00:00<00:11, 55.21it/s]Loading weights:   5%|▌         | 38/693 [00:00<00:14, 45.10it/s]Loading weights:   7%|▋         | 49/693 [00:01<00:16, 38.85it/s]Loading weights:   8%|▊         | 58/693 [00:01<00:18, 34.32it/s]Loading weights:  12%|█▏        | 82/693 [00:01<00:09, 63.80it/s]Loading weights:  13%|█▎        | 92/693 [00:01<00:10, 58.83it/s]Loading weights:  15%|█▍        | 101/693 [00:02<00:12, 45.98it/s]Loading weights:  17%|█▋        | 118/693 [00:02<00:09, 61.48it/s]Loading weights:  18%|█▊        | 127/693 [00:02<00:11, 48.72it/s]Loading weights:  19%|█▉        | 134/693 [00:02<00:12, 44.13it/s]Loading weights:  22%|██▏       | 151/693 [00:03<00:09, 60.22it/s]Loading weights:  23%|██▎       | 159/693 [00:03<00:10, 52.86it/s]Loading weights:  24%|██▍       | 169/693 [00:03<00:09, 57.75it/s]Loading weights:  25%|██▌       | 176/693 [00:03<00:10, 49.33it/s]Loading weights:  27%|██▋       | 187/693 [00:03<00:08, 57.73it/s]Loading weights:  28%|██▊       | 194/693 [00:03<00:09, 50.66it/s]Loading weights:  29%|██▉       | 200/693 [00:04<00:13, 37.88it/s]Loading weights:  32%|███▏      | 220/693 [00:04<00:08, 58.69it/s]Loading weights:  33%|███▎      | 227/693 [00:04<00:09, 49.88it/s]Loading weights:  34%|███▍      | 238/693 [00:04<00:10, 44.09it/s]Loading weights:  37%|███▋      | 256/693 [00:05<00:09, 48.53it/s]Loading weights:  38%|███▊      | 265/693 [00:05<00:07, 54.20it/s]Loading weights:  39%|███▉      | 272/693 [00:05<00:08, 48.44it/s]Loading weights:  42%|████▏     | 289/693 [00:05<00:06, 64.82it/s]Loading weights:  43%|████▎     | 297/693 [00:05<00:07, 55.69it/s]Loading weights:  44%|████▍     | 307/693 [00:06<00:06, 61.68it/s]Loading weights:  45%|████▌     | 315/693 [00:06<00:07, 53.30it/s]Loading weights:  47%|████▋     | 325/693 [00:06<00:06, 60.06it/s]Loading weights:  48%|████▊     | 332/693 [00:06<00:06, 53.16it/s]Loading weights:  49%|████▉     | 338/693 [00:06<00:08, 39.63it/s]Loading weights:  52%|█████▏    | 358/693 [00:06<00:05, 61.22it/s]Loading weights:  53%|█████▎    | 366/693 [00:07<00:06, 53.97it/s]Loading weights:  54%|█████▍    | 376/693 [00:07<00:05, 58.90it/s]Loading weights:  55%|█████▌    | 383/693 [00:07<00:06, 49.69it/s]Loading weights:  57%|█████▋    | 394/693 [00:07<00:05, 58.49it/s]Loading weights:  58%|█████▊    | 401/693 [00:07<00:06, 48.03it/s]Loading weights:  59%|█████▊    | 407/693 [00:08<00:08, 35.46it/s]Loading weights:  61%|██████▏   | 426/693 [00:08<00:04, 56.29it/s]Loading weights:  63%|██████▎   | 434/693 [00:08<00:05, 49.12it/s]Loading weights:  64%|██████▍   | 445/693 [00:08<00:04, 55.09it/s]Loading weights:  65%|██████▌   | 452/693 [00:08<00:05, 47.26it/s]Loading weights:  67%|██████▋   | 463/693 [00:09<00:05, 41.29it/s]Loading weights:  68%|██████▊   | 472/693 [00:09<00:06, 35.72it/s]Loading weights:  72%|███████▏  | 496/693 [00:09<00:03, 58.91it/s]Loading weights:  73%|███████▎  | 504/693 [00:09<00:03, 54.35it/s]Loading weights:  74%|███████▍  | 514/693 [00:10<00:03, 58.96it/s]Loading weights:  75%|███████▌  | 521/693 [00:10<00:03, 49.05it/s]Loading weights:  77%|███████▋  | 532/693 [00:10<00:02, 55.36it/s]Loading weights:  78%|███████▊  | 539/693 [00:10<00:03, 46.07it/s]Loading weights:  79%|███████▊  | 545/693 [00:11<00:04, 34.51it/s]Loading weights:  82%|████████▏ | 565/693 [00:11<00:02, 55.79it/s]Loading weights:  83%|████████▎ | 573/693 [00:11<00:02, 52.32it/s]Loading weights:  84%|████████▍ | 583/693 [00:11<00:01, 57.51it/s]Loading weights:  85%|████████▌ | 590/693 [00:11<00:02, 48.81it/s]Loading weights:  87%|████████▋ | 601/693 [00:12<00:02, 40.23it/s]Loading weights:  88%|████████▊ | 609/693 [00:12<00:01, 45.46it/s]Loading weights:  89%|████████▊ | 615/693 [00:12<00:02, 38.84it/s]Loading weights:  91%|█████████▏| 634/693 [00:12<00:00, 59.15it/s]Loading weights:  93%|█████████▎| 642/693 [00:12<00:00, 51.68it/s]Loading weights:  94%|█████████▍| 652/693 [00:13<00:00, 41.39it/s]Loading weights:  97%|█████████▋| 670/693 [00:13<00:00, 58.36it/s]Loading weights:  98%|█████████▊| 678/693 [00:13<00:00, 50.85it/s]Loading weights:  99%|█████████▉| 685/693 [00:13<00:00, 38.79it/s]Loading weights: 100%|██████████| 693/693 [00:13<00:00, 49.80it/s]
+Loading LoRA adapter from /home/huangxiaolin/AITO/dataset/Track A/finetune/lora_output_v2...
+Model ready.
+
+[ 1/20] 377a0d30-18b9-487a-bc14-56b8b8aa6ba0  gt=C18  The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [377a0d30-18b9-487a-bc14-56b8b8aa6ba0] raw='\boxed{C18}' → parsed='C18'
+pred=C18  iou=1.000 ✓  (2.3s)
+[ 2/20] 1a8b1f36-32c7-4250-862a-a91f041ec301  gt=C13    [1a8b1f36-32c7-4250-862a-a91f041ec301] raw='\boxed{C13}' → parsed='C13'
+pred=C13  iou=1.000 ✓  (2.0s)
+[ 3/20] 5ba4b75f-be5f-414a-8bfe-6014fdc5de6f  gt=C11    [5ba4b75f-be5f-414a-8bfe-6014fdc5de6f] raw='\boxed{C11}' → parsed='C11'
+pred=C11  iou=1.000 ✓  (2.0s)
+[ 4/20] cba1a897-db2a-4e9e-997f-0a9307776f7d  gt=C14|C17    [cba1a897-db2a-4e9e-997f-0a9307776f7d] raw='\boxed{C14|C17}' → parsed='C14|C17'
+pred=C14|C17  iou=1.000 ✓  (2.6s)
+[ 5/20] 8c185e62-cd52-4465-a0ef-0a806e136ea8  gt=C14    [8c185e62-cd52-4465-a0ef-0a806e136ea8] raw='\boxed{C14}' → parsed='C14'
+pred=C14  iou=1.000 ✓  (2.0s)
+[ 6/20] 501da18b-d282-4163-ab0c-e03f53418fd4  gt=C2    [501da18b-d282-4163-ab0c-e03f53418fd4] raw='\boxed{C2}' → parsed='C2'
+pred=C2  iou=1.000 ✓  (1.7s)
+[ 7/20] 496f7980-c907-4477-b08d-50688283621a  gt=C9    [496f7980-c907-4477-b08d-50688283621a] raw='\boxed{C9}' → parsed='C9'
+pred=C9  iou=1.000 ✓  (1.8s)
+[ 8/20] bbc0ac89-b28d-45ca-8653-f5d19fcbec4f  gt=C7    [bbc0ac89-b28d-45ca-8653-f5d19fcbec4f] raw='\boxed{C7}' → parsed='C7'
+pred=C7  iou=1.000 ✓  (1.7s)
+[ 9/20] d9ab759f-7935-41f8-8233-c37f34217979  gt=C2    [d9ab759f-7935-41f8-8233-c37f34217979] raw='\boxed{C2}' → parsed='C2'
+pred=C2  iou=1.000 ✓  (1.4s)
+[10/20] 66ed18f8-8c03-4433-8e94-3924f7b9edbc  gt=C18    [66ed18f8-8c03-4433-8e94-3924f7b9edbc] raw='\boxed{C13}' → parsed='C13'
+pred=C13  iou=0.000 ✗  (1.5s)
+[11/20] fa53a29e-1abd-4f04-b9e5-0da7dd04a8e1  gt=C3|C18    [fa53a29e-1abd-4f04-b9e5-0da7dd04a8e1] raw='\boxed{C3|C18}' → parsed='C3|C18'
+pred=C3|C18  iou=1.000 ✓  (1.8s)
+[12/20] 57b14bd6-02cd-4e5b-b5ad-53ef2e5c3bb9  gt=C8    [57b14bd6-02cd-4e5b-b5ad-53ef2e5c3bb9] raw='\boxed{C4}' → parsed='C4'
+pred=C4  iou=0.000 ✗  (1.4s)
+[13/20] bffbef23-286a-43d8-9424-65b3ae43c2d4  gt=C17    [bffbef23-286a-43d8-9424-65b3ae43c2d4] raw='\boxed{C14}' → parsed='C14'
+pred=C14  iou=0.000 ✗  (2.0s)
+[14/20] 2894db23-47d7-4d16-ba11-197e3efebb22  gt=C3    [2894db23-47d7-4d16-ba11-197e3efebb22] raw='\boxed{C3}' → parsed='C3'
+pred=C3  iou=1.000 ✓  (1.8s)
+[15/20] 70852f60-f066-4b5c-8ddc-d139fb0286fe  gt=C16    [70852f60-f066-4b5c-8ddc-d139fb0286fe] raw='\boxed{C16}' → parsed='C16'
+pred=C16  iou=1.000 ✓  (1.5s)
+[16/20] 7a021f13-b6eb-4cfb-96f8-265b2f417f23  gt=C19    [7a021f13-b6eb-4cfb-96f8-265b2f417f23] raw='\boxed{C23}' → parsed=''
+pred=C18  iou=0.000 ✗  (1.5s)
+[17/20] fa14fb54-cc12-4446-99a1-539acc946cd3  gt=C8    [fa14fb54-cc12-4446-99a1-539acc946cd3] raw='\boxed{C8}' → parsed='C8'
+pred=C8  iou=1.000 ✓  (1.5s)
+[18/20] b1c10be0-f68a-4ed3-819d-98e7b20bbb9e  gt=C19    [b1c10be0-f68a-4ed3-819d-98e7b20bbb9e] raw='\boxed{C13}' → parsed='C13'
+pred=C13  iou=0.000 ✗  (1.5s)
+[19/20] 11841358-d522-49cb-b47d-377f3b78b4ba  gt=C9    [11841358-d522-49cb-b47d-377f3b78b4ba] raw='\boxed{C9}' → parsed='C9'
+pred=C9  iou=1.000 ✓  (1.4s)
+[20/20] 0bfc423f-1a58-412c-b0ff-10319bd9482d  gt=C17    [0bfc423f-1a58-412c-b0ff-10319bd9482d] raw='\boxed{C19}' → parsed='C19'
+pred=C19  iou=0.000 ✗  (1.5s)
+
+============================================================
+Results over 20 examples:
+  Mean IOU:      0.7000
+  Exact match:   14/20 (70.0%)
+  Partial IOU:   0/20
+  Zero IOU:      6/20
+  Fallback used: 1/20
+  Avg latency:   1.7s/scenario
+============================================================
+
+✓ STRONG — proceed to full test run

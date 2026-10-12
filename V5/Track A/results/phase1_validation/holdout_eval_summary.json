@@ -1,0 +1,214 @@
+{
+  "deterministic_current": {
+    "exact_match": 0.8566666666666667,
+    "family": {
+      "F1": {
+        "exact_match": 0.7922077922077922,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.7922077922077922,
+        "n": 154
+      },
+      "F2": {
+        "exact_match": 0.8854166666666666,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.8854166666666666,
+        "n": 96
+      },
+      "F3_5BS_MULTI": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 25
+      },
+      "F4": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 25
+      }
+    },
+    "mean_iou": 0.8566666666666667,
+    "mechanism": "deterministic_current",
+    "n": 300,
+    "single_action_metrics": {
+      "add_neighbor": {
+        "gt": 25,
+        "precision": 1.0,
+        "pred": 20,
+        "recall": 0.8,
+        "tp": 20
+      },
+      "check_server": {
+        "gt": 22,
+        "precision": 1.0,
+        "pred": 22,
+        "recall": 1.0,
+        "tp": 22
+      },
+      "decrease_a3": {
+        "gt": 20,
+        "precision": 0.8,
+        "pred": 25,
+        "recall": 1.0,
+        "tp": 20
+      },
+      "decrease_interfreq": {
+        "gt": 25,
+        "precision": 1.0,
+        "pred": 25,
+        "recall": 1.0,
+        "tp": 25
+      },
+      "insufficient_data": {
+        "gt": 27,
+        "precision": 0.0,
+        "pred": 0,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "lift_tilt": {
+        "gt": 28,
+        "precision": 0.509090909090909,
+        "pred": 55,
+        "recall": 1.0,
+        "tp": 28
+      },
+      "pdcch_2sym": {
+        "gt": 32,
+        "precision": 1.0,
+        "pred": 32,
+        "recall": 1.0,
+        "tp": 32
+      }
+    },
+    "structural_totals": {
+      "f1_illegal": 0,
+      "f2_bad": 0,
+      "f3_bad_cardinality": 0,
+      "f4_bad": 0,
+      "f4m_bad": 0
+    }
+  },
+  "strict_f1_allowed_guard": {
+    "exact_match": 0.8566666666666667,
+    "family": {
+      "F1": {
+        "exact_match": 0.7922077922077922,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.7922077922077922,
+        "n": 154
+      },
+      "F2": {
+        "exact_match": 0.8854166666666666,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 0.8854166666666666,
+        "n": 96
+      },
+      "F3_5BS_MULTI": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 25
+      },
+      "F4": {
+        "exact_match": 1.0,
+        "f1_illegal": 0,
+        "f2_bad": 0,
+        "f3_bad_cardinality": 0,
+        "f4_bad": 0,
+        "f4m_bad": 0,
+        "mean_iou": 1.0,
+        "n": 25
+      }
+    },
+    "mean_iou": 0.8566666666666667,
+    "mechanism": "strict_f1_allowed_guard",
+    "n": 300,
+    "single_action_metrics": {
+      "add_neighbor": {
+        "gt": 25,
+        "precision": 1.0,
+        "pred": 20,
+        "recall": 0.8,
+        "tp": 20
+      },
+      "check_server": {
+        "gt": 22,
+        "precision": 1.0,
+        "pred": 22,
+        "recall": 1.0,
+        "tp": 22
+      },
+      "decrease_a3": {
+        "gt": 20,
+        "precision": 0.8,
+        "pred": 25,
+        "recall": 1.0,
+        "tp": 20
+      },
+      "decrease_interfreq": {
+        "gt": 25,
+        "precision": 1.0,
+        "pred": 25,
+        "recall": 1.0,
+        "tp": 25
+      },
+      "insufficient_data": {
+        "gt": 27,
+        "precision": 0.0,
+        "pred": 0,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "lift_tilt": {
+        "gt": 28,
+        "precision": 0.509090909090909,
+        "pred": 55,
+        "recall": 1.0,
+        "tp": 28
+      },
+      "pdcch_2sym": {
+        "gt": 32,
+        "precision": 1.0,
+        "pred": 32,
+        "recall": 1.0,
+        "tp": 32
+      }
+    },
+    "structural_totals": {
+      "f1_illegal": 0,
+      "f2_bad": 0,
+      "f3_bad_cardinality": 0,
+      "f4_bad": 0,
+      "f4m_bad": 0
+    }
+  }
+}

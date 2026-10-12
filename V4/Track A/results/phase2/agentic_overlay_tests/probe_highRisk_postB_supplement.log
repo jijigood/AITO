@@ -1,0 +1,209 @@
+2026-05-12 19:52:57,876 - root - INFO - Scenario ID filter: 28/500 selected
+2026-05-12 19:52:57,876 - root - INFO - Loaded 28 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-12 19:52:57,898 - root - INFO - [LLM] Enabled model=qwen policy=off url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-12 19:52:58,012 - root - INFO - [RAG] Index ready: data/Phase_1/train.json
+2026-05-12 19:52:58,012 - root - INFO - [f37da282-72a1-45a1-9087-7fc6fcf66be0] tag=single-answer, bs=4, family=F1
+2026-05-12 19:53:00,299 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:53:16,121 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:53:16,122 - root - INFO - [agentic] mapped diagnosis → C14  (action=decrease_a3 target=3255322_4 relation=3235634_1 score=4.0)
+2026-05-12 19:53:16,122 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C14 agentic=C14 confidence=high
+2026-05-12 19:53:16,122 - root - INFO - [f37da282-72a1-45a1-9087-7fc6fcf66be0] answer='C14' top_candidate={'answer': 'C14', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3255322_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:53:16,122 - root - INFO - [f37da282-72a1-45a1-9087-7fc6fcf66be0] done in 18.1s — answer: 'C14'
+2026-05-12 19:53:16,123 - root - INFO - [0fdd3fef-f4b7-4043-b7c3-487770a5310c] tag=single-answer, bs=4, family=F1
+2026-05-12 19:53:22,194 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:53:33,223 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:53:33,225 - root - INFO - [agentic] mapped diagnosis → C12  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:53:33,225 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C12 agentic=C12 confidence=high
+2026-05-12 19:53:33,225 - root - INFO - [0fdd3fef-f4b7-4043-b7c3-487770a5310c] answer='C12' top_candidate={'answer': 'C12', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:53:33,226 - root - INFO - [0fdd3fef-f4b7-4043-b7c3-487770a5310c] done in 17.1s — answer: 'C12'
+2026-05-12 19:53:33,227 - root - INFO - [62b0b362-fad9-4d4e-9daa-9bff2ff5a924] tag=single-answer, bs=4, family=F1
+2026-05-12 19:53:39,775 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:53:50,615 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:53:50,617 - root - INFO - [agentic] mapped diagnosis → C13  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:53:50,617 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C13 agentic=C13 confidence=high
+2026-05-12 19:53:50,618 - root - INFO - [62b0b362-fad9-4d4e-9daa-9bff2ff5a924] answer='C13' top_candidate={'answer': 'C13', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:53:50,618 - root - INFO - [62b0b362-fad9-4d4e-9daa-9bff2ff5a924] done in 17.4s — answer: 'C13'
+2026-05-12 19:53:50,620 - root - INFO - [69a578a6-b1a8-4402-8b82-8112534988c7] tag=single-answer, bs=4, family=F1
+2026-05-12 19:53:56,065 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:08,203 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:08,205 - root - INFO - [agentic] mapped diagnosis → C18  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:54:08,206 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C18 agentic=C18 confidence=medium
+2026-05-12 19:54:08,206 - root - INFO - [69a578a6-b1a8-4402-8b82-8112534988c7] answer='C18' top_candidate={'answer': 'C18', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 19:54:08,207 - root - INFO - [69a578a6-b1a8-4402-8b82-8112534988c7] done in 17.6s — answer: 'C18'
+2026-05-12 19:54:08,208 - root - INFO - [d2e36af8-f277-43dc-a0d7-f49d9a1436d3] tag=single-answer, bs=4, family=F1
+2026-05-12 19:54:14,271 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:25,938 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:25,940 - root - INFO - [agentic] mapped diagnosis → C18  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:54:25,941 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C18 agentic=C18 confidence=high
+2026-05-12 19:54:25,941 - root - INFO - [d2e36af8-f277-43dc-a0d7-f49d9a1436d3] answer='C18' top_candidate={'answer': 'C18', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:54:25,941 - root - INFO - [d2e36af8-f277-43dc-a0d7-f49d9a1436d3] done in 17.7s — answer: 'C18'
+2026-05-12 19:54:25,945 - root - INFO - Saved 5 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 19:54:25,945 - root - INFO - [44840230-1070-42f8-b480-83bd5968391d] tag=single-answer, bs=4, family=F1
+2026-05-12 19:54:32,390 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:43,787 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:43,789 - root - INFO - [agentic] mapped diagnosis → C16  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:54:43,789 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C16 agentic=C16 confidence=high
+2026-05-12 19:54:43,789 - root - INFO - [44840230-1070-42f8-b480-83bd5968391d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:54:43,790 - root - INFO - [44840230-1070-42f8-b480-83bd5968391d] done in 17.8s — answer: 'C16'
+2026-05-12 19:54:43,791 - root - INFO - [c827524a-bdd2-4003-b2ed-2850289f6be4] tag=single-answer, bs=4, family=F1
+2026-05-12 19:54:45,778 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:58,950 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:54:58,952 - root - INFO - [agentic] mapped diagnosis → C1  (action=decrease_a3 target=3256014_3 relation= score=4.0)
+2026-05-12 19:54:58,952 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C1 agentic=C1 confidence=high
+2026-05-12 19:54:58,952 - root - INFO - [c827524a-bdd2-4003-b2ed-2850289f6be4] answer='C1' top_candidate={'answer': 'C1', 'score': 0.7354200000000001, 'action_type': 'decrease_a3', 'target_cell': '3256014_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:54:58,952 - root - INFO - [c827524a-bdd2-4003-b2ed-2850289f6be4] done in 15.2s — answer: 'C1'
+2026-05-12 19:54:58,954 - root - INFO - [95a3235a-cad3-4765-b379-ce5087f30e5f] tag=single-answer, bs=4, family=F1
+2026-05-12 19:55:05,172 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:55:16,236 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:55:16,238 - root - INFO - [agentic] mapped diagnosis → C9  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:55:16,238 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C9 agentic=C9 confidence=high
+2026-05-12 19:55:16,238 - root - INFO - [95a3235a-cad3-4765-b379-ce5087f30e5f] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:55:16,239 - root - INFO - [95a3235a-cad3-4765-b379-ce5087f30e5f] done in 17.3s — answer: 'C9'
+2026-05-12 19:55:16,240 - root - INFO - [54110aae-c06a-4ea4-91ae-650818b0b88c] tag=single-answer, bs=4, family=F1
+2026-05-12 19:55:22,582 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:55:34,829 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:55:34,834 - root - INFO - [agentic] mapped diagnosis → C21  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:55:34,834 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C21 agentic=C21 confidence=high
+2026-05-12 19:55:34,834 - root - INFO - [54110aae-c06a-4ea4-91ae-650818b0b88c] answer='C21' top_candidate={'answer': 'C21', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:55:34,835 - root - INFO - [54110aae-c06a-4ea4-91ae-650818b0b88c] done in 18.6s — answer: 'C21'
+2026-05-12 19:55:34,837 - root - INFO - [1f161b48-f54c-4948-9658-3de6e60a4397] tag=single-answer, bs=4, family=F1
+2026-05-12 19:55:37,305 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:55:48,557 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:55:48,558 - root - INFO - [agentic] mapped diagnosis → C3  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:55:48,559 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C3 agentic=C3 confidence=high
+2026-05-12 19:55:48,559 - root - INFO - [1f161b48-f54c-4948-9658-3de6e60a4397] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:55:48,559 - root - INFO - [1f161b48-f54c-4948-9658-3de6e60a4397] done in 13.7s — answer: 'C3'
+2026-05-12 19:55:48,560 - root - INFO - Saved 10 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 19:55:48,561 - root - INFO - [11e38c8b-be62-4ee5-a536-475a93359ac3] tag=single-answer, bs=4, family=F1
+2026-05-12 19:55:50,696 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:06,135 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:06,136 - root - INFO - [agentic] mapped diagnosis → C10  (action=decrease_a3 target=3253538_1 relation=3239636_3 score=4.0)
+2026-05-12 19:56:06,136 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C10 agentic=C10 confidence=medium
+2026-05-12 19:56:06,136 - root - INFO - [11e38c8b-be62-4ee5-a536-475a93359ac3] answer='C10' top_candidate={'answer': 'C10', 'score': 0.735, 'action_type': 'decrease_a3', 'target_cell': '3253538_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:56:06,137 - root - INFO - [11e38c8b-be62-4ee5-a536-475a93359ac3] done in 17.6s — answer: 'C10'
+2026-05-12 19:56:06,137 - root - INFO - [da28c256-f98d-4248-b7cc-81cd293f3321] tag=single-answer, bs=4, family=F1
+2026-05-12 19:56:08,155 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:23,824 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:23,826 - root - INFO - [agentic] mapped diagnosis → C17  (action=decrease_a3 target=3229535_3 relation=3272286_4 score=4.0)
+2026-05-12 19:56:23,826 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C17 agentic=C17 confidence=high
+2026-05-12 19:56:23,826 - root - INFO - [da28c256-f98d-4248-b7cc-81cd293f3321] answer='C17' top_candidate={'answer': 'C17', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3229535_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:56:23,826 - root - INFO - [da28c256-f98d-4248-b7cc-81cd293f3321] done in 17.7s — answer: 'C17'
+2026-05-12 19:56:23,827 - root - INFO - [70a5d3e9-aa0c-4a22-8c07-96c814fc7c80] tag=single-answer, bs=4, family=F1
+2026-05-12 19:56:30,102 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:41,474 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:41,476 - root - INFO - [agentic] mapped diagnosis → C8  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:56:41,477 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C8 agentic=C8 confidence=high
+2026-05-12 19:56:41,477 - root - INFO - [70a5d3e9-aa0c-4a22-8c07-96c814fc7c80] answer='C8' top_candidate={'answer': 'C8', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:56:41,477 - root - INFO - [70a5d3e9-aa0c-4a22-8c07-96c814fc7c80] done in 17.7s — answer: 'C8'
+2026-05-12 19:56:41,479 - root - INFO - [a4e55fd2-d4c5-40ab-adb8-45ab5a3524f5] tag=single-answer, bs=4, family=F1
+2026-05-12 19:56:43,520 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:58,201 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:56:58,203 - root - INFO - [agentic] mapped diagnosis → C23  (action=decrease_a3 target=3240512_1 relation= score=4.0)
+2026-05-12 19:56:58,203 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C23 agentic=C23 confidence=high
+2026-05-12 19:56:58,203 - root - INFO - [a4e55fd2-d4c5-40ab-adb8-45ab5a3524f5] answer='C23' top_candidate={'answer': 'C23', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3240512_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:56:58,203 - root - INFO - [a4e55fd2-d4c5-40ab-adb8-45ab5a3524f5] done in 16.7s — answer: 'C23'
+2026-05-12 19:56:58,204 - root - INFO - [9a03817f-631b-44f7-9ff5-f942e8cb1d03] tag=single-answer, bs=4, family=F1
+2026-05-12 19:57:04,740 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:57:15,439 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:57:15,441 - root - INFO - [agentic] mapped diagnosis → C23  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:57:15,441 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C23 agentic=C23 confidence=high
+2026-05-12 19:57:15,442 - root - INFO - [9a03817f-631b-44f7-9ff5-f942e8cb1d03] answer='C23' top_candidate={'answer': 'C23', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:57:15,442 - root - INFO - [9a03817f-631b-44f7-9ff5-f942e8cb1d03] done in 17.2s — answer: 'C23'
+2026-05-12 19:57:15,443 - root - INFO - Saved 15 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 19:57:15,443 - root - INFO - [465bfdfc-4a51-4caa-83ed-56ba8946285f] tag=single-answer, bs=4, family=F1
+2026-05-12 19:57:21,603 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:57:35,669 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:57:35,672 - root - INFO - [agentic] mapped diagnosis → C3  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:57:35,672 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C3 agentic=C3 confidence=high
+2026-05-12 19:57:35,672 - root - INFO - [465bfdfc-4a51-4caa-83ed-56ba8946285f] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:57:35,673 - root - INFO - [465bfdfc-4a51-4caa-83ed-56ba8946285f] done in 20.2s — answer: 'C3'
+2026-05-12 19:57:35,674 - root - INFO - [22de1f6d-6299-4082-9a9f-0707d18b7f70] tag=single-answer, bs=4, family=F1
+2026-05-12 19:57:41,877 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:57:52,518 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:57:52,519 - root - INFO - [agentic] mapped diagnosis → C1  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:57:52,520 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C1 agentic=C1 confidence=high
+2026-05-12 19:57:52,520 - root - INFO - [22de1f6d-6299-4082-9a9f-0707d18b7f70] answer='C1' top_candidate={'answer': 'C1', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:57:52,520 - root - INFO - [22de1f6d-6299-4082-9a9f-0707d18b7f70] done in 16.8s — answer: 'C1'
+2026-05-12 19:57:52,522 - root - INFO - [b6412181-4681-41c1-a018-b8492344c200] tag=single-answer, bs=4, family=F1
+2026-05-12 19:57:54,656 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:07,873 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:07,874 - root - INFO - [agentic] mapped diagnosis → C8  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:58:07,874 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C8 agentic=C8 confidence=high
+2026-05-12 19:58:07,874 - root - INFO - [b6412181-4681-41c1-a018-b8492344c200] answer='C8' top_candidate={'answer': 'C8', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:58:07,874 - root - INFO - [b6412181-4681-41c1-a018-b8492344c200] done in 15.4s — answer: 'C8'
+2026-05-12 19:58:07,875 - root - INFO - [3e7e649d-4004-4cc8-82c9-799f896cb9ce] tag=single-answer, bs=4, family=F1
+2026-05-12 19:58:09,934 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:25,541 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:25,542 - root - INFO - [agentic] mapped diagnosis → C11  (action=decrease_a3 target=3270010_1 relation= score=4.0)
+2026-05-12 19:58:25,543 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C11 agentic=C11 confidence=high
+2026-05-12 19:58:25,543 - root - INFO - [3e7e649d-4004-4cc8-82c9-799f896cb9ce] answer='C11' top_candidate={'answer': 'C11', 'score': 0.7803600000000002, 'action_type': 'decrease_a3', 'target_cell': '3270010_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 19:58:25,543 - root - INFO - [3e7e649d-4004-4cc8-82c9-799f896cb9ce] done in 17.7s — answer: 'C11'
+2026-05-12 19:58:25,544 - root - INFO - [80844485-d0c3-4b51-b91f-f6c52fd946aa] tag=single-answer, bs=4, family=F1
+2026-05-12 19:58:31,623 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:43,688 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:43,690 - root - INFO - [agentic] mapped diagnosis → C3  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:58:43,690 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C3 agentic=C3 confidence=high
+2026-05-12 19:58:43,690 - root - INFO - [80844485-d0c3-4b51-b91f-f6c52fd946aa] answer='C3' top_candidate={'answer': 'C3', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:58:43,690 - root - INFO - [80844485-d0c3-4b51-b91f-f6c52fd946aa] done in 18.1s — answer: 'C3'
+2026-05-12 19:58:43,691 - root - INFO - Saved 20 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 19:58:43,691 - root - INFO - [fb93f000-08f3-4c8c-b831-f4ba76e1be4e] tag=single-answer, bs=4, family=F1
+2026-05-12 19:58:49,848 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:59,444 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:58:59,447 - root - INFO - [agentic] mapped diagnosis → C9  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:58:59,447 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C9 agentic=C9 confidence=high
+2026-05-12 19:58:59,447 - root - INFO - [fb93f000-08f3-4c8c-b831-f4ba76e1be4e] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:58:59,447 - root - INFO - [fb93f000-08f3-4c8c-b831-f4ba76e1be4e] done in 15.8s — answer: 'C9'
+2026-05-12 19:58:59,449 - root - INFO - [be526c5a-43a3-4015-b9f0-2273b54b2ceb] tag=single-answer, bs=4, family=F1
+2026-05-12 19:59:05,398 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:59:16,310 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:59:16,312 - root - INFO - [agentic] mapped diagnosis → C10  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:59:16,312 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C10 agentic=C10 confidence=high
+2026-05-12 19:59:16,313 - root - INFO - [be526c5a-43a3-4015-b9f0-2273b54b2ceb] answer='C10' top_candidate={'answer': 'C10', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:59:16,313 - root - INFO - [be526c5a-43a3-4015-b9f0-2273b54b2ceb] done in 16.9s — answer: 'C10'
+2026-05-12 19:59:16,315 - root - INFO - [32245d27-e1ca-470d-ae47-cd8351c240df] tag=single-answer, bs=4, family=F1
+2026-05-12 19:59:22,149 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:59:34,034 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:59:34,037 - root - INFO - [agentic] mapped diagnosis → C14  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:59:34,037 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C14 agentic=C14 confidence=high
+2026-05-12 19:59:34,037 - root - INFO - [32245d27-e1ca-470d-ae47-cd8351c240df] answer='C14' top_candidate={'answer': 'C14', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 19:59:34,037 - root - INFO - [32245d27-e1ca-470d-ae47-cd8351c240df] done in 17.7s — answer: 'C14'
+2026-05-12 19:59:34,039 - root - INFO - [6be53ad8-59e2-4130-926a-2a21a4ba0555] tag=single-answer, bs=4, family=F1
+2026-05-12 19:59:39,976 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:59:50,332 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 19:59:50,334 - root - INFO - [agentic] mapped diagnosis → C20  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 19:59:50,334 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C20 agentic=C20 confidence=high
+2026-05-12 19:59:50,334 - root - INFO - [6be53ad8-59e2-4130-926a-2a21a4ba0555] answer='C20' top_candidate={'answer': 'C20', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 19:59:50,335 - root - INFO - [6be53ad8-59e2-4130-926a-2a21a4ba0555] done in 16.3s — answer: 'C20'
+2026-05-12 19:59:50,337 - root - INFO - [bc5ad307-4ea5-4f19-a3c8-f3fda5dbf8ed] tag=single-answer, bs=4, family=F1
+2026-05-12 19:59:52,761 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:04,375 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:04,377 - root - INFO - [agentic] mapped diagnosis → C21  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 20:00:04,377 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C21 agentic=C21 confidence=high
+2026-05-12 20:00:04,377 - root - INFO - [bc5ad307-4ea5-4f19-a3c8-f3fda5dbf8ed] answer='C21' top_candidate={'answer': 'C21', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 20:00:04,377 - root - INFO - [bc5ad307-4ea5-4f19-a3c8-f3fda5dbf8ed] done in 14.0s — answer: 'C21'
+2026-05-12 20:00:04,379 - root - INFO - Saved 25 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 20:00:04,380 - root - INFO - [af7536e6-135b-43b0-a01f-6e94d96e1518] tag=single-answer, bs=4, family=F1
+2026-05-12 20:00:10,750 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:21,602 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:21,604 - root - INFO - [agentic] mapped diagnosis → C11  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 20:00:21,605 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C11 agentic=C11 confidence=high
+2026-05-12 20:00:21,605 - root - INFO - [af7536e6-135b-43b0-a01f-6e94d96e1518] answer='C11' top_candidate={'answer': 'C11', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 20:00:21,605 - root - INFO - [af7536e6-135b-43b0-a01f-6e94d96e1518] done in 17.2s — answer: 'C11'
+2026-05-12 20:00:21,607 - root - INFO - [56591d6e-23c9-4934-b202-83fbdc80488a] tag=single-answer, bs=4, family=F1
+2026-05-12 20:00:27,484 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:38,992 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:38,994 - root - INFO - [agentic] mapped diagnosis → C1  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 20:00:38,994 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C1 agentic=C1 confidence=high
+2026-05-12 20:00:38,995 - root - INFO - [56591d6e-23c9-4934-b202-83fbdc80488a] answer='C1' top_candidate={'answer': 'C1', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 20:00:38,995 - root - INFO - [56591d6e-23c9-4934-b202-83fbdc80488a] done in 17.4s — answer: 'C1'
+2026-05-12 20:00:38,997 - root - INFO - [4528d0fe-09e5-48a9-a931-06e11011f2d9] tag=single-answer, bs=4, family=F1
+2026-05-12 20:00:45,249 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:56,721 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 20:00:56,723 - root - INFO - [agentic] mapped diagnosis → C16  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 20:00:56,723 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C16 agentic=C16 confidence=high
+2026-05-12 20:00:56,723 - root - INFO - [4528d0fe-09e5-48a9-a931-06e11011f2d9] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 20:00:56,724 - root - INFO - [4528d0fe-09e5-48a9-a931-06e11011f2d9] done in 17.7s — answer: 'C16'
+2026-05-12 20:00:56,726 - root - INFO - Saved 28 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 20:00:56,727 - root - INFO - Saved 28 rows → results/phase2/agentic_overlay_tests/probe_highRisk_postB_supplement.csv
+2026-05-12 20:00:56,727 - root - INFO - 
+Done. 28/28 answered in 479s (avg 17.1s/scenario)

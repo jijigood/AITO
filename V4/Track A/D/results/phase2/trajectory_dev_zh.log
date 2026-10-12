@@ -1,0 +1,46 @@
+2026-05-10 owner_d task01
+- 阅读了 docs/PHASE2_TEAM_DIVISION.md、docs/PHASE2_AI_TASK_GUIDE.md、docs/owner_d/README.md、docs/owner_d/OWNER_D_SKILL.md、docs/owner_d/TASK_01_TRAJECTORY_SCHEMA.md、rag_retriever_v2.py、skills/scenario_parser.py。
+- 新增 docs/owner_d/trajectory_schema.md 和 docs/owner_d/trajectory_schema.json。
+- 固化了 trajectory 核心字段语义、空值规则、prompt-safe 边界，以及与现有 RAG 输出字段的兼容映射。
+- 验证：在 conda 环境 tele 中成功解析 trajectory_schema.json。
+
+2026-05-10 owner_d task02
+- 复用 parse_scenario() 和 run_all_skills() 作为唯一特征链路，没有另起一套不兼容提取逻辑。
+- 新增 build_trajectory_examples.py，并在 rag_retriever_v2.py 中加入 trajectory record 构建逻辑。
+- 从 data/Phase_1/train.json 生成 trajectory_examples.jsonl。
+- 验证：在 tele 中完成 smoke build（--limit 5）、全量 build（2000 条）、JSONL 解析检查，以及 answer/answer_labels/gt_c_code/C1-C22 泄露扫描，结果均为 0。
+
+2026-05-10 owner_d task03
+- 重构 StructuredCaseRAG，使其在保留 rag.retrieve(...) 兼容性的前提下改为索引 trajectory-safe records。
+- 新增 branch_indices/root_cause_indices、deterministic tie-break、branch-aware 过滤和 retrieve_trajectory_context()。
+- 更新 phase2_run.py 和 main_v3.py 的 prompt 格式化逻辑，停止在 prompt 文本中暴露训练答案。
+- 验证：在 tele 中重复检索得到完全一致的 scenario_id 序列；在 _FAISS_AVAILABLE=False 的 fallback 路径下仍保持 deterministic；F1/F4 的 branch-aware spot check 通过。
+
+2026-05-10 owner_d followup
+- 新增 docs/owner_d/trajectory_prompt_snippets.md，补齐按 branch 分组的 prompt-safe snippets 交付物。
+- 回填本 trajectory_dev.log，记录前序任务的执行和验证信息。
+
+2026-05-10 owner_d task04
+- 将 retrieve_trajectory_context() 正式收口为按 case rank、branch、root_cause、action、target_role、confidence、key_evidence、tool_sequence 组织的 prompt-safe context。
+- 保留内部调试标识仅供 diagnostics 使用；prompt-safe context 不再暴露 gt_c_code、answer_labels、Correct answer 或训练集 C1-C22 编号。
+- 验证：在 tele 中重建索引，渲染 F1 高风险分支的 retrieve_trajectory_context() 输出，并确认 gt_c_code/answer_labels/Correct answer/C1-C22 泄露检查全部为 false。
+
+2026-05-11 owner_d task05
+- 检查工作区中的真实 Phase 2 probe diagnostics，确认当前仓库没有纳入 probe .diagnostics.jsonl 文件。
+- 新增 build_probe_trajectory_memory.py，并在 rag_retriever_v2.py 中补 probe record 抽取逻辑，使 Phase 2 diagnostics JSONL 在落盘后可以被转成 prompt-safe trajectory memory。
+- 新增 build_combined_trajectory_memory.py 和 build_trajectory_coverage_report.py，用于合并 train/probe memory 并生成高风险 branch 覆盖报告。
+- 刷新 docs/owner_d/trajectory_prompt_snippets.md，加入来源策略、覆盖状态，以及明确的 probe 占位项，不伪造 probe-derived few-shot。
+- 验证：在 tele 中运行 build_probe_trajectory_memory.py 得到 0 条 probe record（与当前无 diagnostics 文件一致）；combined memory 仍为 2000 条 phase1_train 记录；coverage report 生成成功；对 probe/combined memory 与 snippet/report 的泄露扫描中 answer/answer_labels/gt_c_code/C1-C22 全为 0。
+
+2026-05-11 owner_d task06
+- 按照 phase2_run.py、main_v3.py、build_sft_v3.py、eval_ckpt.py 的现有接入方式，验证了 StructuredCaseRAG 构造/build_index/retrieve 调用链仍然可用。
+- 新增 docs/owner_d/task06_integration_validation.md，汇总 A/C 接入说明、最小验证结果、残余风险和后续使用建议。
+- 验证：在 tele 中成功渲染 F1 高风险分支的 retrieve_trajectory_context()；main_v3._build_f1_prompt() 与 phase2_run._format_rag_hits_for_prompt() 均可消费当前 RAG hits；prompt 扫描对 Correct answer/answer_labels/gt_c_code/train_answer=/检索到的 C1-C22 模式均返回 0。
+
+2026-05-11 owner_d 总结
+- Task 01 建立了稳定 trajectory schema，并划清 prompt-safe 字段边界。
+- Task 02 基于共享解析和特征链路，从 Phase 1 训练数据生成了首版 trajectory_examples.jsonl。
+- Task 03 让检索具备 deterministic、branch-aware 和现有调用链兼容能力。
+- Task 04 正式产出了可供 C 直接消费的 prompt-safe trajectory context。
+- Task 05 加入了 probe-memory 接入钩子、memory 合并工具和 branch 覆盖报告，同时明确当前仓库受限于 probe 数据缺失。
+- Task 06 确认了 A/C 侧可以以较低成本消费现有 D 侧产物，并把现阶段限制与风险文档化。

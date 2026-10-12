@@ -1,0 +1,42 @@
+{
+  "arbitration_called": 3,
+  "arbitration_rate": 0.5,
+  "called_by_family": {
+    "F1_5BS": 1,
+    "F2": 1,
+    "F4M": 1
+  },
+  "errors": {
+    "not_high_risk": 3
+  },
+  "llm_override_rate": 0.0,
+  "llm_overrides": 0,
+  "overrides_by_family": {},
+  "retries": 3,
+  "rows": 6,
+  "top_reasons": [
+    [
+      "multi_answer_cell_pair_selection",
+      2
+    ],
+    [
+      "new_phase2_family:F1_5BS",
+      1
+    ],
+    [
+      "high_risk_issue:insufficient_data",
+      1
+    ],
+    [
+      "lift_tilt_vs_insufficient_data_boundary",
+      1
+    ],
+    [
+      "new_phase2_family:F4M",
+      1
+    ]
+  ],
+  "validation": {
+    "valid": 3
+  }
+}

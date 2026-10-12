@@ -1,0 +1,475 @@
+2026-05-12 16:19:17,970 - root - INFO - Loaded 500 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-12 16:19:17,992 - root - INFO - [LLM] Enabled model=qwen policy=off url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-12 16:19:18,117 - root - INFO - [RAG] Index ready: data/Phase_1/train.json
+2026-05-12 16:19:18,117 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+2026-05-12 16:19:19,162 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:19:19,162 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] done in 1.0s — answer: 'C7'
+2026-05-12 16:19:19,163 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:19:19,164 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:19:20,441 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:19:20,442 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 1.3s — answer: 'C16'
+2026-05-12 16:19:20,443 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] tag=single-answer, bs=4, family=F1
+2026-05-12 16:19:21,452 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] answer='C5' top_candidate={'answer': 'C5', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3250799_1', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:19:21,452 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] done in 1.0s — answer: 'C5'
+2026-05-12 16:19:21,454 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] tag=single-answer, bs=13, family=F4
+2026-05-12 16:19:22,317 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] answer='C23' top_candidate={'answer': 'C23', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3214602_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-12 16:19:22,318 - root - INFO - [196f910b-ce56-43e2-a2ba-8e61a2b5034b] done in 0.9s — answer: 'C23'
+2026-05-12 16:19:22,318 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] tag=multiple-answer, bs=5, family=F3
+2026-05-12 16:19:23,167 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] answer='C3|C4|C7|C24' top_candidate={'answer': 'C3|C4|C7|C24', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-12 16:19:23,168 - root - INFO - [cde21831-ca8c-4b0a-8c7f-3b76c2391b78] done in 0.8s — answer: 'C3|C4|C7|C24'
+2026-05-12 16:19:23,168 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] tag=single-answer, bs=4, family=F1
+2026-05-12 16:19:25,812 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:19:36,736 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:19:36,737 - root - INFO - [agentic] mapped diagnosis → C2  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:19:36,737 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C2 agentic=C2 confidence=high
+2026-05-12 16:19:36,737 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] answer='C2' top_candidate={'answer': 'C2', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:19:36,737 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] done in 13.6s — answer: 'C2'
+2026-05-12 16:19:36,738 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] tag=single-answer, bs=4, family=F1
+2026-05-12 16:19:37,785 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] answer='C16' top_candidate={'answer': 'C16', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3246004_4', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:19:37,785 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] done in 1.0s — answer: 'C16'
+2026-05-12 16:19:37,787 - root - INFO - [c93d2fa8-52b3-4623-aab9-d5fada486543] tag=multiple-answer, bs=5, family=F3
+2026-05-12 16:19:38,623 - root - INFO - [c93d2fa8-52b3-4623-aab9-d5fada486543] answer='C5|C6|C7|C11' top_candidate={'answer': 'C5|C6|C7|C11', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-12 16:19:38,624 - root - INFO - [c93d2fa8-52b3-4623-aab9-d5fada486543] done in 0.8s — answer: 'C5|C6|C7|C11'
+2026-05-12 16:19:38,624 - root - INFO - [f37da282-72a1-45a1-9087-7fc6fcf66be0] tag=single-answer, bs=4, family=F1
+2026-05-12 16:19:40,567 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:19:55,452 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:19:55,453 - root - INFO - [agentic] mapped diagnosis → C14  (action=decrease_a3 target=3255322_4 relation=3235634_1 score=4.0)
+2026-05-12 16:19:55,454 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C14 agentic=C14 confidence=high
+2026-05-12 16:19:55,454 - root - INFO - [f37da282-72a1-45a1-9087-7fc6fcf66be0] answer='C14' top_candidate={'answer': 'C14', 'score': 0.8925, 'action_type': 'decrease_a3', 'target_cell': '3255322_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:19:55,454 - root - INFO - [f37da282-72a1-45a1-9087-7fc6fcf66be0] done in 16.8s — answer: 'C14'
+2026-05-12 16:19:55,455 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:19:56,486 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] answer='C6|C23' top_candidate={'answer': 'C6|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3219013_2 (serving=3269324_3, best_neighbor=3219013_2, overlap=0.38)'}
+2026-05-12 16:19:56,487 - root - INFO - [b0faea11-1ddb-44fe-b0fd-a3564a7dbae1] done in 1.0s — answer: 'C6|C23'
+2026-05-12 16:19:56,492 - root - INFO - Saved 10 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:19:56,492 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] tag=single-answer, bs=4, family=F1
+2026-05-12 16:19:57,743 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] answer='C11' top_candidate={'answer': 'C11', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:19:57,743 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] done in 1.3s — answer: 'C11'
+2026-05-12 16:19:57,745 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:03,904 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:20:18,000 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:20:18,002 - root - INFO - [agentic] mapped diagnosis → C10  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:20:18,003 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C10 agentic=C10 confidence=low
+2026-05-12 16:20:18,003 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] answer='C10' top_candidate={'answer': 'C10', 'score': 0.68, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:20:18,003 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] done in 20.3s — answer: 'C10'
+2026-05-12 16:20:18,006 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:20:19,087 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] answer='C12|C22' top_candidate={'answer': 'C12|C22', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3244548_4 (serving=3244548_4, overlap=0.1)'}
+2026-05-12 16:20:19,087 - root - INFO - [f00df504-5e00-49c3-b040-29c62021793d] done in 1.1s — answer: 'C12|C22'
+2026-05-12 16:20:19,088 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:20:19,088 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:20:20,342 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] answer='C20' top_candidate={'answer': 'C20', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:20:20,342 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] done in 1.3s — answer: 'C20'
+2026-05-12 16:20:20,343 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:21,535 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5, 'action_type': 'lift_tilt', 'target_cell': '3252632_3', 'reason': 'geometry recommendation'}
+2026-05-12 16:20:21,535 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] done in 1.2s — answer: 'C17'
+2026-05-12 16:20:21,536 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:22,587 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] answer='C10' top_candidate={'answer': 'C10', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3265013_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:20:22,588 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] done in 1.1s — answer: 'C10'
+2026-05-12 16:20:22,589 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:23,639 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3225934_3', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:20:23,640 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] done in 1.1s — answer: 'C24'
+2026-05-12 16:20:23,641 - root - INFO - [955b8cf8-257c-4790-9e74-a6546f2a6fc3] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:24,688 - root - INFO - [955b8cf8-257c-4790-9e74-a6546f2a6fc3] answer='C1' top_candidate={'answer': 'C1', 'score': 0.525, 'action_type': 'pdcch_2sym', 'target_cell': '3271584_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+2026-05-12 16:20:24,689 - root - INFO - [955b8cf8-257c-4790-9e74-a6546f2a6fc3] done in 1.0s — answer: 'C1'
+2026-05-12 16:20:24,690 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:20:25,741 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3231849_2 (serving=3231849_2, overlap=0.18)'}
+2026-05-12 16:20:25,742 - root - INFO - [1f872048-7692-4443-bbda-324975dbef07] done in 1.1s — answer: 'C1|C2'
+2026-05-12 16:20:25,743 - root - INFO - [f86420da-3884-4a89-985e-13b870108ac8] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:20:26,748 - root - INFO - [f86420da-3884-4a89-985e-13b870108ac8] answer='C3|C8' top_candidate={'answer': 'C3|C8', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3250042_1 (serving=3250042_1, overlap=0.24)'}
+2026-05-12 16:20:26,749 - root - INFO - [f86420da-3884-4a89-985e-13b870108ac8] done in 1.0s — answer: 'C3|C8'
+2026-05-12 16:20:26,751 - root - INFO - Saved 20 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:20:26,751 - root - INFO - [473369c4-d7f8-464c-9f53-6ac6c636c78f] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:27,842 - root - INFO - [473369c4-d7f8-464c-9f53-6ac6c636c78f] answer='C10' top_candidate={'answer': 'C10', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3251713_1', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+2026-05-12 16:20:27,842 - root - INFO - [473369c4-d7f8-464c-9f53-6ac6c636c78f] done in 1.1s — answer: 'C10'
+2026-05-12 16:20:27,844 - root - INFO - [0fdd3fef-f4b7-4043-b7c3-487770a5310c] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:34,516 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:20:45,673 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:20:45,674 - root - INFO - [agentic] mapped diagnosis → C12  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:20:45,675 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C12 agentic=C12 confidence=high
+2026-05-12 16:20:45,675 - root - INFO - [0fdd3fef-f4b7-4043-b7c3-487770a5310c] answer='C12' top_candidate={'answer': 'C12', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:20:45,675 - root - INFO - [0fdd3fef-f4b7-4043-b7c3-487770a5310c] done in 17.8s — answer: 'C12'
+2026-05-12 16:20:45,676 - root - INFO - [3861f9e6-55c0-4c20-8700-a44c3c0c57cc] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:20:46,721 - root - INFO - [3861f9e6-55c0-4c20-8700-a44c3c0c57cc] answer='C10|C21' top_candidate={'answer': 'C10|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3251791_2 (serving=3230417_4, best_neighbor=3251791_2, overlap=1.0)'}
+2026-05-12 16:20:46,721 - root - INFO - [3861f9e6-55c0-4c20-8700-a44c3c0c57cc] done in 1.0s — answer: 'C10|C21'
+2026-05-12 16:20:46,722 - root - INFO - [1ff7c477-6dea-4ce0-88b7-2c2ba3f34129] tag=single-answer, bs=4, family=F1
+2026-05-12 16:20:48,691 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:21:00,814 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:21:00,816 - root - INFO - [agentic] mapped diagnosis → C20  (action=add_neighbor target=3224187_4 relation=3242515_2 score=5.0)
+2026-05-12 16:21:00,816 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C20 agentic=C20 confidence=high
+2026-05-12 16:21:00,816 - root - INFO - [1ff7c477-6dea-4ce0-88b7-2c2ba3f34129] answer='C20' top_candidate={'answer': 'C20', 'score': 0.6636000000000001, 'action_type': 'add_neighbor', 'target_cell': '3224187_4', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+2026-05-12 16:21:00,817 - root - INFO - [1ff7c477-6dea-4ce0-88b7-2c2ba3f34129] done in 14.1s — answer: 'C20'
+2026-05-12 16:21:00,818 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:21:00,818 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:21:02,090 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] answer='C4' top_candidate={'answer': 'C4', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3270045_1', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-12 16:21:02,090 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] done in 1.3s — answer: 'C4'
+2026-05-12 16:21:02,091 - root - INFO - [8019a802-ec66-4fef-b2d2-e30f75849e7e] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:03,136 - root - INFO - [8019a802-ec66-4fef-b2d2-e30f75849e7e] answer='C12' top_candidate={'answer': 'C12', 'score': 0.61194, 'action_type': 'decrease_a3', 'target_cell': '3260078_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:21:03,136 - root - INFO - [8019a802-ec66-4fef-b2d2-e30f75849e7e] done in 1.0s — answer: 'C12'
+2026-05-12 16:21:03,138 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:04,189 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3226819_3', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:21:04,189 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] done in 1.1s — answer: 'C16'
+2026-05-12 16:21:04,191 - root - INFO - [bdb9f531-553c-46e4-93e8-2b9549b56eba] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:09,853 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:21:24,377 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:21:24,379 - root - INFO - [agentic] mapped diagnosis → C11  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:21:24,379 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C11 agentic=C11 confidence=low
+2026-05-12 16:21:24,380 - root - INFO - [bdb9f531-553c-46e4-93e8-2b9549b56eba] answer='C11' top_candidate={'answer': 'C11', 'score': 0.68, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:21:24,380 - root - INFO - [bdb9f531-553c-46e4-93e8-2b9549b56eba] done in 20.2s — answer: 'C11'
+2026-05-12 16:21:24,381 - root - INFO - [77930e8b-e435-4e40-b633-cb7731e4a03b] tag=multiple-answer, bs=5, family=F3
+2026-05-12 16:21:25,216 - root - INFO - [77930e8b-e435-4e40-b633-cb7731e4a03b] answer='C3|C9|C13|C22' top_candidate={'answer': 'C3|C9|C13|C22', 'score': 0.6, 'reason': "F3 template: ['decrease_power', 'press_down_tilt', 'increase_a3', 'increase_a3']"}
+2026-05-12 16:21:25,216 - root - INFO - [77930e8b-e435-4e40-b633-cb7731e4a03b] done in 0.8s — answer: 'C3|C9|C13|C22'
+2026-05-12 16:21:25,217 - root - INFO - [e73fcb38-c1be-4153-99ce-a04c3bf8fb4a] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:26,289 - root - INFO - [e73fcb38-c1be-4153-99ce-a04c3bf8fb4a] answer='C14' top_candidate={'answer': 'C14', 'score': 0.65268, 'action_type': 'decrease_a3', 'target_cell': '3254191_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:21:26,290 - root - INFO - [e73fcb38-c1be-4153-99ce-a04c3bf8fb4a] done in 1.1s — answer: 'C14'
+2026-05-12 16:21:26,298 - root - INFO - Saved 30 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:21:26,298 - root - INFO - [510e1132-6951-4772-8ef5-4eedec6a2ac8] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:27,288 - root - INFO - [510e1132-6951-4772-8ef5-4eedec6a2ac8] answer='C17' top_candidate={'answer': 'C17', 'score': 0.6560400000000001, 'action_type': 'decrease_a3', 'target_cell': '3212134_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:21:27,288 - root - INFO - [510e1132-6951-4772-8ef5-4eedec6a2ac8] done in 1.0s — answer: 'C17'
+2026-05-12 16:21:27,289 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:28,345 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] answer='C18' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3247547_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-12 16:21:28,346 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] done in 1.1s — answer: 'C18'
+2026-05-12 16:21:28,347 - root - INFO - [f428f517-0bcd-4d13-b31a-929eb3584363] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:21:29,443 - root - INFO - [f428f517-0bcd-4d13-b31a-929eb3584363] answer='C1|C6|C9|C20' top_candidate={'answer': 'C1|C6|C9|C20', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3233774_2, best_neighbor=3245633_3)'}
+2026-05-12 16:21:29,443 - root - INFO - [f428f517-0bcd-4d13-b31a-929eb3584363] done in 1.1s — answer: 'C1|C6|C9|C20'
+2026-05-12 16:21:29,444 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-12 16:21:29,444 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] tag=multiple-answer, bs=13, family=F4M
+2026-05-12 16:21:30,265 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] answer='C1|C2' top_candidate={'answer': 'C1|C2', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-12 16:21:30,265 - root - INFO - [2f2b8ae4-0724-4cdf-8dc9-00fe693f7a72] done in 0.8s — answer: 'C1|C2'
+2026-05-12 16:21:30,266 - root - INFO - [95cda870-3964-4e6b-b661-46ff57c94aba] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:35,891 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:21:48,348 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:21:48,350 - root - INFO - [agentic] mapped diagnosis → C2  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:21:48,350 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C2 agentic=C2 confidence=high
+2026-05-12 16:21:48,351 - root - INFO - [95cda870-3964-4e6b-b661-46ff57c94aba] answer='C2' top_candidate={'answer': 'C2', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:21:48,351 - root - INFO - [95cda870-3964-4e6b-b661-46ff57c94aba] done in 18.1s — answer: 'C2'
+2026-05-12 16:21:48,352 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:49,443 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] answer='C18' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3215387_1', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-12 16:21:49,443 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] done in 1.1s — answer: 'C18'
+2026-05-12 16:21:49,445 - root - INFO - [a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:21:50,484 - root - INFO - [a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4] answer='C2|C11' top_candidate={'answer': 'C2|C11', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3277364_1 (serving=3277364_1, overlap=0.15)'}
+2026-05-12 16:21:50,484 - root - INFO - [a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4] done in 1.0s — answer: 'C2|C11'
+2026-05-12 16:21:50,484 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:21:50,484 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:21:51,688 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] answer='C2' top_candidate={'answer': 'C2', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3251842_2', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-12 16:21:51,688 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] done in 1.2s — answer: 'C2'
+2026-05-12 16:21:51,690 - root - INFO - [73ed8db9-a06f-47b9-a758-5f456c9ec9b7] tag=single-answer, bs=4, family=F1
+2026-05-12 16:21:53,872 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:06,647 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:06,649 - root - INFO - [agentic] mapped diagnosis → C22  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:22:06,649 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C22 agentic=C22 confidence=high
+2026-05-12 16:22:06,649 - root - INFO - [73ed8db9-a06f-47b9-a758-5f456c9ec9b7] answer='C22' top_candidate={'answer': 'C22', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:22:06,649 - root - INFO - [73ed8db9-a06f-47b9-a758-5f456c9ec9b7] done in 15.0s — answer: 'C22'
+2026-05-12 16:22:06,650 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:22:07,744 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3277938_4 (serving=3230529_3, best_neighbor=3277938_4, overlap=0.88)'}
+2026-05-12 16:22:07,744 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] done in 1.1s — answer: 'C6|C15'
+2026-05-12 16:22:07,748 - root - INFO - Saved 40 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:22:07,748 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] tag=single-answer, bs=4, family=F1
+2026-05-12 16:22:08,840 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3265059_4', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:22:08,840 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] done in 1.1s — answer: 'C24'
+2026-05-12 16:22:08,841 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:22:08,842 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:22:10,067 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3250543_5', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-12 16:22:10,067 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] done in 1.2s — answer: 'C11'
+2026-05-12 16:22:10,069 - root - INFO - [62b0b362-fad9-4d4e-9daa-9bff2ff5a924] tag=single-answer, bs=4, family=F1
+2026-05-12 16:22:16,576 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:27,223 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:27,226 - root - INFO - [agentic] mapped diagnosis → C13  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:22:27,226 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C13 agentic=C13 confidence=high
+2026-05-12 16:22:27,226 - root - INFO - [62b0b362-fad9-4d4e-9daa-9bff2ff5a924] answer='C13' top_candidate={'answer': 'C13', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:22:27,226 - root - INFO - [62b0b362-fad9-4d4e-9daa-9bff2ff5a924] done in 17.2s — answer: 'C13'
+2026-05-12 16:22:27,228 - root - INFO - [0b835223-c0e7-438d-b4e5-8647c54be1bb] tag=single-answer, bs=4, family=F1
+2026-05-12 16:22:29,174 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:40,090 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:40,093 - root - INFO - [agentic] mapped diagnosis → C7  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:22:40,093 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C7 agentic=C7 confidence=high
+2026-05-12 16:22:40,093 - root - INFO - [0b835223-c0e7-438d-b4e5-8647c54be1bb] answer='C7' top_candidate={'answer': 'C7', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:22:40,093 - root - INFO - [0b835223-c0e7-438d-b4e5-8647c54be1bb] done in 12.9s — answer: 'C7'
+2026-05-12 16:22:40,095 - root - INFO - [26ffc4d1-36d2-4e55-84e7-9453afc83d11] tag=single-answer, bs=4, family=F1
+2026-05-12 16:22:41,144 - root - INFO - [26ffc4d1-36d2-4e55-84e7-9453afc83d11] answer='C6' top_candidate={'answer': 'C6', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:22:41,145 - root - INFO - [26ffc4d1-36d2-4e55-84e7-9453afc83d11] done in 1.0s — answer: 'C6'
+2026-05-12 16:22:41,146 - root - INFO - [d6aafd83-f46a-482a-9cf2-966cbf484409] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:22:41,146 - root - INFO - [d6aafd83-f46a-482a-9cf2-966cbf484409] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:22:42,449 - root - INFO - [d6aafd83-f46a-482a-9cf2-966cbf484409] answer='C4' top_candidate={'answer': 'C4', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:22:42,450 - root - INFO - [d6aafd83-f46a-482a-9cf2-966cbf484409] done in 1.3s — answer: 'C4'
+2026-05-12 16:22:42,452 - root - INFO - [69a578a6-b1a8-4402-8b82-8112534988c7] tag=single-answer, bs=4, family=F1
+2026-05-12 16:22:47,792 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:59,858 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:22:59,859 - root - INFO - [agentic] mapped diagnosis → C18  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:22:59,859 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C18 agentic=C18 confidence=medium
+2026-05-12 16:22:59,860 - root - INFO - [69a578a6-b1a8-4402-8b82-8112534988c7] answer='C18' top_candidate={'answer': 'C18', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:22:59,860 - root - INFO - [69a578a6-b1a8-4402-8b82-8112534988c7] done in 17.4s — answer: 'C18'
+2026-05-12 16:22:59,860 - root - INFO - [d51b968b-24ad-4a84-8014-1678ccc3ac58] tag=single-answer, bs=4, family=F1
+2026-05-12 16:23:00,942 - root - INFO - [d51b968b-24ad-4a84-8014-1678ccc3ac58] answer='C16' top_candidate={'answer': 'C16', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:23:00,942 - root - INFO - [d51b968b-24ad-4a84-8014-1678ccc3ac58] done in 1.1s — answer: 'C16'
+2026-05-12 16:23:00,942 - root - INFO - [863e801a-af00-411d-95c8-9795bf7859fd] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:23:01,988 - root - INFO - [863e801a-af00-411d-95c8-9795bf7859fd] answer='C3|C23' top_candidate={'answer': 'C3|C23', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3252180_3 (serving=3252180_3, overlap=0.21)'}
+2026-05-12 16:23:01,989 - root - INFO - [863e801a-af00-411d-95c8-9795bf7859fd] done in 1.0s — answer: 'C3|C23'
+2026-05-12 16:23:01,990 - root - INFO - [0f6dd5f1-149b-49ae-92a8-ab13d08ff5bd] tag=single-answer, bs=4, family=F1
+2026-05-12 16:23:03,048 - root - INFO - [0f6dd5f1-149b-49ae-92a8-ab13d08ff5bd] answer='C17' top_candidate={'answer': 'C17', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:23:03,049 - root - INFO - [0f6dd5f1-149b-49ae-92a8-ab13d08ff5bd] done in 1.1s — answer: 'C17'
+2026-05-12 16:23:03,053 - root - INFO - Saved 50 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:23:03,053 - root - INFO - [3835862a-870d-4402-9b44-384c8fca146b] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:23:03,054 - root - INFO - [3835862a-870d-4402-9b44-384c8fca146b] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:23:04,336 - root - INFO - [3835862a-870d-4402-9b44-384c8fca146b] answer='C4' top_candidate={'answer': 'C4', 'score': 0.8320200000000001, 'action_type': 'add_neighbor', 'target_cell': '3248427_3', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+2026-05-12 16:23:04,337 - root - INFO - [3835862a-870d-4402-9b44-384c8fca146b] done in 1.3s — answer: 'C4'
+2026-05-12 16:23:04,338 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-12 16:23:04,338 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] tag=multiple-answer, bs=13, family=F4M
+2026-05-12 16:23:05,165 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-12 16:23:05,165 - root - INFO - [cc8de794-e4fd-4d3c-95cb-158f4672355d] done in 0.8s — answer: 'C6|C7'
+2026-05-12 16:23:05,166 - root - INFO - [039f867d-64a3-4d8b-9f59-9a69bc15f259] tag=single-answer, bs=13, family=F4
+2026-05-12 16:23:06,023 - root - INFO - [039f867d-64a3-4d8b-9f59-9a69bc15f259] answer='C17' top_candidate={'answer': 'C17', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3256153_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-12 16:23:06,024 - root - INFO - [039f867d-64a3-4d8b-9f59-9a69bc15f259] done in 0.9s — answer: 'C17'
+2026-05-12 16:23:06,024 - root - INFO - [815f0842-32f3-440f-837d-42abdd09f248] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:23:07,080 - root - INFO - [815f0842-32f3-440f-837d-42abdd09f248] answer='C2|C20' top_candidate={'answer': 'C2|C20', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3221987_2 (serving=3221987_2, overlap=0.24)'}
+2026-05-12 16:23:07,080 - root - INFO - [815f0842-32f3-440f-837d-42abdd09f248] done in 1.1s — answer: 'C2|C20'
+2026-05-12 16:23:07,080 - root - INFO - [1a4ce5ef-f940-480c-92bf-38b4397dfb34] tag=single-answer, bs=4, family=F1
+2026-05-12 16:23:09,342 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:23:21,326 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:23:21,328 - root - INFO - [agentic] mapped diagnosis → C24  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:23:21,328 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C24 agentic=C24 confidence=high
+2026-05-12 16:23:21,328 - root - INFO - [1a4ce5ef-f940-480c-92bf-38b4397dfb34] answer='C24' top_candidate={'answer': 'C24', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:23:21,328 - root - INFO - [1a4ce5ef-f940-480c-92bf-38b4397dfb34] done in 14.2s — answer: 'C24'
+2026-05-12 16:23:21,329 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:23:22,390 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3279414_3 (serving=3220409_1, best_neighbor=?, overlap=1.0)'}
+2026-05-12 16:23:22,391 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] done in 1.1s — answer: 'C1|C23'
+2026-05-12 16:23:22,392 - root - INFO - [5f3bbe40-689f-413e-b50a-c4f43ab27899] tag=single-answer, bs=13, family=F4
+2026-05-12 16:23:23,216 - root - INFO - [5f3bbe40-689f-413e-b50a-c4f43ab27899] answer='C19' top_candidate={'answer': 'C19', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3264577_1', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-12 16:23:23,217 - root - INFO - [5f3bbe40-689f-413e-b50a-c4f43ab27899] done in 0.8s — answer: 'C19'
+2026-05-12 16:23:23,217 - root - INFO - [b479af8e-8d29-43ca-86ef-601f24c2ad4f] tag=single-answer, bs=4, family=F1
+2026-05-12 16:23:24,291 - root - INFO - [b479af8e-8d29-43ca-86ef-601f24c2ad4f] answer='C16' top_candidate={'answer': 'C16', 'score': 0.525, 'action_type': 'pdcch_2sym', 'target_cell': '3258774_2', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+2026-05-12 16:23:24,292 - root - INFO - [b479af8e-8d29-43ca-86ef-601f24c2ad4f] done in 1.1s — answer: 'C16'
+2026-05-12 16:23:24,293 - root - INFO - [9b0f8c28-7a09-4871-9f26-b852a49fd173] tag=single-answer, bs=4, family=F1
+2026-05-12 16:23:30,210 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:23:43,710 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:23:43,713 - root - INFO - [agentic] mapped diagnosis → C3  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:23:43,713 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C3 agentic=C3 confidence=medium
+2026-05-12 16:23:43,713 - root - INFO - [9b0f8c28-7a09-4871-9f26-b852a49fd173] answer='C3' top_candidate={'answer': 'C3', 'score': 0.68, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:23:43,714 - root - INFO - [9b0f8c28-7a09-4871-9f26-b852a49fd173] done in 19.4s — answer: 'C3'
+2026-05-12 16:23:43,715 - root - INFO - [d4354d60-160c-45ee-a99e-ef7d05e39c19] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:23:43,715 - root - INFO - [d4354d60-160c-45ee-a99e-ef7d05e39c19] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:23:44,981 - root - INFO - [d4354d60-160c-45ee-a99e-ef7d05e39c19] answer='C20' top_candidate={'answer': 'C20', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:23:44,981 - root - INFO - [d4354d60-160c-45ee-a99e-ef7d05e39c19] done in 1.3s — answer: 'C20'
+2026-05-12 16:23:44,984 - root - INFO - Saved 60 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:23:44,984 - root - INFO - [d2e36af8-f277-43dc-a0d7-f49d9a1436d3] tag=single-answer, bs=4, family=F1
+2026-05-12 16:23:50,977 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:24:01,850 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:24:01,852 - root - INFO - [agentic] mapped diagnosis → C18  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:24:01,853 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C18 agentic=C18 confidence=high
+2026-05-12 16:24:01,853 - root - INFO - [d2e36af8-f277-43dc-a0d7-f49d9a1436d3] answer='C18' top_candidate={'answer': 'C18', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:24:01,853 - root - INFO - [d2e36af8-f277-43dc-a0d7-f49d9a1436d3] done in 16.9s — answer: 'C18'
+2026-05-12 16:24:01,855 - root - INFO - [ccb728ac-9083-4f43-a89d-135d00e1a357] tag=single-answer, bs=4, family=F1
+2026-05-12 16:24:03,872 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:24:20,107 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:24:20,109 - root - INFO - [agentic] mapped diagnosis → C7  (action=add_neighbor target=3260657_1 relation=3262483_2 score=5.0)
+2026-05-12 16:24:20,109 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C7 agentic=C7 confidence=high
+2026-05-12 16:24:20,109 - root - INFO - [ccb728ac-9083-4f43-a89d-135d00e1a357] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6451200000000001, 'action_type': 'add_neighbor', 'target_cell': '3260657_1', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+2026-05-12 16:24:20,109 - root - INFO - [ccb728ac-9083-4f43-a89d-135d00e1a357] done in 18.3s — answer: 'C7'
+2026-05-12 16:24:20,111 - root - INFO - [2901eb3e-765a-43ad-ad9d-d660ebd1ce37] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:24:21,199 - root - INFO - [2901eb3e-765a-43ad-ad9d-d660ebd1ce37] answer='C1|C19' top_candidate={'answer': 'C1|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3226678_3 (serving=3271162_1, best_neighbor=3226678_3, overlap=0.37)'}
+2026-05-12 16:24:21,199 - root - INFO - [2901eb3e-765a-43ad-ad9d-d660ebd1ce37] done in 1.1s — answer: 'C1|C19'
+2026-05-12 16:24:21,201 - root - INFO - [44840230-1070-42f8-b480-83bd5968391d] tag=single-answer, bs=4, family=F1
+2026-05-12 16:24:27,136 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:24:38,523 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:24:38,525 - root - INFO - [agentic] mapped diagnosis → C16  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:24:38,525 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C16 agentic=C16 confidence=high
+2026-05-12 16:24:38,526 - root - INFO - [44840230-1070-42f8-b480-83bd5968391d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:24:38,526 - root - INFO - [44840230-1070-42f8-b480-83bd5968391d] done in 17.3s — answer: 'C16'
+2026-05-12 16:24:38,527 - root - INFO - [f16193c4-00f8-45be-8df5-edc7a12f6d2b] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:24:38,528 - root - INFO - [f16193c4-00f8-45be-8df5-edc7a12f6d2b] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:24:39,765 - root - INFO - [f16193c4-00f8-45be-8df5-edc7a12f6d2b] answer='C19' top_candidate={'answer': 'C19', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:24:39,765 - root - INFO - [f16193c4-00f8-45be-8df5-edc7a12f6d2b] done in 1.2s — answer: 'C19'
+2026-05-12 16:24:39,767 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:24:40,797 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] answer='C16|C23' top_candidate={'answer': 'C16|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270392_2 (serving=3261278_1, best_neighbor=?, overlap=1.0)'}
+2026-05-12 16:24:40,798 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] done in 1.0s — answer: 'C16|C23'
+2026-05-12 16:24:40,799 - root - INFO - [71f8e7bd-15b6-490d-adf4-b4746615987a] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:24:41,816 - root - INFO - [71f8e7bd-15b6-490d-adf4-b4746615987a] answer='C1|C24' top_candidate={'answer': 'C1|C24', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3232425_1 (serving=3232425_1, overlap=0.25)'}
+2026-05-12 16:24:41,816 - root - INFO - [71f8e7bd-15b6-490d-adf4-b4746615987a] done in 1.0s — answer: 'C1|C24'
+2026-05-12 16:24:41,817 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:24:42,880 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] answer='C2|C5' top_candidate={'answer': 'C2|C5', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3246815_3 (serving=3246815_3, overlap=0.19)'}
+2026-05-12 16:24:42,880 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] done in 1.1s — answer: 'C2|C5'
+2026-05-12 16:24:42,881 - root - INFO - [0025e3f1-6a6a-4146-8fce-c0cf97816995] tag=single-answer, bs=4, family=F1
+2026-05-12 16:24:48,404 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:25:04,393 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:25:04,396 - root - INFO - [agentic] mapped diagnosis → C13  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:25:04,396 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C13 agentic=C13 confidence=medium
+2026-05-12 16:25:04,396 - root - INFO - [0025e3f1-6a6a-4146-8fce-c0cf97816995] answer='C13' top_candidate={'answer': 'C13', 'score': 0.68, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:25:04,396 - root - INFO - [0025e3f1-6a6a-4146-8fce-c0cf97816995] done in 21.5s — answer: 'C13'
+2026-05-12 16:25:04,398 - root - INFO - [c1e268da-594a-4e37-8313-1ac798c6f921] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:05,440 - root - INFO - [c1e268da-594a-4e37-8313-1ac798c6f921] answer='C14' top_candidate={'answer': 'C14', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3230189_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+2026-05-12 16:25:05,440 - root - INFO - [c1e268da-594a-4e37-8313-1ac798c6f921] done in 1.0s — answer: 'C14'
+2026-05-12 16:25:05,445 - root - INFO - Saved 70 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:25:05,445 - root - INFO - [fa44ffa9-ccd7-4a3a-bfa1-bfbd55ffab81] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:06,542 - root - INFO - [fa44ffa9-ccd7-4a3a-bfa1-bfbd55ffab81] answer='C22' top_candidate={'answer': 'C22', 'score': 0.6552, 'action_type': 'decrease_a3', 'target_cell': '3244176_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:25:06,542 - root - INFO - [fa44ffa9-ccd7-4a3a-bfa1-bfbd55ffab81] done in 1.1s — answer: 'C22'
+2026-05-12 16:25:06,544 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:07,604 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] answer='C23' top_candidate={'answer': 'C23', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3264702_4', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-12 16:25:07,604 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] done in 1.1s — answer: 'C23'
+2026-05-12 16:25:07,606 - root - INFO - [de896155-b409-4446-8679-e1bb486e4882] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:08,649 - root - INFO - [de896155-b409-4446-8679-e1bb486e4882] answer='C2|C7' top_candidate={'answer': 'C2|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3270601_1 (serving=3270601_1, overlap=0.21)'}
+2026-05-12 16:25:08,649 - root - INFO - [de896155-b409-4446-8679-e1bb486e4882] done in 1.0s — answer: 'C2|C7'
+2026-05-12 16:25:08,651 - root - INFO - [9c9ddada-5ef5-4f71-90ac-93b1edc7bcab] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:09,742 - root - INFO - [9c9ddada-5ef5-4f71-90ac-93b1edc7bcab] answer='C6|C10' top_candidate={'answer': 'C6|C10', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3220065_4 (serving=3263457_2, best_neighbor=?, overlap=1.0)'}
+2026-05-12 16:25:09,742 - root - INFO - [9c9ddada-5ef5-4f71-90ac-93b1edc7bcab] done in 1.1s — answer: 'C6|C10'
+2026-05-12 16:25:09,744 - root - INFO - [732ac9cf-5ad2-4934-a5f6-f41d6edde04e] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:10,741 - root - INFO - [732ac9cf-5ad2-4934-a5f6-f41d6edde04e] answer='C6|C12|C15|C19' top_candidate={'answer': 'C6|C12|C15|C19', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3215650_4, best_neighbor=3255155_2)'}
+2026-05-12 16:25:10,741 - root - INFO - [732ac9cf-5ad2-4934-a5f6-f41d6edde04e] done in 1.0s — answer: 'C6|C12|C15|C19'
+2026-05-12 16:25:10,742 - root - INFO - [a23ab670-fd49-4272-b64c-fcbf270dae96] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:11,769 - root - INFO - [a23ab670-fd49-4272-b64c-fcbf270dae96] answer='C1|C7' top_candidate={'answer': 'C1|C7', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3242229_1 (serving=3242229_1, overlap=0.15)'}
+2026-05-12 16:25:11,770 - root - INFO - [a23ab670-fd49-4272-b64c-fcbf270dae96] done in 1.0s — answer: 'C1|C7'
+2026-05-12 16:25:11,771 - root - INFO - [26b2f2d2-27dc-4457-a6fc-a505a3dc723d] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:13,042 - root - INFO - [26b2f2d2-27dc-4457-a6fc-a505a3dc723d] answer='C5' top_candidate={'answer': 'C5', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3237057_1', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+2026-05-12 16:25:13,042 - root - INFO - [26b2f2d2-27dc-4457-a6fc-a505a3dc723d] done in 1.3s — answer: 'C5'
+2026-05-12 16:25:13,044 - root - INFO - [c827524a-bdd2-4003-b2ed-2850289f6be4] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:15,202 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:25:27,451 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:25:27,453 - root - INFO - [agentic] mapped diagnosis → C1  (action=decrease_a3 target=3256014_3 relation= score=4.0)
+2026-05-12 16:25:27,453 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C1 agentic=C1 confidence=high
+2026-05-12 16:25:27,453 - root - INFO - [c827524a-bdd2-4003-b2ed-2850289f6be4] answer='C1' top_candidate={'answer': 'C1', 'score': 0.7354200000000001, 'action_type': 'decrease_a3', 'target_cell': '3256014_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:25:27,454 - root - INFO - [c827524a-bdd2-4003-b2ed-2850289f6be4] done in 14.4s — answer: 'C1'
+2026-05-12 16:25:27,455 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:28,540 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] answer='C17' top_candidate={'answer': 'C17', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3228888_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:25:28,541 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] done in 1.1s — answer: 'C17'
+2026-05-12 16:25:28,542 - root - INFO - [95a3235a-cad3-4765-b379-ce5087f30e5f] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:34,856 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:25:44,683 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:25:44,686 - root - INFO - [agentic] mapped diagnosis → C9  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:25:44,686 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C9 agentic=C9 confidence=high
+2026-05-12 16:25:44,686 - root - INFO - [95a3235a-cad3-4765-b379-ce5087f30e5f] answer='C9' top_candidate={'answer': 'C9', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:25:44,687 - root - INFO - [95a3235a-cad3-4765-b379-ce5087f30e5f] done in 16.1s — answer: 'C9'
+2026-05-12 16:25:44,695 - root - INFO - Saved 80 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:25:44,696 - root - INFO - [830f10bd-b05c-47df-824b-8c72e99e372e] tag=single-answer, bs=13, family=F4
+2026-05-12 16:25:45,521 - root - INFO - [830f10bd-b05c-47df-824b-8c72e99e372e] answer='C9' top_candidate={'answer': 'C9', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3276807_4', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-12 16:25:45,521 - root - INFO - [830f10bd-b05c-47df-824b-8c72e99e372e] done in 0.8s — answer: 'C9'
+2026-05-12 16:25:45,522 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:25:45,522 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:25:46,795 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] answer='C21' top_candidate={'answer': 'C21', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:25:46,796 - root - INFO - [92771857-14a0-4bfc-9cad-4a88d3e553fb] done in 1.3s — answer: 'C21'
+2026-05-12 16:25:46,797 - root - INFO - [2955c497-5f13-4273-a753-16d3d27febb3] tag=single-answer, bs=4, family=F1
+2026-05-12 16:25:47,842 - root - INFO - [2955c497-5f13-4273-a753-16d3d27febb3] answer='C22' top_candidate={'answer': 'C22', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3273376_2', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-12 16:25:47,843 - root - INFO - [2955c497-5f13-4273-a753-16d3d27febb3] done in 1.0s — answer: 'C22'
+2026-05-12 16:25:47,844 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-12 16:25:47,844 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] tag=multiple-answer, bs=13, family=F4M
+2026-05-12 16:25:48,670 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] answer='C2|C13' top_candidate={'answer': 'C2|C13', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-12 16:25:48,670 - root - INFO - [18bd7eab-15c9-4c60-99e1-fb83be0428e5] done in 0.8s — answer: 'C2|C13'
+2026-05-12 16:25:48,671 - root - INFO - [f765cbbc-ad37-492b-bfb2-b4844b28e1d7] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:49,748 - root - INFO - [f765cbbc-ad37-492b-bfb2-b4844b28e1d7] answer='C6|C9' top_candidate={'answer': 'C6|C9', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3270105_1 (serving=3270105_1, overlap=0.21)'}
+2026-05-12 16:25:49,748 - root - INFO - [f765cbbc-ad37-492b-bfb2-b4844b28e1d7] done in 1.1s — answer: 'C6|C9'
+2026-05-12 16:25:49,750 - root - INFO - [e32e041c-dc9d-4598-b4dc-40f8d55e303d] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:25:49,750 - root - INFO - [e32e041c-dc9d-4598-b4dc-40f8d55e303d] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:25:51,042 - root - INFO - [e32e041c-dc9d-4598-b4dc-40f8d55e303d] answer='C20' top_candidate={'answer': 'C20', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:25:51,042 - root - INFO - [e32e041c-dc9d-4598-b4dc-40f8d55e303d] done in 1.3s — answer: 'C20'
+2026-05-12 16:25:51,044 - root - INFO - [8b0618d4-6149-403d-b617-b430f9cc668a] Family override: F4M (tag=multiple-answer, bs=13)
+2026-05-12 16:25:51,044 - root - INFO - [8b0618d4-6149-403d-b617-b430f9cc668a] tag=multiple-answer, bs=13, family=F4M
+2026-05-12 16:25:51,870 - root - INFO - [8b0618d4-6149-403d-b617-b430f9cc668a] answer='C6|C13' top_candidate={'answer': 'C6|C13', 'score': 0.6719999999999999, 'reason': 'Phase2 13BS inter-frequency pair'}
+2026-05-12 16:25:51,870 - root - INFO - [8b0618d4-6149-403d-b617-b430f9cc668a] done in 0.8s — answer: 'C6|C13'
+2026-05-12 16:25:51,871 - root - INFO - [422843a3-02b2-43d6-b681-cdaad918f4ff] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:52,943 - root - INFO - [422843a3-02b2-43d6-b681-cdaad918f4ff] answer='C12|C14' top_candidate={'answer': 'C12|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3239549_4 (serving=3247247_1, best_neighbor=3239549_4, overlap=0.32)'}
+2026-05-12 16:25:52,943 - root - INFO - [422843a3-02b2-43d6-b681-cdaad918f4ff] done in 1.1s — answer: 'C12|C14'
+2026-05-12 16:25:52,945 - root - INFO - [bfc2dc55-713e-473f-b417-aeadc3a1b6c7] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:53,945 - root - INFO - [bfc2dc55-713e-473f-b417-aeadc3a1b6c7] answer='C5|C11' top_candidate={'answer': 'C5|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3243485_4 (serving=3232421_3, best_neighbor=3243485_4, overlap=0.36)'}
+2026-05-12 16:25:53,946 - root - INFO - [bfc2dc55-713e-473f-b417-aeadc3a1b6c7] done in 1.0s — answer: 'C5|C11'
+2026-05-12 16:25:53,947 - root - INFO - [13482c57-c7d2-40b3-8020-c45ff3a396f4] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:25:55,044 - root - INFO - [13482c57-c7d2-40b3-8020-c45ff3a396f4] answer='C1|C4|C6|C22' top_candidate={'answer': 'C1|C4|C6|C22', 'score': 0.744, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3259320_2, best_neighbor=3248020_3)'}
+2026-05-12 16:25:55,045 - root - INFO - [13482c57-c7d2-40b3-8020-c45ff3a396f4] done in 1.1s — answer: 'C1|C4|C6|C22'
+2026-05-12 16:25:55,049 - root - INFO - Saved 90 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:25:55,050 - root - INFO - [6109e7b7-b970-4d08-b00e-cf46a9614880] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:01,264 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:26:13,225 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:26:13,227 - root - INFO - [agentic] mapped diagnosis → C16  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:26:13,227 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C16 agentic=C16 confidence=high
+2026-05-12 16:26:13,228 - root - INFO - [6109e7b7-b970-4d08-b00e-cf46a9614880] answer='C16' top_candidate={'answer': 'C16', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:26:13,228 - root - INFO - [6109e7b7-b970-4d08-b00e-cf46a9614880] done in 18.2s — answer: 'C16'
+2026-05-12 16:26:13,230 - root - INFO - [a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:14,264 - root - INFO - [a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] answer='C22' top_candidate={'answer': 'C22', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3264109_3', 'reason': 'F1 non-primary action demoted: overshoot_overlap (score=0.55) → press_down_tilt/secondary'}
+2026-05-12 16:26:14,264 - root - INFO - [a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] done in 1.0s — answer: 'C22'
+2026-05-12 16:26:14,265 - root - INFO - [9ce2509c-e2ab-40ab-948f-a57b6f6d4583] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:15,342 - root - INFO - [9ce2509c-e2ab-40ab-948f-a57b6f6d4583] answer='C16' top_candidate={'answer': 'C16', 'score': 0.63882, 'action_type': 'decrease_a3', 'target_cell': '3217637_2', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:26:15,343 - root - INFO - [9ce2509c-e2ab-40ab-948f-a57b6f6d4583] done in 1.1s — answer: 'C16'
+2026-05-12 16:26:15,344 - root - INFO - [ff500b22-2cdd-48b8-9029-a19556a0284b] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:16,362 - root - INFO - [ff500b22-2cdd-48b8-9029-a19556a0284b] answer='C3|C13' top_candidate={'answer': 'C3|C13', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3260801_3 (serving=3260801_3, overlap=0.22)'}
+2026-05-12 16:26:16,363 - root - INFO - [ff500b22-2cdd-48b8-9029-a19556a0284b] done in 1.0s — answer: 'C3|C13'
+2026-05-12 16:26:16,364 - root - INFO - [d1db7c9d-0831-43cc-8458-2c592f8ddd11] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:17,443 - root - INFO - [d1db7c9d-0831-43cc-8458-2c592f8ddd11] answer='C2|C10' top_candidate={'answer': 'C2|C10', 'score': 0.66, 'reason': 'F2 relationship: coverage-shaping fix on serving/weak cell 3268237_1 (serving=3268237_1, overlap=0.16)'}
+2026-05-12 16:26:17,444 - root - INFO - [d1db7c9d-0831-43cc-8458-2c592f8ddd11] done in 1.1s — answer: 'C2|C10'
+2026-05-12 16:26:17,445 - root - INFO - [575a50bb-24b4-4b7b-9d29-90efb4c2f4f2] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:18,464 - root - INFO - [575a50bb-24b4-4b7b-9d29-90efb4c2f4f2] answer='C6' top_candidate={'answer': 'C6', 'score': 0.6711600000000001, 'action_type': 'add_neighbor', 'target_cell': '3216593_1', 'reason': 'missing_neighbor → add_neighbor/primary (neighbor cell)'}
+2026-05-12 16:26:18,465 - root - INFO - [575a50bb-24b4-4b7b-9d29-90efb4c2f4f2] done in 1.0s — answer: 'C6'
+2026-05-12 16:26:18,466 - root - INFO - [fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:26:18,466 - root - INFO - [fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:26:19,741 - root - INFO - [fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] answer='C23' top_candidate={'answer': 'C23', 'score': 0.85, 'action_type': 'decrease_a3', 'target_cell': '3279661_2', 'reason': 'late_handover (score=0.85) → decrease_a3/primary'}
+2026-05-12 16:26:19,741 - root - INFO - [fb9252f7-5e88-42b1-9a34-fcfe3e340f3e] done in 1.3s — answer: 'C23'
+2026-05-12 16:26:19,742 - root - INFO - [6147bada-cf92-4cdf-a7e4-7655e1300925] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-12 16:26:19,743 - root - INFO - [6147bada-cf92-4cdf-a7e4-7655e1300925] tag=single-answer, bs=5, family=F1_5BS
+2026-05-12 16:26:20,991 - root - INFO - [6147bada-cf92-4cdf-a7e4-7655e1300925] answer='C3' top_candidate={'answer': 'C3', 'score': 0.7824000000000001, 'action_type': 'decrease_a3', 'target_cell': '3245992_2', 'reason': 'late_handover (score=0.78) → decrease_a3/primary'}
+2026-05-12 16:26:20,991 - root - INFO - [6147bada-cf92-4cdf-a7e4-7655e1300925] done in 1.2s — answer: 'C3'
+2026-05-12 16:26:20,992 - root - INFO - [ddb040fe-708c-472d-8ef6-584b8ec5b7ec] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:22,041 - root - INFO - [ddb040fe-708c-472d-8ef6-584b8ec5b7ec] answer='C1|C2|C12|C20' top_candidate={'answer': 'C1|C2|C12|C20', 'score': 0.7, 'reason': 'F2 comprehensive 4-action fix: decrease_a3 + add_neighbor + decrease_power + press_down_tilt (serving=3274544_3, best_neighbor=3260349_4)'}
+2026-05-12 16:26:22,042 - root - INFO - [ddb040fe-708c-472d-8ef6-584b8ec5b7ec] done in 1.0s — answer: 'C1|C2|C12|C20'
+2026-05-12 16:26:22,043 - root - INFO - [982b3e86-a7f4-42d3-97c8-7bfec2fd1025] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:23,068 - root - INFO - [982b3e86-a7f4-42d3-97c8-7bfec2fd1025] answer='C9' top_candidate={'answer': 'C9', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:26:23,068 - root - INFO - [982b3e86-a7f4-42d3-97c8-7bfec2fd1025] done in 1.0s — answer: 'C9'
+2026-05-12 16:26:23,073 - root - INFO - Saved 100 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:26:23,073 - root - INFO - [b84d0afd-0856-4974-a9a0-3012a24ffef4] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:24,147 - root - INFO - [b84d0afd-0856-4974-a9a0-3012a24ffef4] answer='C5' top_candidate={'answer': 'C5', 'score': 0.5796000000000001, 'action_type': 'decrease_a3', 'target_cell': '3242996_3', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:26:24,148 - root - INFO - [b84d0afd-0856-4974-a9a0-3012a24ffef4] done in 1.1s — answer: 'C5'
+2026-05-12 16:26:24,149 - root - INFO - [9914f65b-06e1-4f0d-91e2-4fa06d5c0d13] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:25,244 - root - INFO - [9914f65b-06e1-4f0d-91e2-4fa06d5c0d13] answer='C22|C24' top_candidate={'answer': 'C22|C24', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3227624_1 (serving=3278518_2, best_neighbor=3227624_1, overlap=0.32)'}
+2026-05-12 16:26:25,245 - root - INFO - [9914f65b-06e1-4f0d-91e2-4fa06d5c0d13] done in 1.1s — answer: 'C22|C24'
+2026-05-12 16:26:25,246 - root - INFO - [568f196c-ba3a-4092-b1b0-7ebe332efd70] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:26,353 - root - INFO - [568f196c-ba3a-4092-b1b0-7ebe332efd70] answer='C20' top_candidate={'answer': 'C20', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:26:26,353 - root - INFO - [568f196c-ba3a-4092-b1b0-7ebe332efd70] done in 1.1s — answer: 'C20'
+2026-05-12 16:26:26,355 - root - INFO - [7bb4febb-7c48-4c46-8012-5e2d108d4c9b] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:28,400 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:26:43,064 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:26:43,066 - root - INFO - [agentic] mapped diagnosis → C9  (action=add_neighbor target=3277527_2 relation=3212484_4 score=5.0)
+2026-05-12 16:26:43,066 - root - INFO - [agentic] branch=add_neighbor_vs_decrease_a3 det=C3|C23 agentic=C9 confidence=high
+2026-05-12 16:26:43,067 - root - INFO - [7bb4febb-7c48-4c46-8012-5e2d108d4c9b] answer='C9' top_candidate={'answer': 'C3|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3277527_2 (serving=3212484_4, best_neighbor=?, overlap=1.0)'}
+2026-05-12 16:26:43,067 - root - INFO - [7bb4febb-7c48-4c46-8012-5e2d108d4c9b] done in 16.7s — answer: 'C9'
+2026-05-12 16:26:43,069 - root - INFO - [d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:44,144 - root - INFO - [d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] answer='C9' top_candidate={'answer': 'C9', 'score': 0.6472200000000001, 'action_type': 'decrease_a3', 'target_cell': '3210853_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:26:44,144 - root - INFO - [d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] done in 1.1s — answer: 'C9'
+2026-05-12 16:26:44,145 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:45,244 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3262929_4 (serving=3271115_1, best_neighbor=3262929_4, overlap=1.0)'}
+2026-05-12 16:26:45,244 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] done in 1.1s — answer: 'C6|C7'
+2026-05-12 16:26:45,246 - root - INFO - [32ad6a89-3f8c-4e03-9936-5d1be80459b4] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:26:46,293 - root - INFO - [32ad6a89-3f8c-4e03-9936-5d1be80459b4] answer='C14|C23' top_candidate={'answer': 'C14|C23', 'score': 0.451, 'reason': 'F2 role fallback: decrease_power/primary + press_down_tilt/primary'}
+2026-05-12 16:26:46,294 - root - INFO - [32ad6a89-3f8c-4e03-9936-5d1be80459b4] done in 1.0s — answer: 'C14|C23'
+2026-05-12 16:26:46,296 - root - INFO - [da968423-724d-4d1d-a4b7-17541f21d116] tag=single-answer, bs=4, family=F1
+2026-05-12 16:26:51,876 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:27:03,506 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:27:03,507 - root - INFO - [agentic] mapped diagnosis → C15  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:27:03,507 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C15 agentic=C15 confidence=medium
+2026-05-12 16:27:03,507 - root - INFO - [da968423-724d-4d1d-a4b7-17541f21d116] answer='C15' top_candidate={'answer': 'C15', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 high-PRB healthy-radio → insufficient_data hypothesis'}
+2026-05-12 16:27:03,507 - root - INFO - [da968423-724d-4d1d-a4b7-17541f21d116] done in 17.2s — answer: 'C15'
+2026-05-12 16:27:03,508 - root - INFO - [74536f80-5d30-42dc-91f0-1a73dc6acc0c] tag=single-answer, bs=4, family=F1
+2026-05-12 16:27:04,540 - root - INFO - [74536f80-5d30-42dc-91f0-1a73dc6acc0c] answer='C17' top_candidate={'answer': 'C17', 'score': 0.7161, 'action_type': 'decrease_a3', 'target_cell': '3247726_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:27:04,541 - root - INFO - [74536f80-5d30-42dc-91f0-1a73dc6acc0c] done in 1.0s — answer: 'C17'
+2026-05-12 16:27:04,541 - root - INFO - [effdd6ec-7918-4f5e-bb01-390ae8060302] tag=single-answer, bs=13, family=F4
+2026-05-12 16:27:05,365 - root - INFO - [effdd6ec-7918-4f5e-bb01-390ae8060302] answer='C12' top_candidate={'answer': 'C12', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3248872_5', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-12 16:27:05,365 - root - INFO - [effdd6ec-7918-4f5e-bb01-390ae8060302] done in 0.8s — answer: 'C12'
+2026-05-12 16:27:05,369 - root - INFO - Saved 110 rows → results/phase2/current_submission/result_full_postCD_agentic_highrisk.csv
+2026-05-12 16:27:05,369 - root - INFO - [2ff9fe61-ffa9-4116-a3af-f76e2a3e2bd2] tag=single-answer, bs=13, family=F4
+2026-05-12 16:27:06,217 - root - INFO - [2ff9fe61-ffa9-4116-a3af-f76e2a3e2bd2] answer='C14' top_candidate={'answer': 'C14', 'score': 0.5249999999999999, 'action_type': 'decrease_interfreq', 'target_cell': '3215464_3', 'reason': 'F4 inter-frequency prior → decrease_interfreq/primary'}
+2026-05-12 16:27:06,217 - root - INFO - [2ff9fe61-ffa9-4116-a3af-f76e2a3e2bd2] done in 0.8s — answer: 'C14'
+2026-05-12 16:27:06,218 - root - INFO - [a0d59e59-2024-47fe-99e8-a2e0b2c0a877] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:27:07,287 - root - INFO - [a0d59e59-2024-47fe-99e8-a2e0b2c0a877] answer='C9|C16' top_candidate={'answer': 'C9|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3242068_3 (serving=3214989_4, best_neighbor=3242068_3, overlap=0.34)'}
+2026-05-12 16:27:07,287 - root - INFO - [a0d59e59-2024-47fe-99e8-a2e0b2c0a877] done in 1.1s — answer: 'C9|C16'
+2026-05-12 16:27:07,288 - root - INFO - [b62410af-0de9-49f1-ad8e-71ff8ddff0fa] tag=single-answer, bs=4, family=F1
+2026-05-12 16:27:08,346 - root - INFO - [b62410af-0de9-49f1-ad8e-71ff8ddff0fa] answer='C24' top_candidate={'answer': 'C24', 'score': 0.5859000000000001, 'action_type': 'decrease_a3', 'target_cell': '3227484_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:27:08,347 - root - INFO - [b62410af-0de9-49f1-ad8e-71ff8ddff0fa] done in 1.1s — answer: 'C24'
+2026-05-12 16:27:08,348 - root - INFO - [0d3d53d7-473e-42cc-9d87-c15700742492] tag=single-answer, bs=4, family=F1
+2026-05-12 16:27:09,447 - root - INFO - [0d3d53d7-473e-42cc-9d87-c15700742492] answer='C1' top_candidate={'answer': 'C1', 'score': 0.525, 'action_type': 'pdcch_2sym', 'target_cell': '3238794_3', 'reason': 'pdcch_issue → pdcch_2sym/primary (serving cell)'}
+2026-05-12 16:27:09,448 - root - INFO - [0d3d53d7-473e-42cc-9d87-c15700742492] done in 1.1s — answer: 'C1'
+2026-05-12 16:27:09,449 - root - INFO - [54110aae-c06a-4ea4-91ae-650818b0b88c] tag=single-answer, bs=4, family=F1
+2026-05-12 16:27:16,186 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:27:28,855 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-12 16:27:28,857 - root - INFO - [agentic] mapped diagnosis → C21  (action=insufficient_data target= relation= score=1.0)
+2026-05-12 16:27:28,858 - root - INFO - [agentic] branch=lift_tilt_vs_insufficient_data det=C21 agentic=C21 confidence=high
+2026-05-12 16:27:28,858 - root - INFO - [54110aae-c06a-4ea4-91ae-650818b0b88c] answer='C21' top_candidate={'answer': 'C21', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-12 16:27:28,858 - root - INFO - [54110aae-c06a-4ea4-91ae-650818b0b88c] done in 19.4s — answer: 'C21'
+2026-05-12 16:27:28,860 - root - INFO - [4c81b4cd-2d3a-42c4-a09a-bc110b8d2cc9] tag=multiple-answer, bs=4, family=F2
+2026-05-12 16:27:29,888 - root - INFO - [4c81b4cd-2d3a-42c4-a09a-bc110b8d2cc9] answer='C8|C11' top_candidate={'answer': 'C8|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3225255_4 (serving=3223528_3, best_neighbor=?, overlap=1.0)'}
+2026-05-12 16:27:29,888 - root - INFO - [4c81b4cd-2d3a-42c4-a09a-bc110b8d2cc9] done in 1.0s — answer: 'C8|C11'
+2026-05-12 16:27:29,889 - root - INFO - [8125c1bd-1a2d-4a81-9e15-71c93ff7caba] tag=single-answer, bs=4, family=F1
+2026-05-12 16:27:30,939 - root - INFO - [8125c1bd-1a2d-4a81-9e15-71c93ff7caba] answer='C3' top_candidate={'answer': 'C3', 'score': 0.6572999999999999, 'action_type': 'decrease_a3', 'target_cell': '3258383_1', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-12 16:27:30,939 - root - INFO - [8125c1bd-1a2d-4a81-9e15-71c93ff7caba] done in 1.1s — answer: 'C3'
+2026-05-12 16:27:30,941 - root - INFO - [4ff7e5c7-e7cf-406f-ad73-a1e3438caccb] tag=single-answer, bs=4, family=F1

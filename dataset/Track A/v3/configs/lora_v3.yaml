@@ -1,0 +1,64 @@
+### LLaMA-Factory SFT Configuration for Track A V3 — Qwen3.5-35B-A3B LoRA
+###
+### Training format:
+###   - messages: ShareGPT-style [system, user, assistant]
+###   - user:     structured V3 evidence + candidates + retrieved similar cases
+###   - assistant: \boxed{C_N} + one-line rationale tag
+
+# ── Model ──────────────────────────────────────────────────────────────────────
+model_name_or_path: /home/huangxiaolin/AITO/model
+trust_remote_code: true
+
+# ── Method ─────────────────────────────────────────────────────────────────────
+stage: sft
+do_train: true
+finetuning_type: lora
+
+# LoRA hyperparameters
+lora_rank: 32
+lora_alpha: 64
+lora_dropout: 0.05
+lora_target: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
+
+# ── Dataset ────────────────────────────────────────────────────────────────────
+dataset: sft_v3
+dataset_dir: /home/huangxiaolin/AITO/dataset/Track A/v3
+template: qwen
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 4
+
+# ── Training ───────────────────────────────────────────────────────────────────
+output_dir: /home/huangxiaolin/AITO/dataset/Track A/v3/checkpoints/v3_a3_corrected_z2
+logging_dir: /home/huangxiaolin/AITO/dataset/Track A/v3/checkpoints/v3_a3_corrected_z2_logs
+save_strategy: steps
+save_steps: 100
+save_total_limit: 3
+per_device_train_batch_size: 4
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 4
+num_train_epochs: 3
+learning_rate: 1.0e-4
+lr_scheduler_type: cosine
+warmup_ratio: 0.03
+weight_decay: 0.01
+max_grad_norm: 1.0
+bf16: true
+
+# ── Evaluation ─────────────────────────────────────────────────────────────────
+do_eval: true
+eval_dataset: sft_heldout_val
+val_size: 0.0
+eval_strategy: steps
+eval_steps: 100
+load_best_model_at_end: true
+metric_for_best_model: eval_loss
+greater_is_better: false
+
+# ── DeepSpeed ──────────────────────────────────────────────────────────────────
+deepspeed: /home/huangxiaolin/AITO/dataset/Track A/v3/configs/ds_z2.json
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+logging_steps: 50
+report_to: none
+plot_loss: true

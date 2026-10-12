@@ -1,0 +1,83 @@
+{
+  "submit_ready": true,
+  "rows": {
+    "expected": 500,
+    "result": 28,
+    "answered": 28,
+    "answer_rate": 1.0,
+    "coverage_rate": 0.056,
+    "missing_ids": 472,
+    "extra_ids": 0,
+    "duplicate_ids": 0
+  },
+  "hard_error_count": 0,
+  "warning_count": 0,
+  "diagnostics": {
+    "rows": 28,
+    "family_counts": {
+      "F1": 28
+    },
+    "family_override_counts": {},
+    "scenario_errors": {},
+    "candidate_empty": 0,
+    "low_confidence_top_candidates": 0,
+    "low_confidence_rate": 0.0,
+    "top_candidate_score": {
+      "mean": 0.7888671428571429,
+      "p50": 0.78,
+      "p95": 0.8925,
+      "min": 0.735,
+      "max": 0.8925
+    },
+    "missing_data_by_source": {
+      "signaling": 28
+    },
+    "missing_critical_data": 0,
+    "missing_critical_data_rate": 0.0,
+    "api_calls_total": 178,
+    "api_errors_total": 0,
+    "api_error_rate": 0.0,
+    "api_calls_by_tool": {
+      "get_user_plane_data": 28,
+      "get_config_data": 28,
+      "get_kpi_data": 28,
+      "get_mr_data": 28,
+      "calculate_overlap_ratio": 26,
+      "judge_mainlobe_or_not": 26,
+      "get_user_location": 9,
+      "calculate_tilt_angle": 5
+    },
+    "api_errors_by_tool": {},
+    "elapsed_seconds": {
+      "mean": 18.36840774331774,
+      "p50": 18.738706350326538,
+      "p95": 20.688322067260742,
+      "max": 20.804959535598755
+    }
+  },
+  "out_report": "results/phase2/agentic_overlay_tests/probe_highRisk_postCD.audit.json"
+}
+
+    "missing_critical_data_rate": 0.0,
+    "api_calls_total": 178,
+    "api_errors_total": 0,
+    "api_error_rate": 0.0,
+    "api_calls_by_tool": {
+      "get_user_plane_data": 28,
+      "get_config_data": 28,
+      "get_kpi_data": 28,
+      "get_mr_data": 28,
+      "calculate_overlap_ratio": 26,
+      "judge_mainlobe_or_not": 26,
+      "get_user_location": 9,
+      "calculate_tilt_angle": 5
+    },
+    "api_errors_by_tool": {},
+    "elapsed_seconds": {
+      "mean": 18.36840774331774,
+      "p50": 18.738706350326538,
+      "p95": 20.688322067260742,
+      "max": 20.804959535598755
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "submit_ready": true,
+  "hard_errors": [],
+  "warnings": [],
+  "paths": {
+    "test_json": "data/Phase_2/test.json",
+    "result_csv": "results/phase2/preflight_key_det.csv",
+    "diagnostics_jsonl": "results/phase2/preflight_key_det.diagnostics.jsonl"
+  },
+  "rows": {
+    "expected": 500,
+    "result": 6,
+    "answered": 6,
+    "answer_rate": 1.0,
+    "coverage_rate": 0.012,
+    "missing_ids": 494,
+    "extra_ids": 0,
+    "duplicate_ids": 0
+  },
+  "answer_distribution": {
+    "by_code": {
+      "C1": 1,
+      "C2": 1,
+      "C3": 2,
+      "C4": 1,
+      "C7": 2,
+      "C13": 1,
+      "C17": 1,
+      "C23": 1,
+      "C24": 1
+    },
+    "by_answer_len": {
+      "1": 3,
+      "2": 2,
+      "4": 1
+    },
+    "by_tag": {
+      "single-answer": 3,
+      "multiple-answer": 3
+    },
+    "by_tag_and_answer_len": {
+      "multiple-answer:2": 2,
+      "multiple-answer:4": 1,
+      "single-answer:1": 3
+    }
+  },
+  "diagnostics": {
+    "rows": 6,
+    "family_counts": {
+      "F1": 1,
+      "F1_5BS": 1,
+      "F4": 1,
+      "F3": 1,
+      "F2": 1,
+      "F4M": 1
+    },
+    "family_override_counts": {
+      "F1_5BS": 1,
+      "F4M": 1
+    },
+    "scenario_errors": {},
+    "candidate_empty": 0,
+    "low_confidence_top_candidates": 0,
+    "low_confidence_rate": 0.0,
+    "top_candidate_score": {
+      "mean": 0.5130166666666667,
+      "p50": 0.55,
+      "p95": 0.6719999999999999,
+      "min": 0.12,
+      "max": 0.6719999999999999
+    },
+    "missing_data_by_source": {
+      "signaling": 6
+    },
+    "missing_critical_data": 0,
+    "missing_critical_data_rate": 0.0,
+    "api_calls_total": 28,
+    "api_errors_total": 0,
+    "api_error_rate": 0.0,
+    "api_calls_by_tool": {
+      "get_user_plane_data": 6,
+      "get_config_data": 6,
+      "get_kpi_data": 6,
+      "get_mr_data": 6,
+      "calculate_overlap_ratio": 3,
+      "judge_mainlobe_or_not": 1
+    },
+    "api_errors_by_tool": {},
+    "elapsed_seconds": {
+      "mean": 9.870973149935404,
+      "p50": 10.117772102355957,
+      "p95": 12.624120473861694,
+      "max": 12.624120473861694
+    }
+  }
+}

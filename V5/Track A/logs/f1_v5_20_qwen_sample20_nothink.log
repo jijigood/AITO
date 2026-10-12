@@ -1,0 +1,147 @@
+2026-05-18 08:58:34,164 - root - INFO - Scenario ID filter: 20/500 selected
+2026-05-18 08:58:34,164 - root - INFO - Loaded 20 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-18 08:58:34,186 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-18 08:58:34,288 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V5/Track A/data/Phase_1/train.json
+2026-05-18 08:58:34,288 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] tag=single-answer, bs=4, family=F1
+2026-05-18 08:58:49,123 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:00,301 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:00,302 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] LLM arbitration accepted answer='C23' deterministic='C5' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 08:59:00,303 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] answer='C23' top_candidate={'answer': 'C5', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3250799_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 08:59:00,303 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] done in 26.0s — answer: 'C23'
+2026-05-18 08:59:00,304 - root - INFO - Saved 1 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 08:59:00,304 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] tag=single-answer, bs=4, family=F1
+2026-05-18 08:59:17,918 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:19,721 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:19,723 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] LLM arbitration accepted answer='C18' deterministic='C16' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 08:59:19,724 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] answer='C18' top_candidate={'answer': 'C16', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3246004_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 08:59:19,724 - root - INFO - [d56ae664-59ed-453f-8703-36c8e3e44227] done in 19.4s — answer: 'C18'
+2026-05-18 08:59:19,726 - root - INFO - Saved 2 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 08:59:19,726 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-18 08:59:19,726 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] tag=single-answer, bs=5, family=F1_5BS
+2026-05-18 08:59:38,378 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 08:59:38,379 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] LLM arbitration accepted answer='C1' deterministic='C1' reasons=f1_llm_first,new_phase2_family:F1_5BS,low_candidate_score:0.240,close_candidate_gap:-0.030,lift_tilt_vs_insufficient_data_boundary
+2026-05-18 08:59:38,380 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] answer='C1' top_candidate={'answer': 'C1', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3234830_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-18 08:59:38,380 - root - INFO - [61b818e5-0414-471d-a5c5-94f0c1e2e242] done in 18.7s — answer: 'C1'
+2026-05-18 08:59:38,381 - root - INFO - Saved 3 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 08:59:38,381 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] tag=single-answer, bs=4, family=F1
+2026-05-18 08:59:49,954 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:00:06,274 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:00:06,275 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] LLM arbitration accepted answer='C22' deterministic='C10' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:00:06,276 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] answer='C22' top_candidate={'answer': 'C10', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3265013_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 09:00:06,276 - root - INFO - [e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] done in 27.9s — answer: 'C22'
+2026-05-18 09:00:06,279 - root - INFO - Saved 4 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:00:06,279 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] tag=single-answer, bs=4, family=F1
+2026-05-18 09:00:19,914 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:00:45,113 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:00:45,115 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] LLM arbitration accepted answer='C24' deterministic='C24' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:00:45,115 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] answer='C24' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3225934_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 09:00:45,116 - root - INFO - [d82d2ab4-beb2-4fb9-8610-b627cc951549] done in 38.8s — answer: 'C24'
+2026-05-18 09:00:45,117 - root - INFO - Saved 5 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:00:45,118 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-18 09:00:45,118 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] tag=single-answer, bs=5, family=F1_5BS
+2026-05-18 09:01:04,144 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:01:04,146 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] LLM arbitration accepted answer='C4' deterministic='C4' reasons=f1_llm_first,new_phase2_family:F1_5BS,low_candidate_score:0.240,close_candidate_gap:-0.030,lift_tilt_vs_insufficient_data_boundary
+2026-05-18 09:01:04,146 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] answer='C4' top_candidate={'answer': 'C4', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3270045_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-18 09:01:04,146 - root - INFO - [ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] done in 19.0s — answer: 'C4'
+2026-05-18 09:01:04,148 - root - INFO - Saved 6 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:01:04,148 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] tag=single-answer, bs=4, family=F1
+2026-05-18 09:01:15,010 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:01:32,044 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:01:32,045 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] LLM arbitration accepted answer='C8' deterministic='C16' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:01:32,045 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] answer='C8' top_candidate={'answer': 'C16', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3226819_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 09:01:32,046 - root - INFO - [c43e5abc-8118-4f75-90d0-5b1d5420fc7d] done in 27.9s — answer: 'C8'
+2026-05-18 09:01:32,047 - root - INFO - Saved 7 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:01:32,047 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] tag=single-answer, bs=4, family=F1
+2026-05-18 09:01:47,519 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:03,721 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:03,724 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] LLM arbitration accepted answer='C1' deterministic='C18' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:02:03,724 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] answer='C1' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3247547_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:02:03,724 - root - INFO - [53d0aaea-93f5-405c-bdcb-0f4057af53b6] done in 31.7s — answer: 'C1'
+2026-05-18 09:02:03,726 - root - INFO - Saved 8 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:02:03,726 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] tag=single-answer, bs=4, family=F1
+2026-05-18 09:02:14,585 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:25,381 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:25,382 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] LLM arbitration accepted answer='C17' deterministic='C18' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:02:25,382 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] answer='C17' top_candidate={'answer': 'C18', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3215387_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:02:25,383 - root - INFO - [a5c16b90-0e9a-4d4c-849a-5139913c350a] done in 21.7s — answer: 'C17'
+2026-05-18 09:02:25,387 - root - INFO - Saved 9 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:02:25,387 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-18 09:02:25,387 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] tag=single-answer, bs=5, family=F1_5BS
+2026-05-18 09:02:43,433 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:02:43,434 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] LLM arbitration accepted answer='C2' deterministic='C2' reasons=f1_llm_first,new_phase2_family:F1_5BS,low_candidate_score:0.240,close_candidate_gap:-0.030,lift_tilt_vs_insufficient_data_boundary
+2026-05-18 09:02:43,434 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] answer='C2' top_candidate={'answer': 'C2', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3251842_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-18 09:02:43,434 - root - INFO - [2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] done in 18.0s — answer: 'C2'
+2026-05-18 09:02:43,436 - root - INFO - Saved 10 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:02:43,436 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] tag=single-answer, bs=4, family=F1
+2026-05-18 09:02:54,842 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:03:05,698 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:03:05,700 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] LLM arbitration accepted answer='C4' deterministic='C24' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:03:05,700 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] answer='C4' top_candidate={'answer': 'C24', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3265059_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 09:03:05,700 - root - INFO - [2d5a3045-8ef8-4e01-ac3b-91365b904718] done in 22.3s — answer: 'C4'
+2026-05-18 09:03:05,702 - root - INFO - Saved 11 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:03:05,702 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-18 09:03:05,702 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] tag=single-answer, bs=5, family=F1_5BS
+2026-05-18 09:03:25,618 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:03:25,619 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] LLM arbitration accepted answer='C11' deterministic='C11' reasons=f1_llm_first,new_phase2_family:F1_5BS,low_candidate_score:0.240,close_candidate_gap:-0.030,lift_tilt_vs_insufficient_data_boundary
+2026-05-18 09:03:25,619 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3250543_5', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-18 09:03:25,619 - root - INFO - [9fc4ad17-21b3-4474-adb7-a939a04bc843] done in 19.9s — answer: 'C11'
+2026-05-18 09:03:25,621 - root - INFO - Saved 12 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:03:25,621 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] tag=single-answer, bs=4, family=F1
+2026-05-18 09:03:35,796 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:03:47,714 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:03:47,716 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] LLM arbitration accepted answer='C7' deterministic='C23' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:03:47,716 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] answer='C7' top_candidate={'answer': 'C23', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3264702_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:03:47,717 - root - INFO - [68ba2457-eaa3-4535-9b5c-3656bb8cc66b] done in 22.1s — answer: 'C7'
+2026-05-18 09:03:47,817 - root - INFO - Saved 13 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:03:47,818 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] tag=single-answer, bs=4, family=F1
+2026-05-18 09:04:04,262 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:04:06,307 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:04:06,309 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] LLM arbitration accepted answer='C22' deterministic='C17' reasons=f1_llm_first,low_issue_score:0.500,low_candidate_score:0.120,close_candidate_gap:-0.105,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:04:06,309 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] answer='C22' top_candidate={'answer': 'C17', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3228888_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.50) → press_down_tilt/secondary'}
+2026-05-18 09:04:06,309 - root - INFO - [e063186f-c960-483f-b7e5-47f406910c4b] done in 18.5s — answer: 'C22'
+2026-05-18 09:04:06,311 - root - INFO - Saved 14 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:04:06,311 - root - INFO - [bd375ddc-b6b2-4e8d-be99-5a97b660abe5] tag=single-answer, bs=4, family=F1
+2026-05-18 09:04:21,266 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:04:34,538 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:04:34,539 - root - INFO - [bd375ddc-b6b2-4e8d-be99-5a97b660abe5] LLM arbitration accepted answer='C12' deterministic='C12' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:04:34,539 - root - INFO - [bd375ddc-b6b2-4e8d-be99-5a97b660abe5] answer='C12' top_candidate={'answer': 'C12', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3253225_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:04:34,540 - root - INFO - [bd375ddc-b6b2-4e8d-be99-5a97b660abe5] done in 28.2s — answer: 'C12'
+2026-05-18 09:04:34,541 - root - INFO - Saved 15 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:04:34,542 - root - INFO - [7b12c38c-274a-4475-befa-d67d7d813601] tag=single-answer, bs=4, family=F1
+2026-05-18 09:04:48,106 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:04:58,371 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:04:58,372 - root - INFO - [7b12c38c-274a-4475-befa-d67d7d813601] LLM arbitration accepted answer='C11' deterministic='C20' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:04:58,372 - root - INFO - [7b12c38c-274a-4475-befa-d67d7d813601] answer='C11' top_candidate={'answer': 'C20', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3268060_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:04:58,373 - root - INFO - [7b12c38c-274a-4475-befa-d67d7d813601] done in 23.8s — answer: 'C11'
+2026-05-18 09:04:58,374 - root - INFO - Saved 16 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:04:58,374 - root - INFO - [68481bc5-b257-45da-9279-09575d5ab783] tag=single-answer, bs=4, family=F1
+2026-05-18 09:05:18,068 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:20,163 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:20,164 - root - INFO - [68481bc5-b257-45da-9279-09575d5ab783] LLM arbitration accepted answer='C8' deterministic='C3' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:05:20,164 - root - INFO - [68481bc5-b257-45da-9279-09575d5ab783] answer='C8' top_candidate={'answer': 'C3', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3225523_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:05:20,165 - root - INFO - [68481bc5-b257-45da-9279-09575d5ab783] done in 21.8s — answer: 'C8'
+2026-05-18 09:05:20,166 - root - INFO - Saved 17 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:05:20,166 - root - INFO - [adda43e7-3f09-44ab-8665-1f1c24be70b6] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-18 09:05:20,166 - root - INFO - [adda43e7-3f09-44ab-8665-1f1c24be70b6] tag=single-answer, bs=5, family=F1_5BS
+2026-05-18 09:05:32,848 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:05:32,851 - root - INFO - [adda43e7-3f09-44ab-8665-1f1c24be70b6] LLM arbitration accepted answer='C6' deterministic='C6' reasons=f1_llm_first,new_phase2_family:F1_5BS,low_candidate_score:0.240,close_candidate_gap:-0.030,lift_tilt_vs_insufficient_data_boundary
+2026-05-18 09:05:32,851 - root - INFO - [adda43e7-3f09-44ab-8665-1f1c24be70b6] answer='C6' top_candidate={'answer': 'C6', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3256071_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-18 09:05:32,851 - root - INFO - [adda43e7-3f09-44ab-8665-1f1c24be70b6] done in 12.7s — answer: 'C6'
+2026-05-18 09:05:32,866 - root - INFO - Saved 18 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:05:32,866 - root - INFO - [ec7ec74f-5b95-4bb9-af93-81513b45d086] tag=single-answer, bs=4, family=F1
+2026-05-18 09:05:48,224 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:06:12,879 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:06:12,881 - root - INFO - [ec7ec74f-5b95-4bb9-af93-81513b45d086] LLM arbitration accepted answer='C2' deterministic='C2' reasons=f1_llm_first,low_candidate_score:0.120,close_candidate_gap:-0.150,non_f1_primary_top_action:press_down_tilt
+2026-05-18 09:06:12,881 - root - INFO - [ec7ec74f-5b95-4bb9-af93-81513b45d086] answer='C2' top_candidate={'answer': 'C2', 'score': 0.12, 'action_type': 'press_down_tilt', 'target_cell': '3217875_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 non-primary action demoted: overshoot_overlap (score=0.60) → press_down_tilt/secondary'}
+2026-05-18 09:06:12,882 - root - INFO - [ec7ec74f-5b95-4bb9-af93-81513b45d086] done in 40.0s — answer: 'C2'
+2026-05-18 09:06:12,884 - root - INFO - Saved 19 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:06:12,884 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-18 09:06:12,884 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] tag=single-answer, bs=5, family=F1_5BS
+2026-05-18 09:06:29,156 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-18 09:06:29,157 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] LLM arbitration accepted answer='C11' deterministic='C11' reasons=f1_llm_first,new_phase2_family:F1_5BS,low_candidate_score:0.240,close_candidate_gap:-0.030,lift_tilt_vs_insufficient_data_boundary
+2026-05-18 09:06:29,157 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3265418_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-18 09:06:29,157 - root - INFO - [c4fb29f5-147e-40c6-92b3-ae66de737fd3] done in 16.3s — answer: 'C11'
+2026-05-18 09:06:29,159 - root - INFO - Saved 20 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:06:29,159 - root - INFO - Saved 20 rows → results/phase2/f1_v5_20_audit/qwen_sample20_nothink.csv
+2026-05-18 09:06:29,160 - root - INFO - 
+Done. 20/20 answered in 475s (avg 23.7s/scenario)

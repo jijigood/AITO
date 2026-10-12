@@ -1,0 +1,357 @@
+{
+  "test_json": "data/Phase_2/test.json",
+  "selected": 18,
+  "out_ids": "results/phase2/probe_selection/probe_ids.txt",
+  "groups": {
+    "multiple-answer:13": 3,
+    "multiple-answer:4": 3,
+    "multiple-answer:5": 3,
+    "single-answer:13": 3,
+    "single-answer:4": 3,
+    "single-answer:5": 3
+  },
+  "items": [
+    {
+      "scenario_id": "422843a3-02b2-43d6-b681-cdaad918f4ff",
+      "tag": "multiple-answer",
+      "num_base_stations": 4,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "decrease_power": 2,
+        "lift_tilt": 2,
+        "pdcch_2sym": 2,
+        "check_server": 1,
+        "increase_power": 2,
+        "increase_a3": 2,
+        "press_down_tilt": 2,
+        "decrease_a3": 2,
+        "decrease_interfreq": 2,
+        "insufficient_data": 1
+      }
+    },
+    {
+      "scenario_id": "de896155-b409-4446-8679-e1bb486e4882",
+      "tag": "multiple-answer",
+      "num_base_stations": 4,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "press_down_tilt": 2,
+        "increase_power": 2,
+        "check_server": 1,
+        "increase_a3": 2,
+        "insufficient_data": 1,
+        "lift_tilt": 2,
+        "pdcch_2sym": 2,
+        "decrease_power": 2,
+        "decrease_interfreq": 2,
+        "decrease_a3": 2
+      }
+    },
+    {
+      "scenario_id": "16e2e629-c315-424a-837c-375eab4be2ad",
+      "tag": "multiple-answer",
+      "num_base_stations": 4,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "increase_power": 2,
+        "lift_tilt": 2,
+        "press_down_tilt": 2,
+        "decrease_interfreq": 2,
+        "decrease_a3": 2,
+        "decrease_power": 2,
+        "pdcch_2sym": 2,
+        "increase_a3": 2,
+        "check_server": 1,
+        "insufficient_data": 1
+      }
+    },
+    {
+      "scenario_id": "9b648fab-9609-49bc-bd5b-acf3e1cb9950",
+      "tag": "multiple-answer",
+      "num_base_stations": 5,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "insufficient_data": 1,
+        "decrease_a3": 2,
+        "lift_tilt": 2,
+        "increase_power": 2,
+        "decrease_interfreq": 2,
+        "press_down_tilt": 2,
+        "decrease_power": 2,
+        "check_server": 1,
+        "increase_a3": 2,
+        "pdcch_2sym": 2
+      }
+    },
+    {
+      "scenario_id": "f4de78d3-5e53-43b8-ba53-00eb0302b3b0",
+      "tag": "multiple-answer",
+      "num_base_stations": 5,
+      "action_counts": {
+        "add_neighbor": 2,
+        "decrease_a3": 2,
+        "lift_tilt": 2,
+        "increase_power": 2,
+        "adjust_azimuth": 4,
+        "decrease_interfreq": 2,
+        "check_server": 1,
+        "increase_a3": 2,
+        "pdcch_2sym": 2,
+        "press_down_tilt": 2,
+        "decrease_power": 2,
+        "insufficient_data": 1
+      }
+    },
+    {
+      "scenario_id": "f53a1781-d243-47a2-b287-e92b77a0f6a3",
+      "tag": "multiple-answer",
+      "num_base_stations": 5,
+      "action_counts": {
+        "add_neighbor": 2,
+        "decrease_interfreq": 2,
+        "press_down_tilt": 2,
+        "pdcch_2sym": 2,
+        "adjust_azimuth": 4,
+        "increase_a3": 2,
+        "decrease_power": 2,
+        "decrease_a3": 2,
+        "lift_tilt": 2,
+        "increase_power": 2,
+        "check_server": 1,
+        "insufficient_data": 1
+      }
+    },
+    {
+      "scenario_id": "49eeac37-d3d2-4bf7-8d5a-64d6a2511ed0",
+      "tag": "multiple-answer",
+      "num_base_stations": 13,
+      "action_counts": {
+        "add_neighbor": 2,
+        "increase_a3": 2,
+        "insufficient_data": 1,
+        "adjust_azimuth": 4,
+        "decrease_a3": 2,
+        "press_down_tilt": 2,
+        "lift_tilt": 2,
+        "check_server": 1,
+        "decrease_interfreq": 2,
+        "pdcch_2sym": 2,
+        "increase_power": 2,
+        "decrease_power": 2
+      }
+    },
+    {
+      "scenario_id": "21eff364-b638-4b05-af3f-f1f8d60f11af",
+      "tag": "multiple-answer",
+      "num_base_stations": 13,
+      "action_counts": {
+        "add_neighbor": 2,
+        "increase_power": 2,
+        "decrease_power": 2,
+        "insufficient_data": 1,
+        "check_server": 1,
+        "adjust_azimuth": 4,
+        "pdcch_2sym": 2,
+        "lift_tilt": 2,
+        "increase_a3": 2,
+        "decrease_interfreq": 2,
+        "press_down_tilt": 2,
+        "decrease_a3": 2
+      }
+    },
+    {
+      "scenario_id": "e6508c0b-072d-40b3-8ccb-9be4395728f1",
+      "tag": "multiple-answer",
+      "num_base_stations": 13,
+      "action_counts": {
+        "adjust_azimuth": 4,
+        "decrease_interfreq": 2,
+        "increase_a3": 2,
+        "add_neighbor": 2,
+        "increase_power": 2,
+        "decrease_a3": 2,
+        "pdcch_2sym": 2,
+        "decrease_power": 2,
+        "check_server": 1,
+        "insufficient_data": 1,
+        "press_down_tilt": 2,
+        "lift_tilt": 2
+      }
+    },
+    {
+      "scenario_id": "880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3",
+      "tag": "single-answer",
+      "num_base_stations": 4,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "pdcch_2sym": 2,
+        "increase_power": 2,
+        "insufficient_data": 1,
+        "decrease_a3": 2,
+        "decrease_interfreq": 2,
+        "lift_tilt": 2,
+        "press_down_tilt": 2,
+        "increase_a3": 2,
+        "decrease_power": 2,
+        "check_server": 1
+      }
+    },
+    {
+      "scenario_id": "137f3a5b-9dbb-45e0-aa9b-5de9d0829df2",
+      "tag": "single-answer",
+      "num_base_stations": 4,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "decrease_interfreq": 2,
+        "decrease_a3": 2,
+        "decrease_power": 2,
+        "press_down_tilt": 2,
+        "increase_a3": 2,
+        "insufficient_data": 1,
+        "pdcch_2sym": 2,
+        "increase_power": 2,
+        "check_server": 1,
+        "lift_tilt": 2
+      }
+    },
+    {
+      "scenario_id": "8a98c175-ce8a-4fdd-81ad-ccb7e9f25828",
+      "tag": "single-answer",
+      "num_base_stations": 4,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "increase_power": 2,
+        "pdcch_2sym": 2,
+        "press_down_tilt": 2,
+        "increase_a3": 2,
+        "insufficient_data": 1,
+        "decrease_a3": 2,
+        "check_server": 1,
+        "decrease_interfreq": 2,
+        "decrease_power": 2,
+        "lift_tilt": 2
+      }
+    },
+    {
+      "scenario_id": "7d6659e3-7d14-45d2-b6e9-954317edb3ce",
+      "tag": "single-answer",
+      "num_base_stations": 5,
+      "action_counts": {
+        "adjust_azimuth": 4,
+        "decrease_a3": 2,
+        "check_server": 1,
+        "pdcch_2sym": 2,
+        "increase_a3": 2,
+        "decrease_power": 2,
+        "increase_power": 2,
+        "lift_tilt": 2,
+        "press_down_tilt": 2,
+        "decrease_interfreq": 2,
+        "insufficient_data": 1,
+        "add_neighbor": 2
+      }
+    },
+    {
+      "scenario_id": "92771857-14a0-4bfc-9cad-4a88d3e553fb",
+      "tag": "single-answer",
+      "num_base_stations": 5,
+      "action_counts": {
+        "adjust_azimuth": 4,
+        "decrease_a3": 2,
+        "lift_tilt": 2,
+        "add_neighbor": 2,
+        "decrease_interfreq": 2,
+        "increase_a3": 2,
+        "increase_power": 2,
+        "pdcch_2sym": 2,
+        "decrease_power": 2,
+        "check_server": 1,
+        "insufficient_data": 1,
+        "press_down_tilt": 2
+      }
+    },
+    {
+      "scenario_id": "c4fb29f5-147e-40c6-92b3-ae66de737fd3",
+      "tag": "single-answer",
+      "num_base_stations": 5,
+      "action_counts": {
+        "adjust_azimuth": 4,
+        "decrease_interfreq": 2,
+        "press_down_tilt": 2,
+        "add_neighbor": 2,
+        "increase_a3": 2,
+        "decrease_a3": 2,
+        "lift_tilt": 2,
+        "pdcch_2sym": 2,
+        "insufficient_data": 1,
+        "decrease_power": 2,
+        "increase_power": 2,
+        "check_server": 1
+      }
+    },
+    {
+      "scenario_id": "830f10bd-b05c-47df-824b-8c72e99e372e",
+      "tag": "single-answer",
+      "num_base_stations": 13,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "decrease_a3": 2,
+        "press_down_tilt": 2,
+        "pdcch_2sym": 2,
+        "decrease_power": 2,
+        "decrease_interfreq": 2,
+        "increase_power": 2,
+        "lift_tilt": 2,
+        "increase_a3": 2,
+        "check_server": 1,
+        "insufficient_data": 1
+      }
+    },
+    {
+      "scenario_id": "effdd6ec-7918-4f5e-bb01-390ae8060302",
+      "tag": "single-answer",
+      "num_base_stations": 13,
+      "action_counts": {
+        "add_neighbor": 2,
+        "adjust_azimuth": 4,
+        "pdcch_2sym": 2,
+        "press_down_tilt": 2,
+        "increase_power": 2,
+        "lift_tilt": 2,
+        "decrease_power": 2,
+        "decrease_interfreq": 2,
+        "check_server": 1,
+        "decrease_a3": 2,
+        "increase_a3": 2,
+        "insufficient_data": 1
+      }
+    },
+    {
+      "scenario_id": "f709842e-41ee-4bdc-b472-392cc93a7b99",
+      "tag": "single-answer",
+      "num_base_stations": 13,
+      "action_counts": {
+        "adjust_azimuth": 4,
+        "add_neighbor": 2,
+        "press_down_tilt": 2,
+        "decrease_interfreq": 2,
+        "decrease_power": 2,
+        "check_server": 1,
+        "pdcch_2sym": 2,
+        "decrease_a3": 2,
+        "increase_a3": 2,
+        "lift_tilt": 2,
+        "insufficient_data": 1,
+        "increase_power": 2
+      }
+    }
+  ]
+}

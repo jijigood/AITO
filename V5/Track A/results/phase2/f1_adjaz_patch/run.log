@@ -1,0 +1,445 @@
+Scenario ID filter: 60/500 selected
+Loaded 60 Phase 2 scenarios from data/Phase_2/test.json
+[LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+[RAG V2] Building structured feature index...
+[RAG V2] Indexed 500/2000...
+[RAG V2] Indexed 1000/2000...
+[RAG V2] Indexed 1500/2000...
+[RAG V2] Indexed 2000/2000...
+[RAG V2] Index built: 2000 cases, 16 features each.
+[RAG] Index ready: data/Phase_1/train.json
+[78960ba6-b2d6-4961-a683-78f177ca34bc] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.376815 seconds
+Retrying request to /chat/completions in 0.861950 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[78960ba6-b2d6-4961-a683-78f177ca34bc] answer='C23' top_candidate={'answer': 'C23', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3242615_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[78960ba6-b2d6-4961-a683-78f177ca34bc] done in 542.3s — answer: 'C23'
+[d56ae664-59ed-453f-8703-36c8e3e44227] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.416052 seconds
+Retrying request to /chat/completions in 0.830540 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[d56ae664-59ed-453f-8703-36c8e3e44227] answer='C18' top_candidate={'answer': 'C18', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3264323_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[d56ae664-59ed-453f-8703-36c8e3e44227] done in 542.7s — answer: 'C18'
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] Family override: F1_5BS (tag=single-answer, bs=5)
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] tag=single-answer, bs=5, family=F1_5BS
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] answer='C1' top_candidate={'answer': 'C1', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3234830_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[61b818e5-0414-471d-a5c5-94f0c1e2e242] done in 0.8s — answer: 'C1'
+[e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.408506 seconds
+Retrying request to /chat/completions in 0.750808 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] answer='C22' top_candidate={'answer': 'C22', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3217549_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[e7ad23cf-e77c-4617-92a0-22c4f6b3eeea] done in 541.8s — answer: 'C22'
+[d82d2ab4-beb2-4fb9-8610-b627cc951549] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.484934 seconds
+Retrying request to /chat/completions in 0.964309 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[d82d2ab4-beb2-4fb9-8610-b627cc951549] answer='C2' top_candidate={'answer': 'C2', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3248754_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[d82d2ab4-beb2-4fb9-8610-b627cc951549] done in 542.2s — answer: 'C2'
+Saved 5 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[473369c4-d7f8-464c-9f53-6ac6c636c78f] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.421974 seconds
+Retrying request to /chat/completions in 0.979317 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[473369c4-d7f8-464c-9f53-6ac6c636c78f] answer='C8' top_candidate={'answer': 'C8', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3254497_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[473369c4-d7f8-464c-9f53-6ac6c636c78f] done in 542.1s — answer: 'C8'
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] Family override: F1_5BS (tag=single-answer, bs=5)
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] tag=single-answer, bs=5, family=F1_5BS
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] answer='C4' top_candidate={'answer': 'C4', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3270045_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[ad7ec8da-deaf-4cca-8cea-9e5fc290a17d] done in 0.6s — answer: 'C4'
+[c43e5abc-8118-4f75-90d0-5b1d5420fc7d] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.450502 seconds
+Retrying request to /chat/completions in 0.758609 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[c43e5abc-8118-4f75-90d0-5b1d5420fc7d] answer='C8' top_candidate={'answer': 'C8', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3271768_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[c43e5abc-8118-4f75-90d0-5b1d5420fc7d] done in 541.8s — answer: 'C8'
+[53d0aaea-93f5-405c-bdcb-0f4057af53b6] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.411430 seconds
+Retrying request to /chat/completions in 0.783378 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[53d0aaea-93f5-405c-bdcb-0f4057af53b6] answer='C1' top_candidate={'answer': 'C1', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3260576_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[53d0aaea-93f5-405c-bdcb-0f4057af53b6] done in 542.0s — answer: 'C1'
+[a5c16b90-0e9a-4d4c-849a-5139913c350a] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.397545 seconds
+Retrying request to /chat/completions in 0.845069 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[a5c16b90-0e9a-4d4c-849a-5139913c350a] answer='C19' top_candidate={'answer': 'C19', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3255465_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[a5c16b90-0e9a-4d4c-849a-5139913c350a] done in 542.0s — answer: 'C19'
+Saved 10 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] Family override: F1_5BS (tag=single-answer, bs=5)
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] tag=single-answer, bs=5, family=F1_5BS
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] answer='C2' top_candidate={'answer': 'C2', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3251842_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[2d688d4d-e9fe-4aab-a3c7-aec1b4b5a947] done in 0.6s — answer: 'C2'
+[2d5a3045-8ef8-4e01-ac3b-91365b904718] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.465368 seconds
+Retrying request to /chat/completions in 0.977175 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[2d5a3045-8ef8-4e01-ac3b-91365b904718] answer='C4' top_candidate={'answer': 'C4', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3220687_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[2d5a3045-8ef8-4e01-ac3b-91365b904718] done in 542.0s — answer: 'C4'
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] Family override: F1_5BS (tag=single-answer, bs=5)
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] tag=single-answer, bs=5, family=F1_5BS
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3250543_5', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[9fc4ad17-21b3-4474-adb7-a939a04bc843] done in 0.6s — answer: 'C11'
+[c1e268da-594a-4e37-8313-1ac798c6f921] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.478849 seconds
+Retrying request to /chat/completions in 0.825707 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[c1e268da-594a-4e37-8313-1ac798c6f921] answer='C21' top_candidate={'answer': 'C21', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3222621_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[c1e268da-594a-4e37-8313-1ac798c6f921] done in 541.9s — answer: 'C21'
+[68ba2457-eaa3-4535-9b5c-3656bb8cc66b] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.409347 seconds
+Retrying request to /chat/completions in 0.913178 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[68ba2457-eaa3-4535-9b5c-3656bb8cc66b] answer='C17' top_candidate={'answer': 'C17', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3246888_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[68ba2457-eaa3-4535-9b5c-3656bb8cc66b] done in 542.1s — answer: 'C17'
+Saved 15 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[26b2f2d2-27dc-4457-a6fc-a505a3dc723d] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.381685 seconds
+Retrying request to /chat/completions in 0.847302 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[26b2f2d2-27dc-4457-a6fc-a505a3dc723d] answer='C15' top_candidate={'answer': 'C15', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3220242_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[26b2f2d2-27dc-4457-a6fc-a505a3dc723d] done in 542.1s — answer: 'C15'
+[e063186f-c960-483f-b7e5-47f406910c4b] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.440485 seconds
+Retrying request to /chat/completions in 0.757536 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[e063186f-c960-483f-b7e5-47f406910c4b] answer='C22' top_candidate={'answer': 'C22', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3236001_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[e063186f-c960-483f-b7e5-47f406910c4b] done in 542.0s — answer: 'C22'
+[2955c497-5f13-4273-a753-16d3d27febb3] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.449954 seconds
+Retrying request to /chat/completions in 0.997034 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[2955c497-5f13-4273-a753-16d3d27febb3] answer='C3' top_candidate={'answer': 'C3', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3270303_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[2955c497-5f13-4273-a753-16d3d27febb3] done in 542.2s — answer: 'C3'
+[a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.427124 seconds
+Retrying request to /chat/completions in 0.807838 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] answer='C4' top_candidate={'answer': 'C4', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3263285_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[a3cc3e89-ef5e-46d3-94c6-7bc89f7dd36c] done in 542.0s — answer: 'C4'
+[fd142bee-be4f-4222-b4c1-7133d9fdf39e] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.432256 seconds
+Retrying request to /chat/completions in 0.906674 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[fd142bee-be4f-4222-b4c1-7133d9fdf39e] answer='C23' top_candidate={'answer': 'C23', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3268181_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[fd142bee-be4f-4222-b4c1-7133d9fdf39e] done in 543.2s — answer: 'C23'
+Saved 20 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[bd375ddc-b6b2-4e8d-be99-5a97b660abe5] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.414551 seconds
+Retrying request to /chat/completions in 0.808264 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[bd375ddc-b6b2-4e8d-be99-5a97b660abe5] answer='C1' top_candidate={'answer': 'C1', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3270411_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[bd375ddc-b6b2-4e8d-be99-5a97b660abe5] done in 542.0s — answer: 'C1'
+[7b12c38c-274a-4475-befa-d67d7d813601] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.387271 seconds
+Retrying request to /chat/completions in 0.897009 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[7b12c38c-274a-4475-befa-d67d7d813601] answer='C18' top_candidate={'answer': 'C18', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3265088_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[7b12c38c-274a-4475-befa-d67d7d813601] done in 542.0s — answer: 'C18'
+[06599034-eb42-47bd-8d3f-55d991146660] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.476752 seconds
+Retrying request to /chat/completions in 0.899542 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[06599034-eb42-47bd-8d3f-55d991146660] answer='C10' top_candidate={'answer': 'C10', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3226658_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[06599034-eb42-47bd-8d3f-55d991146660] done in 542.1s — answer: 'C10'
+[68481bc5-b257-45da-9279-09575d5ab783] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.453358 seconds
+Retrying request to /chat/completions in 0.869168 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[68481bc5-b257-45da-9279-09575d5ab783] answer='C8' top_candidate={'answer': 'C8', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3237689_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[68481bc5-b257-45da-9279-09575d5ab783] done in 542.1s — answer: 'C8'
+[dfb3d30b-32d1-4243-aa46-380143d05a62] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.471211 seconds
+Retrying request to /chat/completions in 0.908125 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[dfb3d30b-32d1-4243-aa46-380143d05a62] answer='C7' top_candidate={'answer': 'C7', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3214090_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[dfb3d30b-32d1-4243-aa46-380143d05a62] done in 542.1s — answer: 'C7'
+Saved 25 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[d9eaeff3-b856-4461-ae2c-61208cfd90e6] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.492256 seconds
+Retrying request to /chat/completions in 0.937432 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[d9eaeff3-b856-4461-ae2c-61208cfd90e6] answer='C20' top_candidate={'answer': 'C20', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3263743_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[d9eaeff3-b856-4461-ae2c-61208cfd90e6] done in 542.2s — answer: 'C20'
+[b34c0dd8-6200-4fbb-8cb8-0c0c199cedf4] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.384929 seconds
+Retrying request to /chat/completions in 0.950438 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[b34c0dd8-6200-4fbb-8cb8-0c0c199cedf4] answer='C1' top_candidate={'answer': 'C1', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3246359_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[b34c0dd8-6200-4fbb-8cb8-0c0c199cedf4] done in 542.1s — answer: 'C1'
+[e09c9577-79f4-422a-b848-9480d6a037c0] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.486196 seconds
+Retrying request to /chat/completions in 0.876213 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[e09c9577-79f4-422a-b848-9480d6a037c0] answer='C14' top_candidate={'answer': 'C14', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3245607_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[e09c9577-79f4-422a-b848-9480d6a037c0] done in 542.2s — answer: 'C14'
+[9bb271e8-0094-4eef-954e-d0d2f39a2d20] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.449075 seconds
+Retrying request to /chat/completions in 0.875953 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[9bb271e8-0094-4eef-954e-d0d2f39a2d20] answer='C16' top_candidate={'answer': 'C16', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3267545_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[9bb271e8-0094-4eef-954e-d0d2f39a2d20] done in 542.1s — answer: 'C16'
+[1c3503e7-2ef7-4443-a4db-91e50904be27] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.459970 seconds
+Retrying request to /chat/completions in 0.817273 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[1c3503e7-2ef7-4443-a4db-91e50904be27] answer='C11' top_candidate={'answer': 'C11', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3246625_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[1c3503e7-2ef7-4443-a4db-91e50904be27] done in 542.0s — answer: 'C11'
+Saved 30 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] Family override: F1_5BS (tag=single-answer, bs=5)
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] tag=single-answer, bs=5, family=F1_5BS
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] answer='C6' top_candidate={'answer': 'C6', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3256071_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[adda43e7-3f09-44ab-8665-1f1c24be70b6] done in 0.6s — answer: 'C6'
+[061897f0-c238-4a2d-a528-f6303fa0b3da] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.480980 seconds
+Retrying request to /chat/completions in 0.796336 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[061897f0-c238-4a2d-a528-f6303fa0b3da] answer='C5' top_candidate={'answer': 'C5', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3215547_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[061897f0-c238-4a2d-a528-f6303fa0b3da] done in 541.9s — answer: 'C5'
+[ec7ec74f-5b95-4bb9-af93-81513b45d086] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.379177 seconds
+Retrying request to /chat/completions in 0.756334 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[ec7ec74f-5b95-4bb9-af93-81513b45d086] answer='C15' top_candidate={'answer': 'C15', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3235133_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[ec7ec74f-5b95-4bb9-af93-81513b45d086] done in 541.9s — answer: 'C15'
+[bd4f4095-047d-428b-b23c-18bc4a0ffaf3] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.405377 seconds
+Retrying request to /chat/completions in 0.950378 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[bd4f4095-047d-428b-b23c-18bc4a0ffaf3] answer='C14' top_candidate={'answer': 'C14', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3250698_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[bd4f4095-047d-428b-b23c-18bc4a0ffaf3] done in 542.1s — answer: 'C14'
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] Family override: F1_5BS (tag=single-answer, bs=5)
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] tag=single-answer, bs=5, family=F1_5BS
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[LLM] call failed: Error code: 400 - {'error': {'message': "This model's maximum context length is 8192 tokens. However, you requested 2048 output tokens and your prompt contains at least 6145 input tokens, for a total of at least 8193 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=6145)", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] answer='C11' top_candidate={'answer': 'C11', 'score': 0.24, 'action_type': 'decrease_a3', 'target_cell': '3265418_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[c4fb29f5-147e-40c6-92b3-ae66de737fd3] done in 0.5s — answer: 'C11'
+Saved 35 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[9d3b9652-2f61-41d0-ac0e-dfea6e93f869] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.416879 seconds
+Retrying request to /chat/completions in 0.881417 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[9d3b9652-2f61-41d0-ac0e-dfea6e93f869] answer='C21' top_candidate={'answer': 'C21', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3258588_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[9d3b9652-2f61-41d0-ac0e-dfea6e93f869] done in 541.9s — answer: 'C21'
+[37d64fd5-8680-46f7-abfa-8eb609396c65] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.497789 seconds
+Retrying request to /chat/completions in 0.751032 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[37d64fd5-8680-46f7-abfa-8eb609396c65] answer='C8' top_candidate={'answer': 'C8', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3211385_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[37d64fd5-8680-46f7-abfa-8eb609396c65] done in 542.1s — answer: 'C8'
+[1d7d2d20-523c-4954-9c47-02cff9bb669b] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.404430 seconds
+Retrying request to /chat/completions in 0.899077 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[1d7d2d20-523c-4954-9c47-02cff9bb669b] answer='C12' top_candidate={'answer': 'C12', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3225672_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[1d7d2d20-523c-4954-9c47-02cff9bb669b] done in 542.1s — answer: 'C12'
+[6abe1809-f86d-41f6-866a-a72363840c4e] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.428006 seconds
+Retrying request to /chat/completions in 0.763725 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[6abe1809-f86d-41f6-866a-a72363840c4e] answer='C18' top_candidate={'answer': 'C18', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3230097_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[6abe1809-f86d-41f6-866a-a72363840c4e] done in 541.9s — answer: 'C18'
+[9791ca2e-f780-4a2e-a6cc-3341cd3b30d3] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.437474 seconds
+Retrying request to /chat/completions in 0.819722 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[9791ca2e-f780-4a2e-a6cc-3341cd3b30d3] answer='C4' top_candidate={'answer': 'C4', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3268815_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[9791ca2e-f780-4a2e-a6cc-3341cd3b30d3] done in 542.0s — answer: 'C4'
+Saved 40 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[3233507d-ce90-4d6b-a16e-475f9d6d202a] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.441152 seconds
+Retrying request to /chat/completions in 0.982757 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[3233507d-ce90-4d6b-a16e-475f9d6d202a] answer='C19' top_candidate={'answer': 'C19', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3248042_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[3233507d-ce90-4d6b-a16e-475f9d6d202a] done in 542.2s — answer: 'C19'
+[a67fe176-2e47-4078-beda-48f373beb115] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.377883 seconds
+Retrying request to /chat/completions in 0.918287 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[a67fe176-2e47-4078-beda-48f373beb115] answer='C8' top_candidate={'answer': 'C8', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3260775_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[a67fe176-2e47-4078-beda-48f373beb115] done in 541.8s — answer: 'C8'
+[e8148dea-bdff-4a39-9a41-b3cae6ea792a] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.397928 seconds
+Retrying request to /chat/completions in 0.958085 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[e8148dea-bdff-4a39-9a41-b3cae6ea792a] answer='C10' top_candidate={'answer': 'C10', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3225652_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[e8148dea-bdff-4a39-9a41-b3cae6ea792a] done in 542.0s — answer: 'C10'
+[534fe552-5e61-4e56-9559-11f2c713c491] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.470412 seconds
+Retrying request to /chat/completions in 0.765641 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[534fe552-5e61-4e56-9559-11f2c713c491] answer='C24' top_candidate={'answer': 'C24', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3212192_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[534fe552-5e61-4e56-9559-11f2c713c491] done in 541.9s — answer: 'C24'
+[238710b4-0d22-4792-bbe8-4d093320f2ef] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.431498 seconds
+Retrying request to /chat/completions in 0.754513 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[238710b4-0d22-4792-bbe8-4d093320f2ef] answer='C24' top_candidate={'answer': 'C24', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3278989_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[238710b4-0d22-4792-bbe8-4d093320f2ef] done in 541.9s — answer: 'C24'
+Saved 45 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[2634e99c-8307-4ab4-91cb-9bd813d574ec] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.397061 seconds
+Retrying request to /chat/completions in 0.834715 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[2634e99c-8307-4ab4-91cb-9bd813d574ec] answer='C10' top_candidate={'answer': 'C10', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3269765_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[2634e99c-8307-4ab4-91cb-9bd813d574ec] done in 542.0s — answer: 'C10'
+[a9b82051-f954-405d-962f-7f95f67a7104] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.472037 seconds
+Retrying request to /chat/completions in 0.923499 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[a9b82051-f954-405d-962f-7f95f67a7104] answer='C6' top_candidate={'answer': 'C6', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3251403_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[a9b82051-f954-405d-962f-7f95f67a7104] done in 542.2s — answer: 'C6'
+[5d2e110b-02da-4cc3-8dd4-cc994b024a1d] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.445765 seconds
+Retrying request to /chat/completions in 0.879381 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[5d2e110b-02da-4cc3-8dd4-cc994b024a1d] answer='C16' top_candidate={'answer': 'C16', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3247180_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[5d2e110b-02da-4cc3-8dd4-cc994b024a1d] done in 542.1s — answer: 'C16'
+[6a6bafaf-d4f2-4441-82b0-16027a93d32c] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.391307 seconds
+Retrying request to /chat/completions in 0.860027 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[6a6bafaf-d4f2-4441-82b0-16027a93d32c] answer='C11' top_candidate={'answer': 'C11', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3223349_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[6a6bafaf-d4f2-4441-82b0-16027a93d32c] done in 542.0s — answer: 'C11'
+[27a816db-ff5c-4744-8f18-84a42e27d540] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.474524 seconds
+Retrying request to /chat/completions in 0.870584 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[27a816db-ff5c-4744-8f18-84a42e27d540] answer='C22' top_candidate={'answer': 'C22', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3266362_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[27a816db-ff5c-4744-8f18-84a42e27d540] done in 542.1s — answer: 'C22'
+Saved 50 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[bd2d94e8-bb28-44bc-8697-6594222b7bfb] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.390127 seconds
+Retrying request to /chat/completions in 0.835356 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[bd2d94e8-bb28-44bc-8697-6594222b7bfb] answer='C11' top_candidate={'answer': 'C11', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3279186_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[bd2d94e8-bb28-44bc-8697-6594222b7bfb] done in 542.0s — answer: 'C11'
+[cd7796ff-4b7b-411c-970c-eb88da5e0b6f] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.485194 seconds
+Retrying request to /chat/completions in 0.829396 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[cd7796ff-4b7b-411c-970c-eb88da5e0b6f] answer='C19' top_candidate={'answer': 'C19', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3219311_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[cd7796ff-4b7b-411c-970c-eb88da5e0b6f] done in 542.0s — answer: 'C19'
+[dbc3594e-e84a-461a-90ef-61f69a4ce24a] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.377507 seconds
+Retrying request to /chat/completions in 0.825924 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[dbc3594e-e84a-461a-90ef-61f69a4ce24a] answer='C2' top_candidate={'answer': 'C2', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3214605_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[dbc3594e-e84a-461a-90ef-61f69a4ce24a] done in 542.0s — answer: 'C2'
+[f2d2f27a-1f66-4e28-a731-2e0948b763cb] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.431375 seconds
+Retrying request to /chat/completions in 0.941512 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[f2d2f27a-1f66-4e28-a731-2e0948b763cb] answer='C23' top_candidate={'answer': 'C23', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3225904_4', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[f2d2f27a-1f66-4e28-a731-2e0948b763cb] done in 542.2s — answer: 'C23'
+[041efc72-b61d-4c14-b8af-6a75a2ec272d] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.444621 seconds
+Retrying request to /chat/completions in 0.791688 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[041efc72-b61d-4c14-b8af-6a75a2ec272d] answer='C5' top_candidate={'answer': 'C5', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3236036_1', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[041efc72-b61d-4c14-b8af-6a75a2ec272d] done in 542.0s — answer: 'C5'
+Saved 55 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+[880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.456509 seconds
+Retrying request to /chat/completions in 0.932086 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] answer='C14' top_candidate={'answer': 'C14', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3264702_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[880c3862-f339-4a1e-bdc1-c3ba4b5b5ef3] done in 542.1s — answer: 'C14'
+[9d6dd36d-e04e-41d7-ba90-e389c6e5b065] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.489395 seconds
+Retrying request to /chat/completions in 0.894347 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[9d6dd36d-e04e-41d7-ba90-e389c6e5b065] answer='C15' top_candidate={'answer': 'C15', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3236484_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[9d6dd36d-e04e-41d7-ba90-e389c6e5b065] done in 542.2s — answer: 'C15'
+[423344f6-871d-4b99-ac51-404461aaec32] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.423147 seconds
+Retrying request to /chat/completions in 0.831768 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[423344f6-871d-4b99-ac51-404461aaec32] answer='C17' top_candidate={'answer': 'C17', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3278443_3', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[423344f6-871d-4b99-ac51-404461aaec32] done in 541.9s — answer: 'C17'
+[82be4904-97c7-4857-9215-bd889fab9d87] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.452605 seconds
+Retrying request to /chat/completions in 0.875507 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[82be4904-97c7-4857-9215-bd889fab9d87] answer='C9' top_candidate={'answer': 'C9', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3251672_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[82be4904-97c7-4857-9215-bd889fab9d87] done in 542.1s — answer: 'C9'
+[e22a3b5a-3646-4846-9d5b-1fb84ea75f76] tag=single-answer, bs=4, family=F1
+Retrying request to /chat/completions in 0.397634 seconds
+Retrying request to /chat/completions in 0.889834 seconds
+[LLM] call failed: Request timed out.
+[LLM] call failed: Request timed out.
+[e22a3b5a-3646-4846-9d5b-1fb84ea75f76] answer='C3' top_candidate={'answer': 'C3', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3235728_2', 'reason': 'F1 single-answer top guard over adjust_azimuth: F1 arbitration candidate: decrease_a3 on serving cell'}
+[e22a3b5a-3646-4846-9d5b-1fb84ea75f76] done in 541.9s — answer: 'C3'
+Saved 60 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+Saved 60 rows → results/phase2/f1_adjaz_patch/result_60_patch.csv
+
+Done. 60/60 answered in 29276s (avg 487.9s/scenario)

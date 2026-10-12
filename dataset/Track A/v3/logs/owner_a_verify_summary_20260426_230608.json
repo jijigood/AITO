@@ -1,0 +1,11 @@
+{
+  "timestamp": "20260426_230608",
+  "status": "passed",
+  "logs": {
+    "pytest": "logs/owner_a_verify_pytest_20260426_230608.log",
+    "submission": "logs/owner_a_verify_submission_20260426_230608.log"
+  },
+  "metrics": {},
+  "known_gaps": [],
+  "submission_dir": "submissions/owner_a_verify_20260426_230608"
+}

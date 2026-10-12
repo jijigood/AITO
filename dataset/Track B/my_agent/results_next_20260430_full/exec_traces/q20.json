@@ -1,0 +1,37 @@
+{
+  "id": 20,
+  "family": "fault",
+  "answer": "Alpha-Center-02;GE1/0/2;shutdown",
+  "answer_valid": true,
+  "validation_reasons": [],
+  "call_count": 2,
+  "rewrite_count": 0,
+  "duration_s": 0.0,
+  "tool_trace": [
+    {
+      "question_number": 20,
+      "started_at": 1777557822.613,
+      "elapsed_ms": 5.8,
+      "device": "Alpha-Center-01",
+      "requested_command": "display ip interface brief",
+      "executed_command": "display ip interface brief",
+      "rewritten": false,
+      "status_code": 200,
+      "vendor": "huawei",
+      "result_preview": "<Alpha-Center-01> display ip interface brief\ndisplay ip interface brief\n\n*down: administratively down\n\n!down: FIB overload down\n\n^down: standby\n\n(l): loopback\n\n(s): spoofing\n\n(d): Dampening Suppressed\n\n(ed): error down\n\nThe number of interface that is UP in Physical is 9\n\nThe number of interface that is DOWN in Physical is 0\n\nThe number of interface that is UP in Protocol is 8\n\nThe number of interface that is DOWN in Protocol is 1\n\nInterface                   IP Address/Mask    Physical Protocol VPN           \n\nGE1/0/1                     192.168.74.1/30    up       up       --            \n\nGE1/0/2                     192.168.74.9/30    up       up       --            \n\nGE1/0/3                     192.168.74.49/30   up       up       --            \n\nGE1/0/4                     192.168.74.57/30   up       up       --            \n\nGE1/0/5                     192.168.74.33/30   up       up       --            \n\nGE1/0/6                     192.168.74.41/30   up       up       --            \n\nLoopBack1                   192.168.65.1/32    up       up(s)    --            \n\nMEth0/0/0                   unassigned         up       down     --            \n\nNULL0                       unassigned         up       up(s)    --"
+    },
+    {
+      "question_number": 20,
+      "started_at": 1777557822.619,
+      "elapsed_ms": 5.2,
+      "device": "Alpha-Center-02",
+      "requested_command": "display ip interface brief",
+      "executed_command": "display ip interface brief",
+      "rewritten": false,
+      "status_code": 200,
+      "vendor": "huawei",
+      "result_preview": "<Alpha-Center-02> display ip interface brief\ndisplay ip interface brief\n\n*down: administratively down\n\n!down: FIB overload down\n\n^down: standby\n\n(l): loopback\n\n(s): spoofing\n\n(d): Dampening Suppressed\n\n(ed): error down\n\nThe number of interface that is UP in Physical is 8\n\nThe number of interface that is DOWN in Physical is 1\n\nThe number of interface that is UP in Protocol is 7\n\nThe number of interface that is DOWN in Protocol is 2\n\nInterface                   IP Address/Mask    Physical Protocol VPN           \n\nGE1/0/1                     192.168.74.5/30    up       up       --            \n\nGE1/0/2                     192.168.74.13/30   *down    down     --            \n\nGE1/0/3                     192.168.74.53/30   up       up       --            \n\nGE1/0/4                     192.168.74.61/30   up       up       --            \n\nGE1/0/5                     192.168.74.37/30   up       up       --            \n\nGE1/0/6                     192.168.74.45/30   up       up       --            \n\nLoopBack1                   192.168.65.2/32    up       up(s)    --            \n\nMEth0/0/0                   unassigned         up       down     --            \n\nNULL0                       unassigned         up       up(s)    --"
+    }
+  ],
+  "llm_trace": []
+}

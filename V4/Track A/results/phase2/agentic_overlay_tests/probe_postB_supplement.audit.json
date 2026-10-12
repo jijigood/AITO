@@ -1,0 +1,76 @@
+{
+  "submit_ready": true,
+  "hard_errors": [],
+  "warnings": [],
+  "paths": {
+    "test_json": "data/Phase_2/test.json",
+    "result_csv": "results/phase2/agentic_overlay_tests/probe_postB_supplement.csv",
+    "diagnostics_jsonl": "results/phase2/agentic_overlay_tests/probe_postB_supplement.diagnostics.jsonl"
+  },
+  "rows": {
+    "expected": 500,
+    "result": 2,
+    "answered": 2,
+    "answer_rate": 1.0,
+    "coverage_rate": 0.004,
+    "missing_ids": 498,
+    "extra_ids": 0,
+    "duplicate_ids": 0
+  },
+  "answer_distribution": {
+    "by_code": {
+      "C7": 1,
+      "C22": 1
+    },
+    "by_answer_len": {
+      "1": 2
+    },
+    "by_tag": {
+      "single-answer": 2
+    },
+    "by_tag_and_answer_len": {
+      "single-answer:1": 2
+    }
+  },
+  "diagnostics": {
+    "rows": 2,
+    "family_counts": {
+      "F1": 2
+    },
+    "family_override_counts": {},
+    "scenario_errors": {},
+    "candidate_empty": 0,
+    "low_confidence_top_candidates": 0,
+    "low_confidence_rate": 0.0,
+    "top_candidate_score": {
+      "mean": 0.65541,
+      "p50": 0.6111,
+      "p95": 0.6997200000000001,
+      "min": 0.6111,
+      "max": 0.6997200000000001
+    },
+    "missing_data_by_source": {
+      "signaling": 2
+    },
+    "missing_critical_data": 0,
+    "missing_critical_data_rate": 0.0,
+    "api_calls_total": 11,
+    "api_errors_total": 0,
+    "api_error_rate": 0.0,
+    "api_calls_by_tool": {
+      "get_user_plane_data": 2,
+      "get_config_data": 2,
+      "get_kpi_data": 2,
+      "get_mr_data": 2,
+      "calculate_overlap_ratio": 1,
+      "judge_mainlobe_or_not": 2
+    },
+    "api_errors_by_tool": {},
+    "elapsed_seconds": {
+      "mean": 10.176274180412292,
+      "p50": 1.0590636730194092,
+      "p95": 19.293484687805176,
+      "max": 19.293484687805176
+    }
+  }
+}

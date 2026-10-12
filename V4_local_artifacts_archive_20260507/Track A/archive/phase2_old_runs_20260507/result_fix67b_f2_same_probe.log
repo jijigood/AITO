@@ -1,0 +1,76 @@
+2026-05-06 15:13:50,192 - root - INFO - Scenario ID filter: 22/500 selected
+2026-05-06 15:13:50,192 - root - INFO - Loaded 22 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 15:13:50,193 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:14:00,469 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3277938_4 (serving=3230529_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:14:00,470 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] done in 10.3s — answer: 'C6|C15'
+2026-05-06 15:14:00,471 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:14:11,457 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3279414_3 (serving=3220409_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:14:11,458 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] done in 11.0s — answer: 'C1|C23'
+2026-05-06 15:14:11,458 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:14:21,039 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] answer='C16|C23' top_candidate={'answer': 'C16|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270392_2 (serving=3261278_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:14:21,040 - root - INFO - [0f6691b9-cfb1-4251-b6e7-a37872eb623a] done in 9.6s — answer: 'C16|C23'
+2026-05-06 15:14:21,041 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:14:31,303 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] answer='C4|C21' top_candidate={'answer': 'C4|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3222719_1 (serving=3246815_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:14:31,303 - root - INFO - [e72d1cd8-f9ec-495b-81fa-8469bbc665ac] done in 10.3s — answer: 'C4|C21'
+2026-05-06 15:14:31,304 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:14:41,962 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] answer='C6|C7' top_candidate={'answer': 'C6|C7', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3262929_4 (serving=3271115_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:14:41,963 - root - INFO - [4a209def-ff65-4fcc-91d3-3ed840cd97b4] done in 10.7s — answer: 'C6|C7'
+2026-05-06 15:14:41,964 - root - INFO - Saved 5 rows → results/phase2/result_fix67b_f2_same_probe.csv
+2026-05-06 15:14:41,964 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:14:52,005 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] answer='C10|C22' top_candidate={'answer': 'C10|C22', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3249698_4 (serving=3248446_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:14:52,006 - root - INFO - [539e5f7f-22f1-4764-9810-122c5c87bc02] done in 10.0s — answer: 'C10|C22'
+2026-05-06 15:14:52,007 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:01,601 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] answer='C17|C23' top_candidate={'answer': 'C17|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3241057_3 (serving=3215976_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:01,601 - root - INFO - [f02d340d-18c0-43c9-ae9c-c6132c5fe719] done in 9.6s — answer: 'C17|C23'
+2026-05-06 15:15:01,602 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:09,907 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] answer='C3|C11' top_candidate={'answer': 'C3|C11', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3254576_2 (serving=3254560_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:09,908 - root - INFO - [e83a09dd-795a-4066-9f5c-2de6da46dfea] done in 8.3s — answer: 'C3|C11'
+2026-05-06 15:15:09,909 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:21,145 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] answer='C1|C23' top_candidate={'answer': 'C1|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3231075_3 (serving=3231153_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:21,145 - root - INFO - [fa586242-b810-4a6b-9135-ad052d961445] done in 11.2s — answer: 'C1|C23'
+2026-05-06 15:15:21,146 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:30,111 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] answer='C19|C20' top_candidate={'answer': 'C19|C20', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3234713_1 (serving=3259753_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:30,112 - root - INFO - [da205a6c-0beb-4ed8-b2e8-e7bdb94f88db] done in 9.0s — answer: 'C19|C20'
+2026-05-06 15:15:30,113 - root - INFO - Saved 10 rows → results/phase2/result_fix67b_f2_same_probe.csv
+2026-05-06 15:15:30,114 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:39,366 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] answer='C8|C23' top_candidate={'answer': 'C8|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3251790_2 (serving=3221449_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:39,366 - root - INFO - [7eeb8c3d-c714-4f93-9023-dca0a541dc4c] done in 9.3s — answer: 'C8|C23'
+2026-05-06 15:15:39,367 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:48,919 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] answer='C9|C19' top_candidate={'answer': 'C9|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3248612_2 (serving=3245939_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:48,920 - root - INFO - [a846eb4d-c49a-4d91-bbbf-0062d5dcc87e] done in 9.6s — answer: 'C9|C19'
+2026-05-06 15:15:48,921 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:15:58,203 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] answer='C9|C13' top_candidate={'answer': 'C9|C13', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3249463_4 (serving=3215110_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:15:58,204 - root - INFO - [4b238038-e5eb-4f5e-8482-f9ce61ae3e9a] done in 9.3s — answer: 'C9|C13'
+2026-05-06 15:15:58,204 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:16:09,541 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] answer='C13|C23' top_candidate={'answer': 'C13|C23', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270874_4 (serving=3211990_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:16:09,542 - root - INFO - [c5ff8577-0f24-4dd7-88d2-c11df01e4d83] done in 11.3s — answer: 'C13|C23'
+2026-05-06 15:16:09,542 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:16:21,408 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] answer='C10|C21' top_candidate={'answer': 'C10|C21', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3240653_2 (serving=3241858_3, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:16:21,409 - root - INFO - [32d92c4a-2071-4dc2-90fc-30b842ba00b8] done in 11.9s — answer: 'C10|C21'
+2026-05-06 15:16:21,410 - root - INFO - Saved 15 rows → results/phase2/result_fix67b_f2_same_probe.csv
+2026-05-06 15:16:21,410 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:16:29,449 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] answer='C16|C17' top_candidate={'answer': 'C16|C17', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3270939_2 (serving=3278421_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:16:29,450 - root - INFO - [579fe840-2772-4ed5-84b6-97ba4b483592] done in 8.0s — answer: 'C16|C17'
+2026-05-06 15:16:29,451 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:16:38,796 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] answer='C11|C16' top_candidate={'answer': 'C11|C16', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3267805_4 (serving=3230702_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:16:38,797 - root - INFO - [aa7c719f-2ecf-4b31-9b9a-4c024de0d769] done in 9.3s — answer: 'C11|C16'
+2026-05-06 15:16:38,798 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:16:47,209 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] answer='C6|C15' top_candidate={'answer': 'C6|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3246721_1 (serving=3265680_4, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:16:47,209 - root - INFO - [fbc7fa7e-6437-4fe5-bd7c-aafa090091ff] done in 8.4s — answer: 'C6|C15'
+2026-05-06 15:16:47,210 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:16:55,264 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] answer='C12|C14' top_candidate={'answer': 'C12|C14', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3243738_1 (serving=3224196_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:16:55,265 - root - INFO - [e1595b92-c3a9-43c4-9f80-2b2bc2662228] done in 8.1s — answer: 'C12|C14'
+2026-05-06 15:16:55,266 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:17:04,526 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] answer='C6|C12' top_candidate={'answer': 'C6|C12', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3228764_4 (serving=3237137_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:17:04,526 - root - INFO - [e343af89-f7da-417c-930d-48a953d69a7f] done in 9.3s — answer: 'C6|C12'
+2026-05-06 15:17:04,528 - root - INFO - Saved 20 rows → results/phase2/result_fix67b_f2_same_probe.csv
+2026-05-06 15:17:04,528 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:17:11,876 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] answer='C4|C19' top_candidate={'answer': 'C4|C19', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3273026_4 (serving=3234587_1, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:17:11,876 - root - INFO - [57cab30d-d6f9-4d0d-9c0c-0a167f9c439e] done in 7.3s — answer: 'C4|C19'
+2026-05-06 15:17:11,877 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] tag=multiple-answer, bs=4, family=F2
+2026-05-06 15:17:19,877 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] answer='C1|C15' top_candidate={'answer': 'C1|C15', 'score': 0.74, 'reason': 'F2 relationship: high-overlap/interference fix on interferer 3258117_3 (serving=3261312_2, best_neighbor=?, overlap=1.0)'}
+2026-05-06 15:17:19,878 - root - INFO - [fcdd1592-c959-44ba-a6e5-5f3b2a2c1236] done in 8.0s — answer: 'C1|C15'
+2026-05-06 15:17:19,879 - root - INFO - Saved 22 rows → results/phase2/result_fix67b_f2_same_probe.csv
+2026-05-06 15:17:19,880 - root - INFO - Saved 22 rows → results/phase2/result_fix67b_f2_same_probe.csv
+2026-05-06 15:17:19,880 - root - INFO - 
+Done. 22/22 answered in 210s (avg 9.5s/scenario)

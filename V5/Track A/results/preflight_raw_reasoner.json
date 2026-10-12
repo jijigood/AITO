@@ -1,0 +1,38 @@
+[
+  {
+    "fam": "F1",
+    "sid": "0cd874c0",
+    "latency_s": 0.1,
+    "error": "'choices'"
+  },
+  {
+    "fam": "F1",
+    "sid": "0cd874c0",
+    "latency_s": 0.0,
+    "error": "'choices'"
+  },
+  {
+    "fam": "F2",
+    "sid": "19468668",
+    "latency_s": 318.6,
+    "prompt_tok": 5572,
+    "completion_tok": 2048,
+    "finish": "length",
+    "ans": "",
+    "gt": "C3|C12",
+    "iou": 0.0,
+    "parsed": false
+  },
+  {
+    "fam": "F3",
+    "sid": "08e221e5",
+    "latency_s": 0.0,
+    "error": "'choices'"
+  },
+  {
+    "fam": "F4",
+    "sid": "d1fc4519",
+    "latency_s": 0.1,
+    "error": "'choices'"
+  }
+]

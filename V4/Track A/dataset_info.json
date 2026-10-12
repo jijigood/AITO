@@ -1,0 +1,44 @@
+{
+  "sft_diag_plan": {
+    "columns": {
+      "messages": "messages"
+    },
+    "file_name": "sft_diag_plan.jsonl",
+    "formatting": "sharegpt",
+    "tags": {
+      "assistant_tag": "assistant",
+      "content_tag": "content",
+      "role_tag": "role",
+      "system_tag": "system",
+      "user_tag": "user"
+    }
+  },
+  "sft_diag_train": {
+    "columns": {
+      "messages": "messages"
+    },
+    "file_name": "sft_diag_train.jsonl",
+    "formatting": "sharegpt",
+    "tags": {
+      "assistant_tag": "assistant",
+      "content_tag": "content",
+      "role_tag": "role",
+      "system_tag": "system",
+      "user_tag": "user"
+    }
+  },
+  "sft_diag_val": {
+    "columns": {
+      "messages": "messages"
+    },
+    "file_name": "sft_diag_val.jsonl",
+    "formatting": "sharegpt",
+    "tags": {
+      "assistant_tag": "assistant",
+      "content_tag": "content",
+      "role_tag": "role",
+      "system_tag": "system",
+      "user_tag": "user"
+    }
+  }
+}

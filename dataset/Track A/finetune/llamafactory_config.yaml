@@ -1,0 +1,63 @@
+### LLaMA-Factory SFT Configuration for Track A — Qwen3.5-35B-A3B LoRA
+### Usage:
+###   cd LLaMA-Factory
+###   llamafactory-cli train ../Track\ A/finetune/llamafactory_config.yaml
+
+# ── Model ──────────────────────────────────────────────────────────────────────
+model_name_or_path: Qwen/Qwen2.5-35B-A22B   # Replace with local path to Qwen3.5-35B-A3B weights
+                                              # e.g. /mnt/models/Qwen3.5-35B-A3B
+trust_remote_code: true
+
+# ── Method ─────────────────────────────────────────────────────────────────────
+stage: sft                   # supervised fine-tuning
+do_train: true
+finetuning_type: lora
+
+# LoRA hyperparameters
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
+
+# ── Dataset ────────────────────────────────────────────────────────────────────
+# Register the dataset in LLaMA-Factory's dataset_info.json, or use the path directly.
+# The JSONL files produced by prepare_data.py use the "messages" key (sharegpt format).
+dataset: track_a_sft_train          # name registered in dataset_info.json
+dataset_dir: ../Track\ A/finetune   # directory containing sft_train.jsonl
+template: qwen                      # Qwen chat template
+cutoff_len: 8192                    # max sequence length (tokens)
+max_samples: 1800                   # matches train split from prepare_data.py
+overwrite_cache: false
+preprocessing_num_workers: 4
+
+# ── Training ───────────────────────────────────────────────────────────────────
+output_dir: ../Track\ A/finetune/lora_output
+logging_dir: ../Track\ A/finetune/logs
+save_strategy: epoch
+save_total_limit: 3
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8      # effective batch = 16 per GPU
+num_train_epochs: 3
+learning_rate: 2.0e-4
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+weight_decay: 0.01
+max_grad_norm: 1.0
+label_smoothing_factor: 0.05        # soft targets — prevents overfit to exact template wording
+bf16: true                           # use bfloat16 (requires Ampere+ GPU)
+# fp16: true                         # use if bf16 not supported
+
+# ── Evaluation ─────────────────────────────────────────────────────────────────
+val_size: 0.0                        # validation handled by sft_val.jsonl separately
+evaluation_strategy: no
+
+# ── Flash Attention ────────────────────────────────────────────────────────────
+flash_attn: fa2                      # requires flash-attn>=2.0; set to "disabled" if not available
+
+# ── DeepSpeed (for multi-GPU) ──────────────────────────────────────────────────
+# Uncomment and configure if running on 2+ GPUs
+# deepspeed: examples/deepspeed/ds_z3_config.json
+
+# ── Misc ───────────────────────────────────────────────────────────────────────
+report_to: none                      # set to "wandb" to enable W&B logging
+plot_loss: true

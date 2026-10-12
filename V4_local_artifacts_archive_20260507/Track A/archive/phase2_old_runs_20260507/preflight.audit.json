@@ -1,0 +1,107 @@
+{
+  "submit_ready": true,
+  "hard_errors": [],
+  "warnings": [],
+  "paths": {
+    "test_json": "data/Phase_2/test.json",
+    "result_csv": "results/phase2/preflight.csv",
+    "diagnostics_jsonl": "results/phase2/preflight.diagnostics.jsonl"
+  },
+  "rows": {
+    "expected": 500,
+    "result": 18,
+    "answered": 18,
+    "answer_rate": 1.0,
+    "coverage_rate": 0.036,
+    "missing_ids": 482,
+    "extra_ids": 0,
+    "duplicate_ids": 0
+  },
+  "answer_distribution": {
+    "by_code": {
+      "C2": 1,
+      "C3": 2,
+      "C4": 1,
+      "C5": 1,
+      "C6": 2,
+      "C7": 1,
+      "C9": 1,
+      "C10": 2,
+      "C11": 2,
+      "C12": 2,
+      "C13": 3,
+      "C15": 3,
+      "C16": 1,
+      "C18": 1,
+      "C19": 3,
+      "C20": 1,
+      "C22": 3,
+      "C23": 1,
+      "C24": 2
+    },
+    "by_answer_len": {
+      "1": 9,
+      "2": 6,
+      "4": 3
+    },
+    "by_tag": {
+      "single-answer": 9,
+      "multiple-answer": 9
+    },
+    "by_tag_and_answer_len": {
+      "multiple-answer:2": 6,
+      "multiple-answer:4": 3,
+      "single-answer:1": 9
+    }
+  },
+  "diagnostics": {
+    "rows": 18,
+    "family_counts": {
+      "F1_5BS": 3,
+      "F2": 3,
+      "F4": 3,
+      "F3": 3,
+      "F1": 3,
+      "F4M": 3
+    },
+    "family_override_counts": {
+      "F1_5BS": 3,
+      "F4M": 3
+    },
+    "scenario_errors": {},
+    "candidate_empty": 0,
+    "low_confidence_top_candidates": 0,
+    "low_confidence_rate": 0.0,
+    "top_candidate_score": {
+      "mean": 0.6023333333333333,
+      "p50": 0.6,
+      "p95": 0.851,
+      "min": 0.3,
+      "max": 0.851
+    },
+    "missing_data_by_source": {
+      "signaling": 18
+    },
+    "missing_critical_data": 0,
+    "missing_critical_data_rate": 0.0,
+    "api_calls_total": 111,
+    "api_errors_total": 0,
+    "api_error_rate": 0.0,
+    "api_calls_by_tool": {
+      "get_user_plane_data": 18,
+      "get_config_data": 18,
+      "get_signaling_plane_event_log": 18,
+      "get_kpi_data": 18,
+      "get_mr_data": 18,
+      "calculate_overlap_ratio": 16,
+      "judge_mainlobe_or_not": 5
+    },
+    "api_errors_by_tool": {},
+    "elapsed_seconds": {
+      "mean": 15.010009580188328,
+      "p50": 15.195398330688477,
+      "p95": 21.32539963722229,
+      "max": 21.32539963722229
+    }
+  }
+}

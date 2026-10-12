@@ -1,0 +1,21 @@
+2026-05-03 20:23:11,916 - root - INFO - [RAG V2] Index ready.
+2026-05-03 20:23:11,917 - root - INFO - [Tools] Enabled — will call server tools for F1.
+2026-05-03 20:23:12,240 - root - INFO - [V3] Running on 5 scenarios...
+2026-05-03 20:23:42,131 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 20:23:42,145 - root - INFO - [80e3aa96-815d-4683-980c-16db42eab0ef] Fallback → C1
+2026-05-03 20:23:42,145 - root - INFO - [80e3aa96-815d-4683-980c-16db42eab0ef] F1 → C1  (29.9s)
+2026-05-03 20:23:42,147 - root - INFO - [V3] Saved 1/5  mean_iou=nan
+2026-05-03 20:23:42,158 - root - INFO - [f55a819f-3fb9-4c8f-8859-a5b1649ff2d5] F4 deterministic → C4  (0.0s)
+2026-05-03 20:23:42,159 - root - INFO - [V3] Saved 2/5  mean_iou=nan
+2026-05-03 20:24:07,352 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 20:24:07,353 - root - INFO - [2cd1f674-a411-4860-82c6-a16ba624b172] Fallback → C8
+2026-05-03 20:24:07,353 - root - INFO - [2cd1f674-a411-4860-82c6-a16ba624b172] F1 → C8  (25.2s)
+2026-05-03 20:24:07,355 - root - INFO - [V3] Saved 3/5  mean_iou=nan
+2026-05-03 20:24:07,372 - root - INFO - [923c459f-2ead-4c18-a204-751574ed6ae3] F4 deterministic → C1  (0.0s)
+2026-05-03 20:24:07,373 - root - INFO - [V3] Saved 4/5  mean_iou=nan
+2026-05-03 20:24:33,759 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-03 20:24:33,760 - root - INFO - [2e83ae4f-dca0-4931-bb13-d13d672e14e1] Fallback → C1
+2026-05-03 20:24:33,760 - root - INFO - [2e83ae4f-dca0-4931-bb13-d13d672e14e1] F1 → C1  (26.4s)
+2026-05-03 20:24:33,762 - root - INFO - [V3] Saved 5/5  mean_iou=nan
+2026-05-03 20:24:33,762 - root - INFO - [V3] Done. Final mean IOU: 0.000
+2026-05-03 20:24:33,763 - root - INFO - [V3] Wrote result_final.csv

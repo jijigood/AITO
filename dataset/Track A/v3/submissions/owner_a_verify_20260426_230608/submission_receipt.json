@@ -1,0 +1,41 @@
+{
+  "timestamp_utc": "2026-04-26T15:06:33.234976+00:00",
+  "dry_run": true,
+  "server_url": "http://127.0.0.1:7860",
+  "model_url": "http://127.0.0.1:8001/v1",
+  "lora": "checkpoints/v3_zero3/checkpoint-477",
+  "output_dir": "submissions/owner_a_verify_20260426_230608",
+  "command": [
+    "/home/huangxiaolin/AITO/bin/python",
+    "/home/huangxiaolin/AITO/dataset/Track A/v3/main_v3.py",
+    "--server_url",
+    "http://127.0.0.1:7860",
+    "--model_url",
+    "http://127.0.0.1:8001/v1",
+    "--model_name",
+    "qwen",
+    "--max_tokens",
+    "768",
+    "--save_dir",
+    "submissions/owner_a_verify_20260426_230608",
+    "--log_file",
+    "submissions/owner_a_verify_20260426_230608/run_v3.log",
+    "--save_freq",
+    "10",
+    "--use-tools",
+    "--deterministic",
+    "--no_rag"
+  ],
+  "main_returncode": 0,
+  "stdout_log": "submissions/owner_a_verify_20260426_230608/main_v3.stdout.log",
+  "run_log": "submissions/owner_a_verify_20260426_230608/run_v3.log",
+  "validation": {
+    "result_csv": "submissions/owner_a_verify_20260426_230608/result.csv",
+    "result_final_csv": "submissions/owner_a_verify_20260426_230608/result_final.csv",
+    "rows": 500,
+    "duplicate_ids": 0,
+    "track_a_non_empty": 500
+  },
+  "status": "dry_run_passed",
+  "upload": "skipped"
+}

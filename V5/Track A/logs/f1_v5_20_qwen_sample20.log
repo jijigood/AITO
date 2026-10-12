@@ -1,0 +1,7 @@
+2026-05-18 08:49:48,843 - root - INFO - Scenario ID filter: 20/500 selected
+2026-05-18 08:49:49,048 - root - INFO - Loaded 20 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-18 08:49:49,070 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-18 08:49:49,170 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V5/Track A/data/Phase_1/train.json
+2026-05-18 08:49:49,170 - root - INFO - [78960ba6-b2d6-4961-a683-78f177ca34bc] tag=single-answer, bs=4, family=F1
+2026-05-18 08:53:50,012 - openai._base_client - INFO - Retrying request to /chat/completions in 0.415300 seconds
+2026-05-18 08:57:50,453 - openai._base_client - INFO - Retrying request to /chat/completions in 0.774559 seconds

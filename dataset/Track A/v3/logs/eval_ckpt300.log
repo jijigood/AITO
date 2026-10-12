@@ -1,0 +1,43 @@
+Heldout val scenarios: 200
+[RAG V2] Loading cached structured index...
+[RAG V2] Loaded 2000 cases.
+RAG index built.
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e3e0a301-7a05-4b56-884c-4853b56c3c51] Fallback → C4
+[e3e0a301-7a05-4b56-884c-4853b56c3c51] F1 → C4  (27.5s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e15982ba-fbb6-45bc-8524-4b8b0ae5e34c] Fallback → C18
+[e15982ba-fbb6-45bc-8524-4b8b0ae5e34c] F1 → C18  (26.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e39f26f7-37ca-4ddf-8d2b-1bc453479f07] Fallback → C2
+[e39f26f7-37ca-4ddf-8d2b-1bc453479f07] F1 → C2  (27.1s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fa23ce05-0f52-4e50-ab14-e96da45ed675] Fallback → C15
+[fa23ce05-0f52-4e50-ab14-e96da45ed675] F1 → C15  (26.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e66afb91-c051-4871-86bb-7cca3a9e72b5] Fallback → C15
+[e66afb91-c051-4871-86bb-7cca3a9e72b5] F1 → C15  (27.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f54b2b10-54b4-46f9-8988-44bb73789b99] Fallback → C8
+[f54b2b10-54b4-46f9-8988-44bb73789b99] F1 → C8  (26.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[ebfe7bd4-5adf-4820-9eb1-bd1af89961eb] Fallback → C15
+[ebfe7bd4-5adf-4820-9eb1-bd1af89961eb] F1 → C15  (26.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e54d2633-e5c1-4fc6-813b-0a5a40e75349] Fallback → C2
+[e54d2633-e5c1-4fc6-813b-0a5a40e75349] F1 → C2  (26.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[f2f956b8-5c30-4522-825d-f8b93ab7a1c2] Fallback → C20
+[f2f956b8-5c30-4522-825d-f8b93ab7a1c2] F1 → C20  (26.6s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fc8bedbb-ed2d-44b9-97ea-5eb39fc97907] Fallback → C15
+[fc8bedbb-ed2d-44b9-97ea-5eb39fc97907] F1 → C15  (26.4s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[fbcc235a-e243-4061-a28d-f9066aa45b67] Fallback → C2
+[fbcc235a-e243-4061-a28d-f9066aa45b67] F1 → C2  (27.9s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[dfa8e9f8-6fa8-437b-bad3-d193e2a24ffe] Fallback → C5
+[dfa8e9f8-6fa8-437b-bad3-d193e2a24ffe] F1 → C5  (25.8s)
+HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+[e1f64207-558d-45ec-ada7-e492d63fbb01] Fallback → C3
+[e1f64207-558d-45ec-ada7-e492d63fbb01] F1 → C3  (26.8s)

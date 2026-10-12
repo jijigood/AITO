@@ -1,0 +1,1885 @@
+{
+  "phase1_analysis": {
+    "total_f2_rows": 228,
+    "valid_f2_rows": 228,
+    "top_issue_distribution": {
+      "overshoot_overlap": {
+        "count": 178,
+        "azimuth": 142,
+        "tilt": 36,
+        "azimuth_pct": 0.797752808988764,
+        "tilt_pct": 0.20224719101123595,
+        "majority": "azimuth",
+        "confidence": 0.5955056179775281
+      },
+      "uncertain": {
+        "count": 25,
+        "azimuth": 0,
+        "tilt": 25,
+        "azimuth_pct": 0.0,
+        "tilt_pct": 1.0,
+        "majority": "tilt",
+        "confidence": 1.0
+      },
+      "late_handover": {
+        "count": 25,
+        "azimuth": 0,
+        "tilt": 25,
+        "azimuth_pct": 0.0,
+        "tilt_pct": 1.0,
+        "majority": "tilt",
+        "confidence": 1.0
+      }
+    }
+  },
+  "phase2_evaluation": {
+    "total_f2_rows": 145,
+    "card2_f2_rows": 139,
+    "excluded_count": 6,
+    "candidates": [
+      {
+        "scenario_id": "f00df504-5e00-49c3-b040-29c62021793d",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C12|C22",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "1f872048-7692-4443-bbda-324975dbef07",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C2",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "f86420da-3884-4a89-985e-13b870108ac8",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C8",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C11",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "863e801a-af00-411d-95c8-9795bf7859fd",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C23",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "815f0842-32f3-440f-837d-42abdd09f248",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C20",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "71f8e7bd-15b6-490d-adf4-b4746615987a",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C24",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "e72d1cd8-f9ec-495b-81fa-8469bbc665ac",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C5",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "de896155-b409-4446-8679-e1bb486e4882",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C7",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "a23ab670-fd49-4272-b64c-fcbf270dae96",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C7",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "f765cbbc-ad37-492b-bfb2-b4844b28e1d7",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C6|C9",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "ff500b22-2cdd-48b8-9029-a19556a0284b",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C13",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "d1db7c9d-0831-43cc-8458-2c592f8ddd11",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C10",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "57ff95b0-924b-44f1-b5a8-4603b422af24",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C21",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "f3d7cd99-2ea9-46f9-91f6-79ea7bd303fd",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C7",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "d06a257c-34d3-4641-a17b-6ec6284a1f20",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C7|C10",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "5137d812-1c90-4200-98c7-b1d4f44bb3d5",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C5|C23",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "337083f8-8abe-425c-b1bb-9ff292a5517b",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C8",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "f88ec12a-82ad-4f49-be0a-c278cc038ae6",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C4",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "e3481556-e1e4-49f2-9d9d-a047297cc242",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C12|C15",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "371ea7fb-d6f9-45e8-b502-81c4804af9ba",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C11|C14",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "40400e43-4205-47bb-86cb-4e7e9653a9fe",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C9|C10",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "201bf04f-a03e-4087-86a2-cc0361166b18",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C9",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "d319eb75-be5c-4aa9-81f6-9632f2177a8f",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C12|C23",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "46b455b4-f618-4336-9c53-a73628bbfd74",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C9|C13",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "da205a6c-0beb-4ed8-b2e8-e7bdb94f88db",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C5|C23",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "8663a98f-734e-46a9-a5bd-23bec79731f4",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C9|C18",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "9ccd2a41-433f-4293-b19b-40661e6c298c",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C16|C21",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "054a2600-cf4c-46b4-a65b-527106768a53",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C16|C22",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "2895f71c-6fdf-406b-9728-2a657bd876b6",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C9|C16",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "ce7e2a00-38b3-4eb2-9981-792e13619013",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C16",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "ac809e50-4372-497b-9e50-f2658003fb46",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C4|C20",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "16e2e629-c315-424a-837c-375eab4be2ad",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C6",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "e470b801-ca77-4c4e-b8fd-96679001c6c8",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C10|C23",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "952a1d11-1f7e-4d8d-88f7-354f207b64a1",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C3",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "dca250b6-783f-4774-bd73-06af30cc776d",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C8|C10",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "69b07994-9618-4d73-8e19-9f7a6f517994",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C6|C9",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "cc3421e4-1646-41cb-b31d-01129c51751a",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C6",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "b4b57660-d3d8-4059-90dd-07d26947d1bd",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C8|C10",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "ba05f47d-e2a7-4f60-b05a-a521d84bbeef",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C5|C9",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "bc2e61ee-93fb-451f-8656-9c6590f4b002",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C4|C12",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "0723bd3a-60d4-4f7c-a441-e9c14cd6c6ca",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C12|C18",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "b71c86a7-c89b-4bc1-b58a-f437de5c68d6",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C11",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "b019d631-6f59-49cf-a489-85a561281d51",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C5|C24",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "d65f5bd9-e955-465b-be4d-b07c76690b95",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C8|C9",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "ca969cc9-78df-47ae-aefc-2972691e9ff4",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C5|C14",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "aa7c719f-2ecf-4b31-9b9a-4c024de0d769",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C4|C8",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "fbc7fa7e-6437-4fe5-bd7c-aafa090091ff",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C11|C17",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "2fe0c43d-2183-4a2b-9a33-4e09d10cea30",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C7|C24",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "9e62763e-ffa5-4ecf-82f5-8f693064b32f",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C19",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "8f8e3ba8-c35a-41ec-8870-9e0602450a5d",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C17|C20",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "d0e7a28f-2474-4d35-8487-f0fb0fe21429",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C22",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "1c30a245-d4e1-4f4f-9e1e-e6c94edaf8e6",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C14",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "2c9e99d0-bc53-4a96-a942-a8f84c768029",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C18",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "cfcbe96d-8979-41f3-8946-419d7812cb81",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C6|C8",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "1500e616-4f0d-48cb-a67b-cf225a2bfd85",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C3",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "c7855316-97b9-48ed-8919-c5853aca58d3",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C18",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "132c624a-c39d-4adf-bd70-653b8a7acdd8",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C9|C19",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "8537f835-5853-41f7-8498-bf789bf86166",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C1|C2",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "c2c80a6c-d00d-4227-b741-14fb30170130",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C3|C12",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "b4e916dd-ffce-435e-ba64-301706376b84",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C7",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "814a0b57-3698-47e3-a2c7-b6b5e83528ce",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C4|C11",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "b12d176f-8116-4c29-a900-ec41abfb6b60",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C8|C22",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "3ccc4eba-6648-4901-b1c3-e3ba6dae218d",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C9|C19",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "9cdd5c86-a7fa-4e60-b78c-e461f2243efe",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C6|C14",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "484a4598-4f13-4c08-b48c-0722092438f8",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C2|C7",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "ddc54a58-8604-40f1-8e79-d2b976dd4a85",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C4|C5",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "732eafb6-9a40-4e36-a9b5-d78595e6e9c9",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C18|C19",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "9d0594c2-592b-468c-98c4-93a6226e1592",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C14|C15",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      },
+      {
+        "scenario_id": "faab3b03-cfab-4216-849f-0a66c0f72fa0",
+        "top_issue": "uncertain",
+        "top_issue_score": 0.0,
+        "current_answer": "C10|C21",
+        "current_pair": "azimuth",
+        "current_actions": [
+          "adjust_azimuth",
+          "increase_power"
+        ],
+        "phase1_majority": "tilt",
+        "phase1_confidence": 1.0,
+        "phase1_bucket_size": 25,
+        "phase1_azimuth_pct": 0.0,
+        "flip_score": 1.0
+      }
+    ],
+    "high_confidence_count": 70
+  },
+  "patch_result": {
+    "flips_applied": [
+      {
+        "sid": "f00df504-5e00-49c3-b040-29c62021793d",
+        "old": "C12|C22",
+        "old_pair": "azimuth",
+        "new": "C1|C6",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "1f872048-7692-4443-bbda-324975dbef07",
+        "old": "C1|C2",
+        "old_pair": "azimuth",
+        "new": "C3|C9",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "f86420da-3884-4a89-985e-13b870108ac8",
+        "old": "C3|C8",
+        "old_pair": "azimuth",
+        "new": "C1|C7",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "a5aa02e2-3000-4e1b-b1e1-56b629e9c2d4",
+        "old": "C2|C11",
+        "old_pair": "azimuth",
+        "new": "C4|C9",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "863e801a-af00-411d-95c8-9795bf7859fd",
+        "old": "C3|C23",
+        "old_pair": "azimuth",
+        "new": "C14|C16",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "815f0842-32f3-440f-837d-42abdd09f248",
+        "old": "C2|C20",
+        "old_pair": "azimuth",
+        "new": "C3|C9",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "71f8e7bd-15b6-490d-adf4-b4746615987a",
+        "old": "C1|C24",
+        "old_pair": "azimuth",
+        "new": "C5|C8",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "e72d1cd8-f9ec-495b-81fa-8469bbc665ac",
+        "old": "C2|C5",
+        "old_pair": "azimuth",
+        "new": "C1|C4",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "de896155-b409-4446-8679-e1bb486e4882",
+        "old": "C2|C7",
+        "old_pair": "azimuth",
+        "new": "C4|C13",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "a23ab670-fd49-4272-b64c-fcbf270dae96",
+        "old": "C1|C7",
+        "old_pair": "azimuth",
+        "new": "C6|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "f765cbbc-ad37-492b-bfb2-b4844b28e1d7",
+        "old": "C6|C9",
+        "old_pair": "azimuth",
+        "new": "C2|C3",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "ff500b22-2cdd-48b8-9029-a19556a0284b",
+        "old": "C3|C13",
+        "old_pair": "azimuth",
+        "new": "C1|C18",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "d1db7c9d-0831-43cc-8458-2c592f8ddd11",
+        "old": "C2|C10",
+        "old_pair": "azimuth",
+        "new": "C6|C16",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "57ff95b0-924b-44f1-b5a8-4603b422af24",
+        "old": "C3|C21",
+        "old_pair": "azimuth",
+        "new": "C4|C7",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "f3d7cd99-2ea9-46f9-91f6-79ea7bd303fd",
+        "old": "C1|C7",
+        "old_pair": "azimuth",
+        "new": "C2|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "d06a257c-34d3-4641-a17b-6ec6284a1f20",
+        "old": "C7|C10",
+        "old_pair": "azimuth",
+        "new": "C2|C8",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "5137d812-1c90-4200-98c7-b1d4f44bb3d5",
+        "old": "C5|C23",
+        "old_pair": "azimuth",
+        "new": "C9|C12",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "337083f8-8abe-425c-b1bb-9ff292a5517b",
+        "old": "C2|C8",
+        "old_pair": "azimuth",
+        "new": "C14|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "f88ec12a-82ad-4f49-be0a-c278cc038ae6",
+        "old": "C3|C4",
+        "old_pair": "azimuth",
+        "new": "C1|C6",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "e3481556-e1e4-49f2-9d9d-a047297cc242",
+        "old": "C12|C15",
+        "old_pair": "azimuth",
+        "new": "C1|C4",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "371ea7fb-d6f9-45e8-b502-81c4804af9ba",
+        "old": "C11|C14",
+        "old_pair": "azimuth",
+        "new": "C7|C17",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "40400e43-4205-47bb-86cb-4e7e9653a9fe",
+        "old": "C9|C10",
+        "old_pair": "azimuth",
+        "new": "C5|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "201bf04f-a03e-4087-86a2-cc0361166b18",
+        "old": "C3|C9",
+        "old_pair": "azimuth",
+        "new": "C5|C6",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "d319eb75-be5c-4aa9-81f6-9632f2177a8f",
+        "old": "C12|C23",
+        "old_pair": "azimuth",
+        "new": "C1|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "46b455b4-f618-4336-9c53-a73628bbfd74",
+        "old": "C9|C13",
+        "old_pair": "azimuth",
+        "new": "C1|C5",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "da205a6c-0beb-4ed8-b2e8-e7bdb94f88db",
+        "old": "C5|C23",
+        "old_pair": "azimuth",
+        "new": "C4|C10",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "8663a98f-734e-46a9-a5bd-23bec79731f4",
+        "old": "C9|C18",
+        "old_pair": "azimuth",
+        "new": "C8|C13",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "9ccd2a41-433f-4293-b19b-40661e6c298c",
+        "old": "C16|C21",
+        "old_pair": "azimuth",
+        "new": "C6|C10",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "054a2600-cf4c-46b4-a65b-527106768a53",
+        "old": "C16|C22",
+        "old_pair": "azimuth",
+        "new": "C3|C7",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "2895f71c-6fdf-406b-9728-2a657bd876b6",
+        "old": "C9|C16",
+        "old_pair": "azimuth",
+        "new": "C1|C2",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "ce7e2a00-38b3-4eb2-9981-792e13619013",
+        "old": "C2|C16",
+        "old_pair": "azimuth",
+        "new": "C13|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "ac809e50-4372-497b-9e50-f2658003fb46",
+        "old": "C4|C20",
+        "old_pair": "azimuth",
+        "new": "C2|C5",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "16e2e629-c315-424a-837c-375eab4be2ad",
+        "old": "C3|C6",
+        "old_pair": "azimuth",
+        "new": "C5|C12",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "e470b801-ca77-4c4e-b8fd-96679001c6c8",
+        "old": "C10|C23",
+        "old_pair": "azimuth",
+        "new": "C2|C9",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "952a1d11-1f7e-4d8d-88f7-354f207b64a1",
+        "old": "C1|C3",
+        "old_pair": "azimuth",
+        "new": "C4|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "dca250b6-783f-4774-bd73-06af30cc776d",
+        "old": "C8|C10",
+        "old_pair": "azimuth",
+        "new": "C3|C5",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "69b07994-9618-4d73-8e19-9f7a6f517994",
+        "old": "C6|C9",
+        "old_pair": "azimuth",
+        "new": "C1|C2",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "cc3421e4-1646-41cb-b31d-01129c51751a",
+        "old": "C1|C6",
+        "old_pair": "azimuth",
+        "new": "C10|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "b4b57660-d3d8-4059-90dd-07d26947d1bd",
+        "old": "C8|C10",
+        "old_pair": "azimuth",
+        "new": "C4|C9",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "ba05f47d-e2a7-4f60-b05a-a521d84bbeef",
+        "old": "C5|C9",
+        "old_pair": "azimuth",
+        "new": "C11|C14",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "bc2e61ee-93fb-451f-8656-9c6590f4b002",
+        "old": "C4|C12",
+        "old_pair": "azimuth",
+        "new": "C6|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "0723bd3a-60d4-4f7c-a441-e9c14cd6c6ca",
+        "old": "C12|C18",
+        "old_pair": "azimuth",
+        "new": "C3|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "b71c86a7-c89b-4bc1-b58a-f437de5c68d6",
+        "old": "C1|C11",
+        "old_pair": "azimuth",
+        "new": "C7|C12",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "b019d631-6f59-49cf-a489-85a561281d51",
+        "old": "C5|C24",
+        "old_pair": "azimuth",
+        "new": "C2|C4",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "d65f5bd9-e955-465b-be4d-b07c76690b95",
+        "old": "C8|C9",
+        "old_pair": "azimuth",
+        "new": "C6|C14",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "ca969cc9-78df-47ae-aefc-2972691e9ff4",
+        "old": "C5|C14",
+        "old_pair": "azimuth",
+        "new": "C1|C6",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "aa7c719f-2ecf-4b31-9b9a-4c024de0d769",
+        "old": "C4|C8",
+        "old_pair": "azimuth",
+        "new": "C5|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "fbc7fa7e-6437-4fe5-bd7c-aafa090091ff",
+        "old": "C11|C17",
+        "old_pair": "azimuth",
+        "new": "C6|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "2fe0c43d-2183-4a2b-9a33-4e09d10cea30",
+        "old": "C7|C24",
+        "old_pair": "azimuth",
+        "new": "C3|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "9e62763e-ffa5-4ecf-82f5-8f693064b32f",
+        "old": "C3|C19",
+        "old_pair": "azimuth",
+        "new": "C1|C13",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "8f8e3ba8-c35a-41ec-8870-9e0602450a5d",
+        "old": "C17|C20",
+        "old_pair": "azimuth",
+        "new": "C2|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "d0e7a28f-2474-4d35-8487-f0fb0fe21429",
+        "old": "C2|C22",
+        "old_pair": "azimuth",
+        "new": "C9|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "1c30a245-d4e1-4f4f-9e1e-e6c94edaf8e6",
+        "old": "C1|C14",
+        "old_pair": "azimuth",
+        "new": "C3|C4",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "2c9e99d0-bc53-4a96-a942-a8f84c768029",
+        "old": "C3|C18",
+        "old_pair": "azimuth",
+        "new": "C2|C4",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "cfcbe96d-8979-41f3-8946-419d7812cb81",
+        "old": "C6|C8",
+        "old_pair": "azimuth",
+        "new": "C5|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "1500e616-4f0d-48cb-a67b-cf225a2bfd85",
+        "old": "C2|C3",
+        "old_pair": "azimuth",
+        "new": "C6|C7",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "c7855316-97b9-48ed-8919-c5853aca58d3",
+        "old": "C2|C18",
+        "old_pair": "azimuth",
+        "new": "C3|C14",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "132c624a-c39d-4adf-bd70-653b8a7acdd8",
+        "old": "C9|C19",
+        "old_pair": "azimuth",
+        "new": "C2|C4",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "8537f835-5853-41f7-8498-bf789bf86166",
+        "old": "C1|C2",
+        "old_pair": "azimuth",
+        "new": "C5|C12",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "c2c80a6c-d00d-4227-b741-14fb30170130",
+        "old": "C3|C12",
+        "old_pair": "azimuth",
+        "new": "C13|C14",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "b4e916dd-ffce-435e-ba64-301706376b84",
+        "old": "C2|C7",
+        "old_pair": "azimuth",
+        "new": "C9|C13",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "814a0b57-3698-47e3-a2c7-b6b5e83528ce",
+        "old": "C4|C11",
+        "old_pair": "azimuth",
+        "new": "C3|C5",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "b12d176f-8116-4c29-a900-ec41abfb6b60",
+        "old": "C8|C22",
+        "old_pair": "azimuth",
+        "new": "C5|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "3ccc4eba-6648-4901-b1c3-e3ba6dae218d",
+        "old": "C9|C19",
+        "old_pair": "azimuth",
+        "new": "C2|C3",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "9cdd5c86-a7fa-4e60-b78c-e461f2243efe",
+        "old": "C6|C14",
+        "old_pair": "azimuth",
+        "new": "C10|C15",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "484a4598-4f13-4c08-b48c-0722092438f8",
+        "old": "C2|C7",
+        "old_pair": "azimuth",
+        "new": "C12|C19",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "ddc54a58-8604-40f1-8e79-d2b976dd4a85",
+        "old": "C4|C5",
+        "old_pair": "azimuth",
+        "new": "C14|C16",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "732eafb6-9a40-4e36-a9b5-d78595e6e9c9",
+        "old": "C18|C19",
+        "old_pair": "azimuth",
+        "new": "C9|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "9d0594c2-592b-468c-98c4-93a6226e1592",
+        "old": "C14|C15",
+        "old_pair": "azimuth",
+        "new": "C7|C11",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      },
+      {
+        "sid": "faab3b03-cfab-4216-849f-0a66c0f72fa0",
+        "old": "C10|C21",
+        "old_pair": "azimuth",
+        "new": "C13|C14",
+        "new_pair": "tilt",
+        "top_issue": "uncertain",
+        "confidence": 1.0,
+        "flip_score": 1.0
+      }
+    ],
+    "skipped": [],
+    "total_flips": 70,
+    "out_csv": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_C_f2_calibrated_v2.csv"
+  },
+  "params": {
+    "confidence_threshold": 0.7,
+    "max_flips": 999,
+    "base_csv": "/home/huangxiaolin/AITO/V5/Track A/submissions/submission_600_v5_11_baseline_plus_f2_pair_fix.csv",
+    "train_json": "/home/huangxiaolin/AITO/V5/Track A/data/Phase_1/train.json",
+    "test_json": "/home/huangxiaolin/AITO/V5/Track A/data/Phase_2/test.json",
+    "exclude_ids": [
+      "732ac9cf-5ad2-4934-a5f6-f41d6edde04e",
+      "a4176c2c-458b-4c9c-b89b-c0c873747d0b",
+      "ddb040fe-708c-472d-8ef6-584b8ec5b7ec",
+      "e83a09dd-795a-4066-9f5c-2de6da46dfea",
+      "f02d340d-18c0-43c9-ae9c-c6132c5fe719",
+      "f428f517-0bcd-4d13-b31a-929eb3584363"
+    ]
+  }
+}

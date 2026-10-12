@@ -1,0 +1,119 @@
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:299] 
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:299]        █     █     █▄   ▄█
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:299]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.19.1
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:299]   █▄█▀ █     █     █     █  model   /home/huangxiaolin/AITO/model
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:299]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:299] 
+(APIServer pid=4033957) INFO 05-13 18:49:00 [utils.py:233] non-default args: {'lora_modules': [LoRAModulePath(name='diag', path='/home/huangxiaolin/AITO/V4/Track A/checkpoints/diag_lora_r16_qlora_fast_gpu0/checkpoint-50', base_model_name=None)], 'host': '127.0.0.1', 'port': 8001, 'model': '/home/huangxiaolin/AITO/model', 'tokenizer': '/home/huangxiaolin/AITO/V4/Track A/checkpoints/diag_lora_r16_qlora_fast_gpu0/checkpoint-50', 'trust_remote_code': True, 'dtype': 'bfloat16', 'max_model_len': 8192, 'enforce_eager': True, 'served_model_name': ['qwen'], 'reasoning_parser': 'qwen3', 'gpu_memory_utilization': 0.92, 'language_model_only': True, 'enable_lora': True}
+(APIServer pid=4033957) INFO 05-13 18:49:00 [model.py:549] Resolved architecture: Qwen3_5MoeForConditionalGeneration
+(APIServer pid=4033957) INFO 05-13 18:49:00 [model.py:1678] Using max model len 8192
+(APIServer pid=4033957) [transformers] `Qwen2VLImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Qwen2VLImageProcessor` instead.
+(APIServer pid=4033957) INFO 05-13 18:49:02 [config.py:281] Setting attention block size to 1056 tokens to ensure that attention page size is >= mamba page size.
+(APIServer pid=4033957) INFO 05-13 18:49:02 [config.py:312] Padding mamba page size by 0.76% to ensure that mamba page size and attention page size are exactly equal.
+(APIServer pid=4033957) INFO 05-13 18:49:02 [vllm.py:790] Asynchronous scheduling is enabled.
+(APIServer pid=4033957) WARNING 05-13 18:49:02 [vllm.py:848] Enforce eager set, disabling torch.compile and CUDAGraphs. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none
+(APIServer pid=4033957) WARNING 05-13 18:49:02 [vllm.py:859] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.
+(APIServer pid=4033957) INFO 05-13 18:49:02 [vllm.py:1025] Cudagraph is disabled under eager mode
+(APIServer pid=4033957) INFO 05-13 18:49:02 [compilation.py:292] Enabled custom fusions: norm_quant, act_quant
+(APIServer pid=4033957) INFO 05-13 18:49:04 [registry.py:126] All limits of multimodal modalities supported by the model are set to 0, running in text-only mode.
+(EngineCore pid=4034292) INFO 05-13 18:49:11 [core.py:105] Initializing a V1 LLM engine (v0.19.1) with config: model='/home/huangxiaolin/AITO/model', speculative_config=None, tokenizer='/home/huangxiaolin/AITO/V4/Track A/checkpoints/diag_lora_r16_qlora_fast_gpu0/checkpoint-50', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=8192, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, enforce_eager=True, enable_return_routed_experts=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='qwen3', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, kv_cache_metrics=False, kv_cache_metrics_sample=0.01, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False), seed=0, served_model_name=qwen, enable_prefix_caching=False, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.NONE: 0>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['all'], 'splitting_ops': [], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_images_per_batch': 0, 'compile_sizes': [], 'compile_ranges_endpoints': [2048], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'size_asserts': False, 'alignment_asserts': False, 'scalar_asserts': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.NONE: 0>, 'cudagraph_num_of_warmups': 0, 'cudagraph_capture_sizes': [], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': True, 'fuse_act_quant': True, 'fuse_attn_quant': False, 'enable_sp': False, 'fuse_gemm_comms': False, 'fuse_allreduce_rms': False}, 'max_cudagraph_capture_size': 0, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': True, 'static_all_moe_layers': []}
+(EngineCore pid=4034292) [transformers] `Qwen2VLImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Qwen2VLImageProcessor` instead.
+(EngineCore pid=4034292) INFO 05-13 18:49:14 [registry.py:126] All limits of multimodal modalities supported by the model are set to 0, running in text-only mode.
+(EngineCore pid=4034292) INFO 05-13 18:49:14 [parallel_state.py:1400] world_size=1 rank=0 local_rank=0 distributed_init_method=tcp://192.168.1.100:56867 backend=nccl
+(EngineCore pid=4034292) INFO 05-13 18:49:14 [parallel_state.py:1716] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, EP rank 0, EPLB rank N/A
+(EngineCore pid=4034292) INFO 05-13 18:49:15 [gpu_model_runner.py:4735] Starting to load model /home/huangxiaolin/AITO/model...
+(EngineCore pid=4034292) INFO 05-13 18:49:15 [cuda.py:390] Using backend AttentionBackendEnum.FLASH_ATTN for vit attention
+(EngineCore pid=4034292) INFO 05-13 18:49:15 [mm_encoder_attention.py:230] Using AttentionBackendEnum.FLASH_ATTN for MMEncoderAttention.
+(EngineCore pid=4034292) INFO 05-13 18:49:15 [gdn_linear_attn.py:147] Using Triton/FLA GDN prefill kernel
+(EngineCore pid=4034292) INFO 05-13 18:49:16 [unquantized.py:186] Using TRITON backend for Unquantized MoE
+(EngineCore pid=4034292) INFO 05-13 18:49:16 [cuda.py:334] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION'].
+(EngineCore pid=4034292) INFO 05-13 18:49:16 [flash_attn.py:596] Using FlashAttention version 2
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:   0% Completed | 0/14 [00:00<?, ?it/s]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:   7% Completed | 1/14 [00:02<00:27,  2.08s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  14% Completed | 2/14 [00:10<01:11,  5.95s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  21% Completed | 3/14 [00:20<01:25,  7.76s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  29% Completed | 4/14 [00:22<00:53,  5.30s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  36% Completed | 5/14 [00:25<00:40,  4.49s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  43% Completed | 6/14 [00:30<00:38,  4.76s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  50% Completed | 7/14 [00:32<00:26,  3.84s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  57% Completed | 8/14 [00:33<00:18,  3.08s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  64% Completed | 9/14 [00:35<00:13,  2.72s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  71% Completed | 10/14 [00:38<00:10,  2.67s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  79% Completed | 11/14 [00:40<00:07,  2.49s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  86% Completed | 12/14 [00:42<00:04,  2.26s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards:  93% Completed | 13/14 [00:43<00:01,  1.98s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards: 100% Completed | 14/14 [00:43<00:00,  1.50s/it]
+(EngineCore pid=4034292) Loading safetensors checkpoint shards: 100% Completed | 14/14 [00:43<00:00,  3.14s/it]
+(EngineCore pid=4034292) 
+(EngineCore pid=4034292) INFO 05-13 18:50:00 [default_loader.py:384] Loading weights took 44.03 seconds
+(EngineCore pid=4034292) INFO 05-13 18:50:00 [utils.py:101] MoE model detected. Using fused MoE LoRA implementation.
+(EngineCore pid=4034292) INFO 05-13 18:50:00 [punica_selector.py:20] Using PunicaWrapperGPU.
+(EngineCore pid=4034292) INFO 05-13 18:50:00 [model_manager.py:176] Qwen3_5MoeForConditionalGeneration supports adding LoRA to the tower modules. If needed, please set `enable_tower_connector_lora=True`.
+(EngineCore pid=4034292) INFO 05-13 18:50:01 [gpu_model_runner.py:4820] Model loading took 66.46 GiB memory and 45.146671 seconds
+(EngineCore pid=4034292) /home/huangxiaolin/dify_vllm_uv310/lib/python3.10/site-packages/vllm/model_executor/layers/fla/ops/utils.py:113: UserWarning: Input tensor shape suggests potential format mismatch: seq_len (16) < num_heads (32). This may indicate the inputs were passed in head-first format [B, H, T, ...] when head_first=False was specified. Please verify your input tensor format matches the expected shape [B, T, H, ...].
+(EngineCore pid=4034292)   return fn(*contiguous_args, **contiguous_kwargs)
+(EngineCore pid=4034292) WARNING 05-13 18:50:03 [fused_moe.py:1090] Using default MoE config. Performance might be sub-optimal! Config file not found at /home/huangxiaolin/dify_vllm_uv310/lib/python3.10/site-packages/vllm/model_executor/layers/fused_moe/configs/E=256,N=512,device_name=NVIDIA_A100_80GB_PCIe.json
+(EngineCore pid=4034292) INFO 05-13 18:50:07 [gpu_worker.py:436] Available KV cache memory: 4.84 GiB
+(EngineCore pid=4034292) INFO 05-13 18:50:07 [kv_cache_utils.py:1319] GPU KV cache size: 63,360 tokens
+(EngineCore pid=4034292) INFO 05-13 18:50:07 [kv_cache_utils.py:1324] Maximum concurrency for 8,192 tokens per request: 21.82x
+(EngineCore pid=4034292) INFO 05-13 18:50:07 [core.py:283] init engine (profile, create kv cache, warmup model) took 6.46 seconds
+(EngineCore pid=4034292) INFO 05-13 18:50:08 [vllm.py:790] Asynchronous scheduling is enabled.
+(EngineCore pid=4034292) WARNING 05-13 18:50:08 [vllm.py:848] Enforce eager set, disabling torch.compile and CUDAGraphs. This is equivalent to setting -cc.mode=none -cc.cudagraph_mode=none
+(EngineCore pid=4034292) WARNING 05-13 18:50:08 [vllm.py:859] Inductor compilation was disabled by user settings, optimizations settings that are only active during inductor compilation will be ignored.
+(EngineCore pid=4034292) INFO 05-13 18:50:08 [vllm.py:1025] Cudagraph is disabled under eager mode
+(EngineCore pid=4034292) INFO 05-13 18:50:08 [compilation.py:292] Enabled custom fusions: norm_quant, act_quant
+(APIServer pid=4033957) INFO 05-13 18:50:08 [api_server.py:592] Supported tasks: ['generate']
+(APIServer pid=4033957) INFO 05-13 18:50:08 [serving.py:201] Loaded new LoRA adapter: name 'diag', path '/home/huangxiaolin/AITO/V4/Track A/checkpoints/diag_lora_r16_qlora_fast_gpu0/checkpoint-50'
+(APIServer pid=4033957) WARNING 05-13 18:50:08 [model.py:1435] Default vLLM sampling parameters have been overridden by the model's `generation_config.json`: `{'temperature': 1.0, 'top_k': 20, 'top_p': 0.95}`. If this is not intended, please relaunch vLLM instance with `--generation-config vllm`.
+(APIServer pid=4033957) INFO 05-13 18:50:10 [hf.py:314] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+(APIServer pid=4033957) [transformers] The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+(APIServer pid=4033957) INFO 05-13 18:50:18 [base.py:231] Multi-modal warmup completed in 8.915s
+(APIServer pid=4033957) INFO 05-13 18:50:19 [api_server.py:596] Starting vLLM server on http://127.0.0.1:8001
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:37] Available routes are:
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /openapi.json, Methods: GET, HEAD
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /docs, Methods: GET, HEAD
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /docs/oauth2-redirect, Methods: GET, HEAD
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /redoc, Methods: GET, HEAD
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /tokenize, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /detokenize, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /load, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /version, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /health, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /metrics, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/models, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /ping, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /ping, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /invocations, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/chat/completions, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/chat/completions/batch, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/responses, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/responses/{response_id}, Methods: GET
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/responses/{response_id}/cancel, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/completions, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/messages, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/messages/count_tokens, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /inference/v1/generate, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /scale_elastic_ep, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /is_scaling_elastic_ep, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/chat/completions/render, Methods: POST
+(APIServer pid=4033957) INFO 05-13 18:50:19 [launcher.py:46] Route: /v1/completions/render, Methods: POST
+(APIServer pid=4033957) INFO:     Started server process [4033957]
+(APIServer pid=4033957) INFO:     Waiting for application startup.
+(APIServer pid=4033957) INFO:     Application startup complete.
+(APIServer pid=4033957) INFO:     127.0.0.1:36396 - "GET /v1/models HTTP/1.1" 200 OK
+(APIServer pid=4033957) WARNING 05-13 18:52:54 [input_processor.py:149] vLLM has deprecated support for supporting different tokenizers for different LoRAs. By default, vLLM uses base model's tokenizer. If you are using a LoRA with its own tokenizer, consider specifying `--tokenizer [lora_path]` to use the LoRA tokenizer.
+(EngineCore pid=4034292) WARNING 05-13 18:52:54 [utils.py:267] Using default LoRA kernel configs
+(APIServer pid=4033957) INFO 05-13 18:52:59 [loggers.py:259] Engine 000: Avg prompt throughput: 185.0 tokens/s, Avg generation throughput: 1.9 tokens/s, Running: 1 reqs, Waiting: 0 reqs, GPU KV cache usage: 2.1%, Prefix cache hit rate: 0.0%
+(APIServer pid=4033957) INFO 05-13 18:53:09 [loggers.py:259] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 6.0 tokens/s, Running: 1 reqs, Waiting: 0 reqs, GPU KV cache usage: 2.1%, Prefix cache hit rate: 0.0%
+(APIServer pid=4033957) INFO 05-13 18:53:19 [loggers.py:259] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 5.2 tokens/s, Running: 1 reqs, Waiting: 0 reqs, GPU KV cache usage: 2.1%, Prefix cache hit rate: 0.0%
+(APIServer pid=4033957) INFO 05-13 18:53:29 [loggers.py:259] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 6.0 tokens/s, Running: 1 reqs, Waiting: 0 reqs, GPU KV cache usage: 2.1%, Prefix cache hit rate: 0.0%
+(APIServer pid=4033957) INFO:     127.0.0.1:51790 - "POST /v1/chat/completions HTTP/1.1" 200 OK
+(APIServer pid=4033957) INFO 05-13 18:53:39 [loggers.py:259] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 0.5 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.0%, Prefix cache hit rate: 0.0%
+(APIServer pid=4033957) INFO 05-13 18:53:49 [loggers.py:259] Engine 000: Avg prompt throughput: 0.0 tokens/s, Avg generation throughput: 0.0 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 0.0%, Prefix cache hit rate: 0.0%
+(EngineCore pid=4034292) INFO 05-13 18:53:53 [core.py:1210] Shutdown initiated (timeout=0)
+(EngineCore pid=4034292) INFO 05-13 18:53:53 [core.py:1233] Shutdown complete
+(APIServer pid=4033957) INFO:     Shutting down
+[rank0]:[W513 18:53:53.978015299 ProcessGroupNCCL.cpp:1553] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+(APIServer pid=4033957) INFO:     Waiting for application shutdown.
+(APIServer pid=4033957) INFO:     Application shutdown complete.
+(APIServer pid=4033957) INFO:     Finished server process [4033957]

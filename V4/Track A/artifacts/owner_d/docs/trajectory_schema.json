@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "docs/owner_d/trajectory_schema.json",
+  "title": "Owner D Trajectory Record",
+  "description": "Stable core schema for Phase 2 trajectory retrieval and prompt-safe memory.",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "family",
+    "tag",
+    "branch",
+    "serving_sinr",
+    "serving_rsrp",
+    "best_neighbor_advantage",
+    "neighbor_in_config",
+    "mainlobe_outside",
+    "mr_count",
+    "tool_sequence",
+    "key_evidence",
+    "root_cause",
+    "action",
+    "target_role",
+    "confidence"
+  ],
+  "properties": {
+    "scenario_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable scenario identifier for deduplication and tie-breaking."
+    },
+    "family": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Family bucket such as F1, F2, F3, or F4."
+    },
+    "tag": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Original task tag such as single-answer or multiple-answer."
+    },
+    "branch": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Branch name defined by Owner B; use unknown instead of empty."
+    },
+    "serving_sinr": {
+      "type": "number",
+      "description": "Serving SINR scalar used for retrieval."
+    },
+    "serving_rsrp": {
+      "type": "number",
+      "description": "Serving RSRP scalar used for retrieval."
+    },
+    "best_neighbor_advantage": {
+      "type": "number",
+      "description": "Best neighbor minus serving signal advantage."
+    },
+    "neighbor_in_config": {
+      "type": "boolean",
+      "description": "Whether the relevant neighbor already exists in configuration."
+    },
+    "mainlobe_outside": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Null means no usable mainlobe evidence, not false."
+    },
+    "mr_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of MR or equivalent evidence rows."
+    },
+    "tool_sequence": {
+      "type": "array",
+      "description": "Ordered tools used or recommended in the trajectory.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "key_evidence": {
+      "type": "array",
+      "description": "Prompt-safe evidence phrases explaining why the case is reusable.",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "root_cause": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Normalized root cause label."
+    },
+    "action": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Normalized action label."
+    },
+    "target_role": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Role of the target object rather than an answer code or exact cell id."
+    },
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "description": "Strength and applicability of the trajectory as reusable memory."
+    }
+  },
+  "additionalProperties": true
+}

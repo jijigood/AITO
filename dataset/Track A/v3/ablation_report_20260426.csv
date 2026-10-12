@@ -1,0 +1,5 @@
+run_id,checkpoint,mode,use_lora,use_tools,use_rag,heldout_n,overall_iou,add_neighbor_iou,check_server_iou,decrease_a3_iou,insufficient_data_iou,lift_tilt_iou,pdcch_2sym_iou,fallback_count,fallback_rate,avg_latency_s,log_path,notes
+deterministic_no_lora,none,deterministic,false,false,false,200,0.5750,0.3421,1.0000,0.9429,0.0000,0.0000,1.0000,0,0.00,0.0,logs/eval_a3_corrected_deterministic.log,Pre-tools deterministic baseline
+ckpt477_fixed,checkpoints/v3_zero3/checkpoint-477,lora_fixed,true,false,false,200,0.6000,0.4737,1.0000,0.9429,0.0000,0.0000,1.0000,16,0.08,19.4,logs/eval_ckpt477_fixed_t768.log,Operational LoRA-only latency reference
+corrected246_fixed,checkpoints/v3_a3_corrected/checkpoint-246,lora_fixed,true,false,false,200,0.6050,0.5000,1.0000,0.9429,0.0000,0.0000,1.0000,36,0.18,40.8,logs/eval_corrected_fixed_t768.log,Best LoRA-only accuracy reference
+deterministic_tools,none,deterministic_tools,false,true,false,200,0.8500,0.3421,1.0000,0.9429,0.9062,1.0000,1.0000,0,0.00,0.0,logs/eval_deterministic_tools_full_20260426_2021_rerun.log,Reproduced tools baseline; overall/lift_tilt/insufficient_data pass but add_neighbor gate fails

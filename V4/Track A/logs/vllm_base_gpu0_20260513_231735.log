@@ -1,0 +1,9 @@
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:299] 
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:299]        █     █     █▄   ▄█
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:299]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.19.1
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:299]   █▄█▀ █     █     █     █  model   /home/huangxiaolin/AITO/model
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:299]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:299] 
+(APIServer pid=340681) INFO 05-13 23:17:41 [utils.py:233] non-default args: {'host': '127.0.0.1', 'port': 8001, 'model': '/home/huangxiaolin/AITO/model', 'trust_remote_code': True, 'dtype': 'bfloat16', 'max_model_len': 8192, 'enforce_eager': True, 'served_model_name': ['qwen'], 'reasoning_parser': 'qwen3', 'gpu_memory_utilization': 0.92, 'language_model_only': True}
+(APIServer pid=340681) INFO 05-13 23:17:41 [model.py:549] Resolved architecture: Qwen3_5MoeForConditionalGeneration
+(APIServer pid=340681) INFO 05-13 23:17:41 [model.py:1678] Using max model len 8192

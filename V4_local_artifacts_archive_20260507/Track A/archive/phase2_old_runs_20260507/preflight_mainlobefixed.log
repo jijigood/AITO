@@ -1,0 +1,46 @@
+2026-05-07 08:53:36,715 - root - INFO - Scenario ID filter: 6/500 selected
+2026-05-07 08:53:36,715 - root - INFO - Loaded 6 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-07 08:53:36,730 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-07 08:53:36,772 - root - INFO - [RAG] Index ready: data/Phase_1/train.json
+2026-05-07 08:53:36,772 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] tag=single-answer, bs=4, family=F1
+2026-05-07 08:55:10,999 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 08:55:15,457 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 08:55:15,458 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] LLM arbitration accepted answer='C2' deterministic='C23' reasons=high_risk_issue:uncertain,low_issue_score:0.000,low_candidate_score:0.080,close_candidate_gap:0.000,lift_tilt_vs_insufficient_data_boundary
+2026-05-07 08:55:15,459 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] answer='C2' top_candidate={'answer': 'C23', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3252488_1', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-07 08:55:15,459 - root - INFO - [a1ffe49d-dc72-411b-bba4-0fb04e6146d8] done in 98.7s — answer: 'C2'
+2026-05-07 08:55:15,459 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] tag=single-answer, bs=4, family=F1
+2026-05-07 08:56:51,013 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 08:56:55,367 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 08:56:55,369 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] LLM arbitration accepted answer='C11' deterministic='C5' reasons=high_risk_issue:uncertain,low_issue_score:0.000,low_candidate_score:0.080,close_candidate_gap:0.000,lift_tilt_vs_insufficient_data_boundary
+2026-05-07 08:56:55,369 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] answer='C11' top_candidate={'answer': 'C5', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3273197_1', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-07 08:56:55,370 - root - INFO - [73546f0f-b54a-4db8-8281-086606ba456d] done in 99.9s — answer: 'C11'
+2026-05-07 08:56:55,371 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] tag=single-answer, bs=4, family=F1
+2026-05-07 08:58:29,313 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 08:58:31,784 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 08:58:31,786 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] LLM arbitration accepted answer='C10' deterministic='C17' reasons=high_risk_issue:uncertain,low_issue_score:0.000,low_candidate_score:0.080,close_candidate_gap:0.000,lift_tilt_vs_insufficient_data_boundary
+2026-05-07 08:58:31,787 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] answer='C10' top_candidate={'answer': 'C17', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3226163_1', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-07 08:58:31,787 - root - INFO - [0ceb1fc4-9d83-4467-b72e-d9ea692a358e] done in 96.4s — answer: 'C10'
+2026-05-07 08:58:31,788 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] tag=single-answer, bs=4, family=F1
+2026-05-07 09:00:08,367 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:00:12,740 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:00:12,742 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] LLM arbitration accepted answer='C22' deterministic='C4' reasons=high_risk_issue:uncertain,low_issue_score:0.000,low_candidate_score:0.080,close_candidate_gap:0.000,lift_tilt_vs_insufficient_data_boundary
+2026-05-07 09:00:12,742 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] answer='C22' top_candidate={'answer': 'C4', 'score': 0.08, 'action_type': 'decrease_a3', 'target_cell': '3252632_3', 'reason': 'F1 arbitration candidate: decrease_a3 on serving cell'}
+2026-05-07 09:00:12,742 - root - INFO - [87ffc8bc-6c7a-45d6-9f79-aadc62bb154a] done in 101.0s — answer: 'C22'
+2026-05-07 09:00:12,743 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] tag=multiple-answer, bs=4, family=F2
+2026-05-07 09:01:46,826 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:01:50,290 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:01:53,591 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:01:53,593 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] LLM arbitration retry accepted answer='C1|C7' deterministic='C13|C18' reasons=multi_answer_cell_pair_selection,high_risk_issue:uncertain,low_issue_score:0.000,low_candidate_score:0.300,close_candidate_gap:0.000
+2026-05-07 09:01:53,593 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] answer='C1|C7' top_candidate={'answer': 'C13|C18', 'score': 0.3, 'reason': 'decrease_power/primary + press_down_tilt/primary'}
+2026-05-07 09:01:53,593 - root - INFO - [bdbc4cc1-a4aa-4971-a3b0-a039a41ec066] done in 100.9s — answer: 'C1|C7'
+2026-05-07 09:01:53,595 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] tag=multiple-answer, bs=4, family=F2
+2026-05-07 09:03:27,431 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:03:31,084 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:03:35,258 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-07 09:03:35,261 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] LLM arbitration retry accepted answer='C6|C18' deterministic='C8|C16' reasons=multi_answer_cell_pair_selection,high_risk_issue:uncertain,low_issue_score:0.000,low_candidate_score:0.300,close_candidate_gap:0.000
+2026-05-07 09:03:35,261 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] answer='C6|C18' top_candidate={'answer': 'C8|C16', 'score': 0.3, 'reason': 'decrease_power/primary + press_down_tilt/primary'}
+2026-05-07 09:03:35,261 - root - INFO - [d3a65e48-1068-41d3-b205-f7526dc3c164] done in 101.7s — answer: 'C6|C18'
+2026-05-07 09:03:35,263 - root - INFO - Saved 6 rows → results/phase2/preflight_mainlobefixed.csv
+2026-05-07 09:03:35,264 - root - INFO - Saved 6 rows → results/phase2/preflight_mainlobefixed.csv
+2026-05-07 09:03:35,264 - root - INFO - 
+Done. 6/6 answered in 598s (avg 99.7s/scenario)

@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Diagnosis JSON Schema for Phase 2 Agentic Overlay",
+  "description": "Schema defining the exact keys and allowed values for LLM diagnosis output",
+  "type": "object",
+  "required": ["root_cause", "action", "evidence_confidence"],
+  "properties": {
+    "root_cause": {
+      "type": "string",
+      "description": "The identified root cause of the network issue",
+      "enum": ["missing_neighbor", "late_handover", "coverage_hole", "insufficient_data"]
+    },
+    "action": {
+      "type": "string",
+      "description": "The recommended action to resolve the issue",
+      "enum": ["add_neighbor", "decrease_a3", "lift_tilt", "insufficient_data"]
+    },
+    "target_pci": {
+      "type": ["integer", "null"],
+      "description": "PCI of the target cell for the action",
+      "minimum": 0,
+      "maximum": 503
+    },
+    "target_cell_id": {
+      "type": ["string", "null"],
+      "description": "Cell ID of the target cell (format: \"<eNodeB>_<sector>\")",
+      "pattern": "^[0-9]+_[0-9]+$"
+    },
+    "relation_pci": {
+      "type": ["integer", "null"],
+      "description": "PCI of the relation cell (used for add_neighbor)",
+      "minimum": 0,
+      "maximum": 503
+    },
+    "relation_cell_id": {
+      "type": ["string", "null"],
+      "description": "Cell ID of the relation cell (format: \"<eNodeB>_<sector>\")",
+      "pattern": "^[0-9]+_[0-9]+$"
+    },
+    "evidence_confidence": {
+      "type": "string",
+      "description": "Confidence level of the diagnosis based on evidence",
+      "enum": ["high", "medium", "low"]
+    },
+    "disagreement_reason": {
+      "type": ["string", "null"],
+      "description": "Reason for disagreement with deterministic backbone (if applicable)",
+      "maxLength": 500
+    },
+    "evidence_comparison": {
+      "type": "string",
+      "description": "Summary of evidence comparison leading to diagnosis",
+      "maxLength": 1000
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "action_root_cause_mapping": {
+      "description": "Valid action-root_cause pairings",
+      "type": "object",
+      "oneOf": [
+        {
+          "properties": {
+            "root_cause": { "const": "missing_neighbor" },
+            "action": { "const": "add_neighbor" }
+          }
+        },
+        {
+          "properties": {
+            "root_cause": { "const": "late_handover" },
+            "action": { "const": "decrease_a3" }
+          }
+        },
+        {
+          "properties": {
+            "root_cause": { "const": "coverage_hole" },
+            "action": { "const": "lift_tilt" }
+          }
+        },
+        {
+          "properties": {
+            "root_cause": { "const": "insufficient_data" },
+            "action": { "const": "insufficient_data" }
+          }
+        }
+      ]
+    },
+    "target_rules": {
+      "description": "Rules for target and relation fields based on action",
+      "type": "object",
+      "oneOf": [
+        {
+          "properties": {
+            "action": { "const": "add_neighbor" },
+            "target_pci": { "type": "integer" },
+            "target_cell_id": { "type": "string" },
+            "relation_pci": { "type": "integer" },
+            "relation_cell_id": { "type": "string" }
+          }
+        },
+        {
+          "properties": {
+            "action": { "const": "decrease_a3" },
+            "target_pci": { "type": "integer" },
+            "target_cell_id": { "type": "string" },
+            "relation_pci": { "type": "null" },
+            "relation_cell_id": { "type": "null" }
+          }
+        },
+        {
+          "properties": {
+            "action": { "const": "lift_tilt" },
+            "target_pci": { "type": "integer" },
+            "target_cell_id": { "type": "string" },
+            "relation_pci": { "type": "null" },
+            "relation_cell_id": { "type": "null" }
+          }
+        },
+        {
+          "properties": {
+            "action": { "const": "insufficient_data" },
+            "target_pci": { "type": "null" },
+            "target_cell_id": { "type": "null" },
+            "relation_pci": { "type": "null" },
+            "relation_cell_id": { "type": "null" }
+          }
+        }
+      ]
+    }
+  }
+}

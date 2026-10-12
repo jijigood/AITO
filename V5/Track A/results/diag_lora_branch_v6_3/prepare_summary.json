@@ -1,0 +1,41 @@
+{
+  "all_f1_rows": 1456,
+  "branch_records": 506,
+  "counts": {
+    "dev:all": 872,
+    "dev:branch": 303,
+    "dev:branch_gt:insufficient_data": 151,
+    "dev:branch_gt:lift_tilt": 152,
+    "dev:det:add_neighbor": 108,
+    "dev:det:check_server": 143,
+    "dev:det:decrease_a3": 174,
+    "dev:det:lift_tilt": 303,
+    "dev:det:pdcch_2sym": 144,
+    "dev:gt:add_neighbor": 144,
+    "dev:gt:check_server": 143,
+    "dev:gt:decrease_a3": 138,
+    "dev:gt:insufficient_data": 151,
+    "dev:gt:lift_tilt": 152,
+    "dev:gt:pdcch_2sym": 144,
+    "test:all": 584,
+    "test:branch": 203,
+    "test:branch_gt:insufficient_data": 101,
+    "test:branch_gt:lift_tilt": 102,
+    "test:det:add_neighbor": 67,
+    "test:det:check_server": 96,
+    "test:det:decrease_a3": 121,
+    "test:det:lift_tilt": 203,
+    "test:det:pdcch_2sym": 96,
+    "test:det:press_down_tilt": 1,
+    "test:gt:add_neighbor": 96,
+    "test:gt:check_server": 96,
+    "test:gt:decrease_a3": 93,
+    "test:gt:insufficient_data": 101,
+    "test:gt:lift_tilt": 102,
+    "test:gt:pdcch_2sym": 96
+  },
+  "outputs": {
+    "all_f1_baseline": "/home/huangxiaolin/AITO/V5/Track A/results/diag_lora_branch_v6_3/all_f1_baseline.jsonl",
+    "branch_prompts": "/home/huangxiaolin/AITO/V5/Track A/results/diag_lora_branch_v6_3/branch_prompts.jsonl"
+  }
+}

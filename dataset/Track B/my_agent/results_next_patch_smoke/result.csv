@@ -1,0 +1,13 @@
+﻿id,prediction
+11,Beta-Node-03->Beta-Axis-02->Beta-Portal-01->Alpha-Center-02
+12,Beta-Node-01->Beta-Axis-02->Beta-Portal-02->Alpha-Center-02->Gamma-Portal-02->Gamma-Axis-01->Gamma-Node-01
+15,Gamma-Node-04->Gamma-Axis-02->Gamma-Portal-02->Alpha-Center-02->Delta-Portal-02->Delta-Axis-02->Delta-Node-01
+30,"Atlas-Prime-01(GE1/0/0)->Janus-Prime-01(GE1/0/0)
+Atlas-Prime-01(GE1/0/1)->Janus-Prime-02(GE1/0/0)
+Atlas-Prime-01(GE1/0/2)->Demeter-Prime-01(GE1/0/0)
+Atlas-Prime-01(GE1/0/3)->Demeter-Prime-02(GE1/0/0)"
+31,"Janus-Prime-01(GE1/0/0)->Atlas-Prime-01(GE1/0/0)
+Janus-Prime-01(GE1/0/1)->Atlas-Prime-02(GE1/0/0)"
+32,
+33,"Janus-Node-02(GE1/0/2)->Atlas-Node-01(GE1/0/2)
+Janus-Node-02(GE1/0/3)->Atlas-Node-02(GE1/0/2)"

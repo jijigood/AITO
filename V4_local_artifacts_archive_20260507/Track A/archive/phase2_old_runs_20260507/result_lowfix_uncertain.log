@@ -1,0 +1,25 @@
+2026-05-05 20:58:44,379 - root - INFO - Scenario ID filter: 5/500 selected
+2026-05-05 20:58:44,379 - root - INFO - Loaded 5 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-05 20:58:44,379 - root - INFO - [d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] tag=single-answer, bs=4, family=F1
+2026-05-05 20:58:56,927 - root - INFO - [d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] answer='C1' top_candidate={'answer': 'C1', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'insufficient_data (server_score=0.25, insufficient_score=0.78)'}
+2026-05-05 20:58:56,928 - root - INFO - [d42a76f9-4c6e-4504-9b0a-dc5dda3dc8f0] done in 12.5s — answer: 'C1'
+2026-05-05 20:58:56,928 - root - INFO - Saved 1 rows → results/phase2/result_lowfix_uncertain.csv
+2026-05-05 20:58:56,928 - root - INFO - [4a33c95c-1032-42e4-8745-649752ae74e3] tag=single-answer, bs=4, family=F1
+2026-05-05 20:59:10,827 - root - INFO - [4a33c95c-1032-42e4-8745-649752ae74e3] answer='C19' top_candidate={'answer': 'C19', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'insufficient_data (server_score=0.25, insufficient_score=0.78)'}
+2026-05-05 20:59:10,829 - root - INFO - [4a33c95c-1032-42e4-8745-649752ae74e3] done in 13.9s — answer: 'C19'
+2026-05-05 20:59:10,830 - root - INFO - Saved 2 rows → results/phase2/result_lowfix_uncertain.csv
+2026-05-05 20:59:10,830 - root - INFO - [907c0a60-88d9-4062-8bf7-f9cf3bb4559a] tag=single-answer, bs=4, family=F1
+2026-05-05 20:59:25,362 - root - INFO - [907c0a60-88d9-4062-8bf7-f9cf3bb4559a] answer='C11' top_candidate={'answer': 'C11', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'insufficient_data (server_score=0.25, insufficient_score=0.82)'}
+2026-05-05 20:59:25,363 - root - INFO - [907c0a60-88d9-4062-8bf7-f9cf3bb4559a] done in 14.5s — answer: 'C11'
+2026-05-05 20:59:25,364 - root - INFO - Saved 3 rows → results/phase2/result_lowfix_uncertain.csv
+2026-05-05 20:59:25,364 - root - INFO - [903eef36-dc15-4c7b-8a82-80ec75dacad1] tag=single-answer, bs=4, family=F1
+2026-05-05 20:59:39,401 - root - INFO - [903eef36-dc15-4c7b-8a82-80ec75dacad1] answer='C2' top_candidate={'answer': 'C2', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'insufficient_data (server_score=0.25, insufficient_score=0.82)'}
+2026-05-05 20:59:39,401 - root - INFO - [903eef36-dc15-4c7b-8a82-80ec75dacad1] done in 14.0s — answer: 'C2'
+2026-05-05 20:59:39,402 - root - INFO - Saved 4 rows → results/phase2/result_lowfix_uncertain.csv
+2026-05-05 20:59:39,402 - root - INFO - [691c6e56-a3a7-4402-8ea8-b23ac07196ec] tag=single-answer, bs=4, family=F1
+2026-05-05 20:59:53,254 - root - INFO - [691c6e56-a3a7-4402-8ea8-b23ac07196ec] answer='C10' top_candidate={'answer': 'C10', 'score': 0.78, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'insufficient_data (server_score=0.25, insufficient_score=0.78)'}
+2026-05-05 20:59:53,254 - root - INFO - [691c6e56-a3a7-4402-8ea8-b23ac07196ec] done in 13.9s — answer: 'C10'
+2026-05-05 20:59:53,255 - root - INFO - Saved 5 rows → results/phase2/result_lowfix_uncertain.csv
+2026-05-05 20:59:53,256 - root - INFO - Saved 5 rows → results/phase2/result_lowfix_uncertain.csv
+2026-05-05 20:59:53,256 - root - INFO - 
+Done. 5/5 answered in 69s (avg 13.8s/scenario)

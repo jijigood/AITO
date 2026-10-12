@@ -1,0 +1,17 @@
+2026-05-06 22:21:23,481 - root - INFO - Loaded 2 Phase 2 scenarios from data/Phase_2/test.json
+2026-05-06 22:21:23,502 - root - INFO - [LLM] Enabled model=qwen policy=arbitrate url=http://127.0.0.1:8001/v1 bypass_env_proxy=True
+2026-05-06 22:21:23,561 - root - INFO - [RAG] Index ready: /home/huangxiaolin/AITO/V4/Track A/data/Phase_1/train.json
+2026-05-06 22:21:23,561 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] tag=single-answer, bs=4, family=F1
+2026-05-06 22:21:32,725 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] answer='C7' top_candidate={'answer': 'C7', 'score': 0.6111, 'action_type': 'decrease_a3', 'target_cell': '3267908_4', 'reason': 'late_handover → decrease_a3/primary (serving cell)'}
+2026-05-06 22:21:32,725 - root - INFO - [40573780-92ac-4436-97c7-efca33b2a839] done in 9.2s — answer: 'C7'
+2026-05-06 22:21:32,728 - root - INFO - Saved 1 rows → results/phase2/preflight_format2.csv
+2026-05-06 22:21:32,728 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] Family override: F1_5BS (tag=single-answer, bs=5)
+2026-05-06 22:21:32,728 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] tag=single-answer, bs=5, family=F1_5BS
+2026-05-06 22:21:50,618 - httpx - INFO - HTTP Request: POST http://127.0.0.1:8001/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-06 22:21:50,638 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] LLM arbitration accepted answer='C16' deterministic='C16' reasons=new_phase2_family:F1_5BS,high_risk_issue:insufficient_data,close_candidate_gap:0.250,lift_tilt_vs_insufficient_data_boundary
+2026-05-06 22:21:50,638 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] answer='C16' top_candidate={'answer': 'C16', 'score': 0.82, 'action_type': 'insufficient_data', 'target_cell': None, 'reason': 'F1 arbitration candidate: insufficient_data'}
+2026-05-06 22:21:50,638 - root - INFO - [7d6659e3-7d14-45d2-b6e9-954317edb3ce] done in 17.9s — answer: 'C16'
+2026-05-06 22:21:50,639 - root - INFO - Saved 2 rows → results/phase2/preflight_format2.csv
+2026-05-06 22:21:50,640 - root - INFO - Saved 2 rows → results/phase2/preflight_format2.csv
+2026-05-06 22:21:50,640 - root - INFO - 
+Done. 2/2 answered in 27s (avg 13.5s/scenario)
